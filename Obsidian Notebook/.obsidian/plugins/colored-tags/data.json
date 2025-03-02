@@ -1,0 +1,39 @@
+{
+  "palette": {
+    "seed": 0,
+    "selected": "custom",
+    "custom": "e12729-f37324-f8cc1b-72b043-007f4e"
+  },
+  "mixColors": true,
+  "transition": true,
+  "accessibility": {
+    "highTextContrast": false
+  },
+  "knownTags": {
+    "assembly": 1,
+    "Cpp": 2,
+    "OOP": 3,
+    "include": 4,
+    "define": 5,
+    "HTML": 6,
+    "CSS": 7,
+    "p1": 8,
+    "internet": 9,
+    "review": 10,
+    "COMPRO": 11,
+    "Easy": 12,
+    "Map": 13,
+    "git": 14,
+    "two": 15,
+    "two-pointer": 16,
+    "window-": 17,
+    "window-technique": 18,
+    "array": 19,
+    "string": 20,
+    "tag": 21,
+    "sorting": 22,
+    "sliding-window": 23,
+    "bubble-sort": 24
+  },
+  "_version": 3
+}

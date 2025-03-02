@@ -1,0 +1,349 @@
+{
+  "main": {
+    "id": "e4ea98e908d5f962",
+    "type": "split",
+    "children": [
+      {
+        "id": "d37b26510d97eb94",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "87af1ce27dc8b0b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-Sorting/Bubble Sort/Bubble Sort Algorithm.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Bubble Sort Algorithm"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "047fdaf98d210095",
+    "type": "split",
+    "children": [
+      {
+        "id": "d82e368ee9c464ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "04554e08cc1bd94b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Penjelajah berkas"
+            }
+          },
+          {
+            "id": "601fc64f077fb420",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Penelusuran"
+            }
+          },
+          {
+            "id": "1b0aa742f2de9d7e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Penanda"
+            }
+          },
+          {
+            "id": "a283eefd7eae6b49",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin tidak lagi aktif"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 241.5
+  },
+  "right": {
+    "id": "5a2e04e3f27c45d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "8db22185f832f694",
+        "type": "tabs",
+        "dimension": 43.14671814671815,
+        "children": [
+          {
+            "id": "f7aec8a259baa195",
+            "type": "leaf",
+            "state": {
+              "type": "online.tokuhirom.obsidian-pomodoro-plugin",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin tidak lagi aktif"
+            }
+          },
+          {
+            "id": "ddbc58e96e17e8dc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "11AA/HOME.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlink pada HOME"
+            }
+          },
+          {
+            "id": "f75449668ba3cf32",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "11AA/HOME.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Tautan keluar dari HOME"
+            }
+          },
+          {
+            "id": "93efce7ac2eff4c5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0f0d08b1252e6d33",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin tidak lagi aktif"
+            }
+          },
+          {
+            "id": "10ad2927d5301b60",
+            "type": "leaf",
+            "state": {
+              "type": "daily-note-outline",
+              "state": {
+                "activeSet": 0,
+                "activeGranularity": 0
+              },
+              "icon": "calendar-clock",
+              "title": "Daily Note Outline"
+            }
+          },
+          {
+            "id": "3348abbb24fcf6de",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin tidak lagi aktif"
+            }
+          },
+          {
+            "id": "241371287949a6e0",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin tidak lagi aktif"
+            }
+          },
+          {
+            "id": "a9ffc8d414045e1a",
+            "type": "leaf",
+            "state": {
+              "type": "aHR0cHM6Ly9jaGF0Z3B0LmNvbS8=",
+              "state": {},
+              "icon": "aHR0cHM6Ly9jaGF0Z3B0LmNvbS8=",
+              "title": "ChatGPT"
+            }
+          },
+          {
+            "id": "6b932d32689be514",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
+          },
+          {
+            "id": "c86931edc3028125",
+            "type": "leaf",
+            "state": {
+              "type": "daily-note-outline",
+              "state": {
+                "activeSet": 0,
+                "activeGranularity": 0
+              },
+              "icon": "calendar-clock",
+              "title": "Daily Note Outline"
+            }
+          },
+          {
+            "id": "1c9669dbafa4e28a",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          }
+        ],
+        "currentTab": 9
+      },
+      {
+        "id": "7cf76667223e7faa",
+        "type": "tabs",
+        "dimension": 56.85328185328186,
+        "children": [
+          {
+            "id": "b926b8ed78989612",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "03-Sorting/Bubble Sort/Bubble Sort Algorithm.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Kerangka dari Bubble Sort Algorithm"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 274.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Buka peralih cepat": false,
+      "graph:Buka tampilan grafik": false,
+      "canvas:Buat kanvas baru": false,
+      "daily-notes:Buka catatan hari ini": false,
+      "templates:Masukkan template": false,
+      "command-palette:Buka palet perintah": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "obsidian-audio-notes:Quick Audio Note with Transcription": false,
+      "card-board:CardBoard": false,
+      "dashboard-navigator:Open dashboard navigator": false,
+      "voice:Voice": false,
+      "templater-obsidian:Templater": false,
+      "tags-overview:Tags overview": false,
+      "obsidian-statusbar-pomo:Start pomodoro": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "sheet-plus:Create excel file": false,
+      "open-gate:Roadmap Front End": false,
+      "open-gate:ChatGPT": false
+    }
+  },
+  "active": "04554e08cc1bd94b",
+  "lastOpenFiles": [
+    "03-Sorting/Sliding Window Algorithm/Sliding Window Algorithm.md",
+    "03-Sorting/Zimg-Sorting/01-Algoritma-Bubble-Sort.png",
+    "03-Sorting/Zimg-Sorting/Sliding Windows Algorithm-1.png",
+    "03-Sorting/Zimg-Sorting/01-Algoritma-Bubble-Sort-3.png",
+    "03-Sorting/Zimg-Sorting",
+    "03-Sorting/Bubble Sort/Bubble Sort Algorithm.md",
+    "03-Sorting/Zimg-Sorting/01-Algoritma-Bubble-Sort-2.png",
+    "03-Sorting/Zimg-Sorting/01-Algoritma-Bubble-Sort-1.png",
+    "ZTemplater/Algoritma.md",
+    "ZTemplater/Problem statement.md",
+    "03-Sorting/Bubble Sort",
+    "03-Sorting/Sliding Window Algorithm/Problem set/Exercise/001-Subarray terkecil dengan jumlah lebih besar dari nilai yang diberikan.md",
+    "03-Sorting/Sliding Window Algorithm/Problem set/Exercise/002-Maximum Sliding Window (Maksimum dari semua subarray berukuran K).md",
+    "03-Sorting/Sliding Window Algorithm/Problem set/Exercise",
+    "Excel 2025-03-02 21.44.21.univer.md",
+    "ZTemplater-exp/Penjelasan Penggunaan Templater.md",
+    "ZTemplater-exp",
+    "Tanpa judul.canvas",
+    "03-Sorting/Sliding Window Algorithm/Problem set",
+    "03-Sorting/Sliding Window Algorithm",
+    "03-Sorting",
+    "03-Sorting/Zimg-Sorting/Sliding Windows Algorithm-6.png",
+    "ZTemplater",
+    "Zimage",
+    "03-Sorting/Zimg-Sorting/Sliding Windows Algorithm-5.png",
+    "03-Sorting/Zimg-Sorting/Sliding Windows Algorithm-4.png",
+    "03-Sorting/Zimg-Sorting/Sliding Windows Algorithm-3.png",
+    "03-Sorting/Zimg-Sorting/Sliding Windows Algorithm-2.png",
+    "pemrograman-kompetitif-dasar.pdf.md",
+    "Pemrograman kompetitif sains koomputer.pdf",
+    "SEC - Competitive Programming/1 A Step dan Trick belajar Competitive Programming/William Lin - Introduction to Competitive Programming.md",
+    "SEC - Competitive Programming/1 A Step dan Trick belajar Competitive Programming/Errichto Algorithms - Tips menjadi Red Coder.md",
+    "SEC - Competitive Programming/1 A Step dan Trick belajar Competitive Programming/DAFTAR PERTANYAAN.md",
+    "SEC - Competitive Programming/Error History/Signed dan Unsigned dalam Perbandingan.md",
+    "ZZZ Uncotegorized file/Tanpa judul.md",
+    "DuniaIlkom C++/5. Jenis Operator/Part 27 Jenis-jenis Operator Penugasan (Assignment) Bahasa C++.md",
+    "DuniaIlkom C++/5. Jenis Operator/Part 25 Jenis-jenis Operator Logika Bahasa C++.md",
+    "DuniaIlkom C++/5. Jenis Operator/Part 22 Jenis-jenis Operator Aritmatika Bahasa C++.md",
+    "DuniaIlkom C++/4. Tipe Data/Part 12 Tipe Data Char Bahasa C++.md",
+    "C++/1. Tinjauan Umum C++/A Report Notes Backup Sample.md",
+    "Git & Github Lessons/Atlassian Git/1. Beginner/B. Source code management.md",
+    "Git & Github Lessons/Petani Kode_Git/Part 7 Menggunakan Percabangan untuk Mencegah Konflik.md",
+    "Git & Github Lessons/Petani Kode_Git/Part 6 Membatalkan Revisi.md",
+    "Git & Github Lessons/Petani Kode_Git/Part 5 Melihat Perbandingan Revisi dengan Git Diff.md",
+    "Git & Github Lessons/Petani Kode_Git/Part 4 Melihat Catatan Log Revisi.md",
+    "Git & Github Lessons/Petani Kode_Git/Part 0 Apa itu Git dan Kenapa Penting bagi Programmer.md",
+    "ZZZ Uncotegorized file/Big plan.canvas",
+    "Mata Kuliah Terkait/Semester 1/1. Manajemen data dan Informasi/modelbisnis.canvas",
+    "Mata Kuliah Terkait/Semester 1/1. Manajemen data dan Informasi/Tanpa judul.canvas"
+  ]
+}
