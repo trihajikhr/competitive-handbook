@@ -14,15 +14,36 @@ tags:
 #tag #tag #tag 
 
 ---
-# Algoritma
-# Contoh
-# Complexity
+# {nama algoritma} Algorithm
+## Algoritma {nama algoritma}
+# Contoh Algoritma {nama algoritma}
+# {nama algoritma} Complexity
 ## Time Complexity
+### Best Case (Kasus Terbaik) - 
+### Average Case (Kasus Rata-rata) - 
 
+### Worst Case (Kasus Terburuk) - 
+### Ringkasan
+| Kasus        | Kompleksitas Waktu |
+| ------------ | ------------------ |
+| Best Case    |                    |
+| Average Case |                    |
+| Worst Case   |                    |
 ## Space Complexity dan Stability
+### Space Complexity
+### Stability
+
 ## Kesimpulan
-# Aplikasi
-## Keunggulan
-### Keunggulan
-### Kelemahan
+| Faktor Complexity | Nilai |
+| ----------------- | ----- |
+| Best Case         |       |
+| Average Case      |       |
+| Worst Case        |       |
+| Space Complexity  |       |
+| Stability         |       |
+# Aplikasi {nama algoritma}
+// Penggunan algoritma 
+## Keunggulan dan kelemahan
+### Keunggulan {nama algoritma}
+### Kelemahan {nama algoritma}
 ## Kesimpulan

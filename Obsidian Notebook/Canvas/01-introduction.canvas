@@ -1,0 +1,199 @@
+{
+  "nodes": [
+    {
+      "id": "64e938a71fc83e3f",
+      "type": "text",
+      "text": "# 01-Introduction",
+      "styleAttributes": {},
+      "x": -200,
+      "y": -440,
+      "width": 400,
+      "height": 80
+    },
+    {
+      "id": "45033ae730fec5d7",
+      "type": "text",
+      "text": "[[01-Introduction to CP]]",
+      "styleAttributes": {},
+      "x": -330,
+      "y": -240,
+      "width": 260,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "319ea881b2642aa8",
+      "type": "text",
+      "text": "[[02-Memilih bahasa program]]",
+      "styleAttributes": {},
+      "x": -330,
+      "y": -140,
+      "width": 260,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "8060fe1611c6f87a",
+      "type": "text",
+      "text": "[[03-Template code]]",
+      "styleAttributes": {},
+      "x": -330,
+      "y": -40,
+      "width": 260,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "08075e8cd803eb8f",
+      "type": "text",
+      "text": "[[04-Optimalisasi proses Input Output]]",
+      "styleAttributes": {},
+      "x": -330,
+      "y": 60,
+      "width": 260,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "707c0180ab26c40d",
+      "type": "text",
+      "text": "[[05-Bekerja dengan angka]]",
+      "styleAttributes": {},
+      "x": -330,
+      "y": 160,
+      "width": 260,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "d8f9f1175c2f009a",
+      "type": "text",
+      "text": "[[06-Memperpendek kode]]",
+      "styleAttributes": {},
+      "x": 60,
+      "y": -240,
+      "width": 260,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "17d5c7adfbb821d8",
+      "type": "text",
+      "text": "",
+      "styleAttributes": {},
+      "x": 60,
+      "y": -140,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "4fc00d39ac206139",
+      "type": "text",
+      "text": "",
+      "styleAttributes": {},
+      "x": 60,
+      "y": -40,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "fd32237fe2bd20ff",
+      "type": "text",
+      "text": "",
+      "styleAttributes": {},
+      "x": 60,
+      "y": 60,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "5f96889029106f2a",
+      "type": "text",
+      "text": "",
+      "styleAttributes": {},
+      "x": 60,
+      "y": 160,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "c9c741e09aa4ba93",
+      "type": "text",
+      "text": "# 03- Sorting",
+      "styleAttributes": {},
+      "x": 720,
+      "y": -520,
+      "width": 300,
+      "height": 80
+    },
+    {
+      "id": "295975da8419a7ff",
+      "type": "text",
+      "text": "[[Bubble Sort Algorithm]]",
+      "styleAttributes": {},
+      "x": 740,
+      "y": -360,
+      "width": 260,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "8065521e9f3bb448",
+      "styleAttributes": {},
+      "fromNode": "64e938a71fc83e3f",
+      "fromSide": "bottom",
+      "toNode": "45033ae730fec5d7",
+      "toSide": "top"
+    },
+    {
+      "id": "ecb96adcf45f1c0e",
+      "styleAttributes": {},
+      "fromNode": "45033ae730fec5d7",
+      "fromSide": "bottom",
+      "toNode": "319ea881b2642aa8",
+      "toSide": "top"
+    },
+    {
+      "id": "935b26f1aee8944c",
+      "styleAttributes": {},
+      "fromNode": "319ea881b2642aa8",
+      "fromSide": "bottom",
+      "toNode": "8060fe1611c6f87a",
+      "toSide": "top"
+    },
+    {
+      "id": "d9e2a7864a19fea8",
+      "styleAttributes": {},
+      "fromNode": "8060fe1611c6f87a",
+      "fromSide": "bottom",
+      "toNode": "08075e8cd803eb8f",
+      "toSide": "top"
+    },
+    {
+      "id": "0b4d402f63b2543f",
+      "styleAttributes": {},
+      "fromNode": "08075e8cd803eb8f",
+      "fromSide": "bottom",
+      "toNode": "707c0180ab26c40d",
+      "toSide": "top"
+    },
+    {
+      "id": "7d4298d9d2cc5a74",
+      "styleAttributes": {},
+      "fromNode": "64e938a71fc83e3f",
+      "fromSide": "bottom",
+      "toNode": "d8f9f1175c2f009a",
+      "toSide": "top"
+    },
+    {
+      "id": "0825d71d935af2a7",
+      "styleAttributes": {},
+      "fromNode": "c9c741e09aa4ba93",
+      "fromSide": "bottom",
+      "toNode": "295975da8419a7ff",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}

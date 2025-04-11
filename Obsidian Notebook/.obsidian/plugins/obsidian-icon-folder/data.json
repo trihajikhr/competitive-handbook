@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiUserPen",
-      "LiGithub",
-      "RiFileExcel2Fill",
-      "RiInboxArchiveFill",
-      "RiCodeBoxFill"
+      "RiStackLine",
+      "LiQrCode",
+      "LiFolderCode",
+      "RiFileCodeFill",
+      "LiUserPen"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -98,5 +98,20 @@
   "DuniaIlkom C++": "LiCode2",
   "DuniaIlkom C++/Z Latihan program": "LiCodepen",
   "Git & Github Lessons": "LiGithub",
-  "Git & Github Lessons/Petani Kode_Git": "LiUserPen"
+  "Git & Github Lessons/Petani Kode_Git": "LiUserPen",
+  "03-Sorting/sort-Bubble Sort": "LiFolderCode",
+  "03-Sorting/sort-Selection Sort": "LiFolderCode",
+  "03-Sorting/sort-Bubble Sort/Bubble Sort Algorithm.md": "LiQrCode",
+  "03-Sorting/sort-Selection Sort/Selection Sort Algorithm.md": "LiQrCode",
+  "03-Sorting/sort-Insertion Sort/Insertion Sort Algorithm.md": "LiQrCode",
+  "03-Sorting/sort-Insertion Sort": "LiFolderCode",
+  "04-Data Structure/Stack": "RiStackLine",
+  "04-Data Structure/Queue": "RiStackLine",
+  "03-Sorting/sort-Merge Sort/Merge Sort Algorithm.md": "LiQrCode",
+  "03-Sorting/sort-Quick Sort/Quicksort Algorithm.md": "LiQrCode",
+  "03-Sorting/sort-Merge Sort": "LiFolderCode",
+  "03-Sorting/search-Linear Search/Linear Search Algorithm.md": "LiQrCode",
+  "03-Sorting/search-Linear Search": "LiFolderCode",
+  "03-Sorting/search-Binary Search/Binary Search Algorithm.md": "LiQrCode",
+  "03-Sorting/search-Binary Search": "LiFolderCode"
 }

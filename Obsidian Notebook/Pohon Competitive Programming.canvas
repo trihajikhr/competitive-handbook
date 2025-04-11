@@ -1,0 +1,48 @@
+{
+  "nodes": [
+    {
+      "id": "7a3a3de25f9809a4",
+      "type": "text",
+      "text": "Sorting Algorithm",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 640,
+      "y": 840,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "6a13d4ddd5298c29",
+      "type": "text",
+      "text": "[[Sliding Window Algorithm]]",
+      "styleAttributes": {},
+      "x": 940,
+      "y": 1040,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "b771f2af12ec39ed",
+      "type": "text",
+      "text": "",
+      "styleAttributes": {},
+      "x": 720,
+      "y": 1080,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "91848dea103f50d6",
+      "type": "file",
+      "file": "Canvas/01-introduction.canvas",
+      "styleAttributes": {},
+      "x": 440,
+      "y": 1200,
+      "width": 400,
+      "height": 400
+    }
+  ],
+  "edges": [],
+  "metadata": {}
+}

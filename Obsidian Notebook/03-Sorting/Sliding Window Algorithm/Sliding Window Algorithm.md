@@ -5,8 +5,8 @@ id_algoritma: 03TH-STSW0001
 nama_algoritma: sliding window algorithm
 kategori_algoritma: sorting
 kesulitan: 🥉 easy 🥈 medium
-time_compx: " 🟠 O(n)"
-memory_compx: 🟢 O(1)
+time_complexity: 🟠 O(n)
+memory_complexity: 🟢 O(1)
 sumber: geeksforgeeks.org
 date_learned: 2025-03-02T21:02:00
 tags:
@@ -18,7 +18,7 @@ tags:
 #two-pointer #sliding-window #array #string
 
 ---
-# Teknik Sliding Window
+# Sliding Window Algorithm
 
 Masalah **Sliding Window** melibatkan pergerakan jendela dengan ukuran tetap atau variabel melalui suatu struktur data, biasanya sebuah array atau string, untuk menyelesaikan masalah secara efisien berdasarkan subset elemen yang berkesinambungan. Teknik ini digunakan ketika kita perlu menemukan subarray atau substring sesuai dengan suatu himpunan kondisi yang diberikan.
 
@@ -84,7 +84,7 @@ Kompleksitas Waktu yang Diperlukan:
 - Batasan: Biasanya N ≤ 10⁶, jika N adalah ukuran array atau string.
 
 ---
-## Kasus yang menggunakan sliding windows
+# Contoh Algoritma Sliding Window
 
 ### 1. Mencari Jumlah Maksimum dari Semua Subarray Berukuran K
 

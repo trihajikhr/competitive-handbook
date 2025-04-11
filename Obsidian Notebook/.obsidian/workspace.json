@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "d37b26510d97eb94",
+        "id": "53d642fa5a3acb3e",
         "type": "tabs",
         "children": [
           {
-            "id": "87af1ce27dc8b0b6",
+            "id": "38f9f1173fcb1d92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Sorting/Bubble Sort/Bubble Sort Algorithm.md",
+                "file": "03-Sorting/search-Binary Search/Problem archive/Exercise/03PS-STBNSE0001.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bubble Sort Algorithm"
+              "title": "03PS-STBNSE0001"
+            }
+          },
+          {
+            "id": "7098abce3cd7b18d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-Sorting/sort-Merge Sort/Problem archive/Exercise/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ]
@@ -44,7 +58,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Penjelajah berkas"
+              "title": "Files"
             }
           },
           {
@@ -54,7 +68,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -81,14 +95,14 @@
               "type": "recent-files",
               "state": {},
               "icon": "lucide-file",
-              "title": "Plugin tidak lagi aktif"
+              "title": "Plugin no longer active"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.51240158081055
   },
   "right": {
     "id": "5a2e04e3f27c45d3",
@@ -106,7 +120,7 @@
               "type": "online.tokuhirom.obsidian-pomodoro-plugin",
               "state": {},
               "icon": "lucide-file",
-              "title": "Plugin tidak lagi aktif"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -115,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11AA/HOME.md",
+                "file": "03-Sorting/Bubble Sort/Bubble Sort Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlink pada HOME"
+              "title": "Backlink pada Bubble Sort Algorithm"
             }
           },
           {
@@ -149,7 +163,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -162,7 +178,7 @@
               "type": "todo",
               "state": {},
               "icon": "lucide-file",
-              "title": "Plugin tidak lagi aktif"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -174,8 +190,8 @@
                 "activeSet": 0,
                 "activeGranularity": 0
               },
-              "icon": "calendar-clock",
-              "title": "Daily Note Outline"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -185,7 +201,7 @@
               "type": "calendar",
               "state": {},
               "icon": "lucide-file",
-              "title": "Plugin tidak lagi aktif"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -194,8 +210,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin tidak lagi aktif"
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           },
           {
@@ -204,12 +220,55 @@
             "state": {
               "type": "aHR0cHM6Ly9jaGF0Z3B0LmNvbS8=",
               "state": {},
-              "icon": "aHR0cHM6Ly9jaGF0Z3B0LmNvbS8=",
-              "title": "ChatGPT"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
             "id": "6b932d32689be514",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "c86931edc3028125",
+            "type": "leaf",
+            "state": {
+              "type": "daily-note-outline",
+              "state": {
+                "activeSet": 0,
+                "activeGranularity": 0
+              },
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "1c9669dbafa4e28a",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "316f891fe9ba983e",
+            "type": "leaf",
+            "state": {
+              "type": "tags-overview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "a4ab515ea6874c40",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -219,7 +278,7 @@
             }
           },
           {
-            "id": "c86931edc3028125",
+            "id": "ba76de9b15a3379a",
             "type": "leaf",
             "state": {
               "type": "daily-note-outline",
@@ -232,7 +291,7 @@
             }
           },
           {
-            "id": "1c9669dbafa4e28a",
+            "id": "34fd3c9cf0bb70f1",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -242,7 +301,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 7
       },
       {
         "id": "7cf76667223e7faa",
@@ -255,13 +314,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-Sorting/Bubble Sort/Bubble Sort Algorithm.md",
+                "file": "03-Sorting/sort-Merge Sort/Problem archive/Problem set/03PS-STMSPS0001.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Kerangka dari Bubble Sort Algorithm"
+              "title": "Outline of 03PS-STMSPS0001"
             }
           }
         ]
@@ -273,16 +332,15 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Buka peralih cepat": false,
-      "graph:Buka tampilan grafik": false,
-      "canvas:Buat kanvas baru": false,
-      "daily-notes:Buka catatan hari ini": false,
-      "templates:Masukkan template": false,
-      "command-palette:Buka palet perintah": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-book-search-plugin:Create new book note": false,
       "obsidian-audio-notes:Quick Audio Note with Transcription": false,
-      "card-board:CardBoard": false,
       "dashboard-navigator:Open dashboard navigator": false,
       "voice:Voice": false,
       "templater-obsidian:Templater": false,
@@ -291,57 +349,60 @@
       "obsidian-spaced-repetition:Review flashcards": false,
       "sheet-plus:Create excel file": false,
       "open-gate:Roadmap Front End": false,
-      "open-gate:ChatGPT": false
+      "open-gate:ChatGPT": false,
+      "card-board:CardBoard": false
     }
   },
-  "active": "04554e08cc1bd94b",
+  "active": "38f9f1173fcb1d92",
   "lastOpenFiles": [
-    "03-Sorting/Sliding Window Algorithm/Sliding Window Algorithm.md",
-    "03-Sorting/Zimg-Sorting/01-Algoritma-Bubble-Sort.png",
-    "03-Sorting/Zimg-Sorting/Sliding Windows Algorithm-1.png",
-    "03-Sorting/Zimg-Sorting/01-Algoritma-Bubble-Sort-3.png",
-    "03-Sorting/Zimg-Sorting",
-    "03-Sorting/Bubble Sort/Bubble Sort Algorithm.md",
-    "03-Sorting/Zimg-Sorting/01-Algoritma-Bubble-Sort-2.png",
-    "03-Sorting/Zimg-Sorting/01-Algoritma-Bubble-Sort-1.png",
+    "03-Sorting/sort-Merge Sort/Problem archive/Problem set/03PS-STMSPS0001.md",
+    "03-Sorting/sort-Merge Sort/Problem archive/Exercise/03PS-STMSE0001.md",
+    "03-Sorting/sort-Merge Sort/Problem archive/Problem set/03PS-STMSPS0002.md",
+    "Tips Trick/Static Constructor - Leetcode trick.md",
+    "Tips Trick/Bypass Runtime Checker - leetcode.md",
+    "03-Sorting/search-Binary Search/Problem archive/Exercise/03PS-STBNSE0001.md",
+    "03-Sorting/search-Binary Search/Binary Search Algorithm.md",
+    "Tips Trick/Inline Function.md",
+    "Tips Trick/For-each loop.md",
+    "Tips Trick/Template di C++.md",
+    "Tips Trick/Selisih selalu positif.md",
+    "03-Sorting/search-Binary Search/Problem archive/Exercise",
+    "03-Sorting/search-Binary Search/Problem archive",
+    "Binary Search Algorithm-2.png",
+    "Binary Search Algorithm-1.png",
+    "Untitled-4.png",
+    "Untitled-3.png",
+    "Untitled-2.png",
+    "Untitled-1.png",
+    "03-Sorting/search-Linear Search/Linear Search Algorithm.md",
+    "03-Sorting/search-Binary Search",
+    "Linear Search Algorithm-3.png",
+    "Linear Search Algorithm-2.png",
+    "Linear Search Algorithm-1.png",
+    "03-Sorting/sort-Insertion Sort/Problem archive/Exercise/03PS-STISE0001_Implementasi Dasar.md",
+    "03-Sorting/search-Linear Search",
+    "03-Sorting/sort-Insertion Sort/Insertion Sort Algorithm.md",
+    "03-Sorting/Counting Sort Algorithm.md",
+    "Counting Sort Algorithm-5.png",
+    "03-Sorting/sort-Quick Sort/Quicksort Algorithm.md",
+    "03-Sorting/sort-Merge Sort/Problem archive/Problem set",
+    "03-Sorting/sort-Merge Sort/Untitled",
+    "03-Sorting/sort-Merge Sort/Merge Sort Algorithm.md",
+    "03-Sorting/sort-Bubble Sort/Bubble Sort Algorithm.md",
+    "03-Sorting/sort-Merge Sort/Problem archive/Exercise",
+    "03-Sorting/sort-Quick Sort/Problem archive",
+    "03-Sorting/sort-Quick Sort",
     "ZTemplater/Algoritma.md",
-    "ZTemplater/Problem statement.md",
-    "03-Sorting/Bubble Sort",
-    "03-Sorting/Sliding Window Algorithm/Problem set/Exercise/001-Subarray terkecil dengan jumlah lebih besar dari nilai yang diberikan.md",
-    "03-Sorting/Sliding Window Algorithm/Problem set/Exercise/002-Maximum Sliding Window (Maksimum dari semua subarray berukuran K).md",
-    "03-Sorting/Sliding Window Algorithm/Problem set/Exercise",
-    "Excel 2025-03-02 21.44.21.univer.md",
-    "ZTemplater-exp/Penjelasan Penggunaan Templater.md",
-    "ZTemplater-exp",
-    "Tanpa judul.canvas",
-    "03-Sorting/Sliding Window Algorithm/Problem set",
-    "03-Sorting/Sliding Window Algorithm",
-    "03-Sorting",
-    "03-Sorting/Zimg-Sorting/Sliding Windows Algorithm-6.png",
-    "ZTemplater",
-    "Zimage",
-    "03-Sorting/Zimg-Sorting/Sliding Windows Algorithm-5.png",
-    "03-Sorting/Zimg-Sorting/Sliding Windows Algorithm-4.png",
-    "03-Sorting/Zimg-Sorting/Sliding Windows Algorithm-3.png",
-    "03-Sorting/Zimg-Sorting/Sliding Windows Algorithm-2.png",
-    "pemrograman-kompetitif-dasar.pdf.md",
-    "Pemrograman kompetitif sains koomputer.pdf",
-    "SEC - Competitive Programming/1 A Step dan Trick belajar Competitive Programming/William Lin - Introduction to Competitive Programming.md",
-    "SEC - Competitive Programming/1 A Step dan Trick belajar Competitive Programming/Errichto Algorithms - Tips menjadi Red Coder.md",
-    "SEC - Competitive Programming/1 A Step dan Trick belajar Competitive Programming/DAFTAR PERTANYAAN.md",
-    "SEC - Competitive Programming/Error History/Signed dan Unsigned dalam Perbandingan.md",
-    "ZZZ Uncotegorized file/Tanpa judul.md",
-    "DuniaIlkom C++/5. Jenis Operator/Part 27 Jenis-jenis Operator Penugasan (Assignment) Bahasa C++.md",
-    "DuniaIlkom C++/5. Jenis Operator/Part 25 Jenis-jenis Operator Logika Bahasa C++.md",
-    "DuniaIlkom C++/5. Jenis Operator/Part 22 Jenis-jenis Operator Aritmatika Bahasa C++.md",
-    "DuniaIlkom C++/4. Tipe Data/Part 12 Tipe Data Char Bahasa C++.md",
-    "C++/1. Tinjauan Umum C++/A Report Notes Backup Sample.md",
-    "Git & Github Lessons/Atlassian Git/1. Beginner/B. Source code management.md",
-    "Git & Github Lessons/Petani Kode_Git/Part 7 Menggunakan Percabangan untuk Mencegah Konflik.md",
-    "Git & Github Lessons/Petani Kode_Git/Part 6 Membatalkan Revisi.md",
-    "Git & Github Lessons/Petani Kode_Git/Part 5 Melihat Perbandingan Revisi dengan Git Diff.md",
-    "Git & Github Lessons/Petani Kode_Git/Part 4 Melihat Catatan Log Revisi.md",
-    "Git & Github Lessons/Petani Kode_Git/Part 0 Apa itu Git dan Kenapa Penting bagi Programmer.md",
+    "03-Sorting/sort-Bubble Sort/Problem archive/Exercise/03PS-STBSE0001_Bubble sort yang dioptimalkan.md",
+    "03-Sorting/sort-Merge Sort/Problem archive",
+    "03-Sorting/Test Case 03-Sorting.md",
+    "03-Sorting/sort-Selection Sort/Problem archive/Exercise/03PS-STSSE0002_Selection Sort pada Array menaik.md",
+    "03-Sorting/sort-Selection Sort/Problem archive/Exercise/03PS-STSSE0001_Implementasi selection sort.md",
+    "03-Sorting/sort-Selection Sort/Problem archive/Exercise/03PS-STSSE0004_Hitung Jumlah Swap.md",
+    "03-Sorting/sort-Selection Sort/Problem archive/Exercise/03PS-STSSE0003_Temukan Elemen ke-k setelah Sorting.md",
+    "03-Sorting/sort-Selection Sort/Selection Sort Algorithm.md",
+    "Canvas/01-introduction.canvas",
+    "Pohon Competitive Programming.canvas",
     "ZZZ Uncotegorized file/Big plan.canvas",
     "Mata Kuliah Terkait/Semester 1/1. Manajemen data dan Informasi/modelbisnis.canvas",
     "Mata Kuliah Terkait/Semester 1/1. Manajemen data dan Informasi/Tanpa judul.canvas"
