@@ -23,16 +23,6 @@
       "height": 60
     },
     {
-      "id": "b771f2af12ec39ed",
-      "type": "text",
-      "text": "",
-      "styleAttributes": {},
-      "x": 720,
-      "y": 1080,
-      "width": 260,
-      "height": 60
-    },
-    {
       "id": "91848dea103f50d6",
       "type": "file",
       "file": "Canvas/01-introduction.canvas",
@@ -41,6 +31,56 @@
       "y": 1200,
       "width": 400,
       "height": 400
+    },
+    {
+      "id": "b771f2af12ec39ed",
+      "type": "text",
+      "text": "",
+      "styleAttributes": {},
+      "x": 600,
+      "y": 1010,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "50d07039b09fe7c6",
+      "type": "text",
+      "text": "Complete Search-Generating subset dengan bit representation method.",
+      "styleAttributes": {},
+      "x": 960,
+      "y": 1500,
+      "width": 280,
+      "height": 100
+    },
+    {
+      "id": "7b8ce8007de22e78",
+      "type": "text",
+      "text": "Complete Search.\nMembuat subset dengan recursive method.",
+      "styleAttributes": {},
+      "x": 960,
+      "y": 1380,
+      "width": 280,
+      "height": 100
+    },
+    {
+      "id": "19d1e8a2a1a66c3c",
+      "type": "text",
+      "text": "Complete Search-Permutation",
+      "styleAttributes": {},
+      "x": 960,
+      "y": 1660,
+      "width": 280,
+      "height": 60
+    },
+    {
+      "id": "14eaa8a64953ca2c",
+      "type": "text",
+      "text": "Complete Search-Backtrack",
+      "styleAttributes": {},
+      "x": 960,
+      "y": 1760,
+      "width": 280,
+      "height": 60
     }
   ],
   "edges": [],

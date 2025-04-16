@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiCake2Line",
+      "🥗",
       "RiStackLine",
       "LiQrCode",
-      "LiFolderCode",
-      "RiFileCodeFill",
-      "LiUserPen"
+      "LiFolderCode"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -113,5 +113,9 @@
   "03-Sorting/search-Linear Search/Linear Search Algorithm.md": "LiQrCode",
   "03-Sorting/search-Linear Search": "LiFolderCode",
   "03-Sorting/search-Binary Search/Binary Search Algorithm.md": "LiQrCode",
-  "03-Sorting/search-Binary Search": "LiFolderCode"
+  "03-Sorting/search-Binary Search": "LiFolderCode",
+  "05-Complete Search/A_Generating Subset/Bit Representation Subset Algorithm.md": "LiQrCode",
+  "05-Complete Search/A_Generating Subset/Recursive Search Subset Algorithm.md": "LiQrCode",
+  "06-Greedy Algorithm": "RiCake2Line",
+  "06-Greedy Algorithm/Greedy Algorithm.md": "LiQrCode"
 }

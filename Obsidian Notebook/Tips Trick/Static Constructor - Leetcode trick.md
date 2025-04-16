@@ -114,3 +114,73 @@ Karena:
 |`static lambda`|`static const auto _ = [](){ ... }();`|Untuk I/O cepat atau inisialisasi|
 |`static member`|`static const auto x;` + `const auto Class::x = [](){...}();`|Jika kamu butuh reusable di banyak fungsi class|
 |`static variable` dalam fungsi|`static bool once = setup();`|Untuk setup satu kali dalam fungsi tertentu|
+# Informasi tambahan
+> Yang bener yang mana, `ios::` atau `ios_base::`?
+
+Hai! Pertanyaan yang bagus banget—dan ini penting banget kalau kamu sering pakai **fast I/O** di **C++**, apalagi di **competitive programming**.
+
+---
+
+## 🔍 Penjelasan Singkat:
+
+```cpp
+ios::sync_with_stdio(false);
+cin.tie(nullptr);
+```
+
+Sudah **cukup** untuk mengaktifkan fast I/O dalam konteks competitive programming. Tapi, kamu mungkin pernah lihat versi lain seperti:
+
+```cpp
+std::ios_base::sync_with_stdio(false);
+```
+
+Nah, ini penjelasannya:
+
+---
+
+## ✅ Perbedaan `ios` vs `ios_base`
+
+|Hal|`std::ios::sync_with_stdio(false)`|`std::ios_base::sync_with_stdio(false)`|
+|---|---|---|
+|Turunan dari|`std::ios_base`|Kelas dasar paling atas|
+|Yang dipanggil?|Masih valid, karena `ios` turunan `ios_base`|Lebih umum dan "dasarnya langsung"|
+|Dipakai di CP?|✅ Sangat umum|✅ Lebih "akurat" secara teknis, tapi efeknya sama|
+|Efeknya?|**Sama persis** dalam konteks ini|Sama juga|
+
+---
+
+## ⚡ Jadi, Mana yang Harus Dipakai?
+
+- Kalau kamu **hanya butuh fast input/output**, maka:
+    
+    ```cpp
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    ```
+    
+    ✅ Sudah cukup dan sangat umum.
+    
+- Kalau kamu ingin sedikit lebih eksplisit:
+    
+    ```cpp
+    std::ios_base::sync_with_stdio(false);
+    ```
+    
+    🔍 Lebih "jelas" secara OOP, tapi efeknya **sama saja**.
+    
+
+---
+
+## 💡 Bonus Tips:
+
+Kalau kamu pakai:
+
+```cpp
+static const auto fast_io = []() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    return 0;
+}();
+```
+
+Itu cara **modern dan elegan** untuk setup fast I/O. Cocok banget buat CP, apalagi kalau kamu suka gaya clean dan tidak mau tulisannya berulang.

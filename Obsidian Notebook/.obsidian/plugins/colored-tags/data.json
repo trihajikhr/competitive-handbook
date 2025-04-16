@@ -57,7 +57,21 @@
     "binary-search": 45,
     "fast-running": 46,
     "hack": 47,
-    "not-recommended": 48
+    "not-recommended": 48,
+    "complete-search": 49,
+    "generating-subset": 50,
+    "recursive-search": 51,
+    "bit-representation": 52,
+    "permutations": 53,
+    "re": 54,
+    "recursive-permutations": 55,
+    "stl-permutation": 56,
+    "backtracking": 57,
+    "greedy": 58,
+    "hard-algorithm": 59,
+    "concept-algorithm": 60,
+    "heap": 61,
+    "hash-table": 62
   },
   "_version": 3
 }
