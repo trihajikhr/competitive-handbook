@@ -3,6 +3,17 @@
 #include <numeric>
 
 using namespace std;
+
+template <typename T>
+void printVector(const std::vector<T>& vec) {
+    
+    std::cout << "\n{";
+    for (const T& val : vec) {
+        std::cout << val << ", ";
+    }
+    std::cout << "}";
+}
+
 int makanLumpia(int A, int B, int C, int D) {
 
     // Inisialisasi lumpia dalam urutan menggunakan vector
@@ -14,12 +25,14 @@ int makanLumpia(int A, int B, int C, int D) {
     // Fungsi accumulate menjumlahkan semua lumpia dan jika hasil akumulasi lebih dari 0 maka lumpia dianggap tersedia
     // lumpia.begin() -> Pointer awal vector lumpia, akumulasi dari awal index lumpia
     // lumpia.end() -> Pointer akhir vector lumpia, akumulasi sampai akhir index lumpia
+
     while (accumulate(lumpia.begin(), lumpia.end(), 0) > 0) {
 
         int index = 0;
         int jumlah = 0;
 
-       // printVector(lumpia);
+        printVector(lumpia);
+        cout << " -- Hari: " << hari;
 
         // Loop seluruh lumpia selama belum termakan sebanyak 3
         while (index < lumpia.size() && jumlah < 3) {
@@ -50,7 +63,10 @@ int makanLumpia(int A, int B, int C, int D) {
         // Sudah kemakan 3 lumpia atau ketemu lumpia yang gabisa dimakan bersamaan, Hari ditambah dan lanjut loop selanjutnya
         hari++;
     };
+    printVector(lumpia);
+    cout << " -- Hari: " << hari;
 
+    cout << endl << "Hasil: ";
 
     return hari;
 
@@ -61,11 +77,13 @@ int makanLumpia(int A, int B, int C, int D) {
 
 int main() {
 
+    cout << "C++ Version: " << __cplusplus << endl;
+
     cout << "3 3 3 3 = " << makanLumpia(3,3,3,3);
-    cout << "\n2 1 2 1 = " << makanLumpia(2,1,2,1);
-    cout << "\n9 0 0 0 = " << makanLumpia(9,0,0,0);
-    cout << "\n5 2 7 2 = " << makanLumpia(5,2,7,2);
-    cout << endl;
+    cout << "\n\n2 1 2 1 = " << makanLumpia(2,1,2,1);
+    cout << "\n\n9 0 0 0 = " << makanLumpia(9,0,0,0);
+    cout << "\n\n5 2 7 2 = " << makanLumpia(5,2,7,2);
+    cout << endl << endl;
 
     return 0;
 }
