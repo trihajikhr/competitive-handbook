@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiSearchCode",
       "LiCode2",
       "LiQrCode",
       "RiDatabase2Fill",
-      "RiStackLine",
-      "LiSortAsc"
+      "RiStackLine"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -120,8 +120,6 @@
   "03-Sorting/D_sort-Merge Sort/Merge Sort Algorithm.md": "LiQrCode",
   "03-Sorting/E_sort-Quick Sort": "LiFolderCode",
   "03-Sorting/E_sort-Quick Sort/Quicksort Algorithm.md": "LiQrCode",
-  "03-Sorting/F__sort-Counting Sort": "LiFolderCode",
-  "03-Sorting/F__sort-Counting Sort/Counting Sort Algorithm.md": "LiQrCode",
   "03-Sorting/G_sort-Radix Sort": "LiFolderCode",
   "03-Sorting/G_sort-Radix Sort/Radix Sort Algorithm.md": "LiQrCode",
   "03-Sorting/H_sort-Bucket Sort": "LiFolderCode",
@@ -153,5 +151,10 @@
   "04-Data Structure/H_Map/Multimap C++.md": "LiQrCode",
   "04-Data Structure/H_Map/Map C++.md": "LiQrCode",
   "04-Data Structure/I_Set": "RiStackLine",
-  "04-Data Structure/I_Set/Set.md": "LiQrCode"
+  "04-Data Structure/I_Set/Set.md": "LiQrCode",
+  "04-Data Structure/I_Set/Multiset.md": "LiQrCode",
+  "05-Complete Search": "LiSearchCode",
+  "03-Sorting/F_sort-Counting Sort": "LiFolderCode",
+  "03-Sorting/F_sort-Counting Sort/Counting Sort Algorithm.md": "LiQrCode",
+  "05-Complete Search/B_Permutation/Permutations.md": "LiQrCode"
 }

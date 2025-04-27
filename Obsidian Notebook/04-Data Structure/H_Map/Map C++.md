@@ -268,6 +268,55 @@ iter = student.find(2);
     
 - Jika **tidak ditemukan**, maka `find()` mengembalikan **map.end()**.
     
+### Contoh implementasi berdasarkan masalah
+
+> Hei, semisal di data map, aku memiliki angka 1 sampai 9, dan jika user memasukan angka, maka utputnya adalah string nomornya. Bentuk mapnya seperti `<int,string>`. Nah, jika nomor yang dimasukan bisa dicari di map,  kemudian bagaimana mengoutputkanya?
+
+Hei! Jadi kamu punya `map<int, string>` dan ingin jika user memasukkan angka (misalnya `3`), program akan mencari `3` di map dan mengeluarkan string yang sesuai (misalnya `"tiga"`).
+
+Berikut contoh kode C++-nya:
+
+```cpp
+#include <iostream>
+#include <map>
+using namespace std;
+
+int main() {
+    map<int, string> numberMap = {
+        {1, "satu"},
+        {2, "dua"},
+        {3, "tiga"},
+        {4, "empat"},
+        {5, "lima"},
+        {6, "enam"},
+        {7, "tujuh"},
+        {8, "delapan"},
+        {9, "sembilan"}
+    };
+
+    int input;
+    cout << "Masukkan angka (1-9): ";
+    cin >> input;
+
+    // Cek apakah input ada di map
+    if (numberMap.find(input) != numberMap.end()) {
+        cout << "Output: " << numberMap[input] << endl;
+    } else {
+        cout << "Angka tidak ditemukan di map." << endl;
+    }
+
+    return 0;
+}
+```
+
+### Penjelasan singkat:
+
+- `numberMap.find(input) != numberMap.end()` digunakan untuk mengecek apakah `input` ada di map.
+    
+- Kalau ada, ditampilkan `numberMap[input]`.
+    
+- Kalau tidak, tampilkan pesan bahwa angka tidak ditemukan.
+    
 
 # Menghapus Elemen dari Map
 

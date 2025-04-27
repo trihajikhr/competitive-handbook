@@ -4,21 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "3b49af7ec975245a",
+        "id": "17ca63fdc7753b55",
         "type": "tabs",
         "children": [
           {
-            "id": "c2c9e9e51e195460",
+            "id": "c7c3ecc65f915f88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-Data Structure/G_Stack/Stack Data Structure (geeksforgeeks.com).md",
+                "file": "10-Basic of Graph/B_Adjacency Matrix Representation/B_Dasar Implementasi.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stack Data Structure (geeksforgeeks.com)"
+              "title": "B_Dasar Implementasi"
+            }
+          },
+          {
+            "id": "ee0930e569640241",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-Sorting/G_sort-Radix Sort/Radix Sort Algorithm.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Radix Sort Algorithm"
+            }
+          },
+          {
+            "id": "fb93eb9b7484a0a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-Sorting/F_sort-Counting Sort/Counting Sort Algorithm.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Counting Sort Algorithm"
             }
           }
         ]
@@ -88,7 +116,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.51240158081055
+    "width": 273.51240158081055,
+    "collapsed": true
   },
   "right": {
     "id": "5a2e04e3f27c45d3",
@@ -300,13 +329,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04-Data Structure/E_Map/Map C++.md",
+                "file": "10-Basic of Graph/B_Adjacency Matrix Representation/B_Dasar Implementasi.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Map C++"
+              "title": "Outline of B_Dasar Implementasi"
             }
           }
         ]
@@ -339,55 +368,55 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "04554e08cc1bd94b",
+  "active": "c7c3ecc65f915f88",
   "lastOpenFiles": [
-    "04-Data Structure/G_Stack/Programmiz Stack C++.md",
-    "04-Data Structure/F_Priority_queue/Priority Queue.md",
-    "Priority Queue-7.png",
-    "Priority Queue-6.png",
-    "Priority Queue-5.png",
-    "Priority Queue-4.png",
-    "Priority Queue-3.png",
-    "Priority Queue-2.png",
-    "Priority Queue-1.png",
-    "04-Data Structure/E_Deque/C++ Deque.md",
-    "04-Data Structure/F_Priority_queue",
-    "C++ Deque-1.png",
-    "04-Data Structure/D_Queue/Queue Data Structure.md",
-    "04-Data Structure/E_Deque",
-    "Queue Data Structure-1.png",
-    "04-Data Structure/D_Queue/03-Implementasi Array untuk Queue.md",
-    "04-Data Structure/D_Queue/02-Basic Operations for Queue in Data Structure.md",
-    "04-Data Structure/D_Queue/01-Queue Data Structure (geeksforgeeks.org).md",
-    "04-Data Structure/C_List/A_List Data Structure.md",
-    "04-Data Structure/C_List/B_Forward List.md",
-    "04-Data Structure/!B_Kontainer C++.md",
-    "List Data Structure-1.png",
-    "04-Data Structure/A_Array/Array pada C++.md",
-    "04-Data Structure/C_List",
-    "04-Data Structure/A_Array",
-    "04-Data Structure/!A_C++ Standard Template Library.md",
+    "10-Basic of Graph/B_Adjacency Matrix Representation/A_Adjacency Matrix Representation.md",
+    "10-Basic of Graph/B_Adjacency Matrix Representation/B_Dasar Implementasi.md",
+    "A_Adjacency Matrix Representation-2.png",
+    "A_Adjacency Matrix Representation-1.png",
+    "10-Basic of Graph/A_Adjacency List Representation/A_Adjacency Lists.md",
+    "10-Basic of Graph/B_Adjacency Matrix Representation",
+    "10-Basic of Graph/A_Adjacency List Representation/E_Directed Graph Soal.md",
+    "10-Basic of Graph/A_Adjacency List Representation",
+    "10-Basic of Graph/A_Adjacency List Representation/C_Latihan Beberapa Soal.md",
+    "10-Basic of Graph/A_Adjacency List Representation/B_Praktik Graph Adjacency List.md",
+    "10-Basic of Graph/A_Adjacency List Representation/D_Perulangan Menampilkan Adjacency Node.md",
+    "A_Adjacency Lists-2.png",
+    "A_Adjacency Lists-1.png",
+    "13-Shortest-Paths/01-Bellman-Ford/Problem archive/13PS-SPBF-PS01.md",
+    "10-Basic of Graph",
     "13-Shortest-Paths/01-Bellman-Ford/Bellman Ford Algorithm.md",
-    "13-Shortest-Paths/01-Bellman-Ford/SPFA Bellman Ford Algorithm.md",
-    "05-Complete Search/D_Meet in the Midle/Meet in the Midel Algorithm.md",
-    "05-Complete Search/C_Backtracking/Backtracking.md",
-    "05-Complete Search/B_Permutation/Permutations.md",
-    "05-Complete Search/A_Generating Subset/Recursive Search Subset Algorithm.md",
-    "05-Complete Search/A_Generating Subset/Bit Representation Subset Algorithm.md",
-    "04-Data Structure/G_Stack/Stack Data Structure (programiz.com).md",
-    "04-Data Structure/G_Stack/Stack Data Structure (geeksforgeeks.com).md",
-    "04-Data Structure/G_Stack/Memilih Implementasi Stack.md",
-    "04-Data Structure/H_Map/Multimap C++.md",
-    "04-Data Structure/H_Map/Map C++.md",
-    "04-Data Structure/H_Map",
-    "04-Data Structure/I_Set/Set.md",
-    "04-Data Structure/C_Set/Implementasi Set.md",
-    "04-Data Structure/I_Set",
-    "04-Data Structure/B_Vector",
-    "03-Sorting/J_sort-Shell Sort",
-    "03-Sorting/I_sort-Heap Sort",
-    "03-Sorting/H_sort-Bucket Sort",
+    "03-Sorting/G_sort-Radix Sort/Problem Archive/Exercise/03PS-STRX-E001.md",
+    "03-Sorting/G_sort-Radix Sort/Radix Sort Algorithm.md",
+    "03-Sorting/G_sort-Radix Sort/Problem Archive/Exercise",
+    "03-Sorting/G_sort-Radix Sort/Problem Archive",
+    "03-Sorting/F_sort-Counting Sort/Problem archive/Exercise/03PS-STCT-0001.md",
+    "03-Sorting/F_sort-Counting Sort/Problem archive/Exercise/03PS-STCT-0002.md",
+    "03-Sorting/E_sort-Quick Sort/Problem archive/03PS-STQS-0001.md",
+    "03-Sorting/F_sort-Counting Sort/Counting Sort Algorithm.md",
+    "03-Sorting/H_sort-Bucket Sort/Bucket Sort Algorithm.md",
+    "03-Sorting/F_sort-Counting Sort/Problem archive/Exercise",
+    "03-Sorting/F_sort-Counting Sort/Problem archive",
+    "04-Data Structure/E_Deque/C++ Deque.md",
+    "04-Data Structure/B_Vector/Tutorial Vector di C++.md",
+    "03-Sorting/E_sort-Quick Sort/Quicksort Algorithm.md",
+    "03-Sorting/D_sort-Merge Sort/Problem archive/Exercise/03PS-STMSE0001.md",
+    "03-Sorting/D_sort-Merge Sort/Merge Sort Algorithm.md",
+    "03-Sorting/C_sort-Insertion Sort/Insertion Sort Algorithm.md",
+    "03-Sorting/B_sort-Selection Sort/Problem archive/Exercise/03PS-STSSE0002_Selection Sort pada Array menaik.md",
+    "03-Sorting/B_sort-Selection Sort/Problem archive/Exercise/03PS-STSSE0001_Implementasi selection sort.md",
+    "03-Sorting/B_sort-Selection Sort/Selection Sort Algorithm.md",
+    "03-Sorting/J_sort-Shell Sort/Shell Sort Algorithm.md",
+    "Recursive Search Subset Algorithm-1.png",
     "Pohon Competitive Programming.canvas",
+    "Backtracking-1.png",
+    "06PS-GAPS-0001-1.png",
+    "06PS-GAPS-0004-2.png",
+    "13PS-SPBF-PS01-1.png",
+    "13PS-SPBF-PS01-3.png",
+    "04-Data Structure/F_Priority_queue",
+    "04-Data Structure/E_Deque",
+    "04-Data Structure/C_List",
     "Canvas/01-introduction.canvas",
     "ZZZ Uncotegorized file/Big plan.canvas",
     "Mata Kuliah Terkait/Semester 1/1. Manajemen data dan Informasi/modelbisnis.canvas",

@@ -93,7 +93,8 @@
     "list": 81,
     "forward-list": 82,
     "deque": 83,
-    "priority-queue": 84
+    "priority-queue": 84,
+    "multiset": 85
   },
   "_version": 3
 }

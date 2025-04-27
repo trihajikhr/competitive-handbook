@@ -286,3 +286,5 @@ Namun, Counting Sort memiliki keterbatasan dalam hal penggunaan memori dan fleks
 >     
 
 Dengan memahami kelebihan dan kekurangannya, kita bisa memilih Counting Sort secara tepat untuk kasus yang sesuai.
+
+---

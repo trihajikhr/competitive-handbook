@@ -74,6 +74,33 @@ cin.tie(0);
 cout.tie(0);  // Bisa juga menambahkan cout.tie(0) untuk memaksimalkan performa.
 ```
 
+#### 📌 Jika menggunakan `cout.tie(0);`
+`cout.tie(0);` Mirip dengan `cin.tie(0)`, tetapi untuk `cout`. Biasanya tidak berdampak besar karena `cout` jarang tied ke stream lain.
+### Catatan
+Hari ini, pada tanggal 24 April 2025, aku menemukan bahwa ketika aku mengikutsertakan syntax ini, maka output akan langsung meminta user memasukan inputan!
+
+Misal:
+
+```cpp
+#include<iostream>
+using namespace std;
+
+inline void fastio(){
+	ios::sync_with_stdio(0);
+	cin.tie(0);
+}
+
+int main(){
+	int x;
+	cout << "Masukan x: ";
+	cin >> x;
+	
+	// dan baris kode kebawah ...
+	return 0;
+}
+```
+
+Maka outputnya akan langsung meminta kita memasukan nilai `x`, dan bukan malah `Masukan x: ` terlebih dahulu.
 ## 2.4 Efisiensi penggunaan `endl` dengan newline `"\n"`
 Terkadang kita menggunakan `endl` pada bagian akhir output agar bisa pindah ke baris baru, seperti ini:
 
