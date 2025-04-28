@@ -11,12 +11,13 @@ sumber: "buku: CP handbook by Antti Laaksonen"
 date_learned: 2025-04-26T17:22:00
 tags:
   - graph
+  - graph-adjacency-list
 ---
-#graph 
+#graph #graph-adjacency-list
 
 ---
 # Adjacency List Representation
-Dalam representasi _adjacency list_, setiap node  dalam graf diberikan sebuah **_adjacency list_** yang berisi node-node yang terhubung dengan _edge_ dari . _Adjacency lists_ adalah cara yang paling populer untuk merepresentasikan graf, dan sebagian besar algoritma dapat diimplementasikan secara efisien menggunakan metode ini.
+Dalam representasi _adjacency list_, setiap node  dalam graf diberikan sebuah **_adjacency list_** yang berisi node-node yang terhubung dengan _edge_ dari $x$. _Adjacency lists_ adalah cara yang paling populer untuk merepresentasikan graf, dan sebagian besar algoritma dapat diimplementasikan secara efisien menggunakan metode ini.
 
 Cara yang nyaman untuk menyimpan _adjacency lists_ adalah dengan mendeklarasikan sebuah array dari _vectors_ sebagai berikut:
 
@@ -36,6 +37,12 @@ adj[2].push_back(3);
 adj[2].push_back(4);
 adj[3].push_back(4);
 adj[4].push_back(1);
+```
+
+Jika graf bersifat *directed*, maka kita bisa menuliskanya seperti diatas, atau dengan ilustrasi sebagai berikut:
+
+```cpp
+adj[u].push_back(v);
 ```
 
 Jika graf bersifat _undirected_, penyimpanannya serupa, tetapi setiap _edge_ ditambahkan dalam kedua arah.

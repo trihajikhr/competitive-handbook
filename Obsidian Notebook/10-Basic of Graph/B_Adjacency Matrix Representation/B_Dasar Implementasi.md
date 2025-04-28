@@ -1,17 +1,19 @@
 ---
 obsidianUIMode: preview
 note_type: algorithm theory
-id_algoritma: 
-nama_algoritma: 
-kategori_algoritma: 
-kesulitan: 🥉 easy 🥈 medium 🥇 hard
-time_complexity: 🟢 O(1) 🔵 O(log n) 🟡 O(√n) 🟠 O(n) 🟤 O(n log n) 🟣 O(n²) 🟧 O(n³) 🔴 O(2ⁿ) ⚫ O(n!) ⚪O(formula)
-memory_complexity: 🟢 O(1) 🔵 O(log n) 🟡 O(√n) 🟠 O(n) 🟤 O(n log n) 🟣 O(n²) 🟧 O(n³) 🔴 O(2ⁿ) ⚫ O(n!) ⚪O(formula) ✅ → Stable ❌ → Unstable
-sumber: 
-date_learned: 
+id_algoritma: 11TH-BGRP-MR02
+nama_algoritma: Matrix Representation Graph
+kategori_algoritma: Graph Algorithm
+kesulitan: 🥈 medium
+time_complexity: 
+memory_complexity: 
+sumber: "buku: CP handbook by Antti Laaksonen & chatgpt.com"
+date_learned: 2025-04-28T21:15:00
 tags:
+  - graph
+  - graph-matrix
 ---
-#tag #tag #tag 
+#graph #graph-matrix 
 
 ---
 Berikut, diberikan dasar-dasar representasi dari graph:

@@ -1,17 +1,19 @@
 ---
 obsidianUIMode: preview
 note_type: algorithm theory
-id_algoritma: 
-nama_algoritma: 
-kategori_algoritma: 
+id_algoritma: 11TH-BGRP-AL03
+nama_algoritma: Adjacency list Graph basic
+kategori_algoritma: Graph Algorithm
 kesulitan: 🥈 medium
 time_complexity: 
 memory_complexity: 
-sumber: 
+sumber: "buku: CP handbook by Antti Laaksonen & chatgpt.com"
 date_learned: 2025-04-26T22:26:00
 tags:
+  - graph
+  - graph-adjacency-list
 ---
-#tag #tag #tag 
+#graph #graph-adjacency-list 
 
 ---
 # 1 | ✏️ Soal Latihan: "Teman Seangkatan"
@@ -65,7 +67,7 @@ Teman siswa 5: 2
 
 ---
 
-> **Catatan:** Ini graph **tidak berarah** (pertemanan saling dua arah).
+> **Catatan:** Ini graph **tidak berarah** / *undirected* (pertemanan saling dua arah).
 
 ## Jawaban
 
@@ -106,6 +108,7 @@ int main() {
 # 2 | ✏️ Soal Latihan: "Jalur Teman"
 
 Di sebuah sekolah terdapat **N siswa**, dan ada **M hubungan pertemanan** antara beberapa siswa.  
+
 Tugas kamu adalah membuat graph menggunakan **adjacency list** dan menemukan **jumlah jalur** yang menghubungkan dua siswa yang diberikan. **Jalur** yang dimaksud adalah semua kemungkinan rute yang dapat dilalui dari satu siswa ke siswa lainnya melalui hubungan pertemanan.
 
 ### 📥 Format Input:

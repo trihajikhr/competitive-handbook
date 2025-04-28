@@ -1,20 +1,24 @@
 ---
 obsidianUIMode: preview
 note_type: algorithm theory
-id_algoritma: 
-nama_algoritma: 
-kategori_algoritma: 
-kesulitan: 🥉 easy 🥈 medium 🥇 hard
-time_complexity: 🟢 O(1) 🔵 O(log n) 🟡 O(√n) 🟠 O(n) 🟤 O(n log n) 🟣 O(n²) 🟧 O(n³) 🔴 O(2ⁿ) ⚫ O(n!) ⚪O(formula)
-memory_complexity: 🟢 O(1) 🔵 O(log n) 🟡 O(√n) 🟠 O(n) 🟤 O(n log n) 🟣 O(n²) 🟧 O(n³) 🔴 O(2ⁿ) ⚫ O(n!) ⚪O(formula) ✅ → Stable ❌ → Unstable
-sumber: 
-date_learned: 
+id_algoritma: 11TH-BGRP-AL04
+nama_algoritma: Adjacency list Graph basic
+kategori_algoritma: Graph Algorithm
+kesulitan: 🥈 medium
+time_complexity: 
+memory_complexity: 
+sumber: "buku: CP handbook by Antti Laaksonen & chatgpt.com"
+date_learned: 2025-04-27T18:52:00
 tags:
+  - graph
+  - graph-adjacency-list
 ---
-#tag #tag #tag 
+#graph #graph-adjacency-list 
 
 ---
 # Loop Untuk Menampilakan Semua Tetangga Node
+> Dalam buku Antti Laaksonen,dijelaskan bahwa dengan perulangan tertentu, kita bisa mengetahui banyaknya adjacency node dari node tertentu yang kita pilih dengan menggunakan perulangan, tepatnya perulangan `for-each`. Bagaimana contohnya?
+
 Oke, aku ngerti! 🔥  
 Kamu mau aku bantu buatkan **implementasi lengkap** dari potongan teori Antti Laaksonen tadi, kan?
 
