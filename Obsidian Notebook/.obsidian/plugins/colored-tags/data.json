@@ -96,7 +96,25 @@
     "priority-queue": 84,
     "multiset": 85,
     "graph-adjacency-list": 86,
-    "graph-matrix": 87
+    "graph-matrix": 87,
+    "graph-edge-list": 88,
+    "grap": 89,
+    "graph-traversal": 90,
+    "graph-dfs": 91,
+    "dfs": 92,
+    "graph-DFS": 93,
+    "graph-BFS": 94,
+    "SPFA": 95,
+    "gra": 96,
+    "tipe-data": 97,
+    "convert-tipe-data": 98,
+    "konvert-tipe-data": 99,
+    "Trie": 100,
+    "counting": 101,
+    "compiler": 102,
+    "modular": 103,
+    "bug": 104,
+    "flowchart": 105
   },
   "_version": 3
 }

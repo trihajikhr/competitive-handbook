@@ -35,6 +35,7 @@
     "terpecahkan": "datetime",
     "last_reviewed": "date",
     "date_solved": "datetime",
-    "date_learned": "datetime"
+    "date_learned": "datetime",
+    "date_add": "datetime"
   }
 }

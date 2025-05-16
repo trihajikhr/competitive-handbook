@@ -4,17 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "7756ccc7dadfd084",
+        "id": "dcbf022a01e659c2",
         "type": "tabs",
         "children": [
           {
-            "id": "c4a37b1b3800caa9",
+            "id": "e1224d319da23e2c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Teori Bug dan Jenis Bug/D_Menelusuri Alur Program.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "D_Menelusuri Alur Program"
+            }
+          },
+          {
+            "id": "0ba1f02911e0dc6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ]
@@ -49,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#tag",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5041847229004
+    "width": 235.5041847229004,
+    "collapsed": true
   },
   "right": {
     "id": "5a2e04e3f27c45d3",
@@ -296,19 +315,20 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Teori Bug dan Jenis Bug/D_Menelusuri Alur Program.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of D_Menelusuri Alur Program"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 274.5,
+    "width": 234.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -334,55 +354,55 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "c4a37b1b3800caa9",
+  "active": "e1224d319da23e2c",
   "lastOpenFiles": [
-    "10-Basic of Graph/B_Adjacency Matrix Representation/B_Dasar Implementasi.md",
-    "10-Basic of Graph/B_Adjacency Matrix Representation/D_Undirected Matrix Graph Soal.md",
-    "10-Basic of Graph/B_Adjacency Matrix Representation/C_Directed Matrix Graph Soal.md",
-    "10-Basic of Graph/B_Adjacency Matrix Representation/A_Adjacency Matrix Representation.md",
-    "10-Basic of Graph/A_Adjacency List Representation/G_Latihan Final.md",
-    "10-Basic of Graph/A_Adjacency List Representation/D_Perulangan Menampilkan Adjacency Node.md",
-    "03-Sorting/F_sort-Counting Sort/Counting Sort Algorithm.md",
-    "10-Basic of Graph/A_Adjacency List Representation/C_Latihan Beberapa Soal.md",
-    "03-Sorting/A_sort-Bubble Sort/Problem archive/Exercise/03PS-STBSE0004_Urutan Terbesar ke Terkecil.md",
-    "10-Basic of Graph/A_Adjacency List Representation/B_Praktik Graph Adjacency List.md",
-    "10-Basic of Graph/A_Adjacency List Representation/F_Undirected Graph Soal.md",
-    "10-Basic of Graph/A_Adjacency List Representation/E_Directed Graph Soal.md",
-    "10-Basic of Graph/A_Adjacency List Representation/A_Adjacency Lists.md",
-    "03-Sorting/G_sort-Radix Sort/Radix Sort Algorithm.md",
-    "03-Sorting/A_sort-Bubble Sort/Problem archive/Exercise/03PS-STBSE0003_Jumlah Perbandingan.md",
-    "03-Sorting/A_sort-Bubble Sort/Problem archive/Exercise/03PS-STBSE0002_Hitung swap.md",
-    "03-Sorting/A_sort-Bubble Sort/Problem archive/Exercise/03PS-STBSE0001_Bubble sort yang dioptimalkan.md",
-    "03-Sorting/B_sort-Selection Sort/Selection Sort Algorithm.md",
-    "03-Sorting/A_sort-Bubble Sort/Bubble Sort Algorithm.md",
-    "A_Adjacency Matrix Representation-2.png",
-    "A_Adjacency Matrix Representation-1.png",
-    "10-Basic of Graph/B_Adjacency Matrix Representation",
-    "10-Basic of Graph/A_Adjacency List Representation",
-    "A_Adjacency Lists-2.png",
-    "A_Adjacency Lists-1.png",
-    "13-Shortest-Paths/01-Bellman-Ford/Problem archive/13PS-SPBF-PS01.md",
-    "10-Basic of Graph",
-    "13-Shortest-Paths/01-Bellman-Ford/Bellman Ford Algorithm.md",
-    "03-Sorting/G_sort-Radix Sort/Problem Archive/Exercise/03PS-STRX-E001.md",
-    "03-Sorting/G_sort-Radix Sort/Problem Archive/Exercise",
-    "03-Sorting/G_sort-Radix Sort/Problem Archive",
-    "03-Sorting/F_sort-Counting Sort/Problem archive/Exercise/03PS-STCT-0001.md",
-    "03-Sorting/F_sort-Counting Sort/Problem archive/Exercise/03PS-STCT-0002.md",
-    "03-Sorting/E_sort-Quick Sort/Problem archive/03PS-STQS-0001.md",
-    "03-Sorting/H_sort-Bucket Sort/Bucket Sort Algorithm.md",
-    "03-Sorting/F_sort-Counting Sort/Problem archive/Exercise",
-    "03-Sorting/F_sort-Counting Sort/Problem archive",
-    "Recursive Search Subset Algorithm-1.png",
+    "Teori Bug dan Jenis Bug/C_Cara Kerja Compiler & Membaca Pesan Error.md",
+    "Teori Bug dan Jenis Bug/D_Menelusuri Alur Program.md",
+    "Untitled.md",
+    "Teori Bug dan Jenis Bug/B_Macam dan Jenis Bug.md",
+    "Teori Bug dan Jenis Bug/A_Apa itu Bug.md",
+    "ZTemplater/Materi.md",
+    "ZTemplater/Algoritma.md",
+    "ZTemplater/Tips trick.md",
+    "ZTemplater/Problem set.md",
+    "ZTemplater/Test Case.md",
+    "ZTemplater/Dokumentasi.md",
+    "Tips Trick/Matematika/Konsep Kombinasi Modulo.md",
+    "Teori Bug dan Jenis Bug",
+    "Teknik Debugging",
+    "Tips Trick/Matematika/Aljabar Linear Dasar",
+    "Tips Trick/Matematika/Permutasi dan Kombinasi.md",
+    "Tips Trick/Matematika/Modular Exponentiation.md",
+    "Tips Trick/Matematika/Konsep Modular Arithmetic.md",
+    "Tips Trick/Matematika/Modular Inverse.md",
+    "Tips Trick/Matematika/Pengecekan Angka Prima.md",
+    "Tips Trick/Matematika/Mencari FBP atau GCD.md",
+    "Tips Trick/Matematika/Mencari KPK.md",
+    "Tips Trick/Matematika/Selisih selalu positif.md",
+    "Tips Trick/template header.md",
+    "Tips Trick/Template di C++.md",
+    "Tips Trick/Static Constructor - Leetcode trick.md",
+    "Tips Trick/Mengambil string dari string (substr()).md",
+    "Tips Trick/Konversi Tipe data di C++.md",
+    "Tips Trick/Inline Function.md",
+    "Tips Trick/Matematika",
+    "Depth-First Search-1.png",
+    "Dokumentasi",
+    "Tips Trick/keyboard-shortcuts-windows.pdf",
     "Pohon Competitive Programming.canvas",
-    "Backtracking-1.png",
-    "06PS-GAPS-0001-1.png",
-    "06PS-GAPS-0004-2.png",
-    "13PS-SPBF-PS01-1.png",
-    "13PS-SPBF-PS01-3.png",
-    "04-Data Structure/F_Priority_queue",
-    "04-Data Structure/E_Deque",
-    "04-Data Structure/C_List",
+    "List Data Structure-1.png",
+    "LeetCode-Contest/Virtual Contest/21-Agustus-2016",
+    "LeetCode-Contest/Public Contest",
+    "LeetCode-Contest/Virtual Contest",
+    "LeetCode-Contest",
+    "C_Implementasi Algoritma Bellman Ford-10.png",
+    "C_Implementasi Algoritma Bellman Ford-9.png",
+    "C_Implementasi Algoritma Bellman Ford-8.png",
+    "C_Implementasi Algoritma Bellman Ford-7.png",
+    "C_Implementasi Algoritma Bellman Ford-6.png",
+    "C_Implementasi Algoritma Bellman Ford-5.png",
+    "C_Implementasi Algoritma Bellman Ford-4.png",
+    "C_Implementasi Algoritma Bellman Ford-3.png",
     "Canvas/01-introduction.canvas",
     "ZZZ Uncotegorized file/Big plan.canvas",
     "Mata Kuliah Terkait/Semester 1/1. Manajemen data dan Informasi/modelbisnis.canvas",
