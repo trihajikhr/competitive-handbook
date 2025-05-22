@@ -114,7 +114,8 @@
     "compiler": 102,
     "modular": 103,
     "bug": 104,
-    "flowchart": 105
+    "flowchart": 105,
+    "advice": 106
   },
   "_version": 3
 }
