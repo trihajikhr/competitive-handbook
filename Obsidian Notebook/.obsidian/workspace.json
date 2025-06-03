@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "dcbf022a01e659c2",
+        "id": "c893f2c7b75ecd4d",
         "type": "tabs",
         "children": [
           {
-            "id": "e1224d319da23e2c",
+            "id": "63feaf789e64a0fd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Jawaban.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Jawaban"
-            }
-          },
-          {
-            "id": "0ba1f02911e0dc6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "New tab"
             }
           }
         ]
@@ -67,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(vector pair)",
+                "query": "tag:#tipe-data",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5041847229004
+    "width": 297.5
   },
   "right": {
     "id": "5a2e04e3f27c45d3",
@@ -314,13 +296,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CodeForces-Advice/All You Need is Randomly Guessing — How to Improve at Codeforces.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of All You Need is Randomly Guessing — How to Improve at Codeforces"
+              "title": "Outline"
             }
           }
         ]
@@ -353,56 +334,56 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "241371287949a6e0",
+  "active": "63feaf789e64a0fd",
   "lastOpenFiles": [
-    "Jawaban-3.png",
-    "Jawaban-2.png",
-    "Jawaban-1.png",
+    "03-Sorting/search-Linear Search/Variasi Linear Search C++.md",
+    "Tips Trick/Konversi Tipe data di C++.md",
+    "Tips Trick/Mengambil string dari string (substr()).md",
+    "Tips Trick/Static Constructor - Leetcode trick.md",
+    "Tips Trick/Urutan Traversal DFS Selalu dari yang Terkecil.md",
+    "Tips Trick/Vector Integer ke Vector String.md",
+    "Tips Trick/For-each loop.md",
+    "Tips Trick/Inline Function.md",
+    "Tips Trick/Bypass Runtime Checker - leetcode.md",
+    "Tips Trick/Tipe data Int/Penggunaan size_t dan perbedaanya dengan Int pada Loop.md",
+    "Tips Trick/Tipe data - General/Apa itu static_cast.md",
+    "Tips Trick/Tipe data - General/C style cast VS static_cast.md",
     "important.md",
-    "04-Data Structure/B_Vector/Tutorial Vector di C++.md",
-    "Jawaban.md",
-    "04-Data Structure/H_Map/Map C++.md",
-    "11-Basic of Graph/A_Adjacency List Representation/G_Latihan Final.md",
-    "11-Basic of Graph/A_Adjacency List Representation/A_Adjacency Lists.md",
-    "13-Shortest-Paths/A_Bellman-Ford/Problem archive/13PS-SPBF-PS01.md",
-    "01-Introduction/06-Memperpendek kode.md",
-    "Tips Trick/Matematika/Mencari FBP atau GCD.md",
-    "CodeForces-Advice/All You Need is Randomly Guessing — How to Improve at Codeforces.md",
-    "All You Need is Randomly Guessing — How to Improve at Codeforces-4.png",
-    "All You Need is Randomly Guessing — How to Improve at Codeforces-3.png",
-    "All You Need is Randomly Guessing — How to Improve at Codeforces-2.png",
-    "All You Need is Randomly Guessing — How to Improve at Codeforces-1.png",
-    "Tips Trick/Matematika/Lucky Number.md",
-    "CodeForces-Advice",
-    "Tips Trick/Matematika/Pengecekan Angka Prima.md",
-    "Teori Bug dan Jenis Bug/D_Menelusuri Alur Program.md",
-    "Teori Bug dan Jenis Bug/C_Cara Kerja Compiler & Membaca Pesan Error.md",
-    "Teori Bug dan Jenis Bug/B_Macam dan Jenis Bug.md",
-    "Teori Bug dan Jenis Bug/A_Apa itu Bug.md",
-    "ZTemplater/Materi.md",
-    "ZTemplater/Algoritma.md",
-    "ZTemplater/Tips trick.md",
-    "ZTemplater/Problem set.md",
-    "ZTemplater/Test Case.md",
-    "ZTemplater/Dokumentasi.md",
-    "Tips Trick/Matematika/Konsep Kombinasi Modulo.md",
-    "Teori Bug dan Jenis Bug",
-    "Teknik Debugging",
-    "Tips Trick/Matematika/Aljabar Linear Dasar",
-    "Tips Trick/Matematika/Permutasi dan Kombinasi.md",
-    "Tips Trick/Matematika/Modular Exponentiation.md",
-    "Tips Trick/Matematika",
-    "Depth-First Search-1.png",
-    "Dokumentasi",
-    "Tips Trick/keyboard-shortcuts-windows.pdf",
-    "Pohon Competitive Programming.canvas",
-    "List Data Structure-1.png",
-    "LeetCode-Contest/Virtual Contest/21-Agustus-2016",
-    "LeetCode-Contest/Public Contest",
-    "LeetCode-Contest/Virtual Contest",
-    "C_Implementasi Algoritma Bellman Ford-10.png",
-    "C_Implementasi Algoritma Bellman Ford-9.png",
+    "ZTemplater-exp/Penjelasan Penggunaan Templater.md",
+    "Youtube Advice/Colin Galen/The Black Box Method - How to Learn Hard Concepts Quickly.md",
+    "Youtube Advice/Colin Galen/3-Minute Mental Hack to Take Control of Your Subconscious.md",
+    "Sliding Window Algorithm/Sliding Window Algorithm.md",
+    "Problem-Category/1 Implementation.md",
+    "LeetCode-Contest/Virtual Contest/!Link Virtual Contest.md",
+    "LeetCode-Contest/Virtual Contest/21-Agustus-2016/B_First Unique Character in a String.md",
+    "LeetCode-Contest/Virtual Contest/21-Agustus-2016/A_Lexicographical Numbers.md",
+    "LeetCode-Contest/Virtual Contest/21-Agustus-2016/!Warm Up Contest.md",
+    "Dokumentasi/Menyiapakan Environtmen C++ di VS Code.md",
     "Canvas/01-introduction.canvas",
+    "03-Sorting/search-Linear Search/Linear Search Algorithm.md",
+    "Tips Trick/Tipe data - General",
+    "Tips Trick/Template C++/Contoh Template C++.md",
+    "Tips Trick/Template C++/Template di C++.md",
+    "Tips Trick/Template C++",
+    "Tips Trick/Tipe data Int",
+    "03-Sorting/03-Sorting.pdf",
+    "Youtube Advice/Zimg-Youtube Advice/3-Minute Mental Hack to Take Control of Your Subconscious-1.png",
+    "Youtube Advice/Zimg-Youtube Advice",
+    "Youtube Advice/Colin Galen",
+    "Youtube Advice/Zimg-Youtube Advice/3-Minute Mental Hack to Take Control of Your Subconscious-6.png",
+    "Youtube Advice/Zimg-Youtube Advice/3-Minute Mental Hack to Take Control of Your Subconscious-5.png",
+    "Youtube Advice/Zimg-Youtube Advice/3-Minute Mental Hack to Take Control of Your Subconscious-4.png",
+    "Youtube Advice/Zimg-Youtube Advice/3-Minute Mental Hack to Take Control of Your Subconscious-3.png",
+    "Youtube Advice/Zimg-Youtube Advice/3-Minute Mental Hack to Take Control of Your Subconscious-2.png",
+    "Youtube Advice",
+    "03-Sorting/A_sort-Bubble Sort/Untitled",
+    "02-Time Complexity/02-Time complexity.pdf",
+    "02-Time Complexity",
+    "04-Data Structure/Zimg-Data Structure/Pasted image 20250307182108.png",
+    "05-Complete Search/Zimg/Recursive Search Subset Algorithm-1.png",
+    "04-Data Structure/Zimg-Data Structure/Map C++-1.png",
+    "04-Data Structure/Zimg-Data Structure/C++ Deque-1.png",
+    "Pohon Competitive Programming.canvas",
     "ZZZ Uncotegorized file/Big plan.canvas",
     "Mata Kuliah Terkait/Semester 1/1. Manajemen data dan Informasi/modelbisnis.canvas",
     "Mata Kuliah Terkait/Semester 1/1. Manajemen data dan Informasi/Tanpa judul.canvas"

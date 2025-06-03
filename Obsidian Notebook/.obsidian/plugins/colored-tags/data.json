@@ -115,7 +115,18 @@
     "modular": 103,
     "bug": 104,
     "flowchart": 105,
-    "advice": 106
+    "advice": 106,
+    "convert": 107,
+    "recursion": 108,
+    "basic": 109,
+    "tipe": 110,
+    "function": 111,
+    "float": 112,
+    "double": 113,
+    "debug": 114,
+    "time-complexity": 115,
+    "general": 116,
+    "int": 117
   },
   "_version": 3
 }

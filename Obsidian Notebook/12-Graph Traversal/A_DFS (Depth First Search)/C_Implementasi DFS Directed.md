@@ -479,7 +479,7 @@ void DFS(vector<vector<int>> &adj){
 
 ---
 
-### 5. Fungsi `main**`**
+### 5. Fungsi `main`
 
 ```cpp
 int main(){

@@ -671,6 +671,6 @@ Program ini membaca data dari **`input.txt`** dan menulis hasilnya ke **`output.
 
 ### Kesimpulan
 
-✅ **Gunakan `freopen` jika soal menggunakan file input/output.**  
-✅ **Bermanfaat untuk pengujian lokal sebelum submit ke sistem kontes.**  
-❌ **Jangan gunakan jika soal bersifat interaktif atau sistem kontes tidak memerlukannya.**
+✅ Gunakan `freopen` jika soal menggunakan file input/output.  
+✅ Bermanfaat untuk pengujian lokal sebelum submit ke sistem kontes.  
+❌ Jangan gunakan jika soal bersifat interaktif atau sistem kontes tidak memerlukannya.

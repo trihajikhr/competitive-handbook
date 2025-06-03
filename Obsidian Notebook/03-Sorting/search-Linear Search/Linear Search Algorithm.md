@@ -1,7 +1,7 @@
 ---
 obsidianUIMode: preview
 note_type: algorithm theory
-id_algoritma: 03TH-STLS0001
+id_algoritma: 03TH-STLS-0001
 nama_algoritma: Linear Search
 kategori_algoritma: search
 kesulitan: 🥉 easy

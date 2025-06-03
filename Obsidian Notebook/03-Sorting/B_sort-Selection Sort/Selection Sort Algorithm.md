@@ -213,3 +213,4 @@ Selection Sort digunakan dalam situasi berikut:
 - Selection Sort memiliki kompleksitas waktu **O(n²)**, sehingga lebih lambat dibandingkan algoritma seperti **Quick Sort** atau **Merge Sort**.
 - Tidak mempertahankan urutan relatif elemen yang bernilai sama, sehingga **bukan algoritma yang stable**.
 ## Kesimpulan
+Selection Sort adalah algoritma pengurutan sederhana yang bekerja dengan memilih elemen terkecil dari bagian yang belum terurut, lalu menempatkannya di posisi yang sesuai. Proses ini diulang hingga seluruh elemen berada dalam urutan yang benar. Selection Sort memiliki keunggulan dalam jumlah pertukaran yang minimal, namun tetap memiliki performa kurang efisien untuk data berukuran besar. Seperti Bubble Sort, algoritma ini sangat berguna untuk memahami konsep dasar pengurutan dalam pemrograman.

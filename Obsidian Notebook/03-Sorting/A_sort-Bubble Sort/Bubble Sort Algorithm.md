@@ -1,7 +1,7 @@
 ---
 obsidianUIMode: preview
 note_type: algorithm theory
-id_algoritma: 03TH-STBS0001
+id_algoritma: 03TH-STBS-0001
 nama_algoritma: bubble sort algorithm
 kategori_algoritma: sorting
 kesulitan: 🥉 easy
@@ -308,3 +308,5 @@ Bubble Sort digunakan jika:
 - Hampir tidak memiliki atau memiliki aplikasi dunia nyata yang sangat terbatas. Bubble Sort lebih sering digunakan dalam akademik untuk mengajarkan berbagai metode sorting.
 
 
+## Kesimpulan
+Bubble Sort merupakan algoritma pengurutan sederhana yang bekerja dengan membandingkan pasangan elemen yang berdekatan dan menukarnya jika urutannya salah. Meskipun mudah dipahami dan diimplementasikan, algoritma ini kurang efisien untuk data dalam jumlah besar karena membutuhkan banyak perbandingan dan pertukaran. Namun, Bubble Sort tetap berguna sebagai dasar pembelajaran algoritma sorting dan sangat cocok untuk mengenalkan konsep iterasi dan logika perbandingan.

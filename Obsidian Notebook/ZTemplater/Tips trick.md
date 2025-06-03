@@ -6,7 +6,5 @@ sumber:
 tags:
   - tag
 ---
-#tag 
-
 ---
 # Judul
