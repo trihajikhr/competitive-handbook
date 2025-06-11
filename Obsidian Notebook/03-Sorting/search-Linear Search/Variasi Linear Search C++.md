@@ -11,7 +11,8 @@ sumber: Google.com, AI
 date_learned: 2025-06-02T10:34:00
 tags:
   - linear-search
-  - sorting
+  - search
+  - array
 ---
 #linear-search #sorting 
 

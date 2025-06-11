@@ -1,7 +1,7 @@
 ---
 obsidianUIMode: preview
 note_type: algorithm theory
-id_algoritma: 03TH-STBNS0001
+id_algoritma: 03TH-STBN-0001
 nama_algoritma: Binary Search Algorithm
 kategori_algoritma: search
 kesulitan: 🥉 easy
@@ -170,7 +170,7 @@ Array dibagi dua terus-menerus sampai elemen ditemukan atau tidak ditemukan.
 
 ## Space Complexity dan Stability
 - Iteratif: `O(1)` → hanya menggunakan variabel tambahan untuk indeks (low, high, mid).
-- Rekursif: `O(log n)` → karena stack rekursi saat pemanggilan fungsi berulang (jika menggunakan metode rekursif).
+- Rekursif: `O(log n)` → karena stack rekursi saat pemanggilan fungsi berulang (jika menggunakan metode rekursif.
 # Aplikasi Binary Search
 - Mencari elemen dalam array yang sudah terurut.
 - Mencari nilai tertentu dalam database atau tabel terurut.
@@ -191,7 +191,7 @@ Array dibagi dua terus-menerus sampai elemen ditemukan atau tidak ditemukan.
 - Rekursif membutuhkan ruang tambahan: Jika implementasi rekursif, membutuhkan ruang stack tambahan $O(log\; n)$.
 ## Kesimpulan
 
-Binary Search adalah algoritma pencarian yang sangat efisien untuk menemukan elemen dalam array yang **sudah terurut**. Dengan pendekatan divide and conquer, algoritma ini memotong ruang pencarian menjadi setengah di setiap langkah, menghasilkan kompleksitas waktu O(log n).
+Binary Search adalah algoritma pencarian yang sangat efisien untuk menemukan elemen dalam array yang **sudah terurut**. Dengan pendekatan divide and conquer, algoritma ini memotong ruang pencarian menjadi setengah di setiap langkah, menghasilkan kompleksitas waktu $O(log \; n)$.
 
 Meskipun hanya berlaku untuk data yang terurut, kecepatan dan kesederhanaannya menjadikan Binary Search salah satu algoritma pencarian paling penting dan banyak digunakan, baik dalam pengembangan perangkat lunak sehari-hari maupun dalam kompetisi pemrograman.
 

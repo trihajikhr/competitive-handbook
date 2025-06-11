@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiQrCode",
-      "LiOpenVault",
-      "LiHeading1",
-      "LiFolderCode",
-      "RiFileCodeLine"
+      "LiChartNoAxesCombined",
+      "LiChartLine",
+      "LiCode2",
+      "LiArrowDown01",
+      "LiFileDigit"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -173,5 +173,14 @@
   "01-Introduction": "LiOpenVault",
   "Tips Trick/Tipe data Pecahan (Float & Double)": "LiSquareSplitVertical",
   "03-Sorting/search-Linear Search/Variasi Linear Search C++.md": "LiQrCode",
-  "03-Sorting/search-Linear Search": "LiFolderCode"
+  "03-Sorting/search-Linear Search": "LiSearchCode",
+  "03-Sorting/search-Jump Search/Jump Search Algorithm.md": "LiQrCode",
+  "03-Sorting/search-Jump Search/Variasi Jump Search.md": "LiQrCode",
+  "03-Sorting/search-Jump Search": "LiSearchCode",
+  "Matematika": "LiFileDigit",
+  "Matematika/01-Bitwise Operation": "LiArrowDown01",
+  "Matematika/01-Bitwise Operation/Latihan": "LiCode2",
+  "Matematika/01-Bitwise Operation/Materi Tambahan GeeksForGeeks": "LiCode2",
+  "04-Data Structure/A_Array/Struktur Data Array dalam C++ Konsep, Implementasi, Aplikasi, dan Fungsi.md": "LiQrCode",
+  "04-Data Structure/A_Array/Latihan": "LiChartNoAxesCombined"
 }

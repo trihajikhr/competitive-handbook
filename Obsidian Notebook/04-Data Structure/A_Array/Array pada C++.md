@@ -4,7 +4,7 @@ note_type: data structure theory
 id_algoritma: 04TH-DSAR-0001
 nama_algoritma: 
 kategori_algoritma: data structure
-kesulitan: 
+kesulitan: 🥉 easy
 time_complexity: 
 memory_complexity: 
 sumber: programiz.com & chatgpt.com

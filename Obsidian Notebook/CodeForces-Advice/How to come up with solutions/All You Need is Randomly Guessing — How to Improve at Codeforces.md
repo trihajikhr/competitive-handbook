@@ -6,9 +6,8 @@ sumber: codeforces
 date_learned: 2025-05-18T21:47:00
 tags:
   - advice
+  - problem-solving
 ---
-#advice 
-
 Link sumber: [All You Need is Randomly Guessing — How to Improve at Codeforces - Codeforces](https://codeforces.com/blog/entry/126875)
 
 ---
@@ -382,6 +381,8 @@ Yang akan saya tunjukkan selanjutnya adalah bahwa **abduksi tidaklah seburuk itu
 ## Beberapa Teori Pembelajaran (_Some Learning Theory_)
 
 Untungnya, dalam bidang **machine learning**, para peneliti sudah sejak lama memikirkan cara **memperkirakan kebenaran suatu model dalam dunia nyata**, **meskipun model tersebut benar pada seluruh data pelatihan**. Ini **sangat mirip** dengan apa yang kita coba lakukan di CP: kita ingin memperkirakan **kebenaran dari sebuah tebakan** dalam sistem pengujian, **berdasarkan kebenarannya terhadap contoh-contoh kasus uji yang kita pikirkan sendiri**.
+
+Teori dari PAC Learning bisa didapatkan dari materi ini: [[PAC Learning.pdf]]
 
 Izinkan saya memperkenalkan konsep dari **PAC Learning**:
 

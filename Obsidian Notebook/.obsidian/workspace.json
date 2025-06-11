@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c893f2c7b75ecd4d",
+        "id": "45f598261b6224e8",
         "type": "tabs",
         "children": [
           {
-            "id": "63feaf789e64a0fd",
+            "id": "988941b174fb52f2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "04-Data Structure/A_Array/Latihan/07-Binary Search Rekursif pada Array.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "07-Binary Search Rekursif pada Array"
             }
           }
         ]
@@ -84,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 320.5041847229004
   },
   "right": {
     "id": "5a2e04e3f27c45d3",
@@ -296,12 +300,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "04-Data Structure/A_Array/Latihan/07-Binary Search Rekursif pada Array.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 07-Binary Search Rekursif pada Array"
             }
           }
         ]
@@ -334,55 +339,55 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "63feaf789e64a0fd",
+  "active": "988941b174fb52f2",
   "lastOpenFiles": [
-    "03-Sorting/search-Linear Search/Variasi Linear Search C++.md",
-    "Tips Trick/Konversi Tipe data di C++.md",
-    "Tips Trick/Mengambil string dari string (substr()).md",
-    "Tips Trick/Static Constructor - Leetcode trick.md",
-    "Tips Trick/Urutan Traversal DFS Selalu dari yang Terkecil.md",
-    "Tips Trick/Vector Integer ke Vector String.md",
-    "Tips Trick/For-each loop.md",
-    "Tips Trick/Inline Function.md",
-    "Tips Trick/Bypass Runtime Checker - leetcode.md",
-    "Tips Trick/Tipe data Int/Penggunaan size_t dan perbedaanya dengan Int pada Loop.md",
-    "Tips Trick/Tipe data - General/Apa itu static_cast.md",
-    "Tips Trick/Tipe data - General/C style cast VS static_cast.md",
-    "important.md",
-    "ZTemplater-exp/Penjelasan Penggunaan Templater.md",
-    "Youtube Advice/Colin Galen/The Black Box Method - How to Learn Hard Concepts Quickly.md",
-    "Youtube Advice/Colin Galen/3-Minute Mental Hack to Take Control of Your Subconscious.md",
+    "04-Data Structure/A_Array/Latihan/06-Perkalian Matriks 3×3.md",
+    "04-Data Structure/A_Array/Latihan/07-Binary Search Rekursif pada Array.md",
+    "04-Data Structure/A_Array/Latihan/05-Rotasi Melingkar (Circular Rotation).md",
+    "04-Data Structure/A_Array/Latihan/04-Transpose Matriks 3×3 In-Place.md",
+    "04-Data Structure/A_Array/Latihan/03-Merge Dua Array Terurut.md",
+    "04-Data Structure/A_Array/Latihan/02-Mencari Nilai Minimum dan Maksimum.md",
+    "04-Data Structure/A_Array/Latihan/01-Membalik STL array In-Place.md",
+    "04-Data Structure/A_Array/Array pada C++.md",
+    "04-Data Structure/A_Array/Struktur Data Array dalam C++ Konsep, Implementasi, Aplikasi, dan Fungsi.md",
+    "04-Data Structure/A_Array/Latihan",
+    "C++ Tutorial - Petani Kode/1 Pengenalan Bahasa C++ untuk Pemula.md",
+    "03-Sorting/search-Jump Search/Jump Search Algorithm.md",
     "Sliding Window Algorithm/Sliding Window Algorithm.md",
-    "Problem-Category/1 Implementation.md",
-    "LeetCode-Contest/Virtual Contest/!Link Virtual Contest.md",
-    "LeetCode-Contest/Virtual Contest/21-Agustus-2016/B_First Unique Character in a String.md",
-    "LeetCode-Contest/Virtual Contest/21-Agustus-2016/A_Lexicographical Numbers.md",
-    "LeetCode-Contest/Virtual Contest/21-Agustus-2016/!Warm Up Contest.md",
-    "Dokumentasi/Menyiapakan Environtmen C++ di VS Code.md",
+    "C++ Tutorial - Petani Kode/Zimg/pointer-array.webm",
+    "C++ Tutorial - Petani Kode/Zimg/1 - Pengenalan Bahasa C++ untuk Pemula-1.png",
+    "1 - Pengenalan Bahasa C++ untuk Pemula-8.md",
+    "C++ Tutorial - Petani Kode/Zimg",
+    "C++ Tutorial - Petani Kode/Zimg/13 Mengenal Tipe Data Union-1.png",
+    "C++ Tutorial - Petani Kode/Zimg/1 - Pengenalan Bahasa C++ untuk Pemula-8.png",
+    "1 - Pengenalan Bahasa C++ untuk Pemula-8 1.png",
+    "C++ Tutorial - Petani Kode/Zimg/1 - Pengenalan Bahasa C++ untuk Pemula-7.png",
+    "C++ Tutorial - Petani Kode/Zimg/1 - Pengenalan Bahasa C++ untuk Pemula-6.png",
+    "C++ Tutorial - Petani Kode/Zimg/1 - Pengenalan Bahasa C++ untuk Pemula-5.png",
+    "C++ Tutorial - Petani Kode/Zimg/1 - Pengenalan Bahasa C++ untuk Pemula-4.png",
+    "C++ Tutorial - Petani Kode/Zimg/1 - Pengenalan Bahasa C++ untuk Pemula-3.png",
+    "C++ Tutorial - Petani Kode/Zimg/1 - Pengenalan Bahasa C++ untuk Pemula-2.png",
+    "C++ Tutorial - Petani Kode/13 Mengenal Tipe Data Union.md",
+    "C++ Tutorial - Petani Kode/14 Memahami Pointer di C++.md",
+    "C++ Tutorial - DuniaIlkom/4. Tipe Data/Part 17 Tipe Data Array Bahasa C++.md",
+    "C++ Tutorial - Programmiz/10-Advanced Topics/C++ Assert.md",
+    "C++ Tutorial - Programmiz/10-Advanced Topics/C++ Istream.md",
+    "C++ Tutorial - Programmiz/10-Advanced Topics/C++ Buffers.md",
+    "C++ Tutorial - Programmiz/10-Advanced Topics/C++ Ostream.md",
+    "C++ Tutorial - Programmiz/10-Advanced Topics",
+    "C++ Tutorial - Programmiz",
+    "Teknik Debugging/B_Menelusuri Alur Program.md",
+    "Teknik Debugging/A_Cara Kerja Compiler & Membaca Pesan Error.md",
+    "Teori Bug dan Jenis Bug/A_Apa itu Bug.md",
+    "Teori Bug dan Jenis Bug/B_Macam dan Jenis Bug.md",
+    "Matematika/01-Bitwise Operation/GeeksforGeeks - Bitmask in C++.md",
+    "Matematika/01-Bitwise Operation/Materi Tambahan GeeksForGeeks/Ekstraksi Bit di C++.md",
+    "C++ Tutorial - DuniaIlkom/Zimg",
+    "C++ Tutorial - DuniaIlkom/9. Contoh soal dan Latihan Algoritma C++/2. Latihan Membuat Pola Angka",
+    "C++ Tutorial - DuniaIlkom/9. Contoh soal dan Latihan Algoritma C++/1. Latihan Membuat Pola Bintang",
+    "C++ Tutorial - DuniaIlkom/7. Function",
+    "C++ Tutorial - DuniaIlkom/6. Percabangan & Perulangan",
     "Canvas/01-introduction.canvas",
-    "03-Sorting/search-Linear Search/Linear Search Algorithm.md",
-    "Tips Trick/Tipe data - General",
-    "Tips Trick/Template C++/Contoh Template C++.md",
-    "Tips Trick/Template C++/Template di C++.md",
-    "Tips Trick/Template C++",
-    "Tips Trick/Tipe data Int",
-    "03-Sorting/03-Sorting.pdf",
-    "Youtube Advice/Zimg-Youtube Advice/3-Minute Mental Hack to Take Control of Your Subconscious-1.png",
-    "Youtube Advice/Zimg-Youtube Advice",
-    "Youtube Advice/Colin Galen",
-    "Youtube Advice/Zimg-Youtube Advice/3-Minute Mental Hack to Take Control of Your Subconscious-6.png",
-    "Youtube Advice/Zimg-Youtube Advice/3-Minute Mental Hack to Take Control of Your Subconscious-5.png",
-    "Youtube Advice/Zimg-Youtube Advice/3-Minute Mental Hack to Take Control of Your Subconscious-4.png",
-    "Youtube Advice/Zimg-Youtube Advice/3-Minute Mental Hack to Take Control of Your Subconscious-3.png",
-    "Youtube Advice/Zimg-Youtube Advice/3-Minute Mental Hack to Take Control of Your Subconscious-2.png",
-    "Youtube Advice",
-    "03-Sorting/A_sort-Bubble Sort/Untitled",
-    "02-Time Complexity/02-Time complexity.pdf",
-    "02-Time Complexity",
-    "04-Data Structure/Zimg-Data Structure/Pasted image 20250307182108.png",
-    "05-Complete Search/Zimg/Recursive Search Subset Algorithm-1.png",
-    "04-Data Structure/Zimg-Data Structure/Map C++-1.png",
-    "04-Data Structure/Zimg-Data Structure/C++ Deque-1.png",
     "Pohon Competitive Programming.canvas",
     "ZZZ Uncotegorized file/Big plan.canvas",
     "Mata Kuliah Terkait/Semester 1/1. Manajemen data dan Informasi/modelbisnis.canvas",

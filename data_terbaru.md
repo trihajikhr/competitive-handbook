@@ -2,6 +2,8 @@
 
 ✅ 1 - Introduction
 ✅ 2 - Time Complexity
+✅ 3 - Sortings
+
 
 ✅11-Basic of Graph
 ✅12-Graph Traversal

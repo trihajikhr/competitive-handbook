@@ -159,13 +159,15 @@ Seperti yang terlihat, elemen-elemen dalam _set_ kini dikembalikan dalam urutan 
 
 Kelas `set` di C++ menyediakan berbagai metode untuk melakukan operasi pada _set_.
 
-|Operasi|Deskripsi|
-|---|---|
-|`insert()`|Menambahkan elemen ke dalam set.|
-|`erase()`|Menghapus elemen dari set.|
-|`clear()`|Menghapus semua elemen dalam set.|
-|`empty()`|Mengecek apakah set kosong.|
-|`size()`|Mengembalikan jumlah elemen dalam set.|
+| Operasi    | Deskripsi                                                                                    |
+| ---------- | -------------------------------------------------------------------------------------------- |
+| `insert()` | Menambahkan elemen ke dalam set.                                                             |
+| `erase()`  | Menghapus elemen dari set.                                                                   |
+| `clear()`  | Menghapus semua elemen dalam set.                                                            |
+| `empty()`  | Mengecek apakah set kosong.                                                                  |
+| `size()`   | Mengembalikan jumlah elemen dalam set.                                                       |
+| `count(x)` | Mengecek, apakah nilai x ada didalam set. Mengembalikan 1 jika ada di set, dan 0 jika tidak. |
+|            |                                                                                              |
 
 ---
 
@@ -390,3 +392,50 @@ Setelah menghapus:
 - `empty()` mengembalikan `1`, menandakan set kosong
     
 - `size()` mengembalikan `0`, menandakan tidak ada elemen dalam set.
+
+## Contoh 6: Metode `count()` untuk mengecek data ke Set
+Untuk mengetahui apakah elemen `x` ada dalam set di C++, Anda dapat menggunakan fungsi `count()` dari `std::set`. Syntaxnya adalah `set.count(x)`. Fungsi ini akan mengembalikan 1 jika `x` ada di set, dan 0 jika tidak.
+
+```cpp
+#include <iostream>
+#include <set>
+
+int main() {
+    std::set<int> mySet = {1, 2, 3, 4, 5};
+    int x = 3;
+
+    if (mySet.count(x) == 1) {
+        std::cout << "Elemen " << x << " ada di set." << std::endl;
+    } else {
+        std::cout << "Elemen " << x << " tidak ada di set." << std::endl;
+    }
+
+    x = 6;
+
+    if (mySet.count(x) == 1) {
+        std::cout << "Elemen " << x << " ada di set." << std::endl;
+    } else {
+        std::cout << "Elemen " << x << " tidak ada di set." << std::endl;
+    }
+
+    return 0;
+}
+```
+
+Penjelasan:
+
+1. `#include <iostream>`: Menghubungkan header untuk operasi I/O (input/output).
+2. `#include <set>`: Menghubungkan header untuk menggunakan kelas `std::set`.
+3. `std::set<int> mySet = {1, 2, 3, 4, 5};`: Membuat sebuah set `mySet` bertipe `int` dan diinisialisasi dengan beberapa nilai.
+4. `int x = 3;`: Mendeklarasikan variabel `x` bertipe `int` dan diinisialisasi dengan nilai 3.
+5. `mySet.count(x)`: Memanggil fungsi `count()` pada set `mySet` dengan nilai `x` sebagai argumen.
+6. `if (mySet.count(x) == 1)`: Memeriksa apakah `count()` mengembalikan 1 (berarti `x` ada di set).
+7. `if (mySet.count(x) == 0)`: Memeriksa apakah `count()` mengembalikan 0 (berarti `x` tidak ada di set).
+8. `std::cout`: Menampilkan output ke layar.
+
+Maka outputnya:
+
+```
+Elemen 3 ada di set.
+Elemen 6 tidak ada di set.
+```

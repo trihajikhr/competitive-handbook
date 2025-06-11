@@ -126,7 +126,13 @@
     "debug": 114,
     "time-complexity": 115,
     "general": 116,
-    "int": 117
+    "int": 117,
+    "jump-search": 118,
+    "problem-solving": 119,
+    "bitwise": 120,
+    "bits": 121,
+    "pointer": 122,
+    "union": 123
   },
   "_version": 3
 }

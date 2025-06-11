@@ -331,6 +331,26 @@ void recursiveBubbleSort(vector<int> & arr, int n) {
 }
 ```
 
+
+Dan berikut adalah penggunaan recursive bubble Sort dengan menggunakan optimasi seperti Optimazed Bubble Sort:
+
+```cpp
+void recBubbleSort(vector<int>&arr, int n) {
+    if(n==1) return;
+    bool swapped=false;
+
+    for(int i=0;i<n-1;i++){
+        if(arr[i]> arr[i+1]){
+            swap(arr[i], arr[i+1]);
+            swapped=true;
+        }
+    }
+
+    if(swapped) recBubbleSort(arr, n-1);
+    else return;
+}
+```
+
 Fungsi `recursiveBubbleSort` pertama-tama memeriksa apakah panjang array `n` tinggal satu. Jika ya, maka pengurutan selesai. Jika belum, ia melakukan satu pass pengurutan, yaitu membandingkan dan menukar semua elemen dari indeks 0 hingga `n-2`. Kemudian fungsi ini memanggil dirinya sendiri dengan parameter `n-1` untuk mengulangi proses pada bagian array yang tersisa (karena elemen terbesar sudah berada di posisi ke-`n-1`).
 
 Dari sisi performa, Recursive Bubble Sort tetap memiliki kompleksitas waktu $O(n²)$, sama seperti versi iteratif. Namun, karena menggunakan rekursi, algoritma ini juga menambah beban pada **stack memory**, dan bisa menyebabkan **stack overflow** jika digunakan pada array yang sangat besar. Oleh karena itu, implementasi rekursif ini lebih cocok untuk pembelajaran dan bukan untuk pemrosesan data skala besar.
