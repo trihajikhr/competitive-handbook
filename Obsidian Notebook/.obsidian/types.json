@@ -19,7 +19,7 @@
     "excalidraw-font-color": "text",
     "excalidraw-border-color": "text",
     "excalidraw-css": "text",
-    "excalidraw-autoexport": "checkbox",
+    "excalidraw-autoexport": "text",
     "excalidraw-iframe-theme": "text",
     "tanggal study": "datetime",
     "total study": "number",
@@ -36,6 +36,9 @@
     "last_reviewed": "date",
     "date_solved": "datetime",
     "date_learned": "datetime",
-    "date_add": "datetime"
+    "date_add": "datetime",
+    "excalidraw-export-embed-scene": "checkbox",
+    "excalidraw-embeddable-theme": "text",
+    "excalidraw-open-md": "checkbox"
   }
 }

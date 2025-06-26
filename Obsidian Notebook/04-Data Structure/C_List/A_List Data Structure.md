@@ -2,20 +2,17 @@
 obsidianUIMode: preview
 note_type: algorithm theory
 id_algoritma: 04TH-DSLS-0001
-nama_algoritma: list data structure
+nama_algoritma: 
 kategori_algoritma: data structure
-kesulitan: 
+kesulitan: 🥉 easy
 time_complexity: 
 memory_complexity: 
 sumber: programiz.com & chatgpt.com
 date_learned: 2025-04-23T10:02:00
 tags:
-  - array
   - data-structure
   - list
 ---
-#array #data-structure #list
-
 ---
 # List C++
 

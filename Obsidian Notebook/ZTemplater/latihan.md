@@ -5,6 +5,7 @@ latihan:
 sumber: 
 tags:
   - tag
+date_learned:
 ---
 ---
 # Judul

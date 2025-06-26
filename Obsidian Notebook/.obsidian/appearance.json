@@ -3,5 +3,6 @@
     "center-canvas"
   ],
   "cssTheme": "Blue Topaz",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "showRibbon": true
 }

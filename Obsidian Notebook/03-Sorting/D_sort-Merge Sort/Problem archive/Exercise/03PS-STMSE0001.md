@@ -5,7 +5,7 @@ id_problem: 03PS-STMSE0001
 judul_problem: Implementasi dasar
 sumber: chatgpt.com
 kategori_problem: 🎯 exercise
-kesulitan: " 🥈 medium"
+kesulitan: 🥈 medium
 time_complexity: 🟤 O(n log n)
 memory_complexity: 🟠 O(n)  ✅ → Stable
 status: 🏆 solved
