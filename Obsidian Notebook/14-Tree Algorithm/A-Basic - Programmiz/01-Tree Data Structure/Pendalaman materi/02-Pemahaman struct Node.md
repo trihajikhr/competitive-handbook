@@ -7,9 +7,9 @@ tags:
   - tree-algorithm
 ---
 ---
-# 🧠 PEMAHAMAN `struct Node`
+# Pemahaman `struct Node`
 
-## 📦 Struktur dasarnya:
+## Struktur dasarnya:
 
 ```cpp
 struct Node {
@@ -25,18 +25,18 @@ struct Node {
 
 ---
 
-### 🔍 1. `struct Node`
+### 1. `struct Node`
 
 Kita sedang mendefinisikan sebuah **struktur** bernama `Node`. Dalam konteks **Tree**, satu _Node_ mewakili satu simpul tree.
 
-### 🔍 2. `int data;`
+### 2. `int data;`
 
 - Ini adalah nilai yang disimpan di node tersebut.
     
 - Bisa berupa angka, huruf, atau bahkan tipe lain — tapi saat ini kita pakai `int` supaya fokus ke struktur.
     
 
-### 🔍 3. `struct Node *left, *right;`
+### 3. `struct Node *left, *right;`
 
 - Ini adalah **pointer** ke dua child:
     
@@ -49,7 +49,7 @@ Kita sedang mendefinisikan sebuah **struktur** bernama `Node`. Dalam konteks **T
 
 > 🔁 Jadi: Node bisa menunjuk ke node lainnya → struktur ini disebut **self-referential struct**.
 
-### 🔍 4. `Node(int data)` → Constructor
+### 4. `Node(int data)` → Constructor
 
 Ini adalah **constructor**, yang digunakan saat kamu menulis `new Node(12)` misalnya.
 
@@ -69,9 +69,9 @@ Kenapa `this->data`?
 
 ---
 
-## ❓ Kenapa Harus `new Node(...)`?
+## Kenapa Harus `new Node(...)`?
 
-### 1. `new` artinya kita alokasi memori di heap
+### `new` artinya kita alokasi memori di heap
 
 - Tree bersifat **dinamis** — kita tidak tahu berapa banyak node yang dibutuhkan.
     
@@ -89,11 +89,12 @@ Artinya:
 - Buat objek `Node` di heap (bukan stack),
     
 - Dan simpan alamatnya ke pointer `root`.
-    
+
+> Ketahui perbedaan heap dan stack di: [[Apa itu Memory Heap dan Stack]]
 
 ---
 
-### ✳️ Analogi
+### Analogi
 
 Bayangkan setiap `Node` adalah **rumah**.  
 `data` = siapa yang tinggal di rumah.  
@@ -109,7 +110,7 @@ Artinya kamu membangun rumah baru untuk child kiri dan menyambungkannya ke rumah
 
 ---
 
-### 📌 Ringkasan:
+### Ringkasan:
 
 | Komponen            | Fungsi                                                    |
 | ------------------- | --------------------------------------------------------- |

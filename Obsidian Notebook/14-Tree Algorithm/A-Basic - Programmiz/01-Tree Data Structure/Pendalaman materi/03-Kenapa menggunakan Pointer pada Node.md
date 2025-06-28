@@ -8,21 +8,21 @@ tags:
 ---
 ---
 # Kenapa menggunakan Pointer pada Node
-Pertanyaanmu **sangat penting dan mendalam**! 💡  
+ 
 Ini inti dari mengapa kita selalu menggunakan **pointer (`Node*`)** dalam struktur tree di C++. Yuk kita bahas satu per satu secara logis dan mendalam — kamu akan langsung melihat kenapa ini sangat masuk akal.
 
 ---
 
-## 💬 Pertanyaan:
+## Pertanyaan:
 
 - Kenapa saat mendeklarasikan `Node`, kita menjadikannya **pointer**?
 - Kenapa parameter fungsi seperti `inorderTraversal()` juga menggunakan **pointer (`Node*`)**?
 
 ---
 
-## 🔍 1. Kenapa pakai `Node*` saat menyimpan child (`left`, `right`)
+## 1. Kenapa pakai `Node*` saat menyimpan child (`left`, `right`)
 
-### 🔧 Penjelasan teknis:
+### 🔧Penjelasan teknis:
 
 ```cpp
 struct Node {
@@ -57,7 +57,7 @@ struct Node {
 
 ---
 
-## 🔍 2. Kenapa fungsi seperti `inorderTraversal(Node*)` pakai pointer juga?
+## 2. Kenapa fungsi seperti `inorderTraversal(Node*)` pakai pointer juga?
 
 Karena kita ingin **mengakses dan memodifikasi** node asli yang ada di memori heap.
 
@@ -81,7 +81,7 @@ Alasannya:
 
 ---
 
-## 🧠 Analogi Singkat:
+## Analogi Singkat:
 
 Bayangkan kamu sedang menjelajahi rumah-rumah (node).
 
@@ -92,10 +92,38 @@ Bayangkan kamu sedang menjelajahi rumah-rumah (node).
 
 ---
 
-## 📌 Ringkasan:
+## Ringkasan:
 
 | Konteks                            | Kenapa pakai Pointer (`Node*`)                                        |
 | ---------------------------------- | --------------------------------------------------------------------- |
 | `left` dan `right` di dalam `Node` | Agar tidak terjadi rekursi tak berujung dan untuk navigasi antar node |
 | Parameter fungsi traversal         | Agar bisa membaca struktur asli dari tree yang tersimpan di heap      |
 | Saat `new Node(...)`               | Karena objek disimpan di heap, dan perlu pointer untuk mengaksesnya   |
+# Alasan Menggunakan Pointer (lanjutan)
+Pada **binary tree** (dan kebanyakan struktur data tree), kita pakai **pointer** karena beberapa alasan mendasar:
+
+## Ukuran Dinamis  
+- Tree bisa tumbuh (nambah node) atau menyusut (hapus node) kapan saja.  
+- Dengan `new` dan pointer, kita bisa mengalokasi memori di **heap** secara dinamis sesuai kebutuhan—tidak terbatas pada ukuran tetap seperti array.
+
+## Hubungan Antar Node  
+- Setiap node punya dua “jalur” (child kiri dan kanan).  
+- Pointer (`Node* left`, `Node* right`) memungkinkan satu node menyimpan **alamat** node anaknya, membentuk struktur bercabang (non­-linier) yang fleksibel.
+    
+## Rekursi & Navigasi  
+- Traversal Tree (preorder, inorder, postorder) bersifat rekursif: fungsi memanggil dirinya sendiri untuk `node->left` dan `node->right`.  
+- Tanpa pointer, kita tidak punya cara mudah untuk “lompat” ke node yang lain.
+    
+## Efisiensi Memori  
+- Jika sebuah node tidak punya child kiri/kanan, pointer-nya cukup di-set ke `nullptr`—tidak ada alokasi ekstra.  
+- Berbeda dengan array 2D atau matriks, yang akan membuang ruang untuk posisi anak yang kosong.
+
+## Representasi Umum  
+- Banyak algoritma tree (misalnya pencarian di BST, heap, segment tree) mengharuskan perpindahan langsung ke anak atau parent. Pointer adalah cara paling langsung dan efisien untuk itu.
+
+
+---
+
+**Singkatnya:**  
+
+Pointer membuat **struktur Tree** menjadi fleksibel, dinamis, dan mudah di­-traverse secara rekursif—cocok untuk semua kebutuhan algoritma dan aplikasi yang melibatkan tree.

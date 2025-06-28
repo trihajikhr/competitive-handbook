@@ -4,5 +4,3 @@ Namun, saat aku berhadapan dengan algoritma **greedy** dan **backtracking**, aku
 
 Dari situ aku menyimpulkan bahwa untuk mempelajari algoritma seperti greedy dan backtracking, **menghafal tidak akan efektif**—bahkan bisa sia-sia. Jauh lebih penting untuk benar-benar **memahami prinsip kerjanya**, dan cara terbaik untuk mencapainya adalah dengan **berlatih menyelesaikan berbagai soal** yang dapat diselesaikan dengan pendekatan tersebut.
 
-
-

@@ -418,5 +418,5 @@ Traversal Postorder 5->6->12->9->1->
 ---
 
 > Materi tambahan:
-> - [[PEMAHAMAN struct Node]]
-> - [[Kenapa menggunakan Pointer pada Node]] 
+> - [[02-Pemahaman struct Node]]
+> - [[03-Kenapa menggunakan Pointer pada Node]] 
