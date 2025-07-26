@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiTerminalBoxFill",
       "📰",
       "RiNewspaperFill",
       "LiDivide",
-      "RiStackLine",
-      "LiSwords"
+      "RiStackLine"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -227,5 +227,6 @@
   "Matematika/Divisibility Rule": "LiDivide",
   "USACO Guide/1-General/A-Getting Started": "RiNewspaperFill",
   "USACO Guide/1-General/C-General Resource": "RiNewspaperFill",
-  "DATA DOKUMENTASI": "RiNewspaperFill"
+  "DATA DOKUMENTASI": "RiNewspaperFill",
+  "DATA DOKUMENTASI/Neovim Terminal Setup": "RiTerminalBoxFill"
 }

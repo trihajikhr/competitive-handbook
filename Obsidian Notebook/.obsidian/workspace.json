@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DATA DOKUMENTASI/Neovim CP C++ Setup/01-Setup Neovim untuk C++ Competitive Programmer.md",
+                "file": "DATA DOKUMENTASI/Neovim Terminal Setup/02-Setup Terminal Untuk Neovim.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Setup Neovim untuk C++ Competitive Programmer"
+              "title": "02-Setup Terminal Untuk Neovim"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.50499725341797
+    "width": 574.504997253418
   },
   "right": {
     "id": "5a2e04e3f27c45d3",
@@ -167,7 +167,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "7cf76667223e7faa",
@@ -180,20 +180,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DATA DOKUMENTASI/Neovim CP C++ Setup/01-Setup Neovim untuk C++ Competitive Programmer.md",
+                "file": "important.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01-Setup Neovim untuk C++ Competitive Programmer"
+              "title": "Outline of important"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 282.5
+    "width": 282.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,22 +214,22 @@
   },
   "active": "9069d6ebf9f9ed01",
   "lastOpenFiles": [
-    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/llvm-site-3.png",
-    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/llvm-site.png",
-    "DATA DOKUMENTASI/Neovim CP C++ Setup/01-Setup Neovim untuk C++ Competitive Programmer.md",
-    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/git-site.png",
-    "01-Introduction/04-Optimalisasi proses Input Output.md",
-    "DATA DOKUMENTASI/Neovim CP C++ Setup/02-Setup Terminal Untuk Neovim.md",
-    "02-Setup Terminal Untuk Neovim-36.png",
-    "02-Setup Terminal Untuk Neovim-35.png",
-    "02-Setup Terminal Untuk Neovim-34.png",
-    "02-Setup Terminal Untuk Neovim-33.png",
-    "02-Setup Terminal Untuk Neovim-32.png",
-    "02-Setup Terminal Untuk Neovim-31.png",
-    "02-Setup Terminal Untuk Neovim-30.png",
-    "02-Setup Terminal Untuk Neovim-29.png",
-    "Tentang template syntaxnya apa aja.md",
+    "DATA DOKUMENTASI/Neovim Terminal Setup/img/02-Setup Terminal Untuk Neovim-47.png",
+    "DATA DOKUMENTASI/Neovim Terminal Setup/img/02-Setup Terminal Untuk Neovim-46.png",
+    "DATA DOKUMENTASI/Neovim Terminal Setup/02-Setup Terminal Untuk Neovim.md",
     "important.md",
+    "DATA DOKUMENTASI/Neovim Terminal Setup/img/02-Setup Terminal Untuk Neovim-1.png",
+    "DATA DOKUMENTASI/Neovim Terminal Setup/img",
+    "DATA DOKUMENTASI/Neovim Terminal Setup/img/02-Setup Terminal Untuk Neovim-45.png",
+    "DATA DOKUMENTASI/Neovim Terminal Setup/img/02-Setup Terminal Untuk Neovim-44.png",
+    "DATA DOKUMENTASI/Neovim Terminal Setup/img/02-Setup Terminal Untuk Neovim-43.png",
+    "DATA DOKUMENTASI/Neovim Terminal Setup/img/02-Setup Terminal Untuk Neovim-42.png",
+    "DATA DOKUMENTASI/Neovim Terminal Setup/img/02-Setup Terminal Untuk Neovim-41.png",
+    "DATA DOKUMENTASI/Neovim Terminal Setup/img/02-Setup Terminal Untuk Neovim-40.png",
+    "DATA DOKUMENTASI/Neovim Terminal Setup",
+    "DATA DOKUMENTASI/Neovim CP C++ Setup/01-Setup Neovim untuk C++ Competitive Programmer.md",
+    "01-Introduction/04-Optimalisasi proses Input Output.md",
+    "Tentang template syntaxnya apa aja.md",
     "Git merge.md",
     "Apa itu Memory Heap dan Stack.md",
     "DATA DOKUMENTASI/Neovim CP C++ Setup/img/20250725-1050-07.2863843.mp4",
@@ -257,8 +258,6 @@
     "14-Tree Algorithm/A-Basic - Programmiz/02-Tree Traversal/Pendalaman Materi/05-Chaining dengan bantuan Checkpoint Tree.md",
     "14-Tree Algorithm/A-Basic - Programmiz/02-Tree Traversal/Pendalaman Materi/04-Tree dengan shared_ptr.md",
     "14-Tree Algorithm/A-Basic - Programmiz/02-Tree Traversal/Latihan/25-Frekuensi Tertinggi Digit Terakhir.md",
-    "USACO Guide/1-General/A-Getting Started/Principles of Algorithmic Problem Solving.pdf",
-    "USACO Guide/1-General/A-Getting Started/An introduction to USA computing olympiad.pdf",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Canvas/01-introduction.canvas",
