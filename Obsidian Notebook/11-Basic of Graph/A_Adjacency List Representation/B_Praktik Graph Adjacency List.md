@@ -10,10 +10,10 @@ memory_complexity:
 sumber: "buku: CP handbook by Antti Laaksonen & chatgpt.com"
 date_learned: 2025-04-26T21:33:00
 tags:
-  - graph
+  - graph-algorithm
   - graph-adjacency-list
 ---
-#graph  #graph-adjacency-list 
+#graph-algorithm  #graph-adjacency-list 
 
 ---
 # Praktik Adjacency List

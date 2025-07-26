@@ -39,6 +39,7 @@
     "date_add": "datetime",
     "excalidraw-export-embed-scene": "checkbox",
     "excalidraw-embeddable-theme": "text",
-    "excalidraw-open-md": "checkbox"
+    "excalidraw-open-md": "checkbox",
+    "sumber": "multitext"
   }
 }

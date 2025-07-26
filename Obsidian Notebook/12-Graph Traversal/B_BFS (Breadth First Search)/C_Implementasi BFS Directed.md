@@ -10,11 +10,11 @@ memory_complexity:
 sumber: "buku: CP handbook by Antti Laaksonen & geeksforgeeks.com"
 date_learned: 2025-05-01T18:57:00
 tags:
-  - graph
+  - graph-algorithm
   - graph-BFS
   - graph-traversal
 ---
-#graph #graph-BFS #graph-traversal 
+#graph-algorithm #graph-BFS #graph-traversal 
 
 ---
 # Implementasi BFS Directed

@@ -10,11 +10,11 @@ memory_complexity:
 sumber: "buku: CP handbook by Antti Laaksonen & programmiz.com & geeksforgeeks.com & chatgpt.com"
 date_learned: 2025-05-03T19:51:00
 tags:
-  - graph
+  - graph-algorithm
   - depth-first-search
   - graph-traversal
 ---
-#graph #depth-first-search #graph-traversal 
+#graph-algorithm #depth-first-search #graph-traversal 
 
 ---
 # Undirected - Connected

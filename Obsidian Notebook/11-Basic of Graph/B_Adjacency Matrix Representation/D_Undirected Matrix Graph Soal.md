@@ -10,10 +10,10 @@ memory_complexity:
 sumber: "buku: CP handbook by Antti Laaksonen & chatgpt.com"
 date_learned: 2025-04-28T21:42:00
 tags:
-  - graph
+  - graph-algorithm
   - graph-matrix
 ---
-#graph #graph-matrix 
+#graph-algorithm #graph-matrix 
 
 ---
 # Soal 1 | Undirected Graph (Tanpa Bobot)

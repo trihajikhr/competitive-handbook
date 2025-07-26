@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7b63c2cb65dd1e9d",
+        "id": "acbdd603eaaaff46",
         "type": "tabs",
         "children": [
           {
-            "id": "203b47d7e69930e4",
+            "id": "9069d6ebf9f9ed01",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14-Tree Algorithm/A-Basic - Programmiz/01-Tree Data Structure/Pendalaman materi/(CEK) 08-Struct Node Member Function.md",
+                "file": "DATA DOKUMENTASI/Neovim CP C++ Setup/README.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(CEK) 08-Struct Node Member Function"
+              "title": "README"
             }
           }
         ]
@@ -53,11 +53,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
+                "query": "divisibility",
+                "matchingCase": true,
+                "explainSearch": true,
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 390.5041847229004
+    "width": 314.50499725341797
   },
   "right": {
     "id": "5a2e04e3f27c45d3",
@@ -87,7 +87,7 @@
       {
         "id": "8db22185f832f694",
         "type": "tabs",
-        "dimension": 28.64693446088795,
+        "dimension": 42.66409266409266,
         "children": [
           {
             "id": "ddbc58e96e17e8dc",
@@ -129,7 +129,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
@@ -155,6 +155,16 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "085bcb1cec5430c0",
+            "type": "leaf",
+            "state": {
+              "type": "tags-overview-view",
+              "state": {},
+              "icon": "tag",
+              "title": "Tags overview"
+            }
           }
         ],
         "currentTab": 2
@@ -162,7 +172,7 @@
       {
         "id": "7cf76667223e7faa",
         "type": "tabs",
-        "dimension": 71.35306553911205,
+        "dimension": 57.33590733590734,
         "children": [
           {
             "id": "b926b8ed78989612",
@@ -170,21 +180,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "14-Tree Algorithm/A-Basic - Programmiz/01-Tree Data Structure/Pendalaman materi/(CEK) 08-Struct Node Member Function.md",
+                "file": "DATA DOKUMENTASI/Neovim CP C++ Setup/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of (CEK) 08-Struct Node Member Function"
+              "title": "Outline of README"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 282.5,
-    "collapsed": true
+    "width": 282.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,55 +211,54 @@
       "open-gate:ChatGPT": false
     }
   },
-  "active": "203b47d7e69930e4",
+  "active": "9069d6ebf9f9ed01",
   "lastOpenFiles": [
-    "14-Tree Algorithm/A-Basic - Programmiz/01-Tree Data Structure/Pendalaman materi/12-const didepan atau const dibelakang.md",
+    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/README-28.png",
+    "DATA DOKUMENTASI/Neovim CP C++ Setup/README.md",
     "Apa itu Memory Heap dan Stack.md",
-    "Algoeiag.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/01-Tree Data Structure/Pendalaman materi/10-Resiko Memory Leak Pada Tree.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/03 - Binary Tree.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/01-Tree Data Structure/Pendalaman materi/(CEK) 08-Struct Node Member Function.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/01-Tree Data Structure/Pendalaman materi/11-Unique_ptr pada Tree.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/01-Tree Data Structure/01 - Tree Data Structure.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/02-Tree Traversal/02 - Tree Traversal - inorder, preorder and postorder.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/01-Tree Data Structure/Pendalaman materi/09-Membangun Tree Dari Inputan Array.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/09 - AVL Tree.md",
+    "Git merge.md",
     "important.md",
-    "ZTemplater/Algoritma.md",
-    "ZTemplater/Test Case.md",
-    "ZTemplater/latihan.md",
-    "ZTemplater/Dokumentasi.md",
-    "04-Data Structure/A-Array/Latihan/02-Mencari Nilai Minimum dan Maksimum.md",
-    "Teori Bug dan Jenis Bug/A_Apa itu Bug.md",
+    "Input & Output-1.png",
+    "Linked list - Linked list Data Structure-1.png",
+    "Linked list - Linked list Data Structure-2.png",
+    "Tentang template syntaxnya apa aja.md",
+    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/Screenshot 2025-07-25 182917.png",
+    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/Screenshot 2025-07-25 104850.png",
+    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/scoop-img.png",
+    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/20250725-1050-07.2863843.mp4",
+    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/20250726-0547-21.6696660.mp4",
+    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/20250726-0541-10.5652142.mp4",
+    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/20250726-0441-23.4704168.mp4",
+    "README-29.png",
+    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/README-27.png",
+    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/README-26.png",
+    "DATA DOKUMENTASI/Neovim CP C++ Setup",
+    "DATA DOKUMENTASI",
+    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/20250725-1452-18.6399733.mp4",
+    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/15-Total Nilai pada Jalur Diameter Binary Tree.md",
+    "DATA DOKUMENTASI/Neovim CP C++ Setup/img",
+    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/14-Lowest Common Ancestor.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/13-Diameter of Tree.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/12-Cari Node yang Jaraknya K dari Daun.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/11-Jumlahkan Leaf Terdangkal.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/10-Jumlahkan Semua Daun di Level Tertinggi.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/09-Cari Jalur dari Root ke Node Tertentu.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/08-Jalur Bernilai Maksimum dari Root ke Daun.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/07-Rantai Penurun Nilai dari Root ke Daun.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/06-Mirror Tree pada Perfect Binary Tree.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/05-Node Kakek dan Cucu-cucunya.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/04-Subtree Total Sama dengan Nilai Node.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/03-Like Child Like Parent.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/02-Menampilkan Node dengan Satu Anak.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/01-Menampilkan Node dengan Tepat Dua Anak.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/02-Tree Traversal/Pendalaman Materi/05-Chaining dengan bantuan Checkpoint Tree.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/02-Tree Traversal/Pendalaman Materi/04-Tree dengan shared_ptr.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/02-Tree Traversal/Latihan/25-Frekuensi Tertinggi Digit Terakhir.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/02-Tree Traversal/Latihan/24-Digit Terakhirnya Sama dengan Root.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/02-Tree Traversal/Latihan/23-Semua Node di Level Tertentu Genap.md",
+    "USACO Guide/1-General/A-Getting Started/Principles of Algorithmic Problem Solving.pdf",
+    "USACO Guide/1-General/A-Getting Started/An introduction to USA computing olympiad.pdf",
     "Untitled.canvas",
-    "Excel 2025-06-28 16.42.53.univer.md",
-    "ZTemplater/Tips trick.md",
-    "ZTemplater/Problem set.md",
-    "06-Greedy Algorithm/Greedy Algorithm.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/01-Tree Data Structure/Pendalaman materi/01-Pengantar dan Terminologi Tree.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/01-Tree Data Structure/Pendalaman materi/02-Pemahaman struct Node.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/01-Tree Data Structure/Latihan/01-Binary Tree dari Array.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/02-Tree Traversal/Latihan/01-Preorder Traversal.md",
-    "13-Shortest-Paths/13-Shortest paths.pdf",
-    "14-Tree Algorithm/14-Tree algorithm.pdf",
-    "14-Tree Algorithm/A-Basic - Programmiz/01-Tree Data Structure/Latihan",
-    "14-Tree Algorithm/A-Basic - Programmiz/01-Tree Data Structure",
-    "14-Tree Algorithm/A-Basic - Programmiz/02-Tree Traversal",
-    "14-Tree Algorithm/Zimg/Tree Data Structure-1.png",
-    "14-Tree Algorithm/Zimg/01 - B-tree-1.png",
-    "14-Tree Algorithm/Zimg",
-    "14-Tree Algorithm/A-Basic - Programmiz/02-Tree Traversal/Latihan",
-    "14-Tree Algorithm/A-Basic - Programmiz/01-Tree Data Structure/Pendalaman materi",
-    "14-Tree Algorithm/Zimg/09 - Deletion From a Red-Black Tree-15.png",
-    "14-Tree Algorithm/Zimg/09 - Deletion From a Red-Black Tree-14.png",
-    "14-Tree Algorithm/Zimg/09 - Deletion From a Red-Black Tree-13.png",
-    "14-Tree Algorithm/Zimg/09 - Deletion From a Red-Black Tree-12.png",
-    "14-Tree Algorithm/Zimg/09 - Deletion From a Red-Black Tree-11.png",
-    "14-Tree Algorithm/Zimg/09 - Deletion From a Red-Black Tree-10.png",
-    "14-Tree Algorithm/Zimg/09 - Deletion From a Red-Black Tree-9.png",
-    "14-Tree Algorithm/Zimg/09 - Deletion From a Red-Black Tree-8.png",
-    "14-Tree Algorithm/B-Medium - Programmiz",
-    "14-Tree Algorithm/A-Basic - Programmiz",
     "Untitled 1.canvas",
     "Canvas/01-introduction.canvas",
     "Pohon Competitive Programming.canvas",

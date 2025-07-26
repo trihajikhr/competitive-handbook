@@ -4,12 +4,12 @@ note_type: tips trick
 tips_trick: DFS Traversal
 sumber: "buku: CP handbook by Antti Laaksonen & chatgpt.com"
 tags:
-  - graph
+  - graph-algorithm
   - graph-traversal
   - depth-first-search
   - breadth-first-search
 ---
-#graph #graph-traversal #depth-first-search #breadth-first-search 
+#graph-algorithm #graph-traversal #depth-first-search #breadth-first-search 
 
 ---
 # Urutan Traversal DFS Selalu dari yang Terkecil

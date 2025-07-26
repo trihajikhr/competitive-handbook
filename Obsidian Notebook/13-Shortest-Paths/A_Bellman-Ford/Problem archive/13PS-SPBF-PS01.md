@@ -12,7 +12,7 @@ status: ❌ unsolved ⏳ progress 🏆 solved
 date_solved: 2025-04-17T15:59:00
 pendekatan: bellman ford algorithm
 tags:
-  - graph
+  - graph-algorithm
   - shortest-paths
   - bellman-ford
   - heap
@@ -22,7 +22,7 @@ tags:
 ---
 Link problem: [Cheapest Flights Within K Stops - LeetCode](https://leetcode.com/problems/cheapest-flights-within-k-stops/description/)
 
-#graph #shortest-paths #bellman-ford #dynamic-programming #heap #depth-first-search #breadth-first-search
+#graph-algorithm #shortest-paths #bellman-ford #dynamic-programming #heap #depth-first-search #breadth-first-search
 
 ---
 # Penerbangan termurah dengan K stop

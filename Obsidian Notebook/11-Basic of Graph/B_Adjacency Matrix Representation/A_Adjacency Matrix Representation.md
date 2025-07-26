@@ -10,10 +10,10 @@ memory_complexity:
 sumber: "buku: CP handbook by Antti Laaksonen"
 date_learned: 2025-04-28T20:57:00
 tags:
-  - graph
+  - graph-algorithm
   - graph-matrix
 ---
-#graph #graph-matrix
+#graph-algorithm #graph-matrix
 
 ---
 # Adjacency Matrix Representation

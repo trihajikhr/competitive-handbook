@@ -10,12 +10,12 @@ memory_complexity:
 sumber: "buku: CP handbook by Antti Laaksonen & programmiz.com & geeksforgeeks.com & chatgpt.com"
 date_learned: 2025-05-04T21:57:00
 tags:
-  - graph
+  - graph-algorithm
   - shortest-paths
   - SPFA
   - bellman-ford
 ---
-#graph #shortest-paths #SPFA #bellman-ford 
+#graph-algorithm #shortest-paths #SPFA #bellman-ford 
 
 ---
 # Variasi 1 | Dengan Struct

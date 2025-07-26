@@ -10,11 +10,11 @@ memory_complexity:
 sumber: "buku: CP handbook by Antti Laaksonen & w3shools.com"
 date_learned: 2025-04-30T18:46:00
 tags:
-  - graph
+  - graph-algorithm
   - graph-traversal
   - graph-DFS
 ---
-#graph #graph-traversal #graph-DFS
+#graph-algorithm #graph-traversal #graph-DFS
 
 ---
 Bab ini membahas dua algoritma dasar pada graf: _depth-first search_ dan _breadth-first search_. Kedua algoritma ini diberikan sebuah _starting node_ dalam graf dan mengunjungi semua node yang dapat dicapai dari _starting node_. Perbedaan utama antara kedua algoritma ini adalah urutan dalam mengunjungi node-node tersebut.

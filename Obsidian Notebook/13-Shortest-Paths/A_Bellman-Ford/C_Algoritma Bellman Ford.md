@@ -10,11 +10,11 @@ memory_complexity:
 sumber: "buku: CP handbook by Antti Laaksonen & programmiz.com & geeksforgeeks.com & chatgpt.com"
 date_learned: 2025-05-04T12:54:00
 tags:
-  - graph
+  - graph-algorithm
   - shortest-paths
   - bellman-ford
 ---
-#graph #shortest-paths #bellman-ford 
+#graph-algorithm #shortest-paths #bellman-ford 
 
 ---
 # Algoritma Bellman–Ford

@@ -10,10 +10,10 @@ memory_complexity:
 sumber: "buku: CP handbook by Antti Laaksonen & chatgpt.com"
 date_learned: 2025-04-28T19:36:00
 tags:
-  - graph
+  - graph-algorithm
   - graph-adjacency-list
 ---
-#graph #graph-adjacency-list 
+#graph-algorithm #graph-adjacency-list 
 
 ---
 # ✏️ Tantangan 1: "Kota dengan Teman Terbanyak"

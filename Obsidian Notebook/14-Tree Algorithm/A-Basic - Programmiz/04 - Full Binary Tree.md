@@ -63,9 +63,6 @@ Berikut beberapa sifat penting (teorema) dari **full binary tree**:
 ## Contoh implementasi dalam kode
 
 ```cpp
-Berikut adalah **terjemahan komentar** dalam kode C++ tersebut ke dalam bahasa Indonesia, tanpa mengubah kode program:
-
-```cpp
 // Memeriksa apakah suatu binary tree merupakan full binary tree dalam C++
 
 #include <iostream>

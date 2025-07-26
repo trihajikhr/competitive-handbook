@@ -10,11 +10,11 @@ memory_complexity:
 sumber: "buku: CP handbook by Antti Laaksonen & geeksforgeeks.com"
 date_learned: 2025-04-30T21:42:00
 tags:
-  - graph
+  - graph-algorithm
   - graph-traversal
   - graph-DFS
 ---
-#graph #graph-traversal #graph-DFS 
+#graph-algorithm #graph-traversal #graph-DFS 
 
 ---
 # Implementasi DFS Undirected

@@ -10,10 +10,10 @@ memory_complexity:
 sumber: "buku: CP handbook by Antti Laaksonen & chatgpt.com"
 date_learned: 2025-04-29T16:34:00
 tags:
-  - graph
+  - graph-algorithm
   - graph-edge-list
 ---
-#graph #graph-edge-list 
+#graph-algorithm #graph-edge-list 
 
 ---
 # 🔹 Soal 1: Directed Unweighted Graph

@@ -142,7 +142,19 @@
     "excalidraw": 130,
     "tree-algorithm": 131,
     "tree-data-structure": 132,
-    "memory": 133
+    "memory": 133,
+    "Soal": 134,
+    "War-State": 135,
+    "graph-algorithm": 136,
+    "linked-list": 137,
+    "chatg": 138,
+    "general-usaco": 139,
+    "practice": 140,
+    "contest-strategy": 141,
+    "gemastik": 142,
+    "neovim": 143,
+    "vim": 144,
+    "lazyvim": 145
   },
   "_version": 3
 }
