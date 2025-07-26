@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DATA DOKUMENTASI/Neovim CP C++ Setup/README.md",
+                "file": "DATA DOKUMENTASI/Neovim CP C++ Setup/01-Setup Neovim untuk C++ Competitive Programmer.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "01-Setup Neovim untuk C++ Competitive Programmer"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "divisibility",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -180,13 +180,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DATA DOKUMENTASI/Neovim CP C++ Setup/README.md",
+                "file": "DATA DOKUMENTASI/Neovim CP C++ Setup/01-Setup Neovim untuk C++ Competitive Programmer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of 01-Setup Neovim untuk C++ Competitive Programmer"
             }
           }
         ]
@@ -213,25 +213,28 @@
   },
   "active": "9069d6ebf9f9ed01",
   "lastOpenFiles": [
-    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/README-28.png",
-    "DATA DOKUMENTASI/Neovim CP C++ Setup/README.md",
-    "Apa itu Memory Heap dan Stack.md",
-    "Git merge.md",
-    "important.md",
-    "Input & Output-1.png",
-    "Linked list - Linked list Data Structure-1.png",
-    "Linked list - Linked list Data Structure-2.png",
+    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/llvm-site-3.png",
+    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/llvm-site.png",
+    "DATA DOKUMENTASI/Neovim CP C++ Setup/01-Setup Neovim untuk C++ Competitive Programmer.md",
+    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/git-site.png",
+    "01-Introduction/04-Optimalisasi proses Input Output.md",
+    "DATA DOKUMENTASI/Neovim CP C++ Setup/02-Setup Terminal Untuk Neovim.md",
+    "02-Setup Terminal Untuk Neovim-36.png",
+    "02-Setup Terminal Untuk Neovim-35.png",
+    "02-Setup Terminal Untuk Neovim-34.png",
+    "02-Setup Terminal Untuk Neovim-33.png",
+    "02-Setup Terminal Untuk Neovim-32.png",
+    "02-Setup Terminal Untuk Neovim-31.png",
+    "02-Setup Terminal Untuk Neovim-30.png",
+    "02-Setup Terminal Untuk Neovim-29.png",
     "Tentang template syntaxnya apa aja.md",
-    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/Screenshot 2025-07-25 182917.png",
-    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/Screenshot 2025-07-25 104850.png",
-    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/scoop-img.png",
+    "important.md",
+    "Git merge.md",
+    "Apa itu Memory Heap dan Stack.md",
     "DATA DOKUMENTASI/Neovim CP C++ Setup/img/20250725-1050-07.2863843.mp4",
     "DATA DOKUMENTASI/Neovim CP C++ Setup/img/20250726-0547-21.6696660.mp4",
     "DATA DOKUMENTASI/Neovim CP C++ Setup/img/20250726-0541-10.5652142.mp4",
     "DATA DOKUMENTASI/Neovim CP C++ Setup/img/20250726-0441-23.4704168.mp4",
-    "README-29.png",
-    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/README-27.png",
-    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/README-26.png",
     "DATA DOKUMENTASI/Neovim CP C++ Setup",
     "DATA DOKUMENTASI",
     "DATA DOKUMENTASI/Neovim CP C++ Setup/img/20250725-1452-18.6399733.mp4",
@@ -254,8 +257,6 @@
     "14-Tree Algorithm/A-Basic - Programmiz/02-Tree Traversal/Pendalaman Materi/05-Chaining dengan bantuan Checkpoint Tree.md",
     "14-Tree Algorithm/A-Basic - Programmiz/02-Tree Traversal/Pendalaman Materi/04-Tree dengan shared_ptr.md",
     "14-Tree Algorithm/A-Basic - Programmiz/02-Tree Traversal/Latihan/25-Frekuensi Tertinggi Digit Terakhir.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/02-Tree Traversal/Latihan/24-Digit Terakhirnya Sama dengan Root.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/02-Tree Traversal/Latihan/23-Semua Node di Level Tertentu Genap.md",
     "USACO Guide/1-General/A-Getting Started/Principles of Algorithmic Problem Solving.pdf",
     "USACO Guide/1-General/A-Getting Started/An introduction to USA computing olympiad.pdf",
     "Untitled.canvas",

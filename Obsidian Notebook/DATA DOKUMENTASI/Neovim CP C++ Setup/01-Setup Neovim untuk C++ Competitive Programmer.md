@@ -1,9 +1,9 @@
 ---
-obsidianUIMode: preview
+obsidianUIMode: 
 note_type: Dokumentasi
-judul_dokumentasi: Seeing Neovim untuk C++ Competitive Programmer
+judul_dokumentasi: Setup Neovim untuk C++ Competitive Programmer
 date_add: 2025-07-23T23:10:00
-status_dokumentasi: ✅Finish ❌Not-Finish
+status_dokumentasi: ✅Finish
 tags:
   - neovim
   - vim
@@ -36,8 +36,6 @@ Neovim dikembangkan untuk:
 ### 🚀 Cocok Untuk Siapa?
 - Cocok banget buat programmer yang suka kerja cepat, efisien, dan dengan keyboard-centric.
 - Bagi pengguna Vim yang ingin fitur modern seperti autocompletion dan debugging, Neovim adalah upgrade terbaik.
-
-Tentu! Berikut contoh penjelasan untuk README-mu yang menjelaskan **kenapa Neovim sangat cocok untuk Competitive Programmer**, dan **kenapa dia sangat cepat**:
 
 ---
 <br/>
@@ -112,7 +110,8 @@ Dengan Scoop, kamu bisa install aplikasi terminal (seperti neovim, git, node, dl
 ```bash
 scoop install neovim
 ```
-Kenapa Kita Pakai Scoop untuk Install Neovim?
+
+Kenapa kita pakai scoop untuk snstall Neovim?
 Karena:
 - 📦 Mudah & cepat: Tidak perlu cari-cari file .exe di internet.
 - 🚫 Tanpa bloatware: Tidak ada iklan, bundling, atau embel-embel lain.
@@ -127,9 +126,12 @@ scoop install gcc python git
 
 Nah, cara install scoop sendiri mudah, kita cukup pergi ke situs resmi dari scoop, yaitu [scoop.sh](https://scoop.sh/), lalu disana akan diberikan syntax yang perlu kita copy-paste ke terminal kita, untuk memasangnya. 
 
-![[scoop-img.png]]
+![[img/nvim-setup.png]]
 
-Lebih baik kunjungi situs resmi jika ada perubahan! Syntaxnya adalah seperti ini:
+
+> ⚠️ Lebih baik kunjungi situs resmi jika ada perubahan! 
+
+Syntax yang perlu kita copy adalah seperti ini:
 
 ```bash
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
@@ -168,7 +170,7 @@ Apa yang dilakukan Git?
 - Bekerja secara kolaboratif (bisa kerja bareng tim tanpa konflik).
 - Mendukung backup ke layanan seperti GitHub (kode kamu aman di cloud).
 
-Analogi Sederhana. Bayangkan kamu sedang menulis dokumen skripsi:
+Analogi sederhana, bayangkan kamu sedang menulis dokumen skripsi:
 
 - Tanpa Git: kamu simpan file seperti `skripsi-final-v3-fix-final-REVISI-BENAR.docx`.
 - Dengan Git: kamu hanya punya 1 file, tapi bisa **lihat semua revisi sebelumnya**, **balik ke versi tertentu**, bahkan **lihat siapa ubah apa**.
@@ -198,9 +200,9 @@ scoop install git
 
 Namun karena ada banyak konfigurasi yang perlu dilakukan ketika menginstall git, lebih baik lakukan penginstalan manual dengan cara menginstall file zip nya di situs resminya.
 
-![[README-4.png]]
+![[img/git-site.png]]
 
-Jika proses instalasi sudah selesai, kita cek terlebih daulu di terminal kita, atau pastikan kita bisa membuka git bash di opsi terminal. Ketikan perintah berikut:
+Jika proses instalasi sudah selesai, kita cek terlebih dahulu di terminal kita, atau pastikan kita bisa membuka git bash di opsi terminal. Ketikan perintah berikut:
 
 ```bash
 git --version
@@ -388,15 +390,15 @@ Kalau kamu ingin rekomendasi:
 ### 🖥️ Instalasi LLVM 
 Untuk menginstall LLVM, kita bisa masuk ke situs resminya, yaitu [LLVM](https://releases.llvm.org/download.html). 
 
-![[README-7.png]]
+![[img/llvm-site.png]]
 
 Dan kita akan diarahkan ke situs downloadnya yang berada di repository github [llvm-project/release](https://github.com/llvm/llvm-project/releases). 
 
-![[README-5.png]]
+![[img/llvm-site-2.png]]
 
-Scrool kebawah, dan kamu akan mendapatkan banyak vesi unudhan yang bisa dipilih:
+Scrool kebawah, dan kamu akan mendapatkan banyak vesi unduhan yang bisa dipilih:
 
-![[README-6.png]]
+![[img/llvm-site-3.png]]
 
 Atau, jika ingin cepat, seperti biasa 😊, lakukan via scoop, dengan cara mengetikan ini diterminal:
 
@@ -478,16 +480,16 @@ Kalau kamu ingin download GCC secara manual lewat web, kamu bisa melakukannya �
 
 Untuk bisa mengunduhnya, bisa masuk ke situs resmi dari [mingw-w64](https://www.mingw-w64.org/):
 
-![[README-8.png]]
+![[img/mingw-gcc.png]]
 
 
 Dan lalu masuk ke menu [download](https://www.mingw-w64.org/downloads/):
 
-![[README-9.png]]
+![[img/mingw-gcc-2.png]]
 
 Atau, jika kamu sedikit bingung dengan navigasi dari situs ini, bisa kamu langsung unduh dari situs [SourceForge](https://sourceforge.net/projects/mingw-w64/) berikut:
 
-![[README-10.png]]
+![[img/mingw-gcc-3.png]]
 
 Setelah melakukan pengunduhan, install GCC tersebut dengan cara pemasangan pada umumnya.
 
@@ -522,9 +524,9 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 Ada juga alternatif lain dalam menginstall Alternatif Lain - MSYS2. Kalau kamu lebih advanced dan ingin ekosistem UNIX-like di Windows, kamu bisa pakai [MSYS2](https://www.msys2.org/):
 
-![[README-11.png]]
+![[img/msys2.png]]
 
-Ikuti panduan cara install GCC yang mudah diikuti disini. Intinya, setelah berhasil memasang MSYS2, kita jalankan perintah berikut di terminalnya:
+Ikuti panduan cara install GCC yang mudah diikuti di situs ini. Intinya, setelah berhasil memasang MSYS2, kita jalankan perintah berikut di terminalnya:
 
 ```bash
 pacman -S mingw-w64-x86_64-gcc
@@ -544,15 +546,15 @@ scoop install neovim
 
 Gambar berikut menunjukan proses pemasangan neovim berhasil:
 
-![[neovim-install-img.png]]
+![[img/neovim-install-img.png]]
 
 ---
 <br/>
 
 # Instalasi Plugins Awal Neovim
-Kita perlu tahu terlebih dahulu, bahwa saat kita menginstal neovim dari scoop, maka neovim kita masih kosong, default, tidak ada konfigurasi apapun, atau sebutanya "*plain neovim*". Beberapa mungkin tidak masalah dengan neovim tanpa konfigurasi ini. Tetapi, seperti halnya linux dengan banyak sekali distronya, neovim juga memiliki beberapa distronya sendiri, ini disebut dengan **Neovim distribution**.
+Kita perlu tahu terlebih dahulu, bahwa saat kita menginstal neovim dari scoop, maka neovim kita masih kosong, default, tidak ada konfigurasi apapun, atau sebutannya "*plain neovim*". Beberapa mungkin tidak masalah dengan neovim tanpa konfigurasi ini. Tetapi, seperti halnya linux dengan banyak sekali distronya, neovim juga memiliki beberapa distronya sendiri, ini disebut dengan **Neovim distribution**.
 
-Neovim distributin berguna untuk memudahkan kita menggunakan neovim. Dan yang paling penting, mempercantik tampilan dan memudahkan workflow. 
+Neovim distribution berguna untuk memudahkan kita menggunakan neovim. Dan yang paling penting, mempercantik tampilan dan memudahkan workflow. 
 
 Beberapa neovim distribution pupuler ini bisa kamu pilih:
 
@@ -599,7 +601,7 @@ Remove-Item $env:LOCALAPPDATA\nvim -Recurse -Force
 Remove-Item $env:LOCALAPPDATA\nvim-data -Recurse -Force
 ```
 
-Tapi  jika yang ingin kamu lakukan adalah mencoba konfigurasi neovim yang baru, maka data sebelumnya harus kita backup dan rename, supaya data lama aman, dan konfigurasi neovim yang baru tidak terganggu.
+Tapi  jika yang ingin kamu lakukan adalah mencoba konfigurasi neovim yang baru, maka data sebelumnya harus kita backup atau rename, supaya data lama aman, dan konfigurasi neovim yang baru tidak terganggu.
 
 Rename folder `nvim` misal menjadi `nvim-bak`, dan `nvim-data` menjadi `nvim-data-bak`. Tapi terserah kamu jika ingin merename seperti apa. Atau jika kamu ingin memindahkan foldernya juga bisa, semisal memasukan kedua folder tadi di  `C:\Users\<nama-user>\AppData\Local\nvim-backup-folder`. 
 
@@ -620,14 +622,16 @@ Setelah antisipasi awal selesai, kita bisa langsung install LazyVim. Untuk mengi
 
 Nahhh, disini kamu perlu sedikit membaca beberapa penjelasan yang dibuat sebelum bergerak terlalu jauh (baca file README maksudnya), seperti daftar fitur yang diberikan, syarat requirement yang terdiri dari neovim versi terbaru, git, C compiler, dan juga Nerd Font. Dan yang paling penting adalah bagaimana cara memulai instalasinya.
 
-> [!NOTE] PENTING!
+> [!NOTE] ⚠️ PENTING!
 > Jangan melompat-lompat dalam mengikuti panduan yang diberikan. Hal ini penting untuk menghindari error yang tidak bisa diatasi di pemakaian jangka panjang, yang diakibatkan oleh kesalahan pemasangan diawal konfigurasi. 
 > 
 > Ini serius! 
 > 
 > Membaca pelan-pelan dan memahami dengan baik cara memasang konfigurasi dengan benar, dengan cara membaca semua dokumentasi yang diberikan, akan benar-benar menyelamatkan puluhan jam waktumu dari menangani error yang tidak perlu!
 > 
- 
+
+Repository utama ini berisikan daftar pengaturan dan plugins default ketika kita memasang lazyVim. Jangan clone repository ini! Repo ini hanya berisi settingan default yang memang seharusnya tidak kita utak-atik langsung. Konfigurasi pada LazyVim yang nanti kita pasang bisa kita lakukan pada Repository yang akan disebutkan di bacaan README.
+
 Di file README yang diberikan, pengguna dipersilahkan untuk membaca panduan yang lebih jelas di repository yang berbeda, yaitu [LazyVim/Starter](https://github.com/LazyVim/starter). Nah, ini adalah repository yang bisa kita clone, sebagai proses pemasangan LazyVim.
 
 Kembali baca file README dari repository ini, dan kita akan diberikan situs dokumentasi instalasi, yaitu [LazyVim.org](https://www.lazyvim.org/), yang berisi panduan singkat dan mudah dipahami, tentang bagaimana menginstall LazyVim.
@@ -637,15 +641,7 @@ Kembali baca file README dari repository ini, dan kita akan diberikan situs doku
 
 Nah, ini adalah dokumentasi asli dari LazyVim, jadi ingat-ingat selalu situs ini jika terdapat masalah pada konfigurasi LazyVim. Dan tentunya, proses instalasi juga perlu kita ikuti disini. Untuk instalasi versi video, dokumentasi ini juga menyertakan video dari youtube yang bisa diikuti, jika lebih suka tutorial video:
 
-
-```cardlink
-url: https://www.youtube.com/watch?v=N93cTbtLCIM
-title: "Zero to IDE with LazyVim"
-description: "In this video, I show how to get started from scratch with LazyVim https://github.com/LazyVim/LazyVim which is a Neovim setup powered by lazy.nvim  Then I sh..."
-host: www.youtube.com
-favicon: https://www.youtube.com/s/desktop/7b155292/img/logos/favicon_32x32.png
-image: https://i.ytimg.com/vi/N93cTbtLCIM/maxresdefault.jpg
-```
+![Zero to IDE with LazyVim - YouTube](https://www.youtube.com/watch?v=N93cTbtLCIM)
 
 ---
 Oke, langsung saja, masuk ke menu [Installation](https://www.lazyvim.org/installation), maka akan muncul tampilan seperti ini:
@@ -684,7 +680,7 @@ Baiklah, berikut adalah panduan langsung dari dokumentasi resminya, bisa diikuti
 
 > It is recommended to run `:LazyHealth` after installation. This will load all plugins and check if everything is working correctly (*setelah instalasi, didalam neovim, gunakan perintah `:LazyHealth` untuk mengecek apakah semua plugin terpasang dengan baik atau tidak*).
 
-Maka, otomatis, ketika kita ketikan `nvim`, maka kita akan melakukan banyak sekali pengunduhan plugin awal, yang mana tampilanya akan seperti ini:
+Maka, otomatis, ketika kita ketikan `nvim` pada terminal kita, neovim kita akan melakukan banyak sekali pengunduhan plugin awal, yang mana tampilanya akan seperti ini:
 
 ![[instal-1-img.png]]
 
