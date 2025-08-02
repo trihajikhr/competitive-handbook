@@ -6,17 +6,32 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "tag:#STRIKE",
+      "color": {
+        "a": 1,
+        "rgb": 16771584
+      }
+    },
+    {
+      "query": "tag:#tree-algorithm  ",
+      "color": {
+        "a": 1,
+        "rgb": 518422
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": true,
+  "nodeSizeMultiplier": 1.19058961343225,
+  "lineSizeMultiplier": 1.36202264740336,
+  "collapse-forces": false,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.04632844179892127,
+  "scale": 0.16894119944179786,
   "close": true
 }

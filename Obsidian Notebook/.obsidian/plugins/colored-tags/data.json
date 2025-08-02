@@ -154,7 +154,9 @@
     "gemastik": 142,
     "neovim": 143,
     "vim": 144,
-    "lazyvim": 145
+    "lazyvim": 145,
+    "FAST": 146,
+    "STRIKE": 147
   },
   "_version": 3
 }

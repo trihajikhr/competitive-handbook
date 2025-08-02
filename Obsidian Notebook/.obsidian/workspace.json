@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "acbdd603eaaaff46",
+        "id": "d9822fa29f54eee4",
         "type": "tabs",
         "children": [
           {
-            "id": "9069d6ebf9f9ed01",
+            "id": "98a8b6499456a63a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DATA DOKUMENTASI/Neovim Terminal Setup/02-Setup Terminal Untuk Neovim.md",
+                "file": "DATA DOKUMENTASI/04-Setup Terminal Alacritty/04-Setup Terminal Alacritty.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Setup Terminal Untuk Neovim"
+              "title": "04-Setup Terminal Alacritty"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "insert vector",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 574.504997253418
+    "width": 317.50499725341797
   },
   "right": {
     "id": "5a2e04e3f27c45d3",
@@ -167,7 +167,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "7cf76667223e7faa",
@@ -180,21 +180,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "important.md",
+                "file": "DATA DOKUMENTASI/04-Setup Terminal Alacritty/04-Setup Terminal Alacritty.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of important"
+              "title": "Outline of 04-Setup Terminal Alacritty"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 282.5,
-    "collapsed": true
+    "width": 282.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,52 +211,53 @@
       "open-gate:ChatGPT": false
     }
   },
-  "active": "9069d6ebf9f9ed01",
+  "active": "98a8b6499456a63a",
   "lastOpenFiles": [
-    "DATA DOKUMENTASI/Neovim Terminal Setup/img/02-Setup Terminal Untuk Neovim-47.png",
-    "DATA DOKUMENTASI/Neovim Terminal Setup/img/02-Setup Terminal Untuk Neovim-46.png",
-    "DATA DOKUMENTASI/Neovim Terminal Setup/02-Setup Terminal Untuk Neovim.md",
+    "DATA DOKUMENTASI/04-Setup Terminal Alacritty/04-Setup Terminal Alacritty.md",
+    "Linked list - Linked list Data Structure-1.png",
+    "Linked list - Linked list Data Structure-2.png",
+    "Metode Belajar STRIKE.md",
+    "DATA DOKUMENTASI/04-Setup Terminal Alacritty/src/Screenshot 2025-08-01 221707.png",
+    "DATA DOKUMENTASI/04-Setup Terminal Alacritty/src/Alacritty Demonstration - Made with Clipchamp.mp4",
+    "Input & Output-1.png",
     "important.md",
-    "DATA DOKUMENTASI/Neovim Terminal Setup/img/02-Setup Terminal Untuk Neovim-1.png",
-    "DATA DOKUMENTASI/Neovim Terminal Setup/img",
-    "DATA DOKUMENTASI/Neovim Terminal Setup/img/02-Setup Terminal Untuk Neovim-45.png",
-    "DATA DOKUMENTASI/Neovim Terminal Setup/img/02-Setup Terminal Untuk Neovim-44.png",
-    "DATA DOKUMENTASI/Neovim Terminal Setup/img/02-Setup Terminal Untuk Neovim-43.png",
-    "DATA DOKUMENTASI/Neovim Terminal Setup/img/02-Setup Terminal Untuk Neovim-42.png",
-    "DATA DOKUMENTASI/Neovim Terminal Setup/img/02-Setup Terminal Untuk Neovim-41.png",
-    "DATA DOKUMENTASI/Neovim Terminal Setup/img/02-Setup Terminal Untuk Neovim-40.png",
-    "DATA DOKUMENTASI/Neovim Terminal Setup",
-    "DATA DOKUMENTASI/Neovim CP C++ Setup/01-Setup Neovim untuk C++ Competitive Programmer.md",
-    "01-Introduction/04-Optimalisasi proses Input Output.md",
-    "Tentang template syntaxnya apa aja.md",
     "Git merge.md",
     "Apa itu Memory Heap dan Stack.md",
-    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/20250725-1050-07.2863843.mp4",
-    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/20250726-0547-21.6696660.mp4",
-    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/20250726-0541-10.5652142.mp4",
-    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/20250726-0441-23.4704168.mp4",
-    "DATA DOKUMENTASI/Neovim CP C++ Setup",
-    "DATA DOKUMENTASI",
-    "DATA DOKUMENTASI/Neovim CP C++ Setup/img/20250725-1452-18.6399733.mp4",
-    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/15-Total Nilai pada Jalur Diameter Binary Tree.md",
-    "DATA DOKUMENTASI/Neovim CP C++ Setup/img",
-    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/14-Lowest Common Ancestor.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/13-Diameter of Tree.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/12-Cari Node yang Jaraknya K dari Daun.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/11-Jumlahkan Leaf Terdangkal.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/10-Jumlahkan Semua Daun di Level Tertinggi.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/09-Cari Jalur dari Root ke Node Tertentu.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/08-Jalur Bernilai Maksimum dari Root ke Daun.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/07-Rantai Penurun Nilai dari Root ke Daun.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/06-Mirror Tree pada Perfect Binary Tree.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/05-Node Kakek dan Cucu-cucunya.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/04-Subtree Total Sama dengan Nilai Node.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/03-Like Child Like Parent.md",
+    "1843C-Sum in Binary Tree-1.png",
+    "03-1057A-Bmail Computer Network-1.png",
+    "Screenshot 2025-08-02 141621.png",
+    "DATA DOKUMENTASI/04-Setup Terminal Alacritty/src/Setup Terminal Alacritty-25.png",
+    "Tentang template syntaxnya apa aja.md",
+    "DATA DOKUMENTASI/04-Setup Terminal Alacritty/src",
+    "DATA DOKUMENTASI/04-Setup Terminal Alacritty/src/Setup Terminal Alacritty-24.png",
+    "DATA DOKUMENTASI/04-Setup Terminal Alacritty/src/Setup Terminal Alacritty-23.png",
+    "DATA DOKUMENTASI/02-Neovim Terminal Setup/02-Setup Terminal Untuk Neovim.md",
+    "DATA DOKUMENTASI/04-Setup Terminal Alacritty",
+    "DATA DOKUMENTASI/Saghen-blink-cmp - Plugins Auto Complete Built In terbaik.md",
+    "14-Tree Algorithm/STRIKE-Tree Algorithm/03-1057A-Bmail Computer Network.md",
+    "14-Tree Algorithm/STRIKE-Tree Algorithm/01-1843C-Sum in Binary Tree.md",
+    "14-Tree Algorithm/STRIKE-Tree Algorithm/02-115A-Party.md",
+    "ZTemplater/Metode STRIKE.md",
+    "14-Tree Algorithm/14-Tree algorithm.pdf",
+    "04-Data Structure/B-Vector/Latihan/11-UNDO + REDO di Daftar Tugas.md",
+    "04-Data Structure/B-Vector/Latihan/10-Simulasi Undo Daftar Tugas.md",
+    "04-Data Structure/B-Vector/Latihan/08-Buku Rak Kosong dan Buku Baru.md",
+    "04-Data Structure/B-Vector/Latihan/06-Hapus Elemen Genap dan Rampingkan Kapasitas.md",
+    "04-Data Structure/B-Vector/Latihan/05-Frekuensi Elemen.md",
+    "04-Data Structure/B-Vector/Latihan/04-Hapus Semua Nilai X.md",
+    "04-Data Structure/B-Vector/Latihan/03-Rotasi Kanan.md",
+    "04-Data Structure/B-Vector/Latihan/02-Hapus Duplikat Berurutan.md",
     "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/02-Menampilkan Node dengan Satu Anak.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/03-Binary Tree/Latihan/01-Menampilkan Node dengan Tepat Dua Anak.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/02-Tree Traversal/Pendalaman Materi/05-Chaining dengan bantuan Checkpoint Tree.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/02-Tree Traversal/Pendalaman Materi/04-Tree dengan shared_ptr.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/02-Tree Traversal/Latihan/25-Frekuensi Tertinggi Digit Terakhir.md",
+    "04-Data Structure/H-Multimap/Latihan/01-Menyisipkan dan Menampilkan Semua Nilai untuk Satu Kunci.md",
+    "04-Data Structure/I-Set/Latihan/01-Menyimpan Data Unik.md",
+    "04-Data Structure/C-List/Latihan/04-Rotasi dan Pencarian.md",
+    "04-Data Structure/C-List/Latihan/03-Pemangkasan Daftar.md",
+    "14-Tree Algorithm/STRIKE-Tree Algorithm",
+    "13-Shortest-Paths/13-Shortest paths.pdf",
+    "DATA DOKUMENTASI/03-Neovim Auto Complete Setup/img/Untitled video - Made with Clipchamp.mp4",
+    "DATA DOKUMENTASI/03-Neovim Auto Complete Setup/img/20250728-1410-05.9037299.mp4",
+    "DATA DOKUMENTASI/03-Neovim Auto Complete Setup/img",
+    "DATA DOKUMENTASI/03-Neovim Auto Complete Setup",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Canvas/01-introduction.canvas",

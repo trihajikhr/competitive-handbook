@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiSwords",
+      "LiRocket",
       "RiTerminalBoxFill",
       "📰",
-      "RiNewspaperFill",
-      "LiDivide",
-      "RiStackLine"
+      "RiNewspaperFill"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -228,5 +228,10 @@
   "USACO Guide/1-General/A-Getting Started": "RiNewspaperFill",
   "USACO Guide/1-General/C-General Resource": "RiNewspaperFill",
   "DATA DOKUMENTASI": "RiNewspaperFill",
-  "DATA DOKUMENTASI/Neovim Terminal Setup": "RiTerminalBoxFill"
+  "DATA DOKUMENTASI/03-Neovim Auto Complete Setup": "RiTerminalBoxFill",
+  "DATA DOKUMENTASI/01-Neovim CP C++ Setup": "RiTerminalBoxFill",
+  "DATA DOKUMENTASI/02-Neovim Terminal Setup": "RiTerminalBoxFill",
+  "14-Tree Algorithm/STRIKE-Tree Algorithm": "LiSwords",
+  "Metode Belajar STRIKE.md": "LiSwords",
+  "DATA DOKUMENTASI/04-Setup Terminal Alacritty": "RiTerminalBoxFill"
 }
