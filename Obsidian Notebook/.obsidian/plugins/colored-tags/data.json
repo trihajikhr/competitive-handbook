@@ -156,7 +156,11 @@
     "vim": 144,
     "lazyvim": 145,
     "FAST": 146,
-    "STRIKE": 147
+    "STRIKE": 147,
+    "tuples": 148,
+    "tuple": 149,
+    "graph-shortest-path": 150,
+    "Hindari": 151
   },
   "_version": 3
 }

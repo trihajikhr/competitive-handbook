@@ -13,7 +13,7 @@ tags:
 ---
 Sumber: [Problem - A - Codeforces](https://codeforces.com/contest/115/problem/A)
 
-> [!NOTE] ⚔️ Teori FAST:
+> [!NOTE] ⚔️ Teori STRIKE:
 > Jika biasanya kita membuat tree dengan kerangka dasar dari class atau struct, kali ini kita bisa membuat tree, dengan pendekatan yang mirip seperti membuat graph, yaitu graph berarah. Pendekatan ini membuat jumlah child dari suatu node menjadi tidak terbatas!
 > 
 > Pendekatan ini lebih efisien jika kita ingin membuat node pada tree yang mampu memiliki jumlah anak yang dinamis, tidak kaku karena harus menyesuaikan diri pada structur class atau struct yang dibuat!
@@ -64,7 +64,7 @@ Cetak satu bilangan bulat yang menunjukkan jumlah **minimum grup** yang harus di
 
 ---
 
-# Sesi FAST ⚔️
+# Sesi STRIKE ⚔️
 
 - Aku belajar untuk membuat tree, dengan bantuan structur class atau struct, namun kali ini jumlah child dari setiap node tidak ditentukan, dan tidak dibatasi. Pendekatan membuat tree dengan class atau struct tidak tepat digunakan disini. Pendekatan yang paling tepat adalah memperlakukan tree sebagai graph berarah, sehingga dibutuhkan array 2 dimensi, dengan perlakukan seperti pada adjaceny list.
 <br/>

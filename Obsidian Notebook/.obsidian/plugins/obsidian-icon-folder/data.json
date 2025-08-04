@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiChartNoAxesCombined",
+      "LiQrCode",
       "LiSwords",
       "LiRocket",
-      "RiTerminalBoxFill",
-      "📰",
-      "RiNewspaperFill"
+      "RiTerminalBoxFill"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -233,5 +233,8 @@
   "DATA DOKUMENTASI/02-Neovim Terminal Setup": "RiTerminalBoxFill",
   "14-Tree Algorithm/STRIKE-Tree Algorithm": "LiSwords",
   "Metode Belajar STRIKE.md": "LiSwords",
-  "DATA DOKUMENTASI/04-Setup Terminal Alacritty": "RiTerminalBoxFill"
+  "DATA DOKUMENTASI/04-Setup Terminal Alacritty": "RiTerminalBoxFill",
+  "04-Data Structure/Tuple/Tuples in C++.md": "LiQrCode",
+  "04-Data Structure/Tuple/Latihan": "LiChartNoAxesCombined",
+  "13-Shortest-Paths/A_Bellman-Ford/Latihan": "LiChartNoAxesCombined"
 }
