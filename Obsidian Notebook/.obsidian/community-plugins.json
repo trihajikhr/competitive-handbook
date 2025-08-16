@@ -26,5 +26,7 @@
   "advanced-canvas",
   "dashboard-navigator",
   "progressbar",
-  "auto-card-link"
+  "auto-card-link",
+  "obsidian-admonition",
+  "obsidian-tasks-plugin"
 ]

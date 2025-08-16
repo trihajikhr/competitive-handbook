@@ -8,15 +8,15 @@ tags:
 date_learned:
 ---
 ---
-# Judul
+# 1 | Judul
 
 
 <br/>
 
 ---
-# Jawaban
+# 2 | Jawaban
 
 <br/>
 
 ---
-# Editorial
+# 3 | Editorial

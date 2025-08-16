@@ -6,7 +6,7 @@ sumber:
   - myself
 tags:
   - graph-algorithm
-  - shortest-paths
+  - shortest-path
 date_learned: 2025-08-03T18:27:00
 ---
 ---

@@ -160,7 +160,19 @@
     "tuples": 148,
     "tuple": 149,
     "graph-shortest-path": 150,
-    "Hindari": 151
+    "Hindari": 151,
+    "shortest-path": 152,
+    "Topological": 153,
+    "trick-soal": 154,
+    "number-theory": 155,
+    "game-theory": 156,
+    "combinatorics": 157,
+    "combinatios": 158,
+    "tips-trick": 159,
+    "how-to-practice": 160,
+    "STL-": 161,
+    "STL-algorithm": 162,
+    "graph-basic": 163
   },
   "_version": 3
 }

@@ -11,7 +11,7 @@ tags:
 Link sumber: [Characteristics of the optimal solution, a technique for finding observations in a problem - Codeforces](https://codeforces.com/blog/entry/99291)
 
 ---
-# Characteristics of the optimal solution, a technique for finding observations in a problem
+# 1 | Characteristics of the optimal solution, a technique for finding observations in a problem
 ## Pendahuluan
 
 Sebagian dari kalian yang cerdas di luar sana mungkin menganggap isi blog ini terlalu jelas, sampai-sampai tidak pantas disebut sebagai sebuah “teknik”. Ini hanyalah proses berpikir yang sangat wajar yang biasanya muncul di benak kita saat mencoba menyelesaikan sebuah soal!
@@ -23,7 +23,7 @@ Dalam blog ini, aku akan mencoba menjelaskan sebuah teknik berpikir yang aku tem
 **Catatan:** Aku tidak tahu apakah sudah ada orang lain yang pernah membahas teknik serupa di Codeforces atau di luar sana. Aku sudah mencoba mencarinya tapi tidak menemukannya, jadi aku putuskan untuk menuliskannya sendiri.
 
 ---
-# Tekniknya (Karakteristik dari solusi optimal)
+# 2 | Tekniknya (Karakteristik dari solusi optimal)
 
 Banyak dari soal yang kita hadapi melibatkan pencarian sebuah solusi optimal dalam bentuk tertentu. Misalnya: cari subsekuens dengan nilai _sesuatu_ yang seminimal mungkin, atau bentuk sebuah grafik dari array yang memenuhi syarat tertentu. Nah, inti dari teknik ini adalah cara berpikir seperti ini:
 
@@ -102,8 +102,6 @@ Jadi, total jalur kita adalah:
 
 $$\text{dist}(a, x) + 2 \cdot \text{dist}(b, x) + \text{dist}(c, x)$$
 
----
-
 Dengan demikian, kita bisa simpan jarak terpendek dari $a$, $b$, dan $c$ menggunakan algoritma seperti **Dijkstra** dalam 3 array berbeda, lalu lakukan iterasi terhadap semua kemungkinan simpul $x$, dan kita minimalkan:
 
 $$\text{pref}[\text{dist}(b, x)] + \text{pref}[\text{dist}(a, x) + \text{dist}(b, x) + \text{dist}(c, x)]$$
@@ -111,7 +109,7 @@ $$\text{pref}[\text{dist}(b, x)] + \text{pref}[\text{dist}(a, x) + \text{dist}(b
 di mana `pref` adalah array jumlah prefix pada array harga yang telah diurutkan.
 
 ---
-## Kesimpulan
+# 3 | Kesimpulan
 
 Saya harap ide-ide ini bermanfaat dan bukan membuang-buang waktu Anda.
 

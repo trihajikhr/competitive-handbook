@@ -27,6 +27,20 @@
         "a": 1,
         "rgb": 11007
       }
+    },
+    {
+      "query": "tag:#graph-algorithm  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "tag:#number-theory  ",
+      "color": {
+        "a": 1,
+        "rgb": 1113751
+      }
     }
   ],
   "collapse-display": false,
@@ -39,6 +53,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.1689411994417977,
-  "close": false
+  "scale": 0.1630770725583697,
+  "close": true
 }

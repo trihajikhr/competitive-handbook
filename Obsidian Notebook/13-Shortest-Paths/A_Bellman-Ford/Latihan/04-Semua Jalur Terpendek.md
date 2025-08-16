@@ -6,7 +6,7 @@ sumber:
   - chatgpt.com
 tags:
   - graph-algorithm
-  - shortest-paths
+  - shortest-path
 date_learned: 2025-08-03T22:45:00
 ---
 ---
