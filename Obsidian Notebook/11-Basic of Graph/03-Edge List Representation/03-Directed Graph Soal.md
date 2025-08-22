@@ -2,21 +2,21 @@
 obsidianUIMode: preview
 note_type: algorithm theory
 id_algoritma: 11TH-BGRP-EL03
-nama_algoritma: Edge list graph representation
-kategori_algoritma: Graph Algorithm
+nama_algoritma: edge list graph representation
+kategori_algoritma: graph algorithm
 kesulitan: 🥈 medium
 time_complexity: 
 memory_complexity: 
-sumber: "buku: CP handbook by Antti Laaksonen & chatgpt.com"
+sumber:
+  - "buku: CP handbook by Antti Laaksonen"
+  - chatgpt.com
 date_learned: 2025-04-29T16:34:00
 tags:
   - graph-algorithm
-  - graph-edge-list
+  - graph-basic
 ---
-#graph-algorithm #graph-edge-list 
-
 ---
-# 🔹 Soal 1: Directed Unweighted Graph
+# 1 | Soal 1 Directed Unweighted Graph
 
 **Deskripsi:** Terdapat _n_ situs web dan _m_ hyperlink. Setiap hyperlink mengarahkan dari satu situs ke situs lain. Tampilkan semua hyperlink dalam urutan input menggunakan _edge list_.
 
@@ -55,7 +55,8 @@ Hyperlink:
 3 -> 4
 ```
 
-## Jawaban
+## 1.1 | Jawaban
+
 Berikut implementasi dengan menggunakan C++, yang cukup efisien dan solid:
 
 ```cpp
@@ -92,20 +93,20 @@ int main() {
 }
 ```
 
-## Editorial
+## 1.2 | Editorial
 
-### 📝 Deskripsi Soal
+### 1.2.1 | Deskripsi Soal
 
 Diberikan sebuah directed graph (graf berarah) tanpa bobot. Tugas kita adalah menyimpan semua hubungan arah antar simpul, kemudian mencetak semua arah sebagai output, menggunakan **edge list representation**.
 
-### 💡 Konsep yang Digunakan
+### 1.2.2 | Konsep yang Digunakan
 
 - **Edge List Representation** adalah cara menyimpan graph dengan menyimpan setiap edge sebagai pasangan `(u, v)`, di mana `u` adalah node asal dan `v` adalah node tujuan.
     
 - Representasi ini efisien dan sederhana untuk menyimpan informasi edge dan cocok untuk graf yang jarang (sparse graph).
     
 
-### 🧩 Penjelasan Kode
+### 1.2.3 | Penjelasan Kode
 
 ```cpp
 vector<pair<int,int>> edges;
@@ -129,10 +130,9 @@ for (const auto& x : edges) {
 ```
 
 - Melakukan iterasi pada semua pasangan `(u, v)` dan mencetaknya dalam format arah: `u -> v`.
-    
+### 1.2.4 | Contoh Input Output
 
-### 🖥️ Contoh Input
-
+Input:
 ```
 4 3
 1 2
@@ -140,7 +140,7 @@ for (const auto& x : edges) {
 4 2
 ```
 
-### 📤 Output
+Output:
 
 ```
 Hyperlink: 
@@ -149,7 +149,7 @@ Hyperlink:
 4 -> 2
 ```
 
-### ✅ Kelebihan Pendekatan Ini
+### 1.2.5 | Kelebihan Pendekatan Ini
 
 - Simpel dan mudah diimplementasikan.
     
@@ -160,7 +160,7 @@ Hyperlink:
 
 ---
 
-# 🔹 Soal 2: Directed Weighted Graph
+# 2 | Soal 2 Directed Weighted Graph
 
 **Deskripsi:** Sebuah kota memiliki _n_ titik persimpangan dan _m_ jalan satu arah, masing-masing dengan waktu tempuh tertentu. Tampilkan seluruh jalan dalam format edge list.
 
@@ -199,7 +199,6 @@ Daftar Jalan:
 4 -> 1 (5 menit)
 ```
 
----
 
 Kamu bisa menyelesaikan keduanya menggunakan struktur seperti:
 
@@ -207,7 +206,7 @@ Kamu bisa menyelesaikan keduanya menggunakan struktur seperti:
     
 - `vector<tuple<int, int, int>>` untuk soal kedua.
     
-## Jawaban
+## 2.1 | Jawaban
 
 Berikut jawaban dengan menggunakan kode C++ yang sudah cukup solid:
 
@@ -248,12 +247,12 @@ int main() {
 }
 ```
 
-## Editorial
-### Tujuan Program:
+## 2.2 | Editorial
+### 2.2.1 | Tujuan Program:
 
 Program ini mengimplementasikan **representasi graph dengan edge list** pada **directed weighted graph**. Program ini menerima input berupa jumlah node dan edges, serta detail edges yang berisi pasangan node (`u` dan `v`) dan bobot (`w`). Program ini kemudian menampilkan daftar edge dengan bobotnya.
 
-### Penjelasan Kode:
+### 2.2.2 | Penjelasan Kode:
 
 1. **Library dan Setup:**
     
@@ -361,7 +360,7 @@ Program ini mengimplementasikan **representasi graph dengan edge list** pada **d
     - Setelah mendekonstruksi tuple ke dalam variabel `u`, `v`, dan `w`, kita mencetak informasi edge tersebut dalam format `u -> v (w menit)`.
         
 
-### Penjelasan Bagian `tie()`:
+### 2.2.3 | Penjelasan Bagian `tie()`:
 
 `tie()` adalah fungsi di C++ yang digunakan untuk mengeluarkan nilai dari objek **tuple** ke dalam variabel individual. Contohnya:
 
@@ -374,7 +373,7 @@ tie(u, v, w) = edge;
 - `tie()` sangat berguna saat kita ingin mengambil banyak nilai dari objek `tuple` tanpa menggunakan cara `get<0>(edge)`, `get<1>(edge)`, dll. Dengan `tie()`, kita bisa mendekonstruksi tuple ke dalam variabel dengan lebih ringkas dan jelas.
     
 
-### Contoh Input dan Output:
+### 2.2.4 | Contoh Input dan Output:
 
 **Input:**
 
@@ -411,7 +410,7 @@ Daftar Jalan:
 4 -> 1 (7 menit)
 ```
 
-### Kesimpulan:
+### 2.2.5 | Kesimpulan:
 
 - **Fitur `tie()`** sangat mempermudah dekonstruksi tuple dan membuat kode menjadi lebih jelas dan lebih singkat.
     

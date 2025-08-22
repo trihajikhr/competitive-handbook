@@ -1,22 +1,22 @@
 ---
-obsidianUIMode: preview
+obsidianUIMode: 
 note_type: algorithm theory
 id_algoritma: 11TH-BGRP-EL04
-nama_algoritma: Matrix Representation Graph
-kategori_algoritma: Graph Algorithm
+nama_algoritma: edge list graph representation
+kategori_algoritma: graph algorithm
 kesulitan: 🥈 medium
 time_complexity: 
 memory_complexity: 
-sumber: "buku: CP handbook by Antti Laaksonen & chatgpt.com"
+sumber:
+  - "buku: CP handbook by Antti Laaksonen"
+  - chatgpt.com
 date_learned: 2025-04-29T17:17:00
 tags:
   - graph-algorithm
-  - graph-edge-list
+  - graph-basic
 ---
-#graph-algorithm #graph-edge-list 
-
 ---
-# Soal 1: Komunitas dan Jumlah Orang 
+# 1 | Soal 1 Komunitas dan Jumlah Orang 
 
 **Deskripsi:**
 
@@ -57,7 +57,7 @@ Sebuah komunitas terdiri dari sejumlah orang. Setiap orang dalam komunitas bisa 
 1 - 4
 ```
 
-## Jawaban
+## 1.1 | Jawaban
 Berikut jawaban yang sudah cukup baik, namun masih bisa dioptimalisasi nantinya:
 
 ```cpp
@@ -94,10 +94,10 @@ int main() {
 }
 ```
 
-## Editorial
+## 1.2 | Editorial
 Jawaban yang kamu buat sudah benar dan cukup jelas. Berikut adalah penjelasan tentang kode yang telah kamu buat:
 
-### Penjelasan Kode:
+### 1.2.1 | Penjelasan Kode:
 
 1. **Input dan Setup:**
     
@@ -116,23 +116,23 @@ Jawaban yang kamu buat sudah benar dan cukup jelas. Berikut adalah penjelasan te
     - Loop kedua (`for(const auto&x:edges)`) digunakan untuk mencetak semua hubungan pertemanan atau jalan. Dalam setiap iterasi, kita mencetak pasangan `(x.first, x.second)` dalam format yang sesuai (misalnya `1 - 2`).
         
 
-### Optimasi yang Bisa Dilakukan:
+### 1.2.2 | Optimasi yang Bisa Dilakukan:
 
 - Pada kode ini, kamu mengulangi dua kali setiap pasangan `(u, v)` (misalnya `1 - 2` dan `2 - 1`). Itu sebenarnya tidak perlu karena soal ini sudah menyebutkan bahwa ini adalah **undirected graph**, yang berarti `1 - 2` dan `2 - 1` seharusnya dianggap sama.
     
 - Untuk mencegah duplikasi, kamu bisa mempertimbangkan untuk menyaring pasangan yang sudah pernah dicetak.
     
 
-### Perbaikan untuk Menghindari Duplikasi:
+### 1.2.3 | Perbaikan untuk Menghindari Duplikasi:
 
 Salah satu cara untuk mencegah duplikasi pasangan adalah dengan menyaring pasangan yang sudah pernah tercatat. Bisa menggunakan `set` atau struktur data lain untuk menyaring duplikasi.
 
-## Jawaban 2
+## 1.3 | Jawaban 2
 Untuk menghindari duplikasi dalam soal nomor 1 (undirected graph), kita bisa menggunakan `set` atau `unordered_set` untuk memastikan bahwa setiap pasangan `(u, v)` hanya dicatat satu kali, meskipun kita memasukkan kedua arah `u -> v` dan `v -> u`. Dengan demikian, kita dapat memastikan bahwa kita hanya menyimpan pasangan yang unik dan mencetaknya satu kali.
 
 Berikut adalah perbaikan menggunakan `set`:
 
-### Perbaikan dengan `set`:
+### 1.3.1 | Perbaikan dengan `set`:
 
 ```cpp
 #include<iostream>
@@ -172,7 +172,7 @@ int main() {
 }
 ```
 
-### Penjelasan Perbaikan:
+### 1.3.2 | Penjelasan Perbaikan:
 
 1. **Set untuk Menyaring Duplikasi:**
     
@@ -189,18 +189,16 @@ int main() {
     - Dalam loop kedua, kita mencetak setiap pasangan yang ada dalam `set`, dan karena `set` menyimpan elemen dalam urutan tertentu, hasilnya akan otomatis terurut.
         
 
-### Keuntungan Menggunakan `set`:
+### 1.3.3 | Keuntungan Menggunakan `set`:
 
 - **Tanpa Duplikasi:** `set` secara otomatis menyaring duplikasi.
     
 - **Efisiensi Waktu:** Proses memasukkan elemen ke dalam `set` dan mengecek duplikasi memiliki waktu rata-rata `O(log n)`, yang lebih efisien daripada mencatat semua pasangan terlebih dahulu dan kemudian memeriksa duplikasi secara manual.
     
-
----
-
 Dengan perbaikan ini, kamu bisa memastikan tidak ada duplikasi pasangan dalam hasil yang dicetak. 
 
-# Soal 2: Permainan dan Kota
+---
+# 2 | Soal 2 Permainan dan Kota
 
 **Deskripsi:**
 
@@ -238,7 +236,7 @@ Dalam sebuah permainan, ada banyak kota yang saling terhubung dengan jalan. Seti
 3 - 2 (7)
 ```
 
-## Jawaban
+## 2.1 | Jawaban
 Berikut jawaban yang sudah cukup efektif dan solid:
 
 ```cpp
@@ -277,9 +275,9 @@ int main() {
 }
 ```
 
-## Editorial
+## 2.2 | Editorial
 
-### 📘 Penjelasan:
+### 2.2.1 | Penjelasan:
 
 - **`tie(u, v, w) = edge;`**: Ini digunakan untuk membongkar tuple menjadi tiga variabel `u`, `v`, dan `w`.
     
@@ -301,15 +299,13 @@ edges.insert({min(u,v), max(u,v), w});
 
 Tapi kalau memang kamu ingin eksplisit mencetak dua arah, versi sekarang sudah sangat baik.
 
-## Editorial 2
+## 2.3 | Editorial 2
 
-### 📌 Tujuan Program:
+### 2.3.1 | Tujuan Program:
 
 Program ini digunakan untuk membaca dan menampilkan graf tak berarah (undirected) dengan bobot (weighted), menggunakan struktur **edge list**.
 
----
-
-### 🔢 Penjelasan Kode per Bagian:
+### 2.3.2 | Penjelasan Kode per Bagian:
 
 ```cpp
 #include<iostream>
@@ -325,7 +321,6 @@ using namespace std;
 - `#include<tuple>` → Digunakan untuk menyimpan tiga elemen (`u`, `v`, dan `w`) dalam satu tuple.
     
 
----
 
 ```cpp
 inline void fastio(){
@@ -342,7 +337,6 @@ inline void fastio(){
     - `cin.tie(0)` mencegah `cin` otomatis mem-flush `cout`.
         
 
----
 
 ```cpp
 int n,m;
@@ -351,8 +345,6 @@ cin >> n >> m;
 
 - Membaca jumlah simpul (`n`) dan jumlah sisi (`m`) dari graf.
     
-
----
 
 ```cpp
 vector<tuple<int,int,int>> edges;
@@ -368,8 +360,6 @@ vector<tuple<int,int,int>> edges;
         
     - `w` = bobot/berat sisi dari `u` ke `v`.
         
-
----
 
 ```cpp
 for(int i=0; i<m;i++){
@@ -388,8 +378,6 @@ for(int i=0; i<m;i++){
     - Tambahkan dua sisi untuk setiap masukan: `u → v` dan `v → u`.
         
 
----
-
 ```cpp
 for(auto& edge:edges){
     int u,v,w;
@@ -407,9 +395,7 @@ for(auto& edge:edges){
     - `u - v (w)`, artinya terdapat sisi dari `u` ke `v` dengan bobot `w`.
         
 
----
-
-### 💡 Contoh Input:
+### 2.3.3 | Contoh Input Output
 
 ```
 3 2
@@ -417,7 +403,7 @@ for(auto& edge:edges){
 2 3 7
 ```
 
-### 📤 Contoh Output:
+### 2.3.4 | Contoh Output:
 
 ```
 1 - 2 (5)
@@ -426,9 +412,7 @@ for(auto& edge:edges){
 3 - 2 (7)
 ```
 
----
-
-### ✅ Kesimpulan:
+### 2.3.5 | Kesimpulan:
 
 - Representasi **edge list** sangat efisien untuk menyimpan sisi secara eksplisit.
     

@@ -2,23 +2,23 @@
 obsidianUIMode: preview
 note_type: algorithm theory
 id_algoritma: 11TH-BGRP-EL02
-nama_algoritma: Edge list graph representation
-kategori_algoritma: Graph Algorithm
+nama_algoritma: edge list graph representation
+kategori_algoritma: graph algorithm
 kesulitan: 🥈 medium
 time_complexity: 
 memory_complexity: 
-sumber: "buku: CP handbook by Antti Laaksonen & chatgpt.com"
+sumber:
+  - "buku: CP handbook by Antti Laaksonen"
+  - chatgpt.com
 date_learned: 2025-04-29T16:24:00
 tags:
   - graph-algorithm
-  - graph-edge-list
+  - graph-basic
 ---
-#graph-algorithm #graph-edge-list 
-
 ---
 # Contoh Implementasi Graph dengan Edge List
 
-## 1️⃣ Directed Unweighted Graph
+# 1 | Directed Unweighted Graph
 
 ```cpp
 #include<iostream>
@@ -46,7 +46,8 @@ int main() {
 }
 ```
 
-## 2️⃣ Directed Weighted Graph 
+---
+# 2 | Directed Weighted Graph 
 ### Versi C++ 17
 Jika kita menggunakan C++ 17, kita bisa menggunakan *sturctured binding* untuk pengulangan, dimana implementasinya adalah sebagai berikut:
 
@@ -113,7 +114,9 @@ int main() {
     return 0;
 }
 ```
-## 3️⃣ Undirected Unweighted Graph
+
+---
+# 3 | Undirected Unweighted Graph
 
 ```cpp
 #include<iostream>
@@ -142,7 +145,8 @@ int main() {
 }
 ```
 
-## 4️⃣ Undirected Weighted Graph
+---
+# 4 | Undirected Weighted Graph
 ### Versi C++ 17
 
 ```cpp
@@ -209,7 +213,6 @@ int main() {
     return 0;
 }
 ```
----
 
 Penjelasan cepat:
 

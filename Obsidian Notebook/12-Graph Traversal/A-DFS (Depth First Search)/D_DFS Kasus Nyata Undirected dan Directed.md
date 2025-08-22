@@ -7,7 +7,7 @@ kategori_algoritma: Graph Algorithm - Traversal
 kesulitan: 🥈 medium
 time_complexity: 
 memory_complexity: 
-sumber: "buku: CP handbook by Antti Laaksonen & programmiz.com & geeksforgeeks.com & chatgpt.com"
+sumber: []
 date_learned: 2025-05-03T19:51:00
 tags:
   - graph-algorithm

@@ -2,21 +2,21 @@
 obsidianUIMode: preview
 note_type: algorithm theory
 id_algoritma: 11TH-BGRP-EL01
-nama_algoritma: Edge list graph representation
-kategori_algoritma: Graph Algorithm
+nama_algoritma: edge list graph representation
+kategori_algoritma: graph algorithm
 kesulitan: 🥈 medium
 time_complexity: 
 memory_complexity: 
-sumber: "buku: CP handbook by Antti Laaksonen"
+sumber:
+  - "buku: CP handbook by Antti Laaksonen"
 date_learned: 2025-04-29T16:17:00
 tags:
   - graph-algorithm
-  - graph-edge-list
+  - graph-basic
 ---
-#graph-algorithm #graph-edge-list
+---
+# 1 | Edge List Representation
 
----
-# Edge List Representation
 Sebuah **edge list** menyimpan semua _edges_ dalam sebuah graf dalam urutan tertentu. Ini adalah cara yang nyaman untuk merepresentasikan graf jika algoritma memproses semua _edges_ dalam graf dan tidak perlu mencari _edges_ yang berawal dari suatu node tertentu.
 
 _Edge list_ dapat disimpan dalam sebuah _vector_:
@@ -59,8 +59,9 @@ edges.push_back({3,4,5});
 edges.push_back({4,1,2});
 ```
 
-## Sumber Lain (Internet)
-### 🔹 Pengertian
+---
+# 2 |  Sumber Lain (Internet)
+##  2.1 | Pengertian
 
 Edge List adalah representasi graf yang menyimpan semua edge (sisi) sebagai pasangan node. Setiap edge direpresentasikan sebagai:
 
@@ -69,11 +70,11 @@ Edge List adalah representasi graf yang menyimpan semua edge (sisi) sebagai pasa
 - `(u, v, w)` untuk weighted graph
     
 
-### 🔹 Struktur Data
+## 2.2 | Struktur Data
 
 Gunakan `vector<pair<int, int>>` untuk graf tak berbobot dan `vector<tuple<int, int, int>>` untuk graf berbobot.
 
-### 🔹 Implementasi Unweighted Graph (Undirected)
+### 2.3 | Implementasi Unweighted Graph (Undirected)
 
 ```cpp
 #include<iostream>
@@ -102,14 +103,14 @@ int main() {
 }
 ```
 
-### 🔹 Kelebihan
+### 2.4 | Kelebihan
 
 - Representasi paling sederhana.
     
 - Mudah digunakan untuk algoritma seperti **Kruskal's Minimum Spanning Tree**.
     
 
-### 🔹 Kekurangan
+### 2.5 | Kekurangan
 
 - Tidak efisien untuk mencari semua tetangga dari node tertentu.
     
