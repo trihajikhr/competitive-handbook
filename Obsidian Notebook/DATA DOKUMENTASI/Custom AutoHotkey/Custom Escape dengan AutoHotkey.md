@@ -1,5 +1,5 @@
 ---
-obsidianUIMode:
+obsidianUIMode: preview
 note_type: Dokumentasi
 judul_dokumentasi: Custom Escape dengan Auto Hot Key
 date_add: 2025-09-01T17:22:00
@@ -28,7 +28,7 @@ Dengan cara ini, kita bisa menggunakan fungsionalitas tombol Escape dengan menek
 
 Untuk aplikasi yang bisa digunakan, ada banyak. Namun, kali ini kita akan menggunakan aplikasi atau software *AutoHotkey*, yang bisa didapat dengan memasukan kata kunci tersebut ke pencarian, yang kemudian akan membawa kita ke situs [autohotkey](https://www.autohotkey.com/):
 
-![[DATA DOKUMENTASI/Custom AutoHotkey/src/Custom Escape dengan AutoHotkey-1.png]]
+![[Custom Escape dengan AutoHotkey-1.png]]
 
 Unduh versi terbaru (yang bukan deprecated) yang disediakan situs tersebut, dan lakukan penginstalan seperti biasa:
 
@@ -37,22 +37,22 @@ Untuk versi terbaru per tanggal 1 September 2025 adalah versi v2.0. Kunjungi sit
 ```
 
 
-![[DATA DOKUMENTASI/Custom AutoHotkey/src/Custom Escape dengan AutoHotkey-2.png]]
+![[Custom Escape dengan AutoHotkey-2.png]]
 
 Pilih lokasi penginstalan, namun kita bisa biarkan saja ke lokasi defaultnya, lagipula ukuran instalasi ini cukup kecil. Tetapkan AutoHotkey untuk bisa digunakan oleh semua user dengan memilih `All user`, lalu klik `Install`, dan klik yes jika ada notifikasi administration. Maka program pun berhasil terinstall jika menampilkan jendela baru seperti ini:
 
-![[DATA DOKUMENTASI/Custom AutoHotkey/src/Custom Escape dengan AutoHotkey-3.png]]
+![[Custom Escape dengan AutoHotkey-3.png]]
 
 ## 2.2 | Konfigurasi
 Setelah masuk ke mode terakhir, kita bisa membuat custom keymaps dengan cara memilih menu `New script`, sehingga kita akan dibawa ke tampilan seperti ini:
 
-![[DATA DOKUMENTASI/Custom AutoHotkey/src/Custom Escape dengan AutoHotkey-4.png]]
+![[Custom Escape dengan AutoHotkey-4.png]]
 
 Buat nama file yang sesuai, misalnya saja `caps_escape`. Pilih lokasi dimana file ini akan disimpan. Nah lokasi penyimpanan file ini harus cukup strategis, supaya kita bisa melakukan pengeditan dan penambahan konfigurasi script dengan mudah, tanpa perlu masuk ke banyak subfolder yang menyulitkan. Jadi, taruh saja misal di dalam drive D, supaya mudah ditemukan. 
 
 Tekan saja icon folder untuk mengatur lokasi filenya secara manual ke folder strategis, dan jangan menerima lokasi default yang diberikan:
   
-![[DATA DOKUMENTASI/Custom AutoHotkey/src/Custom Escape dengan AutoHotkey-5.png]]
+![[Custom Escape dengan AutoHotkey-5.png]]
 
 ```ad-info
 Sebenarnya tidak harus diatur foldernya untuk sekarang, karena nanti kita bisa memindahkanya lagi secara manual. Tapi untuk menghindari faktor lupa, lebih baik diatur sekarang saja!
@@ -61,7 +61,7 @@ Sebenarnya tidak harus diatur foldernya untuk sekarang, karena nanti kita bisa m
 
 Setelah diatur lokasi strategisnya, kita pilih `Empty`, artinya kita akan membuat file `.ahk` yang isinya masih kosong. Maka, di folder tempat kita membuat file, akan muncul file baru yaitu `caps_escape.ahk` seperti ini:
 
-![[DATA DOKUMENTASI/Custom AutoHotkey/src/Custom Escape dengan AutoHotkey-6.png]]
+![[Custom Escape dengan AutoHotkey-6.png]]
 
 Nah, untuk bisa mengedit konfigurasi yang ada dialamnya, klik kanan file tersebut, dan buka dengan notepad, atau klik kanan pada file lalu pilih `Edit in Notepad`. Maka kita akan membuka file notepad kosong, dan disinilah konfigurasi dilakukan.
 
@@ -114,11 +114,11 @@ Bagian ini memakai `+CapsLock`, artinya **Shift + CapsLock**.
 
 Jika ingin mengetahui dokumentasi resmi dari AutoHotkey, bisa masuk saja ke situs [AutoHotkey Docs v2.0](https://www.autohotkey.com/docs/v2/):
 
-![[DATA DOKUMENTASI/Custom AutoHotkey/src/Custom Escape dengan AutoHotkey-7.png]]
+![[Custom Escape dengan AutoHotkey-7.png]]
 
 Atau, klik kanan pada icon AutoHotkey pada ssytem tray (jika sedang aktif), lalu klik `Help`, maka akan dibawa ke laman dokumentasi yang mirip:
 
-![[DATA DOKUMENTASI/Custom AutoHotkey/src/Custom Escape dengan AutoHotkey-8.png]]
+![[Custom Escape dengan AutoHotkey-8.png]]
 
 <br/>
 
@@ -131,7 +131,7 @@ Jika semisal kita hanya menggunakan custom keymaps di waktu-waktu tertentu saja,
 
 Cara ini adalah cara yang paling mudah, karena kita cukup double klik pada file `caps_escape.ahk` yang sebelumnya kita buat, dan otomatis custom keymaps aktif. Ketika script akfit, maka akan muncul icon hijau H pada system tray (pojok kanan bawah):
 
-![[DATA DOKUMENTASI/Custom AutoHotkey/src/Custom Escape dengan AutoHotkey-9.png]]
+![[Custom Escape dengan AutoHotkey-9.png]]
 
 
 Untuk mematikanya, caranya cukup mudah. Pada tray icon, klik kanan AutoHotkey, lalu pilih `Exit` untuk mematikan script.
@@ -250,19 +250,19 @@ CapsLock::Send "{Escape}"
 
 Penggunana konfigurasi `#HotIf` harus dilakukan dengan benar! Kita harus mengetahui nama file executable apa yang akan mengaktifkan hotkeys. Caranya, masuk ke system tray, lalu pilih icons AutoHotkeys, 
 
-![[DATA DOKUMENTASI/Custom AutoHotkey/src/Custom Escape dengan AutoHotkey-9.png]]
+![[Custom Escape dengan AutoHotkey-9.png]]
 
 ... lalu klik kanan dan pilih `Window spy`:
 
-![[DATA DOKUMENTASI/Custom AutoHotkey/src/Custom Escape dengan AutoHotkey-10.png]]
+![[Custom Escape dengan AutoHotkey-10.png]]
 
 Maka otomatis kita akan terbawa pada tampilan seperti ini:
 
-![[DATA DOKUMENTASI/Custom AutoHotkey/src/Custom Escape dengan AutoHotkey-11.png]]
+![[Custom Escape dengan AutoHotkey-11.png]]
 
 Lalu, untuk setiap jendela aplikasi atau file executable yang ingin kita set untuk menggunakan custom keymaps dari AutoHotkey, lihat saja pada bagian **Program Manager**, yaitu nilai dari `ahk_exe`, yang menunjukan nama aplikasi. Nah nama aplikasi inilah yang perlu kita tulis di bagian `HotIf`. Misalnya seperti contoh berikut, ketika aplikasi yang berbeda, akan menunjukan nama file executable pada `ahk_exe` yang berbeda juga:
 
-![[DATA DOKUMENTASI/Custom AutoHotkey/src/demo perubahan ahk_exe.mp4]]
+![[demo perubahan ahk_exe.mp4]]
 
 Tampak jelas bahwa nama dari software yang kita buka adalah seperti:
 - **windowsTerminal.exe**
@@ -283,11 +283,11 @@ Untuk cara ketiga, kita bisa membuat AutoHotkey langsung aktif ketika kita perta
 
 Tekan tombol `windows`, atau klik `Windows`, lalu ketikan kata kunci `Task Scheduler`
 
-![[DATA DOKUMENTASI/Custom AutoHotkey/src/Custom Escape dengan AutoHotkey-12.png]]
+![[Custom Escape dengan AutoHotkey-12.png]]
 
 Pada bagian jendela kanan, atau jendela `Actions`, pilih menu `Create Task...`:
 
-![[DATA DOKUMENTASI/Custom AutoHotkey/src/Custom Escape dengan AutoHotkey-13.png]]
+![[Custom Escape dengan AutoHotkey-13.png]]
 
 ### 3.3.1 | General
 
@@ -305,19 +305,19 @@ Lalu pada bagian `Configure for:` isi sesuai spesifikasi Windows yang digunakan.
 
 Masuk ke jendela kedua, yaitu `Triggers`. Klik `New...`, lalu pada bagian `Begin the task:` pilih saja `At log on`. Ini artinya kita akan menjalankan script auto hotkey, ketika pengguna login ke perangkat, biasanya tepat setelah menyalakan komputer. Setelah selesai klik `Ok`
 
-![[DATA DOKUMENTASI/Custom AutoHotkey/src/Custom Escape dengan AutoHotkey-14.png]]
+![[Custom Escape dengan AutoHotkey-14.png]]
 
 ### 3.3.3 | Actions
 
 Sekarang beralih ke jendela ketiga, yaitu `Actions`. Klik `New...`, dan pada bagian `Action:`, pilih `Start a program`, artinya mengeksekusi program yang akan kita pilih pada task ini. Dan bagian paling penting, adalah pada bagian settings, yaitu pada bagian `Program/script:`, kita browse lokasi `caps_escape.ahk`, karena pada bagian ini kita memberi tahu bahwa yang akan dieksekusi adalah program AutoHotkey kita. Lalu klik `Ok`.
 
-![[DATA DOKUMENTASI/Custom AutoHotkey/src/Custom Escape dengan AutoHotkey-15.png]]
+![[Custom Escape dengan AutoHotkey-15.png]]
 
 ### 3.3.4 | Conditions
 
 Lalu, masuk ke jendela keempat yaitu `Conditions`. Pada jendela ini, kita uncheck semua pilihan yang ada. Karena kondisi ini mengatur bahwa task hanya akan dijalankan jika pilihan yang dicheck terpenuhi atau bernilai true. AutoHotkey tidak perlu mulai berjalan ketika komputer idle (tidak digunakan selama beberapa waktu), tidak perlu ketika laptop sedang dicharge atau menggunakan AC power, dan tidak perlu terhubung ke jaringan tertentu. Jadi, uncheck semua pilihan.
 
-![[DATA DOKUMENTASI/Custom AutoHotkey/src/Custom Escape dengan AutoHotkey-16.png]]
+![[Custom Escape dengan AutoHotkey-16.png]]
 
 ### 3.3.5 | Settings
 
@@ -339,12 +339,12 @@ Kenapa?
 
 Karena script AHK biasanya cuma perlu **1 instance** saja yang jalan di background. Kalau pilih yang lain (misalnya _Run a new instance in parallel_), bisa bikin dobel-dobel script jalan dan malah bentrok.
 
-![[DATA DOKUMENTASI/Custom AutoHotkey/src/Custom Escape dengan AutoHotkey-17.png]]
+![[Custom Escape dengan AutoHotkey-17.png]]
 
 Setelah semua konfigurasi dilakukan, klik `Ok`. Nah jika sudah berhasil terpasang, maka pada bagian `Task Scheduler Library`, akan muncul task yang baru saja kita buat.
 
-![[DATA DOKUMENTASI/Custom AutoHotkey/src/Custom Escape dengan AutoHotkey-18.png]]
+![[Custom Escape dengan AutoHotkey-18.png]]
 
 Silahkan restart komputer, dan jika notifikasi ini muncul ketika pertama kali startup, artinya konfigurasi kita berhasil:
 
-![[DATA DOKUMENTASI/Custom AutoHotkey/src/Custom Escape dengan AutoHotkey-19.png]]
+![[Custom Escape dengan AutoHotkey-19.png]]
