@@ -1,0 +1,140 @@
+{
+  "nodes": [
+    {
+      "id": "3af5fd673d13483b",
+      "type": "text",
+      "text": "Matematika",
+      "styleAttributes": {},
+      "x": -120,
+      "y": -320,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "70ef32d3383db0a4",
+      "type": "text",
+      "text": "Aritmatika Dasar",
+      "styleAttributes": {},
+      "x": -620,
+      "y": -80,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "d22ff4124d3693d4",
+      "type": "text",
+      "text": "Latihan aritmatika dasar, seperti penjumalahn, penambahan, perkalian, dan juga pembagian, yang semakin lama semakin sulit. Digunakan situs seperti [mathtrainer.ai](https://mathtrainer.ai/) sebagai tempat latihan. Gunakan akun Riveris",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -660,
+      "y": 0,
+      "width": 340,
+      "height": 200
+    },
+    {
+      "id": "154a83c16c237050",
+      "type": "text",
+      "text": "Date: 25 Agustus 2025\nLevel : 18",
+      "styleAttributes": {},
+      "x": -620,
+      "y": 260,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "9f502b2e134e56d8",
+      "type": "text",
+      "text": "Data Structure",
+      "styleAttributes": {},
+      "x": 800,
+      "y": -320,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "7a946977abf01c44",
+      "type": "text",
+      "text": "Linear Data Structure",
+      "styleAttributes": {},
+      "x": 440,
+      "y": -140,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "7e14727800006cf7",
+      "type": "text",
+      "text": "Vector",
+      "styleAttributes": {},
+      "x": 160,
+      "y": -20,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "1801bc68a9de994d",
+      "type": "text",
+      "text": "Queue",
+      "styleAttributes": {},
+      "x": 160,
+      "y": 80,
+      "width": 260,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "ccd8a75aee0ff328",
+      "styleAttributes": {},
+      "fromNode": "3af5fd673d13483b",
+      "fromSide": "bottom",
+      "toNode": "70ef32d3383db0a4",
+      "toSide": "top"
+    },
+    {
+      "id": "24ae05c8a7ed9911",
+      "styleAttributes": {
+        "arrow": "circle-outline"
+      },
+      "fromNode": "70ef32d3383db0a4",
+      "fromSide": "bottom",
+      "toNode": "d22ff4124d3693d4",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "b4bd78a2ad3b2150",
+      "styleAttributes": {},
+      "fromNode": "d22ff4124d3693d4",
+      "fromSide": "bottom",
+      "toNode": "154a83c16c237050",
+      "toSide": "top"
+    },
+    {
+      "id": "c875c572cfeeb4a2",
+      "styleAttributes": {},
+      "fromNode": "9f502b2e134e56d8",
+      "fromSide": "bottom",
+      "toNode": "7a946977abf01c44",
+      "toSide": "top"
+    },
+    {
+      "id": "05023d7f13231a2b",
+      "styleAttributes": {},
+      "fromNode": "7a946977abf01c44",
+      "fromSide": "bottom",
+      "toNode": "7e14727800006cf7",
+      "toSide": "right"
+    },
+    {
+      "id": "3ce9bb85d7a098a1",
+      "styleAttributes": {},
+      "fromNode": "7a946977abf01c44",
+      "fromSide": "bottom",
+      "toNode": "1801bc68a9de994d",
+      "toSide": "right"
+    }
+  ],
+  "metadata": {}
+}

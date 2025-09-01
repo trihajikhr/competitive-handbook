@@ -2,11 +2,11 @@
 obsidianUIMode: preview
 note_type: data structure theory
 id_algoritma: 04TH-DSDQ-0001
-nama_algoritma: deque data structure
+nama_algoritma:
 kategori_algoritma: data structure
-kesulitan: 
-time_complexity: 
-memory_complexity: 
+kesulitan:
+time_complexity:
+memory_complexity:
 sumber: programiz.com & chatgpt.com
 date_learned: 2025-04-23T10:53:00
 tags:

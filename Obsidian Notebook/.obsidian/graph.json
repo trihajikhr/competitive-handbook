@@ -8,10 +8,10 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#STRIKE",
+      "query": "tag:#data-structure  ",
       "color": {
         "a": 1,
-        "rgb": 16771584
+        "rgb": 12255487
       }
     },
     {
@@ -22,37 +22,23 @@
       }
     },
     {
-      "query": "tag:#data-structure  ",
-      "color": {
-        "a": 1,
-        "rgb": 11007
-      }
-    },
-    {
       "query": "tag:#graph-algorithm  ",
       "color": {
         "a": 1,
         "rgb": 16711680
       }
-    },
-    {
-      "query": "tag:#number-theory  ",
-      "color": {
-        "a": 1,
-        "rgb": 1113751
-      }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.19058961343225,
-  "lineSizeMultiplier": 1.58243654822335,
+  "textFadeMultiplier": -0.3,
+  "nodeSizeMultiplier": 1.30969722633919,
+  "lineSizeMultiplier": 1.5088926529748,
   "collapse-forces": true,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.11262746455249267,
+  "scale": 0.16307707255836962,
   "close": true
 }

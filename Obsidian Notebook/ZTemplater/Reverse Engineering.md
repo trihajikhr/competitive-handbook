@@ -17,83 +17,64 @@ Sumber:
 
 ---
 # 1 | Problem Statement
-
-```ad-info
-Mendefinisikan permasalahan secara formal, termasuk input, output, dan batasan operasional.
-```
 ## Judul
+
+
+<br/>
 
 ---
 # 2 | Petunjuk dan Editorial
 ## 2.1 | Editorial
 
-```ad-info
-Merangkum pendekatan solusi dan strategi algoritmik yang disajikan oleh sumber eksternal.
-```
+
 
 ## 2.2 | Kode
 
-```ad-hint
-Menyajikan implementasi referensi sebagai bahan analisis dan pembelajaran.
-```
+
+<br/>
 
 ---
 # 3 | Reverse Engineering
 
-```ad-danger
-title:Reverse Engineering 🛠️
-Menganalisis struktur dan logika kode referensi untuk mengidentifikasi pola, strategi, dan teknik yang digunakan.
-```
+
+<br/>
 
 ---
 # 4 | Experimentation
 
-```ad-attention
-title:Experimentation ⚙️
-Melakukan eksperimen terkontrol pada kode untuk memvalidasi pemahaman, mengeksplorasi variasi, dan mengamati perilaku program.
-```
+
+<br/>
 
 ---
 # 5 | Hypothesis
 ## 5.1 | Pertama
 
-```ad-attention
-Merumuskan dugaan awal terkait mekanisme atau strategi yang mendasari solusi.
-```
+
 
 ## 5.2 | Kedua
 
-```ad-attention
-Menyempurnakan hipotesis berdasarkan hasil eksperimen dan pengamatan.
-```
+
+
+<br/>
 
 ---
 # 6 | Reconstruction (My Implementation)
 ## 6.1 | Kode Pertama
 
-```ad-attention
-Implementasi awal yang mereplikasi strategi inti berdasarkan pemahaman sendiri.
-```
+
 ## 6.2 | Kode Kedua
 
-```ad-attention
-Versi optimasi dan penyempurnaan, meningkatkan efisiensi, readability, atau algoritma.
-```
+
+<br/>
 
 ---
 
 # 7 | Knowledge Extraction
 
-```ad-example
-title:Knowledge Extraction
-Mengisolasi insight, pola, dan trik algoritmik yang dapat diterapkan secara umum pada permasalahan serupa.
-```
+
+<br/>
 
 ---
 # 8 | Reflection
-
-```ad-success
-Mengevaluasi efektivitas proses pembelajaran, mengidentifikasi keberhasilan, kelemahan, dan peluang untuk aplikasi di konteks lain.
-```
 
 

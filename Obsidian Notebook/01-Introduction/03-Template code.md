@@ -2,15 +2,14 @@
 obsidianUIMode: preview
 note_type: tips trick
 tips_trick: template code cp
-sumber: "buku: CP handbook by Antti Laaksonen & chatgpt.com"
+sumber:
+  - "buku: CP handbook by Antti Laaksonen"
+  - chatgpt.com
 tags:
   - introduction
-  - template-code
 ---
-#introduction #template-code
-
 ---
-# Template code untuk CP
+# 1 | Template code untuk CP
 Dalam competitive programming, terdapat banyak cara yang bisa dilakukan untuk memaksimalkan kinerja kode program. Entah itu memudahkan dan mempercepat penulisan kode program, mempercepat eksekusi program, dan efisiensi lainya. Hal ini biasanya sudah tersusun sedemikian rupa dengan template code tertentu yang biasa digunakan dalam CP. 
 
 Berikut diantaranya:

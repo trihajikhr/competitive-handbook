@@ -21,14 +21,14 @@ Dalam C++, **vektor** digunakan untuk menyimpan elemen dengan tipe data yang ser
 #include <vector>
 ```
 
-# Mendeklarasikan Vector di C++
+## 1 | Mendeklarasikan Vector di C++
 Setelah kita menyertakan file header, berikut ini adalah cara kita mendeklarasikan sebuah vektor dalam C++:
 
 ```cpp
 std::vector<T> vector_name;
 ```
 
-Parameter tipe `<T>` menentukan jenis vektor. Ini dapat berupa tipe data primitif seperti int, char, float, dll. Sebagai contoh: 
+Parameter tipe `<T>` menentukan jenis vektor. Ini dapat berupa tipe data primitif seperti int, char, float, dll, termasuk juga tipe data kompleks, seperti class dan struct. Sebagai contoh: 
 
 ```cpp
 vector<int> num;
@@ -37,9 +37,11 @@ vector<int> num;
 Di sini, **num** adalah nama vektor.
 
 Perhatikan bahwa kita belum menentukan ukuran vektor selama deklarasi. Hal ini karena ukuran vektor dapat bertambah secara dinamis, sehingga tidak perlu didefinisikan.
-# Menginisialisasikan Vector di C++
+
+---
+## 2 | Menginisialisasikan Vector di C++
 Ada beberapa cara untuk menginisialisasi vektor dalam C++.
-## Cara pertama:
+### 2.1 | Cara pertama:
 
 ```cpp
 // Initializer list
@@ -52,7 +54,7 @@ vector<int> vector2 {1, 2, 3, 4, 5};
 ```
 
 Di sini, kita menginisialisasi vektor dengan memberikan nilai secara langsung ke vektor. Sekarang, baik **vektor1** maupun **vektor2** diinisialisasi dengan nilai 1, 2, 3, 4, 5.
-## Cara kedua:
+### 2.2 | Cara kedua:
 
 ```cpp
 vector<int> vector3(5, 12);
@@ -66,7 +68,7 @@ Kode ini membuat vektor int dengan ukuran 5 dan menginisialisasi vektor tersebut
 vector<int> vector3 = {12, 12, 12, 12, 12};
 ```
 
-## Contoh: Menginisialisasikan Vector C++
+### 2.3 | Contoh: Menginisialisasikan Vector C++
 
 ```cpp
 #include <iostream>
@@ -118,10 +120,12 @@ vector3 = 12  12  12  12  12
 ```
 
 Di sini, kita telah mendeklarasikan dan menginisialisasi tiga vektor yang berbeda menggunakan tiga metode inisialisasi yang berbeda dan menampilkan isinya.
-# Cara Menampilkan Isi Vector
+
+---
+## 3 | Cara Menampilkan Isi Vector
 Dari kode sebelumnya, kamu mungkin belajar bahwa untuk menampilkan isi vector, adalah dengan mengunakan perulangan berikut:
 
-## Cara perulangan 
+### 3.1 | Cara perulangan 
 
 ```cpp
 for (const int& i : vector1) {
@@ -136,18 +140,21 @@ Berikut adalah penjelasanya:
     - `const int& i` berarti kita membuat sebuah referensi konstanta (`const int&`) untuk elemen-elemen dalam `vector1`. Ini membuat kita tidak mengubah nilai elemen dan menghindari salinan data.
     - `vector1` adalah `vector` yang akan diiterasi. Setiap elemen dalam `vector1` akan disalin ke dalam `i` satu per satu selama iterasi.
 - **`cout << i << " ";`**: Baris ini mencetak nilai dari `i` (elemen yang sedang diproses) diikuti dengan dua spasi (`" "`).
-### Penjelasan Tambahan:
+#### Penjelasan Tambahan:
 
 - **`const`** di sini memastikan bahwa kamu tidak bisa mengubah nilai elemen dalam `vector1` selama iterasi.
 - **`&` (referensi)** memungkinkan kamu untuk mengakses elemen tanpa menyalin data, yang lebih efisien terutama untuk tipe data besar atau objek.
 
 Dengan kode ini, isi dari `vector1` akan ditampilkan dalam satu baris, dengan setiap elemen dipisahkan oleh dua spasi.
 
-## Menampilkan vector dengan cara lain
-**Apakah ada cara menampilkan isi vector, selain dengan cara ini? Dan apakah menampilkan vector dengan cara ini merupakan cara terbaik?**
+### 3.2 |  Menampilkan vector dengan cara lain
+
+```ad-faq
+Apakah ada cara menampilkan isi vector, selain dengan cara ini? Dan apakah menampilkan vector dengan cara ini merupakan cara terbaik?
+```
 
 Ya, ada beberapa cara lain untuk menampilkan isi dari sebuah `vector` di C++. Cara mana yang terbaik tergantung pada konteksnya, tetapi menggunakan **range-based for loop** seperti yang kamu gunakan adalah salah satu cara yang paling ringkas dan mudah dibaca. Namun, mari kita lihat beberapa alternatif lain, termasuk kelebihan dan kekurangannya.
-### 1. Loop dengan Indeks Biasa (`for` Loop Standar)
+#### 3.2.1 | Loop dengan Indeks Biasa (`for` Loop Standar)
 
 ```cpp
 for (size_t i = 0; i < vector1.size(); i++) {
@@ -156,9 +163,11 @@ for (size_t i = 0; i < vector1.size(); i++) {
 ```
 
 - **Kelebihan**: Ini memberi kontrol lebih besar atas indeks. Kamu bisa menambahkan logika tambahan seperti melompati elemen atau mengakses elemen lain dengan indeks tertentu.
+<br/>
+
 - **Kekurangan**: Sedikit lebih verbose dibandingkan range-based for loop dan mungkin terlihat sedikit lebih kompleks.
 
-### 2. Menggunakan Iterator
+#### 3.2.2 | Menggunakan Iterator
 
 ```cpp
 for (auto it = vector1.begin(); it != vector1.end(); ++it) {
@@ -167,9 +176,11 @@ for (auto it = vector1.begin(); it != vector1.end(); ++it) {
 ```
 
 - **Kelebihan**: Menggunakan iterator lebih umum dalam C++ saat kamu bekerja dengan berbagai jenis kontainer STL (seperti `list`, `map`, dll.). Ini juga berguna jika kamu ingin melakukan operasi yang lebih kompleks, misalnya, menghapus elemen selama iterasi.
+<br/>
+
 - **Kekurangan**: Kode ini mungkin terlihat lebih sulit dipahami, terutama jika kamu baru belajar C++.
 
-### 3. Menggunakan `for_each` dengan Lambda (C++11 dan Lebih Baru)
+#### 3.2.3 | Menggunakan `for_each` dengan Lambda (C++11 dan Lebih Baru)
 
 ```cpp
 #include <algorithm>
@@ -180,9 +191,11 @@ for_each(vector1.begin(), vector1.end(), [](int i) {
 ```
 
 - **Kelebihan**: Berguna jika kamu ingin menyematkan logika tambahan ke dalam lambda atau menggunakan fungsi tertentu untuk setiap elemen dalam `vector`.
+<br/>
+
 - **Kekurangan**: Kode ini mungkin terlihat lebih kompleks, dan `for_each` sering dianggap berlebihan untuk iterasi sederhana.
 
-### 4. Menggunakan `copy` dan `ostream_iterator`
+#### 3.2.4 | Menggunakan `copy` dan `ostream_iterator`
 
 ```cpp
 #include <iterator>
@@ -191,20 +204,27 @@ copy(vector1.begin(), vector1.end(), ostream_iterator<int>(cout, "  "));
 ```
 
 - **Kelebihan**: Ini adalah cara yang sangat ringkas untuk menampilkan elemen-elemen `vector` tanpa harus membuat loop secara manual. Berguna dalam kasus sederhana.
+<br/>
+
 - **Kekurangan**: Mungkin kurang intuitif untuk dipahami bagi pemula.
 
-### Cara Terbaik?
+### 3.3 | Cara Terbaik?
 
 - **Range-based for loop** (seperti pada kode yang kamu berikan) adalah salah satu cara terbaik dan direkomendasikan untuk menampilkan semua elemen dalam `vector`. Selain ringkas, cara ini juga mudah dipahami dan ideal jika kamu hanya perlu menampilkan atau mengakses nilai elemen tanpa mengubahnya.
+<br/>
+
 - Namun, jika kamu memerlukan kontrol lebih besar atau logika kompleks, `for` loop standar atau iterator manual mungkin lebih sesuai.
-# Operasi Vektor Dasar
+
+---
+## 4 | Operasi Vektor Dasar
+
 Kelas vektor menyediakan berbagai metode untuk melakukan berbagai operasi pada vektor. Kita akan melihat beberapa operasi vektor yang umum digunakan dalam tutorial ini: 
 - Menambahkan elemen 
 - Mengakses elemen 
 - Mengubah elemen 
 - Menghapus elemen
 
-## 1. Menambahkan Elemen ke Vektor
+### 4.1 | Menambahkan Elemen ke Vektor
 Untuk menambahkan satu elemen ke dalam sebuah vektor, kita menggunakan fungsi **push_back()**. Fungsi ini menyisipkan sebuah elemen ke dalam akhir vektor. Sebagai contoh:
 
 ```cpp
@@ -251,10 +271,10 @@ num.push_back(7);
 
 Di sini, fungsi **push_back()** menambahkan elemen **6** dan **7** ke dalam vektor.
 
-> **Catatan:** Kita juga dapat menggunakan fungsi **insert()** dan **emplace()** untuk menambahkan elemen pada vektor.
+> **Catatan:** Kita juga dapat menggunakan fungsi `insert()` dan `emplace()` untuk menambahkan elemen pada vektor.
 
-## 2. Mengakses Elemen-elemen Vektor
-Dalam C++, kita menggunakan nomor indeks untuk mengakses elemen-elemen vektor. Di sini, kita menggunakan fungsi **at()** untuk mengakses elemen dari indeks yang ditentukan. Sebagai contoh:
+### 4.2 | Mengakses Elemen-elemen Vektor
+Dalam C++, kita menggunakan nomor indeks untuk mengakses elemen-elemen vektor. Di sini, kita menggunakan fungsi `at()` untuk mengakses elemen dari indeks yang ditentukan. Sebagai contoh:
 
 ```cpp
 #include <iostream>
@@ -286,14 +306,14 @@ Ini penjelasanya:
 - **Element at Index 2: 3**  - mengakses elemen 2 pada index 
 - **Element at Index 4: 5**  - mengakses elemen 4 pada index 
 
-**Catatan:** Seperti halnya array, kita juga dapat menggunakan tanda kurung siku \[] untuk mengakses elemen vektor. Sebagai contoh:
+**Catatan:** Seperti halnya array, kita juga dapat menggunakan tanda kurung siku `[]` untuk mengakses elemen vektor. Sebagai contoh:
 
 ```cpp
 vector<int> num {1, 2, 3};
 cout << num[1];  // Output: 2
 ```
 
-Namun, fungsi **at()** lebih disukai daripada \[] karena **at()** melemparkan pengecualian setiap kali vektor berada di luar batas, sementara \[] memberikan nilai sampah.
+Namun, fungsi `at()` lebih disukai daripada `[]` karena `at()` melemparkan pengecualian setiap kali vektor berada di luar batas, sementara `[]` memberikan nilai sampah.
 
 ```Cpp
 vector<int> num {1, 2, 3};
@@ -305,8 +325,8 @@ cout << num[4];
 cout << num.at(4);
 ```
 
-## 3. Mengubah Elemen Vektor
-Kita dapat mengubah sebuah elemen vektor dengan menggunakan fungsi **at()** yang sama. Sebagai contoh,
+### 4.3 | Mengubah Elemen Vektor
+Kita dapat mengubah sebuah elemen vektor dengan menggunakan fungsi `at()` yang sama. Sebagai contoh,
 
 ```cpp
 #include <iostream>
@@ -351,7 +371,7 @@ num.at(4) = 7;
 ```
 
 Di sini, kami telah menetapkan nilai baru untuk indeks **1** dan **4**. Jadi, nilai pada **indeks 1** diubah menjadi **9** dan nilai pada **indeks 4** diubah menjadi **7**.
-## 4. Menghapus Elemen dari Vektor C++
+### 4.4 | Menghapus Elemen dari Vektor C++
 Untuk menghapus satu elemen dari sebuah vektor, kita menggunakan fungsi **pop_back()**. Sebagai contoh,
 
 ```cpp
@@ -397,7 +417,7 @@ prime_numbers.pop_back();
 
 Di sini, kita telah menghapus elemen terakhir (**7**) dari vektor.
 
-### 4.1) Menghapus elemen vector berdasarkan value 
+#### 4.4.1 | Menghapus elemen vector berdasarkan value 
 Kita juga bisa menghapus value vector yang kita tentukan. Sebagai contoh kasus berikut:
 
 Terdapat vector arr, dengan isi berupa:
@@ -435,7 +455,9 @@ Katakanlah inputan kita adalah `5`, maka outputnya adalah sebagai berikut:
 
 Disini kita berhasil untuk menghapus nilai `5` dari array.
 
-> Apa jadinya jika nilai yang kita hapus tidak ada didalam array yang dituju?
+```ad-faq
+Apa jadinya jika nilai yang kita hapus tidak ada didalam array yang dituju?
+```
 
 Pertanyaan bagus, dan **iya**, _jika nilai yang dicari tidak ditemukan dalam array_, maka:
 
@@ -464,11 +486,8 @@ Ini **undefined behavior**. Secara teknis **tidak sah**, dan bisa:
 - Crash program,
     
 - Atau seperti yang kamu alami, **menghapus elemen terakhir**—tapi ini **bukan jaminan perilaku resmi**, hanya kebetulan hasil dari _implementation-defined behavior_.
-    
 
----
-
-### ✔️ Solusi Aman
+##### Solusi Aman
 
 Tambahkan pengecekan sebelum `erase`:
 
@@ -481,14 +500,15 @@ if (it != arr.end()) {
 
 Dengan ini, kamu hanya menghapus jika `x` **benar-benar ditemukan** di array.
 
-### 4.2) Menghapus elemen array berdasarkan index
+#### 4.4.2 | Menghapus elemen array berdasarkan index
+
 Nah, kalau kamu mau menghapus elemen dari `vector` berdasarkan **index**, tinggal langsung pakai `erase` dengan iterator ke posisi tersebut:
 
 ```cpp
 arr.erase(arr.begin() + index);
 ```
 
-### ✅ Contoh:
+##### Contoh:
 
 ```cpp
 #include <iostream>
@@ -498,7 +518,8 @@ using namespace std;
 int main() {
     vector<int> arr = {10, 20, 30, 40, 50};
 
-    int index; cin >> index;
+    int index; 
+    cin >> index;
 
     if (index >= 0 && index < arr.size()) {
         arr.erase(arr.begin() + index);
@@ -513,11 +534,12 @@ int main() {
 }
 ```
 
-### ⚠️ Penting:
+##### Penting:
 
 Kamu **harus cek** apakah `index` valid, karena jika `index` negatif atau lebih besar dari `arr.size() - 1`, akan menyebabkan **crash atau undefined behavior**.
 
-# C++ Vector Functions
+---
+## 5 | C++ Vector Functions
 Dalam C++, file header vektor menyediakan berbagai fungsi yang dapat digunakan untuk melakukan berbagai operasi pada vektor.
 
 | Function     | Description                                       |
@@ -529,7 +551,9 @@ Dalam C++, file header vektor menyediakan berbagai fungsi yang dapat digunakan u
 | `empty()`    | mengembalikan **1** (true) jika vektor kosong     |
 | `capacity()` | memeriksa ukuran keseluruhan dari sebuah vektor   |
 | `erase()`    | menghapus elemen vector yang ditentukan           |
-# Iterator Vektor C++
+
+---
+## 6 | Iterator Vektor C++
 Iterator vektor digunakan untuk menunjuk ke alamat memori dari sebuah elemen vektor. Dalam beberapa hal, iterator vektor berfungsi seperti pointer dalam C++. Kita dapat membuat iterator vektor dengan sintaks
 
 ```cpp
@@ -546,9 +570,9 @@ vector<int>::iterator iter1;
 vector<double>::iterator iter2;
 ```
 
-## 1. Inisialisasi Iterator Vektor
+### 6.1 | Inisialisasi Iterator Vektor
 Kita dapat menginisialisasi iterator vektor menggunakan fungsi **begin()** dan **end()**.
-### 1. begin() function
+#### 6.1.1 | begin() function
 Fungsi **begin()** mengembalikan sebuah iterator yang menunjuk ke elemen pertama dari vektor. Sebagai contoh,
 
 ```cpp
@@ -559,7 +583,7 @@ vector<int>::iterator iter;
 iter = num.begin();
 ```
 
-### 2. end() function
+#### 6.1.2 | end() function
 Fungsi **end()** menunjuk pada **elemen teoritis** yang muncul **setelah** elemen akhir vektor. Sebagai contoh,
 
 ```cpp
@@ -569,7 +593,7 @@ iter = num.end() - 1;
 
 Di sini, karena sifat dari fungsi **end()**, kita telah menggunakan kode **num.end() - 1** untuk menunjuk ke elemen terakhir dari vektor num, yaitu num\[2].
 
-## Contoh: Iterator Vector C++
+### 6.2 | Contoh: Iterator Vector C++
 
 ```cpp
 #include <iostream>
@@ -633,7 +657,7 @@ Kemudian, kita mencetak elemen ke-3 dari vektor dengan mengubah nilai **iter** m
 
 Terakhir, kita mencetak elemen terakhir dari vektor dengan menggunakan fungsi **end()**.
 
-## Contoh: Lakukan Perulangan Melalui Vektor Menggunakan Iterator
+### 6.3 | Contoh: Lakukan Perulangan Melalui Vektor Menggunakan Iterator
 ```cpp
 #include <iostream>
 #include <vector>

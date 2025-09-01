@@ -2,144 +2,148 @@
 obsidianUIMode: preview
 note_type: tips trick
 tips_trick: memilih bahasa program
-sumber: "buku: CP handbook by Antti Laaksonen & chatgpt.com"
+sumber:
+  - "buku: CP handbook by Antti Laaksonen"
+  - geeksforgeeks.org
 tags:
   - introduction
-  - programming-language
 ---
-#introduction #programming-language
-
 ---
-# Bahasa yang Paling Sering Digunakan dalam Competitive Programming dan Alasannya
+# 1 | Bahasa yang Paling Sering Digunakan dalam Competitive Programming dan Alasannya
 ==Source: Chatgpt.com==
 
 Dalam competitive programming, beberapa bahasa pemrograman lebih populer dibandingkan yang lain karena kecepatan eksekusi, fleksibilitas, dan dukungan pustaka bawaan. Berikut adalah tiga bahasa utama yang paling sering digunakan, urutan berdasarkan popularitas:
 
----
+## 1.1 | C++ (Paling Populer)
 
-## 1️⃣ **C++** (Paling Populer 🚀)
+### 1.1.1 | Mengapa C++ adalah pilihan utama dalam CP?  
 
-### 📌 Mengapa C++ adalah pilihan utama dalam CP?  
-✅ **Kecepatan Eksekusi Tinggi**:
+1. **Kecepatan Eksekusi Tinggi:**
 
-- C++ adalah bahasa yang dikompilasi (compiled), bukan interpreted seperti Python, sehingga eksekusi program jauh lebih cepat.
-- Dalam kompetisi, sering ada batasan waktu yang ketat, dan C++ memungkinkan peserta menangani batasan waktu lebih baik daripada bahasa lain.
+	- C++ adalah bahasa yang dikompilasi (compiled), bukan interpreted seperti Python, sehingga eksekusi program jauh lebih cepat.
+	- Dalam kompetisi, sering ada batasan waktu yang ketat, dan C++ memungkinkan peserta menangani batasan waktu lebih baik daripada bahasa lain.
 
-✅ **STL (Standard Template Library)**:
+2. **STL (Standard Template Library):**
 
-- STL menyediakan struktur data dan algoritma bawaan yang sangat cepat dan optimal.
-- Contohnya:
-    - `vector` → Array dinamis yang fleksibel.
-    - `set` dan `map` → Struktur data berbasis pohon untuk pencarian cepat.
-    - `priority_queue` → Implementasi heap yang efisien.
-    - `unordered_map` → Hash table dengan pencarian O(1).
-    - `sort()` → Algoritma sorting yang sangat cepat dengan kompleksitas O(N log N).
+	- STL menyediakan struktur data dan algoritma bawaan yang sangat cepat dan optimal.
+	- Contohnya:
+	    - `vector` → Array dinamis yang fleksibel.
+	    - `set` dan `map` → Struktur data berbasis tree untuk pencarian cepat.
+	    - `priority_queue` → Implementasi heap yang efisien.
+	    - `unordered_map` → Hash table dengan pencarian $O(1)$.
+	    - `sort()` → Algoritma sorting yang sangat cepat dengan kompleksitas $O(N \log N)$.
 
-✅ **Manipulasi Memori yang Efisien**:
+3. **Manipulasi Memori yang Efisien:**
 
-- C++ memungkinkan alokasi memori manual dengan pointer dan `malloc()`, yang bisa digunakan untuk optimasi ekstrem.
-- Tidak ada garbage collection seperti di Java atau Python, sehingga lebih cepat.
+	- C++ memungkinkan alokasi memori manual dengan pointer dan `malloc()`, yang bisa digunakan untuk optimasi ekstrem.
+	- Tidak ada garbage collection seperti di Java atau Python, sehingga lebih cepat.
 
-✅ **Kompatibilitas dengan Algoritma CP**:
+4. **Kompatibilitas dengan Algoritma CP:**
 
-- Banyak algoritma yang diajarkan di CP langsung menggunakan sintaks C++, sehingga peserta lebih mudah menerapkannya.
+	- Banyak algoritma yang diajarkan di CP langsung menggunakan sintaks C++, sehingga peserta lebih mudah menerapkannya.
 
-### 📌 Kelemahan C++  
-❌ **Debugging lebih sulit** → Tidak memiliki error handling bawaan seperti Python.  
-❌ **Sintaks kompleks** → Membutuhkan pemahaman mendalam tentang pointer, reference, dan memory management.
+### 1.1.2 | Kelemahan C++  
 
-> 🟢 Kesimpulan → C++ adalah bahasa yang paling populer dalam CP karena kecepatan dan STL yang sangat kuat.
+1. **Debugging lebih sulit**
+	Tidak memiliki error handling bawaan seperti Python.  
 
----
+2. **Sintaks kompleks**
+	Membutuhkan pemahaman mendalam tentang pointer, reference, dan memory management.
 
-## **2️⃣ Python** (Digunakan, tapi Kurang Optimal dalam CP)
+```ad-important
+Kesimpulan → C++ adalah bahasa yang paling populer dalam CP karena kecepatan dan STL yang sangat kuat.
+```
 
-### 📌 Mengapa Python tetap dipakai?  
-✅ **Sintaks yang lebih mudah dan ringkas**:
+## 1.2 | Python (Digunakan, tapi Kurang Optimal dalam CP)
 
-- Peserta dapat menulis kode yang lebih pendek dan lebih mudah dibaca dibandingkan C++.
-- Contoh sorting dalam Python hanya perlu satu baris:
-    
-    ```python
-    arr.sort()
-    ```
-    
-    Sementara di **C++**:
-    
-    ```cpp
-    sort(arr.begin(), arr.end());
-    ```
-    
+### 1.2.1 | Mengapa Python tetap dipakai?  
 
-✅ **Dukungan Pustaka yang Kuat**:
+1. **Sintaks yang lebih mudah dan ringkas:**
+	
+	- Peserta dapat menulis kode yang lebih pendek dan lebih mudah dibaca dibandingkan C++.
+	- Contoh sorting dalam Python hanya perlu satu baris:
+	    
+	    ```python
+	    arr.sort()
+	    ```
+	    
+	    Sementara di C++:
+	    
+	    ```cpp
+	    sort(arr.begin(), arr.end());
+	    ```
+	    
 
-- Python memiliki pustaka seperti **`collections.Counter`**, **`heapq`** (priority queue), dan **`itertools`** yang bisa membantu menyelesaikan masalah CP dengan lebih sedikit kode.
+2. **Dukungan Pustaka yang Kuat:**
 
-✅ **Tipe Data Fleksibel**:
+	- Python memiliki pustaka seperti **`collections.Counter`**, **`heapq`** (priority queue), dan **`itertools`** yang bisa membantu menyelesaikan masalah CP dengan lebih sedikit kode.
 
-- Integer bisa otomatis menjadi besar (Big Integer), sementara di C++ kita harus menggunakan `long long`.
-- List bisa menampung berbagai tipe data sekaligus.
+3. **Tipe Data Fleksibel:**
 
-### 📌 Kelemahan Python dalam CP  
-❌ **Eksekusi Lebih Lambat (10x lebih lambat dari C++)**
+	- Integer bisa otomatis menjadi besar (Big Integer), sementara di C++ kita harus menggunakan `long long`.
+	- List bisa menampung berbagai tipe data sekaligus.
 
-- Karena Python adalah bahasa interpreted, tidak secepat C++ dalam eksekusi.
-- Untuk soal yang membutuhkan pengolahan data dalam jumlah besar (misal: 10⁶ operasi), Python bisa TLE (Time Limit Exceeded).
+### 1.2.2 | Kelemahan Python dalam CP  
 
-❌ **Tidak Ada Tipe Data Statis**
+1. **Eksekusi Lebih Lambat (10x lebih lambat dari C++)**
+
+	- Karena Python adalah bahasa interpreted, tidak secepat C++ dalam eksekusi.
+	- Untuk soal yang membutuhkan pengolahan data dalam jumlah besar (misal: 10⁶ operasi), Python bisa TLE (Time Limit Exceeded).
+
+2. **Tidak Ada Tipe Data Statis**
 
 - Python tidak memiliki deklarasi tipe data seperti `int`, `long long`, atau `double`, sehingga bisa terjadi overhead dalam eksekusi.
 
-> 🟢 Kesimpulan → Python cocok untuk debugging dan pemula, tapi kurang optimal untuk soal-soal dengan batasan waktu ketat.
+```ad-important
+Kesimpulan → Python cocok untuk debugging dan pemula, tapi kurang optimal untuk soal-soal dengan batasan waktu ketat.
+```
 
----
+## 1.3 | Java (Alternatif yang Layak, Tapi Kurang Populer)
 
-## **3️⃣ Java** (Alternatif yang Layak, Tapi Kurang Populer)
+### 1.3.1 | Mengapa Java digunakan dalam CP?  
 
-### 📌 Mengapa Java digunakan dalam CP?  
-✅ **Kecepatan Eksekusi di Tengah-tengah**:
+1. **Kecepatan Eksekusi di Tengah-tengah:**
 
-- Java lebih lambat dari C++, tetapi lebih cepat dari Python.
-- Java dikompilasi menjadi bytecode yang dieksekusi oleh JVM (Java Virtual Machine), membuatnya cukup cepat.
+	- Java lebih lambat dari C++, tetapi lebih cepat dari Python.
+	- Java dikompilasi menjadi bytecode yang dieksekusi oleh JVM (Java Virtual Machine), membuatnya cukup cepat.
+2. **Garbage Collection Otomatis**
 
-✅ **Garbage Collection Otomatis**
+	- Java secara otomatis mengelola memori, mengurangi kemungkinan kesalahan pointer seperti di C++.
+3. **Dukungan Struktur Data yang Kuat**
 
-- Java secara otomatis mengelola memori, mengurangi kemungkinan kesalahan pointer seperti di C++.
+	- **`ArrayList`** → Alternatif `vector` di C++.
+	- **`TreeSet`, `HashSet`** → Untuk pencarian cepat.
+	- **`PriorityQueue`** → Untuk heap seperti `priority_queue` di C++.
 
-✅ **Dukungan Struktur Data yang Kuat**
+### 1.3.2 | Kelemahan Java dalam CP  
 
-- **`ArrayList`** → Alternatif `vector` di C++.
-- **`TreeSet`, `HashSet`** → Untuk pencarian cepat.
-- **`PriorityQueue`** → Untuk heap seperti `priority_queue` di C++.
+1. **Sintaks Lebih Panjang**
+	
+	- Menulis kode lebih panjang dibandingkan C++ dan Python.
+	- Contoh deklarasi input di Java:
+	    
+	    ```java
+	    Scanner sc = new Scanner(System.in);
+	    int n = sc.nextInt();
+	    ```
+	    
+	    Sementara di **C++** cukup:
+	    
+	    ```cpp
+	    int n;
+	    cin >> n;
+	    ```
+	    
 
-### 📌 Kelemahan Java dalam CP  
-❌ **Sintaks Lebih Panjang**
+1. **Startup Time Lebih Lambat**
 
-- Menulis kode lebih panjang dibandingkan C++ dan Python.
-- Contoh deklarasi input di Java:
-    
-    ```java
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    ```
-    
-    Sementara di **C++** cukup:
-    
-    ```cpp
-    int n;
-    cin >> n;
-    ```
-    
+	- JVM membutuhkan waktu tambahan untuk startup, membuatnya lebih lambat dibandingkan C++.
 
-❌ **Startup Time Lebih Lambat**
+```ad-important
+Kesimpulan → Java cukup kuat untuk CP, tetapi sintaksnya lebih panjang dibandingkan C++.
+```
 
-- JVM membutuhkan waktu tambahan untuk startup, membuatnya lebih lambat dibandingkan C++.
-
-> 🟢 Kesimpulan → Java cukup kuat untuk CP, tetapi sintaksnya lebih panjang dibandingkan C++.
-
----
-
-## Kesimpulan Akhir
+## 1.4 | Kesimpulan Akhir
 
 | Bahasa     | Kecepatan           | Sintaks              | Pustaka (Library)           | Digunakan dalam CP?                                       |
 | ---------- | ------------------- | -------------------- | --------------------------- | --------------------------------------------------------- |
@@ -151,8 +155,10 @@ Dalam competitive programming, beberapa bahasa pemrograman lebih populer dibandi
 👉 Jika ingin kode lebih mudah dibaca, gunakan Python (tapi hati-hati dengan batasan waktu).  
 👉 Jika terbiasa dengan Java, bisa dipakai, tapi kurang optimal dibanding C++.
 
+<br/>
+
 ---
-# Bahasa Pemrograman
+# 2 | Bahasa Pemrograman
 
 ==Source: Competitive Programming Handbook by Antti Laaksonen==
 
