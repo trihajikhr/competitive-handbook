@@ -174,7 +174,11 @@
     "STL-algorithm": 162,
     "graph-basic": 163,
     "reverse-engineering": 164,
-    "report": 165
+    "report": 165,
+    "advicc": 166,
+    "task": 167,
+    "taks": 168,
+    "problem-statement": 169
   },
   "_version": 3
 }

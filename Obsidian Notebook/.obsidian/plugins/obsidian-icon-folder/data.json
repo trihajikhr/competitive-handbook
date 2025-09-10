@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiKeyboard",
-      "LiNotebookPen",
-      "LiFileSpreadsheet",
-      "RiStackFill",
-      "LiQrCode"
+      "LiCode2",
+      "LiNotebook",
+      "LiUserPen",
+      "RiUserStarLine",
+      "LiLightbulb"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -104,7 +104,6 @@
   "05-Complete Search/A_Generating Subset/Bit Representation Subset Algorithm.md": "LiQrCode",
   "05-Complete Search/A_Generating Subset/Recursive Search Subset Algorithm.md": "LiQrCode",
   "06-Greedy Algorithm/Greedy Algorithm.md": "LiQrCode",
-  "07-Dynamic Programming/Dynamic Programming Algorithm.md": "LiQrCode",
   "03-Sorting/A_sort-Bubble Sort": "LiFolderCode",
   "03-Sorting/A_sort-Bubble Sort/Bubble Sort Algorithm.md": "LiQrCode",
   "03-Sorting/B_sort-Selection Sort": "LiFolderCode",
@@ -305,7 +304,13 @@
   "04-Data Structure/L-Tuple": "RiStackFill",
   "04-Data Structure/L-Tuple/01-Tuples in C++.md": "LiQrCode",
   "04-Data Structure/L-Tuple/02-Analisis Mendalam Mengenai Data Struktur Tuple.md": "LiQrCode",
-  "04-Data Structure/L-Tuple/Latihan": "LiChartNoAxesCombined",
   "04-Data Structure/L-Tuple/Tuple Report.md": "LiNotebookPen",
-  "DATA DOKUMENTASI/Custom AutoHotkey": "LiKeyboard"
+  "DATA DOKUMENTASI/Custom AutoHotkey": "LiKeyboard",
+  "04-Data Structure/L-Tuple/01-Latihan": "LiChartNoAxesCombined",
+  "07-Dynamic Programming/01-Introduction to Dynamic Programming.md": "LiQrCode",
+  "DELIBERATE PRACTICE": "LiRocket",
+  "DELIBERATE PRACTICE/1% Programmer/Sahil & Sarra": "LiUserPen",
+  "DELIBERATE PRACTICE/1% Programmer/Sahil & Sarra/How to Get Ahead of 99% of Programmers (in 99 seconds).md": "LiLightbulb",
+  "26-String/Tips-trick/01-Beginner/01-Mencari Subtring pada String.md": "LiCode2",
+  "26-String/Tips-trick/01-Beginner/02-Mencari dan Mengganti Substring pada String.md": "LiCode2"
 }

@@ -2,12 +2,14 @@
 obsidianUIMode: preview
 note_type: data structure theory
 id_algoritma: 04TH-DS00-0002
-nama_algoritma: 
+nama_algoritma:
 kategori_algoritma: data structure
-kesulitan: 
-time_complexity: 
-memory_complexity: 
-sumber: programiz.com & chatgpt.com
+kesulitan:
+time_complexity:
+memory_complexity:
+sumber:
+  - programiz.com
+  - chatgpt.com
 date_learned: 2025-04-23T09:40:00
 tags:
   - array

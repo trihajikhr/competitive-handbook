@@ -2,11 +2,11 @@
 obsidianUIMode: preview
 note_type: data structure theory
 id_algoritma: 04TH-DSSE-0001
-nama_algoritma: 
+nama_algoritma: set data structure
 kategori_algoritma: data structure
 kesulitan: 🥉 easy
-time_complexity: 
-memory_complexity: 
+time_complexity:
+memory_complexity:
 sumber: programiz.com
 date_learned: 2025-04-21T19:37:00
 tags:

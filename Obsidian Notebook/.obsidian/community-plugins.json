@@ -28,5 +28,12 @@
   "progressbar",
   "auto-card-link",
   "obsidian-admonition",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "iconic",
+  "metaedit",
+  "obsidian-linter",
+  "obsidian-meta-bind-plugin",
+  "metadata-menu",
+  "quickadd",
+  "darlal-switcher-plus"
 ]
