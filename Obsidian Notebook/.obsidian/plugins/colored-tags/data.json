@@ -178,7 +178,14 @@
     "advicc": 166,
     "task": 167,
     "taks": 168,
-    "problem-statement": 169
+    "problem-statement": 169,
+    "softwaredeveloper": 170,
+    "softwareengineer": 171,
+    "coding": 172,
+    "software": 173,
+    "programming": 174,
+    "typing": 175,
+    "algorithm": 176
   },
   "_version": 3
 }

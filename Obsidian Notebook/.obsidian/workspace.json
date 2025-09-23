@@ -10,6 +10,7 @@
           {
             "id": "6ffc19c1865a42c1",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -17,22 +18,23 @@
                 "mode": "preview",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "My Task"
             }
           },
           {
-            "id": "c8adb43a927ed343",
+            "id": "46c24c36bd43c612",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "A-Problem Statement Trick/01-Array/01-Inversions/01-Menghitung Jumlah Inversions.md",
-                "mode": "preview",
+                "file": "Soal Kuliti Habis.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Menghitung Jumlah Inversions"
+              "title": "Soal Kuliti Habis"
             }
           }
         ],
@@ -68,10 +70,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "transform",
                 "matchingCase": true,
                 "explainSearch": true,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical"
               },
@@ -93,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 369.50499725341797,
-    "collapsed": true
+    "width": 369.50499725341797
   },
   "right": {
     "id": "5a2e04e3f27c45d3",
@@ -196,13 +197,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "A-Problem Statement Trick/01-Array/01-Inversions/01-Menghitung Jumlah Inversions.md",
+                "file": "Soal Kuliti Habis.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01-Menghitung Jumlah Inversions"
+              "title": "Outline of Soal Kuliti Habis"
             }
           }
         ]
@@ -233,55 +234,54 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "c8adb43a927ed343",
+  "active": "46c24c36bd43c612",
   "lastOpenFiles": [
-    "A-Problem Statement Trick/01-Array/01-Inversions/!-Inversions.md",
-    "A-Problem Statement Trick/01-Array/01-Inversions/01-Menghitung Jumlah Inversions.md",
-    "A-Problem Statement Trick/01-Array/01-Inversions",
-    "26-String/Tips-trick/01-Beginner/Untitled.md",
-    "A-Problem Statement Trick/01-Array",
-    "A-Problem Statement Trick",
+    "C++ Standard Library/include - string/Header string di C++.md",
+    "C++ Standard Library/include - sstream/Header sstream di C++.md",
     "My Task.md",
+    "Soal Kuliti Habis.md",
+    "C++ Standard Library/include - string",
+    "C++ Standard Library/include - regex/Header regex di C++.md",
+    "C++ Standard Library/include - sstream/Parsing String dengan sstream.md",
+    "DELIBERATE PRACTICE/1% Typer/How to Type 3x Faster in 7 Days (from a Med Student).md",
+    "DELIBERATE PRACTICE/1% Typer/How I Type REALLY Fast (156 Words per Minute).md",
+    "DELIBERATE PRACTICE/1% Typer",
+    "Problem Statement Trick/01-Array/01-Inversions/01-Menghitung Jumlah Inversions.md",
+    "Problem Statement Trick/01-Array/01-Inversions/!-Inversions.md",
+    "C++ Standard Library/include - sstream",
+    "C++ Standard Library/include - regex/01-regex_match",
+    "C++ Standard Library/include - regex",
+    "Tips Trick/Pembulatan Tanpa Fungsi Bawaan.md",
+    "Tips Trick/Tipe data Pecahan (Float & Double)/Fungsi Pembulatan C++.md",
+    "DELIBERATE PRACTICE/1% Programmer/Algorithm with Shayan/From Newbie to Expert in 3 Months - 100% works!.md",
+    "DELIBERATE PRACTICE/1% Programmer/Algorithm with Shayan/6 Mistakes in Learning Competitive Programming.md",
+    "DELIBERATE PRACTICE/1% Programmer/Algorithm with Shayan/Never Do these! If you want to get out of Newbie.md",
+    "Kuliti Habis",
+    "DELIBERATE PRACTICE/Untitled.canvas",
+    "DELIBERATE PRACTICE/1% Programmer/Z-IMG/Never Do these! If you want to get out of Newbie-1.png",
+    "DELIBERATE PRACTICE/1% Programmer/Z-IMG/Never Do these! If you want to get out of Newbie-2.png",
+    "DELIBERATE PRACTICE/1% Programmer/Z-IMG",
+    "On is this greedy or DP, forcing and rubber bands-1.png",
+    "DELIBERATE PRACTICE/1% Programmer/Z-IMG/Never Do these! If you want to get out of Newbie-4.png",
+    "DELIBERATE PRACTICE/1% Programmer/Z-IMG/Never Do these! If you want to get out of Newbie-3.png",
+    "Pasted image 20250914182411.png",
+    "DELIBERATE PRACTICE/1% Programmer/Algorithm with Shayan/Instead, Do These! If you want to get out of Newbie....md",
+    "DELIBERATE PRACTICE/1% Programmer/Algorithm with Shayan",
+    "DELIBERATE PRACTICE/1% Programmer/Vivek Gupta/5 Things I Wish I Knew Earlier About Competitive Programming - 5 Coding Mistakes To Avoid!.md",
+    "DELIBERATE PRACTICE/1% Programmer/How to Get Ahead of 99% of Software Engineers (in 2025).md",
+    "DELIBERATE PRACTICE/1% Programmer/Sahil & Sarra/How to Get Ahead of 99% of Programmers (in 99 seconds).md",
+    "DELIBERATE PRACTICE/1% Programmer/ThePrimeTime/Untitled.md",
+    "DELIBERATE PRACTICE/1% Programmer/Vivek Gupta",
+    "().md",
+    "DELIBERATE PRACTICE/1% Programmer/ThePrimeTime",
+    "26-String/Tips-trick/01-Beginner/Untitled.md",
     "26-String/Tips-trick/01-Beginner/02-Mencari dan Mengganti Substring pada String.md",
     "04-Data Structure/D-Queue/01-Latihan/08-Simulasi Round Robin Scheduling.md",
     "04-Data Structure/D-Queue/01-Latihan/14-Circular Queue Game.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/01-Tree Data Structure/Latihan/07-Jumlah Node di Level Ganjil.md",
-    "04-Data Structure/I-Set/Latihan/04-Apakah Set Ini Kosong.md",
-    "[[My.md",
-    "26-String/Tips-trick/01-Beginner/01-Mencari Subtring pada String.md",
-    "14-Tree Algorithm/B-Medium - Programmiz/01 - B-tree.md",
-    "04-Data Structure/!B_Kontainer C++.md",
-    "DELIBERATE PRACTICE/1% Programmer/Sahil & Sarra/The Secret to Winning in Life - Winners' Matrix.md",
-    "26-String/Tips-trick/01-Beginner",
-    "26-String/Tips-trick",
-    "26-String",
     "The Secret to Winning in Life - Winners' Matrix-4.png",
     "The Secret to Winning in Life - Winners' Matrix-4.png",
     "The Secret to Winning in Life - Winners' Matrix-3.png",
     "The Secret to Winning in Life - Winners' Matrix-2.png",
-    "The Secret to Winning in Life - Winners' Matrix-1.png",
-    "DELIBERATE PRACTICE/1% Programmer/Sahil & Sarra/Why Most People FAIL to Learn Coding.md",
-    "DELIBERATE PRACTICE/1% Programmer/Sahil & Sarra/How to Get Ahead of 99% of Programmers (in 99 seconds).md",
-    "DELIBERATE PRACTICE/1% Programmer/Sahil & Sarra",
-    "04-Data Structure/G-Stack/Analisis Mendalam Struktur Data Stack dalam C++ -  Konsep, Implementasi, Kegunaan, dan Fungsi.md",
-    "04-Data Structure/G-Stack/Latihan/05-Validasi Tanda Kurung.md",
-    "04-Data Structure/G-Stack/Latihan/01-Simulasi Tumpukan Piring.md",
-    "04-Data Structure/D-Queue/01-Latihan/10-Printer Queue dengan Prioritas.md",
-    "04-Data Structure/I-Set/Latihan/10-Set of User-Defined Struct.md",
-    "DELIBERATE PRACTICE/1% Programmer/How to Get Ahead of 99% of Software Engineers (in 2025).md",
-    "DELIBERATE PRACTICE/1% Improvement/01-Terminal/01-Wezterm.md",
-    "C++ Standard Library/include - algorithm/05-Binary search/01-lower_bound().md",
-    "Tips Trick/Iterator/Auto it bisa menangani Iterator.md",
-    "Tips Trick/Iterator/Iterator pada STL.md",
-    "DELIBERATE PRACTICE/1% Programmer",
-    "DELIBERATE PRACTICE/1% Improvement/01-Terminal/Untitled",
-    "DELIBERATE PRACTICE/1% Improvement/01-Terminal",
-    "07-Dynamic Programming/Zimg/PascalTriangleAnimated2 1.gif",
-    "07-Dynamic Programming/Zimg/PascalTriangleAnimated2.gif",
-    "DATA DOKUMENTASI/Custom AutoHotkey/src/Custom Escape dengan AutoHotkey-9.png",
-    "DATA DOKUMENTASI/Custom AutoHotkey/src/Custom Escape dengan AutoHotkey-1.png",
-    "DATA DOKUMENTASI/Custom AutoHotkey/src/Custom Escape dengan AutoHotkey-6.png",
-    "DELIBERATE PRACTICE/Untitled.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Canvas/01-introduction.canvas",
