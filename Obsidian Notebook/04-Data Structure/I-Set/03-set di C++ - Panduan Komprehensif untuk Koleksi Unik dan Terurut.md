@@ -2,12 +2,14 @@
 obsidianUIMode: preview
 note_type: data structure theory
 id_algoritma: 04TH-DSSE-003
-nama_algoritma: 
+nama_algoritma:
 kategori_algoritma: data structure
 kesulitan: 🥉 easy
-time_complexity: 
-memory_complexity: 
-sumber: programiz.com & gemini AI
+time_complexity:
+memory_complexity:
+sumber:
+  - programiz.com
+  - gemini.google.com
 date_learned: 2025-06-20T20:52:00
 tags:
   - data-structure

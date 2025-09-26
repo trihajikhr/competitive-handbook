@@ -24,7 +24,7 @@
             }
           },
           {
-            "id": "46c24c36bd43c612",
+            "id": "eeb4d0a7ec1112ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,9 +36,23 @@
               "icon": "lucide-file",
               "title": "Soal Kuliti Habis"
             }
+          },
+          {
+            "id": "bb7bde81d3589a52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DATA DOKUMENTASI/Clion for Debugger/01-Clion Untuk Debugger.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01-Clion Untuk Debugger"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -70,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "transform",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -95,7 +109,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 369.50499725341797
+    "width": 369.50499725341797,
+    "collapsed": true
   },
   "right": {
     "id": "5a2e04e3f27c45d3",
@@ -197,13 +212,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Soal Kuliti Habis.md",
+                "file": "DATA DOKUMENTASI/Clion for Debugger/01-Clion Untuk Debugger.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Soal Kuliti Habis"
+              "title": "Outline of 01-Clion Untuk Debugger"
             }
           }
         ]
@@ -234,54 +249,54 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "46c24c36bd43c612",
+  "active": "bb7bde81d3589a52",
   "lastOpenFiles": [
-    "C++ Standard Library/include - string/Header string di C++.md",
-    "C++ Standard Library/include - sstream/Header sstream di C++.md",
-    "My Task.md",
-    "Soal Kuliti Habis.md",
-    "C++ Standard Library/include - string",
-    "C++ Standard Library/include - regex/Header regex di C++.md",
-    "C++ Standard Library/include - sstream/Parsing String dengan sstream.md",
-    "DELIBERATE PRACTICE/1% Typer/How to Type 3x Faster in 7 Days (from a Med Student).md",
-    "DELIBERATE PRACTICE/1% Typer/How I Type REALLY Fast (156 Words per Minute).md",
-    "DELIBERATE PRACTICE/1% Typer",
-    "Problem Statement Trick/01-Array/01-Inversions/01-Menghitung Jumlah Inversions.md",
-    "Problem Statement Trick/01-Array/01-Inversions/!-Inversions.md",
-    "C++ Standard Library/include - sstream",
-    "C++ Standard Library/include - regex/01-regex_match",
-    "C++ Standard Library/include - regex",
-    "Tips Trick/Pembulatan Tanpa Fungsi Bawaan.md",
-    "Tips Trick/Tipe data Pecahan (Float & Double)/Fungsi Pembulatan C++.md",
-    "DELIBERATE PRACTICE/1% Programmer/Algorithm with Shayan/From Newbie to Expert in 3 Months - 100% works!.md",
-    "DELIBERATE PRACTICE/1% Programmer/Algorithm with Shayan/6 Mistakes in Learning Competitive Programming.md",
-    "DELIBERATE PRACTICE/1% Programmer/Algorithm with Shayan/Never Do these! If you want to get out of Newbie.md",
-    "Kuliti Habis",
-    "DELIBERATE PRACTICE/Untitled.canvas",
-    "DELIBERATE PRACTICE/1% Programmer/Z-IMG/Never Do these! If you want to get out of Newbie-1.png",
-    "DELIBERATE PRACTICE/1% Programmer/Z-IMG/Never Do these! If you want to get out of Newbie-2.png",
-    "DELIBERATE PRACTICE/1% Programmer/Z-IMG",
-    "On is this greedy or DP, forcing and rubber bands-1.png",
-    "DELIBERATE PRACTICE/1% Programmer/Z-IMG/Never Do these! If you want to get out of Newbie-4.png",
-    "DELIBERATE PRACTICE/1% Programmer/Z-IMG/Never Do these! If you want to get out of Newbie-3.png",
-    "Pasted image 20250914182411.png",
-    "DELIBERATE PRACTICE/1% Programmer/Algorithm with Shayan/Instead, Do These! If you want to get out of Newbie....md",
-    "DELIBERATE PRACTICE/1% Programmer/Algorithm with Shayan",
-    "DELIBERATE PRACTICE/1% Programmer/Vivek Gupta/5 Things I Wish I Knew Earlier About Competitive Programming - 5 Coding Mistakes To Avoid!.md",
-    "DELIBERATE PRACTICE/1% Programmer/How to Get Ahead of 99% of Software Engineers (in 2025).md",
-    "DELIBERATE PRACTICE/1% Programmer/Sahil & Sarra/How to Get Ahead of 99% of Programmers (in 99 seconds).md",
-    "DELIBERATE PRACTICE/1% Programmer/ThePrimeTime/Untitled.md",
-    "DELIBERATE PRACTICE/1% Programmer/Vivek Gupta",
-    "().md",
-    "DELIBERATE PRACTICE/1% Programmer/ThePrimeTime",
-    "26-String/Tips-trick/01-Beginner/Untitled.md",
-    "26-String/Tips-trick/01-Beginner/02-Mencari dan Mengganti Substring pada String.md",
+    "DATA DOKUMENTASI/Clion for Debugger/src/Clion Shortcuts PDF.pdf",
+    "DATA DOKUMENTASI/Clion for Debugger/src/Clion Untuk Debugger-30.png",
+    "DATA DOKUMENTASI/Clion for Debugger/src/Clion Untuk Debugger-1.png",
+    "DATA DOKUMENTASI/Clion for Debugger/01-Clion Untuk Debugger.md",
+    "DATA DOKUMENTASI/Clion for Debugger/src",
+    "DATA DOKUMENTASI/Clion for Debugger/src/Clion Untuk Debugger-35.png",
+    "DATA DOKUMENTASI/Clion for Debugger/src/Clion Untuk Debugger-34.png",
+    "DATA DOKUMENTASI/Clion for Debugger/src/Clion Untuk Debugger-33.png",
+    "DATA DOKUMENTASI/Clion for Debugger/src/Clion Untuk Debugger-32.png",
+    "DATA DOKUMENTASI/Clion for Debugger/src/Clion Untuk Debugger-31.png",
+    "DATA DOKUMENTASI/Clion for Debugger/src/Clion Untuk Debugger-29.png",
+    "DATA DOKUMENTASI/Clion for Debugger/src/Clion Untuk Debugger-28.png",
+    "DATA DOKUMENTASI/Clion for Debugger/src/Clion Untuk Debugger-27.png",
+    "04-Data Structure/D-Queue/01-Latihan/11-Antrian Pelayanan Multiloket.md",
+    "04-Data Structure/D-Queue/01-Latihan/10-Printer Queue dengan Prioritas.md",
     "04-Data Structure/D-Queue/01-Latihan/08-Simulasi Round Robin Scheduling.md",
+    "04-Data Structure/D-Queue/01-Latihan/12-Antrean Berprioritas.md",
+    "04-Data Structure/D-Queue/01-Latihan/15-Moving Average dari Stream.md",
     "04-Data Structure/D-Queue/01-Latihan/14-Circular Queue Game.md",
-    "The Secret to Winning in Life - Winners' Matrix-4.png",
-    "The Secret to Winning in Life - Winners' Matrix-4.png",
-    "The Secret to Winning in Life - Winners' Matrix-3.png",
-    "The Secret to Winning in Life - Winners' Matrix-2.png",
+    "04-Data Structure/F_Priority_queue/Priority Queue.md",
+    "21-Number Theory/Tips Trick/Precompute/Algoritma Generate Angka.md",
+    "DATA DOKUMENTASI/Clion for Debugger",
+    "DATA DOKUMENTASI/01-Neovim CP C++ Setup/01-Setup Neovim untuk C++ Competitive Programmer.md",
+    "My Task.md",
+    "21-Number Theory/Tips Trick/Precompute",
+    "Soal Kuliti Habis.md",
+    "Tips Trick/Percabangan/01-Switch Case Bertumpuk (Fall-through).md",
+    "Tips Trick/Inline Function.md",
+    "Tips Trick/Bypass Runtime Checker - leetcode.md",
+    "Tips Trick/Input/Menerima Inputan dengan Spasi.md",
+    "Tips Trick/Input/Alasan Penggunaan Cin Ignore().md",
+    "Tips Trick/Loop",
+    "21-Number Theory/Tips Trick/Cmath/Pengecekan Kuadrat Sempurna.md",
+    "26-String/Tips-trick/01-Beginner/03-Hitung Karakter dengan Fungsi Count().md",
+    "21-Number Theory/REVERSE STRIKE/Kumpulan latihan Number Theory.md",
+    "21-Number Theory/REVERSE STRIKE/Rating 800-1000/1520B - Ordinary Numbers.md",
+    "21-Number Theory/REVERSE STRIKE/Rating 800-1000/1389A - LCM Problem.md",
+    "21-Number Theory/REVERSE STRIKE/Rating 800-1000/1370A - Maximum GCD.md",
+    "21-Number Theory/REVERSE STRIKE/Rating 800-1000/749A - Bachgold Problem.md",
+    "21-Number Theory/REVERSE STRIKE/Rating 800-1000/472A - Design Tutorial Learn from Math.md",
+    "21-Number Theory/Tips Trick/Cmath",
+    "Tips Trick/Percabangan",
+    "21-Number Theory/Tips Trick/Alternatif Fungsi",
+    "21-Number Theory/Tips Trick",
+    "Tips Trick/Alternatif Fungsi",
+    "DELIBERATE PRACTICE/Untitled.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Canvas/01-introduction.canvas",

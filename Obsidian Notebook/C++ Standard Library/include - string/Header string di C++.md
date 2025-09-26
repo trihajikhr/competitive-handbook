@@ -597,6 +597,406 @@ int main() {
 }
 ```
 
+## 2.20 | `find_first_of()`
+
+Fungsi **`find_first_of`** adalah member function dari kelas `std::string` yang digunakan untuk mencari **kemunculan pertama** dari salah satu karakter yang terdapat dalam sebuah himpunan karakter tertentu. Dengan kata lain, fungsi ini akan memindai string dan mengembalikan posisi indeks dari karakter pertama yang cocok dengan salah satu karakter pada parameter pencarian.
+
+Apabila tidak ditemukan karakter yang sesuai, fungsi ini akan mengembalikan konstanta `std::string::npos`.
+
+Berikut adalah sintaksnya:
+
+```cpp
+size_t find_first_of(const std::string& str, size_t pos = 0) const;
+size_t find_first_of(const char* s, size_t pos = 0) const;
+size_t find_first_of(const char* s, size_t pos, size_t n) const;
+size_t find_first_of(char c, size_t pos = 0) const;
+```
+
+* **`str` / `s`**: kumpulan karakter (string atau C-string) yang akan dicari.
+* **`c`**: sebuah karakter tunggal yang dicari.
+* **`pos`**: posisi awal pencarian di dalam string. Default-nya adalah `0`.
+* **`n`**: jumlah karakter dari C-string `s` yang dipertimbangkan.
+
+Jika ditemukan, fungsi mengembalikan indeks (tipe `size_t`) dari posisi karakter pertama yang cocok. Jika tidak ditemukan, fungsi mengembalikan `std::string::npos`.
+
+Contoh kode:
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string kalimat = "Competitive Programming";
+
+    // mencari huruf vokal pertama dalam string
+    string vokal = "aeiouAEIOU";
+
+    size_t posisi = kalimat.find_first_of(vokal);
+
+    if (posisi != string::npos) {
+        cout << "Huruf vokal pertama: '" 
+             << kalimat[posisi] 
+             << "' pada indeks " << posisi << '\n';
+    } else {
+        cout << "Tidak ditemukan huruf vokal.\n";
+    }
+
+    return 0;
+}
+```
+
+
+Fungsi `find_first_of` sangat berguna untuk menemukan karakter pertama dari suatu kelompok karakter dalam string, seperti mencari huruf vokal, tanda baca, atau karakter khusus tertentu. Dibandingkan penggunaan pencarian manual dengan perulangan, fungsi ini lebih ringkas, mudah dibaca, dan memanfaatkan kemampuan bawaan dari kelas `std::string`.
+
+## 2.21 | `find_last_of()` 
+
+Fungsi **`find_last_of`** adalah member function dari kelas `std::string` yang digunakan untuk mencari **kemunculan terakhir** dari salah satu karakter yang terdapat dalam sebuah himpunan karakter tertentu. Dengan kata lain, fungsi ini akan memindai string dari akhir menuju awal dan mengembalikan posisi indeks karakter terakhir yang cocok dengan salah satu karakter pada parameter pencarian.
+
+Apabila tidak ditemukan karakter yang sesuai, fungsi ini akan mengembalikan konstanta `std::string::npos`.
+
+Berikut sintaksnya:
+
+```cpp
+size_t find_last_of(const std::string& str, size_t pos = npos) const;
+size_t find_last_of(const char* s, size_t pos = npos) const;
+size_t find_last_of(const char* s, size_t pos, size_t n) const;
+size_t find_last_of(char c, size_t pos = npos) const;
+```
+
+* **`str` / `s`**: kumpulan karakter (string atau C-string) yang akan dicari.
+* **`c`**: sebuah karakter tunggal yang dicari.
+* **`pos`**: posisi awal pencarian dihitung dari kanan. Default-nya adalah `std::string::npos`, yang berarti pencarian dimulai dari akhir string.
+* **`n`**: jumlah karakter dari C-string `s` yang dipertimbangkan.
+
+Jika ditemukan, fungsi mengembalikan indeks (tipe `size_t`) dari posisi karakter terakhir yang cocok. Jika tidak ditemukan, fungsi mengembalikan `std::string::npos`.
+
+Berikut adalah contoh kode:
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string kalimat = "Competitive Programming";
+
+    // mencari huruf vokal terakhir dalam string
+    string vokal = "aeiouAEIOU";
+
+    size_t posisi = kalimat.find_last_of(vokal);
+
+    if (posisi != string::npos) {
+        cout << "Huruf vokal terakhir: '" 
+             << kalimat[posisi] 
+             << "' pada indeks " << posisi << '\n';
+    } else {
+        cout << "Tidak ditemukan huruf vokal.\n";
+    }
+
+    return 0;
+}
+```
+
+
+Fungsi `find_last_of` sangat bermanfaat untuk menemukan kemunculan terakhir dari suatu kelompok karakter dalam string. Fungsi ini sering dipakai untuk keperluan seperti mencari ekstensi file (dengan mencari titik terakhir `.`), mencari direktori terakhir dalam sebuah path, atau mengidentifikasi karakter khusus yang muncul paling akhir pada sebuah string.
+
+## 2.22 | `find_first_not_of()`
+
+
+Fungsi **`find_first_not_of`** adalah member function dari kelas `std::string` yang digunakan untuk mencari **kemunculan pertama dari karakter yang *tidak termasuk* dalam himpunan karakter tertentu**. Dengan kata lain, fungsi ini memindai string dari kiri ke kanan, lalu mengembalikan indeks dari karakter pertama yang tidak cocok dengan salah satu karakter pada parameter pencarian.
+
+Apabila semua karakter cocok dengan himpunan yang diberikan, fungsi akan mengembalikan konstanta `std::string::npos`.
+
+Berikut sintaksnya:
+
+```cpp
+size_t find_first_not_of(const std::string& str, size_t pos = 0) const;
+size_t find_first_not_of(const char* s, size_t pos = 0) const;
+size_t find_first_not_of(const char* s, size_t pos, size_t n) const;
+size_t find_first_not_of(char c, size_t pos = 0) const;
+```
+
+* **`str` / `s`**: kumpulan karakter (string atau C-string) yang dijadikan acuan pencocokan.
+* **`c`**: sebuah karakter tunggal yang dijadikan acuan pencocokan.
+* **`pos`**: posisi awal pencarian dalam string. Default-nya adalah `0`.
+* **`n`**: jumlah karakter dari C-string `s` yang dipertimbangkan.
+
+
+Jika ditemukan, fungsi mengembalikan indeks (tipe `size_t`) dari karakter pertama yang tidak termasuk dalam himpunan pencarian. Jika semua karakter termasuk dalam himpunan, fungsi mengembalikan `std::string::npos`.
+
+Berikut adlaah contoh kode:
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string kalimat = "   hello world";  // terdapat spasi di awal
+
+    // mencari karakter pertama yang bukan spasi
+    string spasi = " ";
+
+    size_t posisi = kalimat.find_first_not_of(spasi);
+
+    if (posisi != string::npos) {
+        cout << "Karakter pertama yang bukan spasi: '" 
+             << kalimat[posisi] 
+             << "' pada indeks " << posisi << '\n';
+    } else {
+        cout << "Semua karakter adalah spasi.\n";
+    }
+
+    return 0;
+}
+```
+
+
+Fungsi `find_first_not_of` sangat berguna untuk **melewati bagian awal string** yang berisi karakter-karakter tertentu, misalnya spasi, tanda baca, atau simbol khusus. Fungsi ini sering digunakan pada proses parsing teks, trimming spasi di depan string, atau validasi input dengan cepat.
+
+## 2.22 | `find_last_not_of`
+
+
+Fungsi **`find_last_not_of`** adalah member function dari kelas `std::string` yang digunakan untuk mencari **kemunculan terakhir dari karakter yang *tidak termasuk* dalam himpunan karakter tertentu**. Artinya, fungsi ini memindai string dari kanan ke kiri, lalu mengembalikan indeks dari karakter terakhir yang tidak cocok dengan salah satu karakter pada parameter pencarian.
+
+Apabila semua karakter dalam string termasuk dalam himpunan tersebut, fungsi ini akan mengembalikan konstanta `std::string::npos`.
+
+Sintaksnya adalah sebagai berikut:
+
+```cpp
+size_t find_last_not_of(const std::string& str, size_t pos = npos) const;
+size_t find_last_not_of(const char* s, size_t pos = npos) const;
+size_t find_last_not_of(const char* s, size_t pos, size_t n) const;
+size_t find_last_not_of(char c, size_t pos = npos) const;
+```
+
+* **`str` / `s`**: kumpulan karakter (string atau C-string) yang dijadikan acuan pencocokan.
+* **`c`**: sebuah karakter tunggal yang dijadikan acuan pencocokan.
+* **`pos`**: posisi awal pencarian dihitung dari kanan. Default-nya adalah `std::string::npos`, yaitu mulai dari akhir string.
+* **`n`**: jumlah karakter dari C-string `s` yang dipertimbangkan.
+
+
+Jika ditemukan, fungsi mengembalikan indeks (tipe `size_t`) dari karakter terakhir yang tidak termasuk dalam himpunan pencarian., Jika semua karakter termasuk dalam himpunan, fungsi mengembalikan `std::string::npos`.
+
+Berikut adalah contoh kode:
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string kalimat = "hello world   ";  // terdapat spasi di akhir
+
+    // mencari karakter terakhir yang bukan spasi
+    string spasi = " ";
+
+    size_t posisi = kalimat.find_last_not_of(spasi);
+
+    if (posisi != string::npos) {
+        cout << "Karakter terakhir yang bukan spasi: '" 
+             << kalimat[posisi] 
+             << "' pada indeks " << posisi << '\n';
+    } else {
+        cout << "Semua karakter adalah spasi.\n";
+    }
+
+    return 0;
+}
+```
+
+
+Fungsi `find_last_not_of` sangat berguna untuk **mengabaikan bagian akhir string** yang berisi karakter tertentu, misalnya spasi, tanda baca, atau simbol khusus. Fungsi ini umum digunakan untuk melakukan trimming spasi di belakang string, memproses nama file dengan menghapus karakter tambahan di ujung, atau validasi input dari sisi kanan string.
+
+## 2.23 | `max_size()`
+
+Fungsi **`max_size()`** adalah member function dari kelas `std::string` yang digunakan untuk mengetahui **jumlah maksimum karakter** yang dapat ditampung oleh suatu objek string. Nilai yang dikembalikan bukan ukuran aktual string, melainkan batas teoritis yang ditentukan oleh implementasi library standar dan keterbatasan sistem (misalnya memori yang tersedia dan batasan `size_t`).
+
+Fungsi ini berguna ketika kita ingin melakukan alokasi string dalam jumlah besar atau ingin memastikan bahwa ukuran string yang akan digunakan tidak melebihi kapasitas yang diizinkan.
+
+Berikut sintaksnya:
+
+```cpp
+size_t max_size() const noexcept;
+```
+
+Nilai kembali mengembalikan nilai bertipe `size_t` yang menunjukkan ukuran maksimum string (jumlah karakter) yang dapat ditampung oleh objek `std::string`.
+
+Berikut adalah contoh kode:
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string teks = "Belajar C++";
+
+    cout << "Ukuran string saat ini: " << teks.size() << '\n';
+    cout << "Ukuran maksimum string: " << teks.max_size() << '\n';
+
+    return 0;
+}
+```
+
+Output (contoh, bergantung compiler dan sistem)
+
+```
+Ukuran string saat ini: 11
+Ukuran maksimum string: 9223372036854775807
+```
+
+```ad-info
+(nilai `max_size()` biasanya sangat besar, misalnya `2^63 - 1` pada sistem 64-bit dengan libstdc++).
+```
+
+
+Fungsi `max_size()` tidak digunakan untuk kebutuhan sehari-hari seperti manipulasi string kecil, tetapi penting dalam konteks **pengendalian memori** dan **keamanan program**, misalnya untuk mencegah percobaan alokasi string dalam ukuran yang tidak mungkin dipenuhi oleh sistem.
+
+## 2.24 |  `reverse()`
+
+
+Perlu diketahui bahwa **`std::string` tidak memiliki member function bernama `reverse()`**.
+Namun, string dapat dibalik menggunakan algoritma standar **`std::reverse()`** yang disediakan oleh header `<algorithm>`.
+
+Fungsi **`std::reverse()`** bekerja dengan membalik urutan elemen dalam suatu range `[first, last)`. Karena `std::string` mendukung iterator, kita bisa langsung menggunakannya untuk membalik isi string.
+
+Berikut sintaksnya:
+
+```cpp
+template <class BidirectionalIterator>
+void reverse(BidirectionalIterator first, BidirectionalIterator last);
+```
+
+* **`first`**: iterator yang menunjuk ke elemen awal.
+* **`last`**: iterator yang menunjuk ke posisi setelah elemen terakhir.
+
+Contoh kode:
+
+```cpp
+#include <iostream>
+#include <string>
+#include <algorithm> // std::reverse
+using namespace std;
+
+int main() {
+    string teks = "Competitive Programming";
+
+    reverse(teks.begin(), teks.end());
+
+    cout << "Hasil reverse: " << teks << '\n';
+
+    return 0;
+}
+```
+
+Walaupun `std::string` tidak memiliki fungsi `reverse()` sebagai member, kita bisa membalik string dengan memanfaatkan fungsi `std::reverse()` dari `<algorithm>`. Hal ini dimungkinkan karena string mendukung iterator bidirectional, sehingga dapat diperlakukan seperti container lain dalam C++ STL.
+
+
+## 2.25 | `copy()` pada `std::string`
+
+
+Fungsi **`copy()`** adalah member function dari kelas `std::string` yang digunakan untuk menyalin sejumlah karakter dari string ke sebuah array karakter (C-string). Berbeda dengan `c_str()` atau `data()` yang memberikan pointer ke buffer internal string, fungsi `copy()` benar-benar menyalin karakter ke buffer eksternal yang disediakan pengguna.
+
+Perlu diperhatikan bahwa `copy()` tidak menambahkan karakter null-terminator (`'\0'`) secara otomatis, sehingga jika ingin diperlakukan sebagai C-string, programmer harus menambahkannya sendiri.
+
+Sintaks:
+
+```cpp
+size_t copy(char* s, size_t n, size_t pos = 0) const;
+```
+
+* **`s`** : pointer ke array karakter tujuan (harus memiliki ukuran yang cukup).
+* **`n`** : jumlah karakter yang ingin disalin.
+* **`pos`** : posisi awal dalam string untuk mulai menyalin (default = 0).
+
+ Nilai kembali mengembalikan jumlah karakter yang berhasil disalin ke buffer.
+
+Berikut adalah contoh kode:
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string teks = "Hello, World!";
+    char buffer[20]; // buffer tujuan
+
+    size_t jumlah = teks.copy(buffer, 5, 7); // salin 5 karakter mulai dari indeks ke-7
+    buffer[jumlah] = '\0'; // tambahkan null-terminator secara manual
+
+    cout << "Hasil copy: " << buffer << '\n';
+
+    return 0;
+}
+```
+
+
+Fungsi `copy()` berguna ketika kita perlu **menyalin sebagian isi string ke buffer C-style** untuk kompatibilitas dengan kode lama atau API yang masih menggunakan C-string. Karena tidak menambahkan null-terminator secara otomatis, programmer harus berhati-hati untuk menambahkannya jika buffer ingin diperlakukan sebagai string C.
+
+## 2.26 | `get_allocator()` pada `std::string`
+
+Fungsi **`get_allocator()`** adalah member function dari kelas `std::string` yang digunakan untuk **mengambil objek allocator** yang dipakai oleh string. Allocator adalah mekanisme dalam C++ yang bertanggung jawab atas pengelolaan memori dinamis untuk container STL, termasuk `std::string`.
+
+Dalam praktik sehari-hari, fungsi ini jarang digunakan secara langsung, kecuali pada kasus-kasus khusus seperti:
+
+* membuat container lain yang menggunakan allocator yang sama,
+* debugging atau eksperimen terkait manajemen memori,
+* kebutuhan kustomisasi alokasi memori.
+
+Sintaks:
+
+```cpp
+allocator_type get_allocator() const noexcept;
+```
+
+Nilai kembali mengembalikan objek allocator (`allocator<char>` secara default) yang digunakan oleh string.
+
+Contoh kode:
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std:
+
+int main() {
+    string teks = "Allocator Example";
+
+    // ambil allocator dari string
+    allocator<char> alloc = teks.get_allocator();
+
+    // gunakan allocator untuk alokasi manual
+    char* buffer = alloc.allocate(20); // alokasi 20 karakter
+
+    // contoh: isi buffer dengan karakter '*'
+    for (int i = 0; i < 20; i++) {
+        buffer[i] = '*';
+    }
+
+    // tampilkan hasil
+    for (int i = 0; i < 20; i++) {
+        cout << buffer[i];
+    }
+    cout << '\n';
+
+    // dealokasi
+    alloc.deallocate(buffer, 20);
+
+    return 0;
+}
+```
+
+Output
+
+```
+********************
+```
+
+Fungsi `get_allocator()` memungkinkan kita **mengakses dan memanfaatkan allocator** yang digunakan oleh `std::string`. Walaupun jarang dipakai dalam pemrograman sehari-hari, fungsi ini penting untuk **kustomisasi pengelolaan memori** dan interoperabilitas dengan container STL lain.
+
+<br/>
 
 ---
 # 3 | Fungsi-fungsi Dari cppreference

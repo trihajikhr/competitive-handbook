@@ -37,7 +37,7 @@ tags:
 
 - [x] Membuat folder khusus untuk bagian peningkatan pemahaman problem statement ✅ 2025-09-19
     - 🏷️ -> #task #tips-trick
-    - 📁 -> [[26-String/Tips-trick/01-Beginner/Untitled]] 
+    - 📁 -> [[03-Hitung Karakter dengan Fungsi Count()]] 
     - 📅 -> 2025-09-10 23:04
 
 <br/>
@@ -51,7 +51,7 @@ tags:
 <br/>
 
 
-- [ ] Buat materi tips-trick pembulatan tanpa fungsi bawaan, misal ceil dan floor
+- [x] Buat materi tips-trick pembulatan tanpa fungsi bawaan, misal ceil dan floor ✅ 2025-09-24
     - 🏷️ -> #task #tips-trick
     - 📁 -> [[My Task]] 
     - 📅 -> 2025-09-15 14:54
@@ -115,7 +115,7 @@ tags:
 <br/>
 
 
-- [ ] Pelajari fungsi `find_first_of()`, aku menemukan fungsi ini berguna untuk soal-seperti HQ9+, menemukan kemunculan pertama dari karakter dalam string
+- [x] Pelajari fungsi `find_first_of()`, aku menemukan fungsi ini berguna untuk soal-seperti HQ9+, menemukan kemunculan pertama dari karakter dalam string ✅ 2025-09-24
     - 🏷️ -> #task #string
     - 📁 -> [[Soal Kuliti Habis]] 
     - 📅 -> 2025-09-15 21:04
@@ -123,7 +123,7 @@ tags:
 <br/>
 
 
-- [ ] Ternyata ada trick switch bertumpuk, seperti ini `switch (c) case 'H': case 'Q': case '9': {`. Pelajari ini, dan mungkin simpan di gudang tips-trick
+- [x] Ternyata ada trick switch bertumpuk, seperti ini `switch (c) case 'H': case 'Q': case '9': {`. Pelajari ini, dan mungkin simpan di gudang tips-trick ✅ 2025-09-24
     - 🏷️ -> #task #tips-trick
     - 📁 -> [[Soal Kuliti Habis]] 
     - 📅 -> 2025-09-15 21:12
@@ -131,7 +131,7 @@ tags:
 <br/>
 
 
-- [ ] Pelajari penggunaan fungsi `count` untuk string, seperti yang ada di submission ini: https://codeforces.com/problemset/submission/133/298806052
+- [x] Pelajari penggunaan fungsi `count` untuk string, seperti yang ada di submission ini: https://codeforces.com/problemset/submission/133/298806052 ✅ 2025-09-24
     - 🏷️ -> #task #string
     - 📁 -> [[Soal Kuliti Habis]] 
     - 📅 -> 2025-09-15 21:14
@@ -163,7 +163,7 @@ tags:
 <br/>
 
 
-- [ ] Pelajari trik mengecek apakah suatu digit memiliki kuadrat sempuarna atau tidak. Terdapat 2 cara, yaitu cara tanpa double, dan dengan tetap menggunakan double namun menggunakan  bantuan toleransi floating point
+- [x] Pelajari trik mengecek apakah suatu digit memiliki kuadrat sempuarna atau tidak. Terdapat 2 cara, yaitu cara tanpa double, dan dengan tetap menggunakan double namun menggunakan  bantuan toleransi floating point ✅ 2025-09-24
     - 🏷️ -> #task #math #tips-trick
     - 📁 -> [[Soal Kuliti Habis]] 
     - 📅 -> 2025-09-16 18:44
@@ -255,6 +255,22 @@ tags:
     - 🏷️ -> #task #string #tips-trick
     - 📁 -> [[Soal Kuliti Habis]] 
     - 📅 -> 2025-09-23 16:36
+
+<br/>
+
+
+- [ ] Menambahkan beberapa trick penggunaan switch case
+    - 🏷️ -> #task #tips-trick
+    - 📁 -> [[My Task]] 
+    - 📅 -> 2025-09-24 20:25
+
+<br/>
+
+
+- [ ] Tambahkan beberapa cara menentukan apakah suatu angka genap atau tidak, kan ada beberapa cara tuh, cari semuanya kalau bisa
+    - 🏷️ -> #task #tips-trick
+    - 📁 -> [[Soal Kuliti Habis]] 
+    - 📅 -> 2025-09-25 00:10
 
 <br/>
 

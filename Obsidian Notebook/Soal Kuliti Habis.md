@@ -22,6 +22,7 @@
 6. [122A - Lucky Division](https://codeforces.com/problemset/problem/122/A)
 7. [131A - cAPS lOCK](https://codeforces.com/problemset/problem/131/A)
 8. [43A - Football](https://codeforces.com/problemset/problem/43/A)
+9. [1883C - Raspberries](https://codeforces.com/problemset/problem/1883/C)
 
 ## 900
 1. [160A - Twins](https://codeforces.com/problemset/problem/160/A)
@@ -44,6 +45,9 @@
 8. [112A - Petya and Strings](https://codeforces.com/problemset/problem/112/A)
 9. [236A - Boy or Girl](https://codeforces.com/problemset/problem/236/A)
 10. [339A - Helpful Maths](https://codeforces.com/problemset/problem/339/A)
+11. [281A - Word Capitalization](https://codeforces.com/problemset/problem/281/A)
+12. [791A - Bear and Big Brother](https://codeforces.com/problemset/problem/791/A)
+13. [266A - Stones on the Table](https://codeforces.com/problemset/problem/266/A)
 
 
 ## PR belum selesai

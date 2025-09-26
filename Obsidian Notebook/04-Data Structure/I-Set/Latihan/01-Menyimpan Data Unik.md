@@ -46,7 +46,7 @@ Diberikan sebuah array bilangan bulat dengan beberapa elemen yang mungkin **dupl
 
 ---
 
-🧠 **Catatan Panduan:**
+**Catatan Panduan:**
 
 - Gunakan `std::set<int> s;` untuk menyimpan elemen.
     

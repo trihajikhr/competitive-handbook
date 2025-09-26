@@ -8,7 +8,7 @@ kesulitan: 🥉 easy
 time_complexity:
 memory_complexity:
 sumber:
-  - Gemini AI
+  - gemini.google.com
 date_learned: 2025-08-29T03:09:00
 tags:
   - data-structure
