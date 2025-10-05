@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiBoxes",
-      "LiBox",
-      "LiLightbulb",
-      "RiSparkling2Line",
-      "LiSparkles"
+      "LiCode2",
+      "RiSkull2Line",
+      "☠",
+      "LiSkull",
+      "RiTerminalBoxLine"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -338,5 +338,18 @@
   "21-Number Theory/Tips Trick/Cmath": "LiBox",
   "21-Number Theory/Tips Trick/Cmath/Pengecekan Kuadrat Sempurna.md": "LiLightbulb",
   "21-Number Theory/Tips Trick/Precompute": "LiBox",
-  "DATA DOKUMENTASI/Clion for Debugger": "LiBoxes"
+  "DATA DOKUMENTASI/Clion for Debugger": "LiBoxes",
+  "21-Number Theory/Tips Trick/Simple Math/Menentukan Ganjil Genap.md": "LiLightbulb",
+  "21-Number Theory/Tips Trick/Simple Math": "LiBox",
+  "DATA DOKUMENTASI/Clion for Debugger/01-Clion Untuk Debugger.md": "RiTerminalBoxLine",
+  "DATA DOKUMENTASI/Clion for Debugger/04-Compile, Run & Debug/02-Cling integration.md": "RiTerminalBoxLine",
+  "Codeforces-Death Ground": "LiSkull",
+  "Codeforces-Death Ground/900/1878C-Vasilije in Cacak.md": "LiCode2",
+  "Codeforces-Death Ground/900/1624B-Make AP.md": "LiCode2",
+  "Codeforces-Death Ground/900/556A-Case of the Zeros and Ones.md": "LiCode2",
+  "Codeforces-Death Ground/900/1807D-Odd Queries.md": "LiCode2",
+  "Codeforces-Death Ground/900/1837B-Comparison String.md": "LiCode2",
+  "Codeforces-Death Ground/900/115A-Party.md": "LiCode2",
+  "Codeforces-Death Ground/900/1875A-Jellyfish and Undertale.md": "LiCode2",
+  "Codeforces-Death Ground/900/1941C-Rudolf and the Ugly String.md": "LiCode2"
 }

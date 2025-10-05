@@ -267,10 +267,157 @@ tags:
 <br/>
 
 
-- [ ] Tambahkan beberapa cara menentukan apakah suatu angka genap atau tidak, kan ada beberapa cara tuh, cari semuanya kalau bisa
+- [x] Tambahkan beberapa cara menentukan apakah suatu angka genap atau tidak, kan ada beberapa cara tuh, cari semuanya kalau bisa ✅ 2025-09-26
     - 🏷️ -> #task #tips-trick
     - 📁 -> [[Soal Kuliti Habis]] 
     - 📅 -> 2025-09-25 00:10
+
+<br/>
+
+
+- [ ] Pelajari cara manipulasi Integer, baik itu dengan dikonversi ke string dulu, atau dengan langsung pakai modulo , jadi harus ada trick main kalau pakai modulo
+    - 🏷️ -> #task #tips-trick #number-theory
+    - 📁 -> [[Soal Kuliti Habis]] 
+    - 📅 -> 2025-09-27 00:06
+
+<br/>
+
+
+- [ ] Pelajari Algoritma Diophantine equation, menangai angka $n$ yang merupakan hasil penjumlahan beberapa angka $a$ dan angka $b$
+    - 🏷️ -> #task #number-theory #algorithm
+    - 📁 -> [[My Task]] 
+    - 📅 -> 2025-09-27 22:54
+
+<br/>
+
+
+- [ ] Pelajari algoritma untuk mencari semua faktor dari suatu integer, dengan kompleksitas yang lebih cepat
+    - 🏷️ -> #task #number-theory #algorithm
+    - 📁 -> [[My Task]] 
+    - 📅 -> 2025-09-27 23:12
+
+<br/>
+
+
+- [ ] Ngga paham sama problem 1343A Candies, pelajari lagi! (Ternyata pakai cara brute force angka mersenne)
+    - 🏷️ -> #task 
+    - 📁 -> [[My Task]] 
+    - 📅 -> 2025-09-27 23:47
+
+<br/>
+
+
+- [ ] Pelajari apa itu Mersene number, dan soal-soal yang biasanya berkaitan dengan rumus angka ini. Mersenne number bisa ditambahkan contoh soal CF 1343A!
+    - 🏷️ -> #task #number-theory
+    - 📁 -> [[My Task]] 
+    - 📅 -> 2025-09-27 23:51
+
+<br/>
+
+
+- [ ] Pelajari operator left shift dan right shift, masuk ke ranah bitwise
+    - 🏷️ -> #task #bitwise
+    - 📁 -> [[My Task]] 
+    - 📅 -> 2025-09-28 00:07
+
+<br/>
+
+
+- [ ] Pelajari problem-problem yang berkaitan dengan bracket, kadang ada trick cepat, tapi aku lupa atau terlewat. Masukan ke dalam topik string
+    - 🏷️ -> #task #string
+    - 📁 -> [[My Task]] 
+    - 📅 -> 2025-09-28 15:21
+
+<br/>
+
+
+- [ ] Pada problem 499B, banyak yang menggunakan map, padahal menurutku ahrusnay menggunakan unordered_map. Pelajari kenapa kebanayakn orang memilih struktur data map.
+    - 🏷️ -> #task #data-structure 
+    - 📁 -> [[My Task]] 
+    - 📅 -> 2025-09-28 16:45
+
+<br/>
+
+
+- [ ] Pelajari algoritma prefix sum, seperti untuk menyelesaikan problem 1697B. Dan juga, pelajari variasi lainya, cocok untuk problem apa saja, dll.
+    - 🏷️ -> #task #algorithm
+    - 📁 -> [[My Task]] 
+    - 📅 -> 2025-09-28 18:46
+
+<br/>
+
+
+- [ ] Ternyata, pada problem ini, yaitu submission ini: https://codeforces.com/problemset/submission/1433/341025694, kita bisa melakukan  pengecekan yang berbeda untuk awalan dan akhiran dengan cara yang lebih praktis, pelajari cara cepat dan clever ini! ehh, ada juga  yang langsung dibuat kondisionaya didalam satu baris: [Just a moment...](https://codeforces.com/problemset/submission/1433/336266613)
+    - 🏷️ -> #task #tips-trick
+    - 📁 -> [[My Task]] 
+    - 📅 -> 2025-09-29 15:13
+
+<br/>
+
+
+- [ ] Oy, ternyata simbol kondisional dalam logika, bisa pakai text, semisal && -> and, || -> or. Aku baru tahu, ternyata bisa pakai cara kaya gini
+    - 🏷️ -> #task #tips-trick
+    - 📁 -> [[My Task]] 
+    - 📅 -> 2025-09-29 15:23
+
+<br/>
+
+
+- [ ] Segera pelajari struktur data `priority_queue`
+    - 🏷️ -> #task #data-structure
+    - 📁 -> [[My Task]] 
+    - 📅 -> 2025-09-29 15:27
+
+<br/>
+
+
+- [ ] 1973A - Chess For Three, aku ngga paham ini soal kok bis penyelesaianya kaya gini, coba bedah lagi
+    - 🏷️ -> #task 
+    - 📁 -> [[My Task]] 
+    - 📅 -> 2025-10-01 16:38
+
+<br/>
+
+
+# Oktober
+
+- [ ] Pelajari output dengan puts, alih alih dengan cout <<
+    - 🏷️ -> #task #syntax
+    - 📁 -> [[My Task]] 
+    - 📅 -> 2025-10-04 14:20
+
+<br/>
+
+
+
+- [ ] Pelajari apa itu header <import>, ternyata banyak juga yang pakai
+    - 🏷️ -> #task #syntax
+    - 📁 -> [[My Task]] 
+    - 📅 -> 2025-10-04 14:21
+
+<br/>
+
+
+- [ ] Buat aturan bahwa ganjil+ganjil sebanyak ganjil adalah ganjil, dan sebanyak genap pasti genap. Buat juga aturan genap+genap, dan ganjil+ganjil
+    - 🏷️ -> #task #math
+    - 📁 -> [[My Task]] 
+    - 📅 -> 2025-10-04 17:12
+
+<br/>
+
+
+- [ ] Kamu bisa mencari maks dengan ternary yang sama simplenya dengan menggunakan mins dan maks
+    - 🏷️ -> #task #syntax
+    - 📁 -> [[My Task]] 
+    - 📅 -> 2025-10-05 16:26
+
+<br/>
+
+
+- [ ] Pelajari algoritma untuk menghitung faktorisasi prima, atau trial division
+    - 🏷️ -> #task #algorithm
+    - 📁 -> [[My Task]] 
+    - 📅 -> 2025-10-05 18:14
 
 <br/>
 

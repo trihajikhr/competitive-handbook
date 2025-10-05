@@ -188,7 +188,11 @@
     "algorithm": 176,
     "algebra": 177,
     "prime-numbers": 178,
-    "debugger": 179
+    "debugger": 179,
+    "doku": 180,
+    "dokumentasi": 181,
+    "clion": 182,
+    "IDE": 183
   },
   "_version": 3
 }

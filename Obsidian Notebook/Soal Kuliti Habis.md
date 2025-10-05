@@ -13,6 +13,7 @@
 
 ## 1100
 1. [706B - Interesting drink](https://codeforces.com/problemset/problem/706/B)
+2. [158B - Taxi](https://codeforces.com/problemset/problem/158/B)
 ## 1000
 1. [1A - Theatre Square](https://codeforces.com/problemset/problem/1/A)
 2. [118A - String Task](https://codeforces.com/problemset/problem/118/A)
@@ -23,6 +24,10 @@
 7. [131A - cAPS lOCK](https://codeforces.com/problemset/problem/131/A)
 8. [43A - Football](https://codeforces.com/problemset/problem/43/A)
 9. [1883C - Raspberries](https://codeforces.com/problemset/problem/1883/C)
+10. [339B - Xenia and Ringroad](https://codeforces.com/problemset/problem/339/B)
+11. [1374C - Move Brackets](https://codeforces.com/problemset/problem/1374/C)
+12. [499B - Lecture](https://codeforces.com/problemset/problem/499/B)
+
 
 ## 900
 1. [160A - Twins](https://codeforces.com/problemset/problem/160/A)
@@ -33,6 +38,34 @@
 6. [208A - Dubstep](https://codeforces.com/problemset/problem/208/A)
 7. [580A - Kefa and First Steps](https://codeforces.com/problemset/problem/580/A)
 8. [1475A - Odd Divisor](https://codeforces.com/problemset/problem/1475/A)
+9. [313A - Ilya and Bank Account](https://codeforces.com/problemset/problem/313/A)
+10. [34B - Sale](https://codeforces.com/problemset/problem/34/B)
+11. [451A - Game With Sticks](https://codeforces.com/problemset/problem/451/A)
+12. [1985D - Manhattan Circle](https://codeforces.com/problemset/problem/1985/D)
+13. [320A - Magic Numbers](https://codeforces.com/problemset/problem/320/A)
+14. [474A - Keyboard](https://codeforces.com/problemset/problem/474/A)
+15. [1850D - Balanced Round](https://codeforces.com/problemset/problem/1850/D)
+16. [460A - Vasya and Socks](https://codeforces.com/problemset/problem/460/A)
+17. [1971C - Clock and Strings](https://codeforces.com/problemset/problem/1971/C)
+18. [1742C - Stripes](https://codeforces.com/problemset/problem/1742/C)
+19. [1927B - Following the String](https://codeforces.com/problemset/problem/1927/B)
+20. [1475B - New Year's Number](https://codeforces.com/problemset/problem/1475/B)
+21. [149A - Business trip](https://codeforces.com/problemset/problem/149/A)
+22. [1335B - Construct the String](https://codeforces.com/problemset/problem/1335/B)
+23. [1833B - Restore the Weather](https://codeforces.com/problemset/problem/1833/B)
+24. [1679A - AvtoBus](https://codeforces.com/problemset/problem/1679/A)
+25. [977B - Two-gram](https://codeforces.com/problemset/problem/977/B)
+26. [1337B - Kana and Dragon Quest game](https://codeforces.com/problemset/problem/1337/B)
+27. [567A - Lineland Mail](https://codeforces.com/problemset/problem/567/A)
+28. [709A - Juicer](https://codeforces.com/problemset/problem/709/A)
+29. [1915D - Unnatural Language Processing](https://codeforces.com/problemset/problem/1915/D)
+30. [1433C - Dominant Piranha](https://codeforces.com/problemset/problem/1433/C)
+31. [1324A - Yet Another Tetris Problem](https://codeforces.com/problemset/problem/1324/A)
+32. [2114B - Not Quite a Palindromic String](https://codeforces.com/problemset/problem/2114/B)
+33. [1973A - Chess For Three](https://codeforces.com/problemset/problem/1973/A)
+34. [1872B - The Corridor or There and Back Again](https://codeforces.com/problemset/problem/1872/B)
+35. [276A - Lunch Rush](https://codeforces.com/problemset/problem/276/A)
+36. [1374B - Multiply by 2, divide by 6](https://codeforces.com/problemset/problem/1374/B)
 
 ## 800
 1. [4A - Watermelon](https://codeforces.com/problemset/problem/4/A)
@@ -48,6 +81,11 @@
 11. [281A - Word Capitalization](https://codeforces.com/problemset/problem/281/A)
 12. [791A - Bear and Big Brother](https://codeforces.com/problemset/problem/791/A)
 13. [266A - Stones on the Table](https://codeforces.com/problemset/problem/266/A)
+14. [1790A - Polycarp and the Day of Pi](https://codeforces.com/problemset/problem/1790/A)
+15. [1537A - Arithmetic Array](https://codeforces.com/problemset/problem/1537/A)
+16. [1607A - Linear Keyboard](https://codeforces.com/problemset/problem/1607/A)
+17. [2033A - Sakurako and Kosuke](https://codeforces.com/problemset/problem/2033/A)
+18. [978B - File Name](https://codeforces.com/problemset/problem/978/B)
 
 
 ## PR belum selesai
