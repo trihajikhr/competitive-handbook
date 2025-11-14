@@ -62,6 +62,8 @@
     "TQ_show_task_count": "checkbox",
     "TQ_show_tree": "checkbox",
     "TQ_show_urgency": "checkbox",
-    "ada_tips?": "checkbox"
+    "ada_tips?": "checkbox",
+    "rating": "number",
+    "ada_tips": "checkbox"
   }
 }

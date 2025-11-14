@@ -6,7 +6,7 @@
       "type": "Capture",
       "command": false,
       "appendLink": true,
-      "captureTo": "My Task.md",
+      "captureTo": "!Important Notes/My Task.md",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": true,

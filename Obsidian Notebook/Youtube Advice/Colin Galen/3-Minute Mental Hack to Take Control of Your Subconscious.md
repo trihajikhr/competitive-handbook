@@ -1,12 +1,14 @@
 ---
-obsidianUIMode: 
-note_type: Advice
+obsidianUIMode: preview
+note_type: advice
 judul_materi: 3-Minute Mental Hack to Take Control of Your Subconscious
 sumber: youtube.com
 date_learned: 2025-06-01T14:24:00
 tags:
   - advice
 ---
+Link Sumber: [3-Minute Mental Hack to Take Control of Your Subconscious - YouTube](https://www.youtube.com/watch?v=zHECSAdJjTQ)
+
 ---
 # 3-Minute Mental Hack to Take Control of Your Subconscious
 Hai, pikiran bawah sadar Anda benar-benar Gila! Serius! 
@@ -17,18 +19,18 @@ Ada postingan terkenal dari mantan programmer kompetitif nomor satu dunia yang
 
 Dan saya akan menawarkan Anda sebuah kebiasaan. Sesuatu yang mudah, sebenarnya sesuatu yang hanya perlu Anda lakukan selama beberapa menit sehari untuk menjaga pikiran bawah sadar Anda tetap fokus pada apa yang Anda inginkan. Namun, terlepas dari kesederhanaannya, itu akan bekerja dengan sangat baik karena memanfaatkan apa yang mendorong pikiran bawah sadar Anda sejak awal. Dan itu terdengar sangat bagus, sangat bagus,  jadi nikmati videonya.
 
-## Siapa aku?
+## 1 | Siapa aku?
 
 Tetapi pertama-tama izinkan saya memberi tahu Anda siapa saya, semua poin saya akan logis, tetapi akan lebih baik jika Anda juga dapat mempercayai pengalaman saya, jadi saya salah satu programmer kompetitif terbaik di dunia, yang berarti **pemecahan masalah**, dan saya naik ke puncak dengan sangat cepat. Dan mungkin alasan terbesar untuk ini adalah bahwa pikiran bawah sadar saya sangat berinvestasi dalam Kesuksesan Saya, karena bahkan ketika saya tidak secara sadar memikirkan masalah, pikiran bawah sadar saya menghasilkan ide-ide di latar belakang dan terus-menerus mengatur ulang dirinya sendiri untuk menjadi lebih baik dan lebih baik dalam memecahkan masalah karena sangat peduli dengan Peningkatan. Dan masalah tersulit yang pernah saya pecahkan dalam sebuah kontes dipecahkan melalui Wawasan, yaitu ketika pikiran bawah sadar Anda tiba-tiba memberi Anda ide yang sangat bagus, sebenarnya saya pribadi agak kehilangan minat pada masalah tersebut. 
 
 Saya pikir itu terlalu sulit bagi saya, tetapi pikiran bawah sadar saya tetap fokus dan memasak ide-ide di latar belakang, akhirnya memberi saya ide yang sangat bagus yang akhirnya menjadi benar, jadi pikiran bawah sadar saya sangat berpihak pada saya. Dan setelah video ini Anda akan belajar cara mengaturnya untuk diri Anda sendiri juga, tetapi sebelum kita mulai izinkan saya memberikan sedikit info tentang apa itu pikiran bawah sadar dan apa yang dilakukannya untuk kita dan saya tidak akan membuat hal-hal ilmiah jadi jangan khawatir tentang hal-hal teknis, hanya beberapa fakta dasar.
-## Bagaimana pikiran bawah sadar bekerja?
+## 2 | Bagaimana pikiran bawah sadar bekerja?
 
 Jadi yang penting untuk video ini adalah bahwa pikiran bawah sadar Anda adalah proses latar belakang, sesuatu yang tidak dapat Anda kendalikan secara sadar, jadi secara default ia melakukan hal-hal acak seperti mengatur suhu tubuh Anda dan memastikan Anda masih bernapas, bahwa Anda bernapas secara manual sekarang setelah saya menyebutkannya haha, sama-sama. Dan itu sangat kuat, pikirkan saja seberapa banyak tubuh Anda melakukan hal-hal secara otomatis yang bahkan tidak Anda sadari sedang terjadi, bahkan sebagian kecil dari kekuatan mentah itu dapat sangat membantu Anda seperti, mari kita lakukan tes kecepatan: 
 $$2+3$$
 2 tambah 3 hasilnya 5, itu instan mungkin, bahkan sebelum saya menyelesaikan kalimat itu karena tugasnya sangat sederhana pikiran bawah sadar Anda hanya memutuskan untuk menanganinya untuk Anda, sekarang tambahkan kedua angka ini:
 $$648+271$$
-Mungkin tidak begitu instan kan? Anda dapat memecahnya menjadi beberapa bagian yang mudah untuk pikiran bawah sadar Anda dapat menanganinya tetapi mungkin tidak dapat melakukan semuanya. Dan itu karena Anda mungkin tidak memiliki algoritma penjumlahan yang tertanam di kepala Anda, jadi apa yang Anda hrus lakukan?
+Mungkin tidak begitu instan kan? Anda dapat memecahnya menjadi beberapa bagian yang mudah untuk pikiran bawah sadar Anda dapat menanganinya tetapi mungkin tidak dapat melakukan semuanya. Dan itu karena Anda mungkin tidak memiliki algoritma penjumlahan yang tertanam di kepala Anda, jadi apa yang Anda harus dilakukan?
 
 Yang harus dilakukan adalah secara sadar melakukan langkah-langkah penjumlahan dengan menyimpan kelebihan angka dan semacamnya, dan memberi tugas-tugas yang lebih kecil itu ke pikiran bawah sadar Anda untuk ditangani, tetapi itu jauh lebih lambat karena pikiran sadar Anda lemah, sehingga Anda ingin pikiran bawah sadar Anda melakukan sebanyak mungkin untuk Anda, dan ia mampu melakukan banyak pemikiran yang rumit seperti menawarkan wawasan dan intuisi, tetapi hanya jika itu cukup menarik.
 
@@ -40,7 +42,7 @@ Pada dasarnya pikiran bawah sadar Anda adalah komputer yang sangat kuat ini, da
 
 ==Tujuan Anda adalah memberi pikiran bawah sadar Anda tugas untuk membantu Anda dengan apa pun yang Anda coba lakukan==, Anda mungkin harus menyederhanakan tugas Anda, Anda mungkin harus memecahnya menjadi bagian-bagian yang lebih kecil. Tetapi pada akhirnya Anda ingin pikiran bawah sadar Anda memfokuskan kekuatannya pada tugas Anda. Dan bagian yang sulit adalah, biasanya pikiran bawah sadar ini sulit difokuskan, mencoba tugas untuk beberapa orang dan kami akan membahas alasannya segera, tetapi bagi kebanyakan orang, Anda harus melakukan beberapa pekerjaan ekstra untuk membuat pikiran bawah sadar Anda benar-benar berinvestasi di dalamnya, dan akhirnya sekarang kita akan berbicara tentang itu.
 
-## Bagaimana cara mengkontrol pikiran bawah sadar?
+## 3 | Bagaimana cara mengkontrol pikiran bawah sadar?
 
 Bagaimana Anda bisa  melakukan itu, jadi sekarang pertanyaannya adalah bagaimana Anda mengendalikan pikiran bawah sadar Anda dan memberinya tugas untuk memfokuskan semua kekuatannya. Dan kuncinya adalah ==membuat pikiran bawah sadar Anda peduli tentang sesuatu== dan ini akan terdengar sangat bodoh. Tetapi untuk membuat pikiran bawah sadar Anda peduli tentang sesuatu satu-satunya hal yang harus Anda lakukan adalah peduli tentang sesuatu itu, tetapi yang saya maksud bukan hanya peduli, saya maksud peduli seperti **mencintai** sesuatu sedemikian rupa sehingga hanya melakukannya membawa Anda Kebahagiaan yang signifikan. Secara default atau di ujung lain spektrum sangat peduli sehingga jika Anda gagal pada sesuatu Anda merasa seperti kelangsungan hidup Anda terancam.
 
@@ -48,7 +50,7 @@ Anda merasa benar-benar takut gagal, dan ini adalah hal-hal yang dapat dikena
 
 Jadi jika itulah yang Anda upayakan, Anda harus mengubah motivator buatan ini menjadi emosi Primal yang akan dipedulikan oleh pikiran bawah sadar Anda, jadi mari kita bahas persis seperti yang Anda lakukan sekarang, mari kita mulai dengan ide yang saya sebut **rantai motivasi**. 
 
-## Rantai Motivasi
+## 4 | Rantai Motivasi
 
 Jadi mari kita bayangkan percakapan dengan seseorang yang belajar ilmu komputer, mereka akan berkata, 
 
@@ -68,8 +70,7 @@ Metode ini tidak akan membantu Anda, tetapi pada saat yang sama, jika Anda tid
 
 Tetapi jika Anda menonton ini mungkin bukan itu masalahnya. Kasus Anda mungkin lebih mirip dengan siswa CS hipotetis. Jadi Anda ingin mengubah kasus Anda, menjadi kasus ideal dan bagaimana Anda melakukannya dengan baik. Sebagai contoh cobalah untuk memvisualisasikan diri Anda mencapai tujuan Anda. Misalnya memiliki banyak uang yang dapat membeli barang-barang bagus dll.
 
-itu bagus kan. Mungkin membawa Anda perasaan baik. 
-Pikirkan saja betapa bahagianya Anda jika semuanya berhasil. Untuk Anda biarkan kebahagiaan itu mengalir ke masa kini. Jadi apa yang pada akhirnya ingin Anda lakukan, adalah mengaitkan tugas Anda secara langsung dengan perasaan-perasaan baik itu, lewati rantai panjang, karena inilah yang saya inginkan.
+itu bagus kan. Mungkin membawa Anda perasaan baik. Pikirkan saja betapa bahagianya Anda jika semuanya berhasil. Untuk Anda biarkan kebahagiaan itu mengalir ke masa kini. Jadi apa yang pada akhirnya ingin Anda lakukan, adalah mengaitkan tugas Anda secara langsung dengan perasaan-perasaan baik itu, lewati rantai panjang, karena inilah yang saya inginkan.
 
 ![[3-Minute Mental Hack to Take Control of Your Subconscious-3.png]]
 
@@ -87,7 +88,7 @@ Anda dapat memberi penghargaan atau menghukum diri sendiri atas keberhasilan d
 
 Luangkan beberapa menit sehari untuk mengondisikan diri Anda. Anda tidak perlu melakukannya untuk waktu yang lama. Ada hasil yang semakin berkurang pula. Anda dapat melakukannya beberapa kali sehari atau sesering yang Anda inginkan dan semakin banyak waktu yang Anda masukkan semakin cepat pikiran bawah sadar Anda akan mengenali tujuan Anda. Tetapi Anda tidak harus melakukannya sesering itu agar berhasil. Lakukan saja secara konsisten dan hanya itu yang perlu Anda lakukan. Yakinkan pikiran bawah sadar Anda untuk Peduli dengan mengaitkan tugas Anda dengan emosi Primal yang dipedulikannya. Perubahan mental dicapai melalui pengulangan, jadi lakukan ini setiap hari dan Anda akan melihat hasilnya dengan cukup cepat seperti yang dilakukan Pavlov. 
 
-## Contoh dan Tips Ekstra
+## 5 | Contoh dan Tips Ekstra
 
 Beberapa hal lain yang perlu diperhatikan, ego bisa menjadi motivator utama yang sangat bagus. Jadi mari kita lakukan sebuah contoh, apa rantai motivasi saya:
 
@@ -111,7 +112,7 @@ Tetapi, *jangan sia-siakan*. Jangan suka melakukan tugas-tugas mudah untuk men
 
 Dan akhirnya satu perangkap mudah untuk jatuh adalah **merasa berhak atas kesuksesan**, tetapi jangan tidak peduli apa pun, Anda masih harus bekerja untuk tujuan Anda. Jika Anda merasa berhak, Anda secara alami akan kehilangan minat pada tujuan tersebut dan juga pikiran bawah sadar Anda. Jadi blokir perasaan-perasaan itu, jangan beri mereka ruang dalam pikiran Anda. Tetap fokus pada tugas dan tujuan Anda.
 
-## Kesimpulan
+## 6| Kesimpulan
 
 Oke untuk menyelesaikannya tidak banyak yang bisa dikatakan. Seperti yang saya katakan Anda dapat melakukan ini selama beberapa menit pada suatu waktu Anda dapat melakukannya beberapa kali sehari mungkin untuk efek yang lebih baik tetapi Anda tidak harus melakukannya selama itu. Pada suatu waktu dan Anda harus melakukannya untuk sementara waktu. Jaga asosiasi itu tetap kuat dan jangan biarkan itu hilang, ini akan membuat perbedaan besar dalam hidup Anda. Jadi teruskan.
 

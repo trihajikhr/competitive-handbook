@@ -35,10 +35,10 @@ Soal ini mudah, jadi langsung saja cetak pakai `get` dan juga `make_tuple`:
 using namespace std;
 
 auto main() -> int {
-   tuple<int, char, float> datup;
+   tuple<int, char, double> datup;
    datup = make_tuple(10, 'Z', 3.14);
 
-   // cetak tupple
+   // cetak tuple
    cout << get<0>(datup) << " " << get<1>(datup) << " " << get<2>(datup);
    return 0;
 }
@@ -49,6 +49,14 @@ auto main() -> int {
 ---
 # 3 | Editorial
 
-Setiap data pada tuple itu bisa diakses seperti array, dengan pengindeksan mirip seperti cara kita mengindeks array, yang dimulai dari 0.
+Setiap elemen di dalam `std::tuple` dapat diakses menggunakan fungsi templat `std::get<I>(t)`, di mana `I` adalah indeks konstanta pada waktu kompilasi (bukan nilai variabel).
 
-Hanya saja, kita menggunakan tambahan `get<>`.
+Indeks tuple dimulai dari `0`, mirip seperti array, namun aksesnya dilakukan melalui parameter templat, bukan melalui operator indeks (`[]`)
+
+- `get<0>(datup)` mengembalikan elemen pertama, yaitu `10` (tipe `int`).
+- `get<1>(datup)` mengembalikan elemen kedua, yaitu `'Z'` (tipe `char`).
+- `get<2>(datup)` mengembalikan elemen ketiga, yaitu `3.14` (tipe `double`).
+
+```ad-info
+Elemen pada `std::tuple` diakses dengan `std::get<I>(t)`, di mana `I` adalah indeks yang ditentukan pada waktu kompilasi, dimulai dari nol. Tidak seperti array, tuple tidak memiliki operator indeks runtime (`[]`), sehingga akses harus dilakukan melalui parameter templat `get<>`.
+```

@@ -19,7 +19,7 @@ Dalam C++, _map_ adalah kontainer _associated_ yang menyimpan pasangan data.
 
 Pasangan data ini, yang dikenal sebagai **key-value pairs**, memiliki **key yang unik**, sedangkan **value yang terkait tidak harus unik**.
 
-![[04-Data Structure/Zimg-Data Structure/Map C++-1.png]]
+![[Map C++-1.png]]
 
 **Elemen-elemen dalam sebuah map secara internal disortir berdasarkan key-nya.**
 

@@ -38,8 +38,7 @@ Berikut adalah jawaban yang benar, menampilkan semua tipe data yang ada didalam 
 using namespace std;
 
 auto main() -> int {
-   tuple<int, float, char> datup;
-   datup = make_tuple(42, 3.14, 'C');
+   auto datup = std::make_tuple(42, 3.14f, 'X');
    using a = tuple_element<0, decltype(datup)>::type;
    using b = tuple_element<1, decltype(datup)>::type;
    using c = tuple_element<2, decltype(datup)>::type;
@@ -57,8 +56,50 @@ auto main() -> int {
 
 Program ini mendemonstrasikan cara mendapatkan tipe elemen di dalam `std::tuple` menggunakan `tuple_element`.
 
-Pertama, dibuat tuple `datup` dengan tiga elemen: `int`, `float`, dan `char`. Kemudian, dengan `tuple_element<index, tuple_type>::type`, kita bisa mengekstrak tipe pada posisi tertentu. Misalnya, `tuple_element<0, decltype(datup)>::type` menghasilkan tipe elemen pertama (`int`). Hasil ini disimpan dengan `using` alias sebagai `a`, `b`, dan `c`.
+Pertama, dibuat tuple `datup` dengan tiga elemen: `int`, `float`, dan `char`, menggunakan `auto` supaya lebih ringkas. Kemudian, dengan:
 
-Selanjutnya, program mencetak nama tipe tersebut dengan `typeid(...).name()`. Output bisa bervariasi tergantung compiler, tetapi inti tujuannya adalah menampilkan tipe asli masing-masing elemen tuple.
+```cpp
+tuple_element<index, tuple_type>::type
+```
+
+...kita bisa mengekstrak tipe pada posisi tertentu. Misalnya, 
+
+```cpp
+tuple_element<0, decltype(datup)>::type
+```
+
+...menghasilkan tipe elemen pertama (`int`). Hasil ini disimpan dengan `using` alias sebagai `a`, `b`, dan `c`.
+
+Selanjutnya, program mencetak nama tipe tersebut dengan `typeid(...).name()`. Output bisa bervariasi tergantung compiler, tetapi inti tujuannya adalah menampilkan tipe asli masing-masing elemen tuple, atau mengembalikan _implementation-defined string_ berisi representasi nama tipe — hasilnya bisa berbeda tergantung pada compiler (misalnya GCC vs MSVC).
+
+Misalnya, pada GCC/Clang biasanya menampilkan:
+
+```
+i
+f
+c
+```
+
+yang secara berurutan merepresentasikan `int`, `float`, dan `char`.
+
+Namun, pada compiler lain seperti MSVC, hasilnya mungkin berupa:
+
+```
+int
+float
+char
+```
+
+Dengan demikian, hasil `typeid(...).name()` bersifat _implementation-defined_.
 
 👉 Editorial singkat: `tuple_element` sangat berguna ketika kita ingin melakukan *metaprogramming* dengan tuple, misalnya menulis template yang bergantung pada tipe elemen di posisi tertentu.
+
+Contoh penggunaannya di metaprogramming:
+
+```cpp
+template<typename T>
+void print_tuple_type() {
+    using FirstType = typename std::tuple_element<0, T>::type;
+    cout << typeid(FirstType).name();
+}
+```

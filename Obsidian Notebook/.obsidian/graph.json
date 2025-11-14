@@ -1,5 +1,5 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
@@ -11,34 +11,20 @@
       "query": "tag:#data-structure  ",
       "color": {
         "a": 1,
-        "rgb": 12255487
-      }
-    },
-    {
-      "query": "tag:#tree-algorithm  ",
-      "color": {
-        "a": 1,
-        "rgb": 518422
-      }
-    },
-    {
-      "query": "tag:#graph-algorithm  ",
-      "color": {
-        "a": 1,
-        "rgb": 16711680
+        "rgb": 14701138
       }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -0.4,
-  "nodeSizeMultiplier": 1.30969722633919,
-  "lineSizeMultiplier": 1.5088926529748,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
   "collapse-forces": true,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.3429468789015342,
+  "scale": 0.2607598701919792,
   "close": true
 }

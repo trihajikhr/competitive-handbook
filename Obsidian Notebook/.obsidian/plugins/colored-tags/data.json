@@ -192,7 +192,23 @@
     "doku": 180,
     "dokumentasi": 181,
     "clion": 182,
-    "IDE": 183
+    "IDE": 183,
+    "prefix-sum": 184,
+    "geometry": 185,
+    "implementation": 186,
+    "constructive-algorithm": 187,
+    "constructive-algorithms": 188,
+    "brute-force": 189,
+    "cp-algorithms": 190,
+    "Extended": 191,
+    "cp-algorithms-training": 192,
+    "cp-algorithms-": 193,
+    "games": 194,
+    "sortings": 195,
+    "hashing": 196,
+    "graph-matchings": 197,
+    "two-pointers": 198,
+    "data-structures": 199
   },
   "_version": 3
 }

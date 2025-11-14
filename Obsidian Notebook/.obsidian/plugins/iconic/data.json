@@ -24,7 +24,7 @@
   "dialogState": {
     "iconMode": true,
     "emojiMode": false,
-    "rulePage": "file"
+    "rulePage": "folder"
   },
   "appIcons": {},
   "tabIcons": {},
@@ -32,7 +32,11 @@
   "bookmarkIcons": {},
   "tagIcons": {},
   "propertyIcons": {},
-  "ribbonIcons": {},
+  "ribbonIcons": {
+    "open-gate:ChatGPT": {
+      "icon": "lucide-brain-circuit"
+    }
+  },
   "fileRules": [],
   "folderRules": []
 }

@@ -45,7 +45,9 @@ auto main() -> int {
    vectup.emplace_back(3, "Alice");
    vectup.emplace_back(1, "Bob");
    vectup.emplace_back(2, "Charlie");
-   std::ranges::sort(vectup, [](const auto& a, const auto& b) { return get<0>(a) < get<0>(b); });
+   std::ranges::sort(vectup, [](const auto& a, const auto& b) { 
+	   return get<0>(a) < get<0>(b); 
+	});
 
    for (auto& i : vectup) {
       auto [num, name] = i;

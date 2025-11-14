@@ -9,6 +9,7 @@ sumber:
 ada_tips?:
 date_learned: 2025-10-05T00:26:00
 tags:
+  - string
 ---
 Sumber: [Problem - 1837B - Codeforces](https://codeforces.com/problemset/problem/1837/B)
 

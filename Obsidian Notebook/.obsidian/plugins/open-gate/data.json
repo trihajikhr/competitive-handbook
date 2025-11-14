@@ -1,17 +1,6 @@
 {
   "uuid": "jbpkiclriehdhzw2y0ryrm",
   "gates": {
-    "aHR0cHM6Ly9yb2FkbWFwLnNoL2Zyb250ZW5k": {
-      "id": "aHR0cHM6Ly9yb2FkbWFwLnNoL2Zyb250ZW5k",
-      "title": "Roadmap Front End",
-      "icon": "<svg viewBox=\"0 0 100 100\"><image href=\"https://fetch-favicon.fly.dev/favicon/aHR0cHM6Ly9yb2FkbWFwLnNoL2Zyb250ZW5k\" height=\"100\" width=\"100\" /></svg>",
-      "hasRibbon": true,
-      "position": "center",
-      "profileKey": "open-gate",
-      "url": "https://roadmap.sh/frontend",
-      "zoomFactor": 1,
-      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0/HBpt3US8-18"
-    },
     "aHR0cHM6Ly9jaGF0Z3B0LmNvbS8=": {
       "id": "aHR0cHM6Ly9jaGF0Z3B0LmNvbS8=",
       "title": "ChatGPT",

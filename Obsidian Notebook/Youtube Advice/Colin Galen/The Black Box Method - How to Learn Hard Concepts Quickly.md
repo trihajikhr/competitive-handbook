@@ -1,8 +1,9 @@
 ---
 obsidianUIMode: preview
-note_type: tips trick
-tips_trick: "The Black Box Method: How to Learn Hard Concepts Quickly"
+note_type: Advice
+judul_materi: "The Black Box Method: How to Learn Hard Concepts Quickly"
 sumber: youtube.com
+date_learned:
 tags:
   - advice
 ---
