@@ -9,7 +9,7 @@ tags:
   - introduction
 ---
 ---
-# 1 | Competitive Programming 
+# 1 | Competitive Programming
 
 ==Source: geeksforgeeks.com==
 
@@ -28,13 +28,13 @@ Competitive programming adalah cara terbaik untuk mengasah pemikiran analitis, l
 - **Ketangkasan Mental dan Berpikir Cepat:** Dengan berlatih competitive programming, kamu akan terbiasa berpikir cepat dalam batas waktu tertentu, sehingga meningkatkan ketangkasan mental dan kemampuan berpikir secara efisien.
   <br/>
 - **Semangat Kompetitif:** Competitive programming bisa menjadi aktivitas yang menyenangkan bagi mereka yang menikmati tantangan. Menyelesaikan soal sulit dalam batas waktu akan meningkatkan rasa percaya diri dan kepuasan pribadi.
-    <br/>
+  <br/>
 - **Prospek Karier:** Competitive programming sangat penting dalam wawancara teknis untuk pekerjaan yang berhubungan dengan rekayasa perangkat lunak. Banyak perusahaan teknologi besar seperti **Google, ServiceNow, Atlassian**, dan lainnya menggunakan kompetisi competitive programming sebagai salah satu metode rekrutmen mereka.
-    <br/>
+  <br/>
 - **Peluang Belajar:** Dalam competitive programming, terdapat berbagai jenis soal serta konsep aritmetika yang luas. Kamu juga akan diperkenalkan dengan berbagai struktur data dan algoritma yang membantu memahami kompleksitas suatu masalah dengan lebih baik.
-    <br/>
+  <br/>
 - **Pertumbuhan Pribadi sebagai Programmer:** Competitive programming adalah salah satu cara terbaik untuk berkembang sebagai programmer. Kamu akan menguasai problem-solving karena harus menyelesaikan berbagai tantangan dalam batas waktu tertentu.
-    <br/>
+  <br/>
 - **Jaringan dan Komunitas:** Berpartisipasi dalam berbagai kompetisi pemrograman memberikan kesempatan untuk menjadi bagian dari komunitas dengan orang-orang yang memiliki minat yang sama. Dalam komunitas ini, kamu bisa mendapatkan berbagai sumber daya penting serta bimbingan dari para ahli yang dapat membantumu mendapatkan referensi pekerjaan, informasi lowongan kerja, mentorship, dan banyak lagi.
 
 <br/>

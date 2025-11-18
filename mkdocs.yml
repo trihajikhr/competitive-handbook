@@ -21,20 +21,20 @@ theme:
   features:
     - navigation.path
     - navigation.top
-    - navigation.tabs
+#    - navigation.tabs
     - navigation.tracking
     - navigation.footer
     - content.code.copy
     - content.code.select
     - content.code.annotate
     - search.suggest
-    #    - toc.integrate
+#    - toc.integrate
     - toc.follow
     - search.highlight
     - search.share
     - announce.dismiss
-  logo: logo.png
-  favicon: favicon.ico
+  logo: logo-icon/logo.png
+  favicon: logo-icon/favicon.ico
   icon:
     repo: fontawesome/brands/github
 
@@ -52,8 +52,6 @@ copyright: >
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
-      tex_inline_wrap: [ '$', '$' ]
-      tex_block_wrap: [ '$$', '$$' ]
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
