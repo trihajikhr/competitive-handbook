@@ -57,16 +57,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14-Tree Algorithm/A-Basic - Programmiz/01-Tree Data Structure/Latihan/02-Jumlah Semua Nilai Daun.md",
+                "file": "14-Tree Algorithm/B-Medium - Programmiz/04 - B+ Tree.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-Jumlah Semua Nilai Daun"
+              "title": "04 - B+ Tree"
+            }
+          },
+          {
+            "id": "f514c4d336163639",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04-Data Structure/01-Linear/Singly Linked-List/Singly Linked List (Geeks).md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Singly Linked List (Geeks)"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -268,8 +282,21 @@
       "open-gate:ChatGPT": false
     }
   },
-  "active": "a5de557add3cdf39",
+  "active": "f514c4d336163639",
   "lastOpenFiles": [
+    "04-Data Structure/01-Linear/Singly Linked-List/Linked list Data Structure (Programmiz).md",
+    "14-Tree Algorithm/B-Medium - Programmiz/05 - Insertion on a B+ Tree.md",
+    "14-Tree Algorithm/B-Medium - Programmiz/08 - Insertion in a Red-Black Tree.md",
+    "14-Tree Algorithm/B-Medium - Programmiz/07 - Red-Black Tree.md",
+    "14-Tree Algorithm/B-Medium - Programmiz/02 - Insertion into a B-tree.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/09 - AVL Tree.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/08 - Binary Search Tree.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/07 - Balanced Binary Tree.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/06 - Complete Binary Tree.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/05 - Perfect Binary Tree.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/04 - Full Binary Tree.md",
+    "04-Data Structure/01-Linear/Singly Linked-List/Singly Linked List (Geeks).md",
+    "14-Tree Algorithm/A-Basic - Programmiz/01-Tree Data Structure/Latihan/02-Jumlah Semua Nilai Daun.md",
     "04-Data Structure/B-Vector/01-Latihan/12-EDIT Tugas.md",
     "07-Dynamic Programming/01-Latihan/02-Jumlah Uang Koin.md",
     "07-Dynamic Programming/01-Introduction to Dynamic Programming.md",
@@ -283,19 +310,6 @@
     "DELIBERATE PRACTICE/1% Typer/100 Pecahan Kata.md",
     "29-Geometry/Manhattan Distance.md",
     "Codeforces-Death Ground/Report CF-DeathGround 800.md",
-    "!Important Notes/ATURAN PENERJEMAHAN.md",
-    "Codeforces-Death Ground/1200/Untitled 1.md",
-    "Codeforces-Death Ground/1200/Untitled 2.md",
-    "Codeforces-Death Ground/1200/433B-Kuriyama Mirai's Stones.md",
-    "Codeforces-Death Ground/1200/1352B-Same Parity Summands.md",
-    "Codeforces-Death Ground/1200/1926C-Vlad and a Sum of Sum of Digits.md",
-    "Codeforces-Death Ground/1200/1747C-Swap Game.md",
-    "Codeforces-Death Ground/1200/1520D-Same Differences.md",
-    "Codeforces-Death Ground/1200/1504B-Flip the Bits.md",
-    "Codeforces-Death Ground/1200/1352C-K-th Not Divisible by n.md",
-    "Codeforces-Death Ground/1200/514A-Chewbaсca and Number.md",
-    "Codeforces-Death Ground/1200/492B-Vanya and Lanterns.md",
-    "Codeforces-Death Ground/1200/489B-BerSU Ball.md",
     "01-Basic Geometry-4.png",
     "01-Basic Geometry-3.png",
     "01-Basic Geometry-2.png",

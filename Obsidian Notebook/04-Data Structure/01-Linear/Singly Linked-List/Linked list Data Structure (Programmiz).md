@@ -175,3 +175,4 @@ Kompleksitas ruang (*space complexity*): $O(n)$
 - Diimplementasikan dalam _stack_ dan _queue_ (antrean)
 - Dalam fungsi Undo pada perangkat lunak (_software_)
 - _Hash tables_ dan _Graf_ (Graphs)
+
