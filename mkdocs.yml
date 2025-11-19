@@ -27,6 +27,9 @@ theme:
     - content.code.copy
     - content.code.select
     - content.code.annotate
+    - content.tabs.link
+    - content.footnote.tooltips
+    - content.tooltips
     - search.suggest
 #    - toc.integrate
     - toc.follow
@@ -50,36 +53,46 @@ copyright: >
   Made with ❤️.
 
 markdown_extensions:
-  - pymdownx.arithmatex:
-      generic: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - md_in_html
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
-  - admonition
-  - pymdownx.details
+  - tables
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.blocks.caption
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.arithmatex:
+      generic: true
+  - abbr
   - meta
   - toc:
       permalink: true
       title: On this page
       permalink_title: Anchor link to this section for reference
       toc_depth: 3
-  - tables
-  - attr_list
-  - md_in_html
 
 extra_javascript:
   - javascript/consent.js
@@ -93,6 +106,7 @@ plugins:
   #  - mkdocs-simple-hooks:
   #      hooks:
   #        on_env: "hooks:on_env"
+  - glightbox
   - search
   - tags
   - literate-nav:

@@ -40,6 +40,7 @@ jobs:
           pip install mkdocs-rss-plugin
           pip install mkdocs-git-authors-plugin
           pip install mkdocs-git-committers-plugin
+          pip install mkdocs-glightbox
         # tambahkan plugin lain kalau ada
 
       - name: Deploy

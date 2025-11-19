@@ -14,3 +14,6 @@ search:
     - [Introduction to CP](01-introduction/introduction-to-cp.md)
     - [Bahasa pemrograman](01-introduction/memilih-bahasa-pemrograman.md)
     - [Template code](01-introduction/template-code.md)
+- Codeforces
+    - 1200
+        -  [1808B - Playing in a Casino](codeforces/1200/1808B-playing-in-a-casino.md)
