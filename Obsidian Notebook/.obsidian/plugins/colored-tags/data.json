@@ -208,7 +208,8 @@
     "hashing": 196,
     "graph-matchings": 197,
     "two-pointers": 198,
-    "data-structures": 199
+    "data-structures": 199,
+    "hashtable": 200
   },
   "_version": 3
 }
