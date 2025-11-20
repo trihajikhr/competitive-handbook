@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LeetCode-Contest/Easy-level/0026-Remove Duplicates from Sorted Array.md",
+                "file": "LeetCode-Contest/Easy-level/0035-Search Insert Position.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0026-Remove Duplicates from Sorted Array"
+              "title": "0035-Search Insert Position"
             }
           }
         ],
@@ -242,6 +242,8 @@
   },
   "active": "f514c4d336163639",
   "lastOpenFiles": [
+    "LeetCode-Contest/Easy-level/0028-Find the Index of the First Occurrence in a String.md",
+    "LeetCode-Contest/Easy-level/0035-Search Insert Position.md",
     "LeetCode-Contest/Easy-level/0027-Remove Element.md",
     "LeetCode-Contest/Easy-level/0026-Remove Duplicates from Sorted Array.md",
     "LeetCode-Contest/Easy-level/0021-Merge Two Sorted Lists.md",
@@ -267,8 +269,6 @@
     "14-Tree Algorithm/A-Basic - Programmiz/06 - Complete Binary Tree.md",
     "14-Tree Algorithm/A-Basic - Programmiz/05 - Perfect Binary Tree.md",
     "14-Tree Algorithm/A-Basic - Programmiz/04 - Full Binary Tree.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/01-Tree Data Structure/Latihan/02-Jumlah Semua Nilai Daun.md",
-    "04-Data Structure/B-Vector/01-Latihan/12-EDIT Tugas.md",
     "01-Basic Geometry-4.png",
     "01-Basic Geometry-3.png",
     "01-Basic Geometry-2.png",

@@ -209,7 +209,8 @@
     "graph-matchings": 197,
     "two-pointers": 198,
     "data-structures": 199,
-    "hashtable": 200
+    "hashtable": 200,
+    "string-matching": 201
   },
   "_version": 3
 }
