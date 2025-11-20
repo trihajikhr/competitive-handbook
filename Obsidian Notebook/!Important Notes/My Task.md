@@ -582,3 +582,11 @@ tags:
 
 <br/>
 
+
+- [ ] Pelajari apa kegunaan dari ~i dan ~j
+    - 🏷️ -> #task #syntax
+    - 📁 -> [[0058-Length of Last Word]] 
+    - 📅 -> 2025-11-20 19:31
+
+<br/>
+

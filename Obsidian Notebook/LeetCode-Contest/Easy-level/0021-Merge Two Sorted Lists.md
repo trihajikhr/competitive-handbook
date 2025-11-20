@@ -1,7 +1,7 @@
 ---
 obsidianUIMode: preview
 note_type: Death Ground ☠️
-kode_soal: lc 21
+kode_soal: lc-21
 judul_DEATH: Merge Two Sorted Lists
 teori_DEATH: sorting linked list
 sumber:

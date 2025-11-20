@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LeetCode-Contest/Easy-level/0035-Search Insert Position.md",
+                "file": "LeetCode-Contest/Easy-level/0009-Palindrome Number.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0035-Search Insert Position"
+              "title": "0009-Palindrome Number"
             }
           }
         ],
@@ -242,8 +242,14 @@
   },
   "active": "f514c4d336163639",
   "lastOpenFiles": [
-    "LeetCode-Contest/Easy-level/0028-Find the Index of the First Occurrence in a String.md",
+    "LeetCode-Contest/Easy-level/0070-Climbing Stairs.md",
+    "LeetCode-Contest/Easy-level/0069-Sqrt(x).md",
+    "LeetCode-Contest/Easy-level/0067-Add Binary.md",
+    "!Important Notes/My Task.md",
+    "LeetCode-Contest/Easy-level/0066-Plus One.md",
+    "LeetCode-Contest/Easy-level/0058-Length of Last Word.md",
     "LeetCode-Contest/Easy-level/0035-Search Insert Position.md",
+    "LeetCode-Contest/Easy-level/0028-Find the Index of the First Occurrence in a String.md",
     "LeetCode-Contest/Easy-level/0027-Remove Element.md",
     "LeetCode-Contest/Easy-level/0026-Remove Duplicates from Sorted Array.md",
     "LeetCode-Contest/Easy-level/0021-Merge Two Sorted Lists.md",
@@ -252,7 +258,6 @@
     "LeetCode-Contest/Easy-level/0013-Roman to Integer.md",
     "LeetCode-Contest/Easy-level/0009-Palindrome Number.md",
     "LeetCode-Contest/Easy-level/0001-Two Sum.md",
-    "!Important Notes/My Task.md",
     "Codeforces-Death Ground/1200/977C-Less or Equal.md",
     "!Important Notes/ATURAN PENERJEMAHAN.md",
     "14-Tree Algorithm/B-Medium - Programmiz/04 - B+ Tree.md",
@@ -264,11 +269,6 @@
     "14-Tree Algorithm/B-Medium - Programmiz/07 - Red-Black Tree.md",
     "14-Tree Algorithm/B-Medium - Programmiz/02 - Insertion into a B-tree.md",
     "14-Tree Algorithm/A-Basic - Programmiz/09 - AVL Tree.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/08 - Binary Search Tree.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/07 - Balanced Binary Tree.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/06 - Complete Binary Tree.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/05 - Perfect Binary Tree.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/04 - Full Binary Tree.md",
     "01-Basic Geometry-4.png",
     "01-Basic Geometry-3.png",
     "01-Basic Geometry-2.png",

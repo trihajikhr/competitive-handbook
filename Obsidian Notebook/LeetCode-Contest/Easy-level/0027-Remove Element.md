@@ -1,7 +1,7 @@
 ---
 obsidianUIMode: preview
 note_type: Death Ground ☠️
-kode_soal: lc 27
+kode_soal: lc-27
 judul_DEATH: Remove Element
 teori_DEATH: seleksi angka non-target
 sumber:

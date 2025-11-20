@@ -1,7 +1,7 @@
 ---
 obsidianUIMode: preview
 note_type: Death Ground ☠️
-kode_soal: lc 35
+kode_soal: lc-35
 judul_DEATH: Search Insert Position
 teori_DEATH:
 sumber:

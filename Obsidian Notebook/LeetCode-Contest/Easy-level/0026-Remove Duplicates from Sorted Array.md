@@ -1,7 +1,7 @@
 ---
 obsidianUIMode: preview
 note_type: Death Ground ☠️
-kode_soal: lc 26
+kode_soal: lc-26
 judul_DEATH: Remove Duplicates from Sorted Array
 teori_DEATH: seleksi angka unik secara in-place
 sumber:

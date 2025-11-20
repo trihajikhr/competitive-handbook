@@ -1,7 +1,7 @@
 ---
 obsidianUIMode: preview
 note_type: Death Ground ☠️
-kode_soal: lc 28
+kode_soal: lc-28
 judul_DEATH: Find the Index of the First Occurrence in a String
 teori_DEATH:
 sumber:
