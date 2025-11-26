@@ -211,7 +211,9 @@
     "data-structures": 199,
     "hashtable": 200,
     "string-matching": 201,
-    "simulation": 202
+    "simulation": 202,
+    "graphs": 203,
+    "strings": 204
   },
   "_version": 3
 }

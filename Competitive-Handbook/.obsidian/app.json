@@ -10,5 +10,9 @@
   },
   "promptDelete": false,
   "readableLineLength": true,
-  "strictLineBreaks": false
+  "strictLineBreaks": false,
+  "useMarkdownLinks": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./",
+  "newLinkFormat": "relative"
 }

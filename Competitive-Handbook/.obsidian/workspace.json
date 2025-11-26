@@ -24,17 +24,19 @@
             }
           },
           {
-            "id": "f514c4d336163639",
+            "id": "71ab4d8a40d40d2b",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LeetCode-Contest/Easy-level/0009-Palindrome Number.md",
-                "mode": "preview",
+                "file": "Codeforces-Death Ground/Soal 900.md",
+                "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "0009-Palindrome Number"
+              "title": "Soal 900"
             }
           }
         ],
@@ -95,7 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 372.5
   },
   "right": {
     "id": "5a2e04e3f27c45d3",
@@ -240,35 +242,36 @@
       "open-gate:ChatGPT": false
     }
   },
-  "active": "f514c4d336163639",
+  "active": "71ab4d8a40d40d2b",
   "lastOpenFiles": [
-    "LeetCode-Contest/Easy-level/0070-Climbing Stairs.md",
-    "LeetCode-Contest/Easy-level/0069-Sqrt(x).md",
-    "LeetCode-Contest/Easy-level/0067-Add Binary.md",
+    "Codeforces-Death Ground/900/405A-Gravity Flip.md",
+    "Codeforces-Death Ground/Soal 900.md",
+    "Codeforces-Death Ground/900/133A-HQ9+.md",
+    "Codeforces-Death Ground/900/Untitled.md",
+    "Codeforces-Death Ground/900/318A-Even Odds.md",
+    "Codeforces-Death Ground/900/160A-Twins.md",
+    "Codeforces-Death Ground/900/96A-Football.md",
+    "Z Templater/Materi.md",
+    "Codeforces-Death Ground/900/115A-Party.md",
     "!Important Notes/My Task.md",
-    "LeetCode-Contest/Easy-level/0066-Plus One.md",
-    "LeetCode-Contest/Easy-level/0058-Length of Last Word.md",
-    "LeetCode-Contest/Easy-level/0035-Search Insert Position.md",
-    "LeetCode-Contest/Easy-level/0028-Find the Index of the First Occurrence in a String.md",
-    "LeetCode-Contest/Easy-level/0027-Remove Element.md",
-    "LeetCode-Contest/Easy-level/0026-Remove Duplicates from Sorted Array.md",
-    "LeetCode-Contest/Easy-level/0021-Merge Two Sorted Lists.md",
-    "LeetCode-Contest/Easy-level/0020-Valid Parentheses.md",
-    "LeetCode-Contest/Easy-level/0014-Longest Common Prefix.md",
-    "LeetCode-Contest/Easy-level/0013-Roman to Integer.md",
-    "LeetCode-Contest/Easy-level/0009-Palindrome Number.md",
-    "LeetCode-Contest/Easy-level/0001-Two Sum.md",
-    "Codeforces-Death Ground/1200/977C-Less or Equal.md",
-    "!Important Notes/ATURAN PENERJEMAHAN.md",
-    "14-Tree Algorithm/B-Medium - Programmiz/04 - B+ Tree.md",
-    "04-Data Structure/01-Linear/Singly Linked-List/Singly Linked List (Geeks).md",
+    "DELIBERATE PRACTICE/1% Programmer/Algorithm with Shayan/Never Do these! If you want to get out of Newbie.md",
+    "DELIBERATE PRACTICE/1% Programmer/Algorithm with Shayan/6 Mistakes in Learning Competitive Programming.md",
+    "Z Templater/1% Improvement.md",
+    "DELIBERATE PRACTICE/1% Programmer/Algorithm with Shayan/Instead, Do These! If you want to get out of Newbie....md",
+    "DELIBERATE PRACTICE/1% Programmer/Algorithm with Shayan/From Newbie to Expert in 3 Months - 100% works!.md",
+    "Codeforces-Death Ground/CP-ENDER/1996C-Sort.md",
+    "Codeforces-Death Ground/CP-ENDER/1559C-Mocha and Hiking.md",
+    "Codeforces-Death Ground/CP-ENDER",
+    "Z Templater/Metode DEATH.md",
+    "Z Templater/Report Sheet.md",
+    "04-Data Structure/L-Tuple/01-Latihan/12-Nested Tuple Edition.md",
+    "04-Data Structure/L-Tuple/01-Latihan/14-Liga Programmer.md",
+    "Codeforces-Death Ground/1200/327A-Flipping Game.md",
+    "Codeforces-Death Ground/800/2074B-The Third Side.md",
+    "LeetCode-Contest/Easy-level/0104-Maximum Depth of Binary Tree.md",
+    "LeetCode-Contest/Easy-level/0101-Symetric Tree.md",
+    "LeetCode-Contest/Easy-level/0100-Same Tree.md",
     "LeetCode-Contest/Easy-level",
-    "04-Data Structure/01-Linear/Singly Linked-List/Linked list Data Structure (Programmiz).md",
-    "14-Tree Algorithm/B-Medium - Programmiz/05 - Insertion on a B+ Tree.md",
-    "14-Tree Algorithm/B-Medium - Programmiz/08 - Insertion in a Red-Black Tree.md",
-    "14-Tree Algorithm/B-Medium - Programmiz/07 - Red-Black Tree.md",
-    "14-Tree Algorithm/B-Medium - Programmiz/02 - Insertion into a B-tree.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/09 - AVL Tree.md",
     "01-Basic Geometry-4.png",
     "01-Basic Geometry-3.png",
     "01-Basic Geometry-2.png",
@@ -285,7 +288,6 @@
     "27-Square Root Algorithm",
     "24-Probability",
     "23-Matrices",
-    "20-Flow and Cuts",
     "CP-Algorithm Site/Z-src/01-Sieve of Eratosthenes-1.png",
     "Codeforces-Death Ground/Z-src/459A-Pashmak and Garden-1.png",
     "DELIBERATE PRACTICE/Untitled.canvas",
