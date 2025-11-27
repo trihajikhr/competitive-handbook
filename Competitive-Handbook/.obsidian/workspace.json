@@ -38,9 +38,37 @@
               "icon": "lucide-file",
               "title": "Soal 900"
             }
+          },
+          {
+            "id": "a855843f66f6229f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Codeforces-Death Ground/900/580A-Kefa and First Steps.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "580A-Kefa and First Steps"
+            }
+          },
+          {
+            "id": "6c13befc6aeafd17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Codeforces-Death Ground/900/337A-Puzzles.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "337A-Puzzles"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -171,8 +199,8 @@
             "state": {
               "type": "tags-overview-view",
               "state": {},
-              "icon": "tag",
-              "title": "Tags overview"
+              "icon": "lucide-ghost",
+              "title": "tags-overview-view"
             }
           },
           {
@@ -181,8 +209,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -191,8 +219,8 @@
             "state": {
               "type": "aHR0cHM6Ly9jaGF0Z3B0LmNvbS8=",
               "state": {},
-              "icon": "aHR0cHM6Ly9jaGF0Z3B0LmNvbS8=",
-              "title": "ChatGPT"
+              "icon": "lucide-ghost",
+              "title": "aHR0cHM6Ly9jaGF0Z3B0LmNvbS8="
             }
           }
         ],
@@ -234,18 +262,21 @@
       "graph:Open graph view": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false,
       "tags-overview:Tags overview": false,
-      "dashboard-navigator:Open dashboard navigator": false,
+      "open-gate:ChatGPT": false,
       "iconic:Open rulebook": false,
       "quickadd:QuickAdd": false,
-      "open-gate:ChatGPT": false
+      "templater-obsidian:Templater": false,
+      "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "71ab4d8a40d40d2b",
+  "active": "6c13befc6aeafd17",
   "lastOpenFiles": [
-    "Codeforces-Death Ground/900/405A-Gravity Flip.md",
     "Codeforces-Death Ground/Soal 900.md",
+    "Codeforces-Death Ground/900/337A-Puzzles.md",
+    "Codeforces-Death Ground/900/580A-Kefa and First Steps.md",
+    "Codeforces-Death Ground/900/208A-Dubstep.md",
+    "Codeforces-Death Ground/900/405A-Gravity Flip.md",
     "Codeforces-Death Ground/900/133A-HQ9+.md",
     "Codeforces-Death Ground/900/Untitled.md",
     "Codeforces-Death Ground/900/318A-Even Odds.md",
@@ -268,9 +299,6 @@
     "04-Data Structure/L-Tuple/01-Latihan/14-Liga Programmer.md",
     "Codeforces-Death Ground/1200/327A-Flipping Game.md",
     "Codeforces-Death Ground/800/2074B-The Third Side.md",
-    "LeetCode-Contest/Easy-level/0104-Maximum Depth of Binary Tree.md",
-    "LeetCode-Contest/Easy-level/0101-Symetric Tree.md",
-    "LeetCode-Contest/Easy-level/0100-Same Tree.md",
     "LeetCode-Contest/Easy-level",
     "01-Basic Geometry-4.png",
     "01-Basic Geometry-3.png",
