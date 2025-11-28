@@ -11,6 +11,6 @@ sumber:
 date_learned: 
 tags:
 ---
-Link sumber: 
+Link Sumber: 
 
 ---

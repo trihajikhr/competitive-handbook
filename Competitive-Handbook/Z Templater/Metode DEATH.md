@@ -1,6 +1,6 @@
 ---
 obsidianUIMode: preview
-note_type: Death Ground ☠️
+note_type: death ground
 kode_soal:
 judul_DEATH:
 teori_DEATH:

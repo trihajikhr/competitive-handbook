@@ -1,13 +1,12 @@
 ---
 obsidianUIMode: preview
-note_type: Reverse Engineering
+note_type: reverse engineering
 kode_soal:
 judul_soal:
 teori_REVERSE:
 sumber:
 date_learned:
 tags:
-  - reverse-engineering
 ---
 Sumber: 
 

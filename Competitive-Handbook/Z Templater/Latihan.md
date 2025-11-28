@@ -1,10 +1,9 @@
 ---
 obsidianUIMode: preview
 note_type: latihan
-latihan: 
-sumber: 
+latihan:
+sumber:
 tags:
-  - tag
 date_learned:
 ---
 ---

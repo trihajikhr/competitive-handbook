@@ -8,6 +8,7 @@ sumber:
 date_learned: 2025-09-23T23:23:00
 tags:
   - "#STL"
+  - strings
 ---
 Link Sumber: [Standard library header \<string\> - cppreference.com](https://en.cppreference.com/w/cpp/header/string.html)
 

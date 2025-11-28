@@ -7,7 +7,7 @@ sumber:
 date_learned: 2025-09-19T17:02:00
 tags:
   - tips-trick
-  - string
+  - strings
 ---
 Link Sumber: 
 

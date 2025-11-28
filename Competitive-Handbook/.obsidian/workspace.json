@@ -38,23 +38,9 @@
               "icon": "lucide-file",
               "title": "Soal 900"
             }
-          },
-          {
-            "id": "259319b80879207a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bug & Debugging/04-Menelusuri Alur Program.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "04-Menelusuri Alur Program"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -223,20 +209,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bug & Debugging/04-Menelusuri Alur Program.md",
+                "file": "EEP & IEP Program/EEP - Efficiency Enhancement Program.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 04-Menelusuri Alur Program"
+              "title": "Outline of EEP - Efficiency Enhancement Program"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 386.5
+    "width": 386.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -255,40 +242,40 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "259319b80879207a",
+  "active": "04554e08cc1bd94b",
   "lastOpenFiles": [
-    "Bug & Debugging/03-Cara Kerja Compiler & Membaca Pesan Error.md",
-    "Bug & Debugging/02-Macam dan Jenis Bug.md",
-    "Bug & Debugging/01-Apa itu Bug.md",
-    "Bug & Debugging/04-Menelusuri Alur Program.md",
-    "Codeforces-Death Ground/900/1005B-Delete from the Left.md",
+    "EEP & IEP Program/EEP Program/Rencana Harian.md",
+    "Metode Belajar/Metode Belajar Fondasi Utama.md",
+    "Metode Belajar/Metode Belajar BLACK BOX.md",
+    "Metode Belajar/Metode Belajar Lainya.md",
+    "Metode Belajar/Metode Belajar REVERSE-E.md",
+    "Metode Belajar/Metode Belajar STRIKE.md",
+    "Metode Belajar/Metode Menggunakan REVERSE-E.md",
+    "Metode Belajar/Metode Belajar Jim Kwik.md",
+    "Youtube Advice/Colin Galen/How to Awaken & Enhance Your Analytical Problem-Solving Mind.md",
+    "Youtube Advice/Colin Galen/3-Minute Mental Hack to Take Control of Your Subconscious.md",
+    "Z Templater/Algoritma.md",
+    "Z Templater/Dokumentasi.md",
+    "Z Templater/EEP.md",
+    "Z Templater/IEP.md",
+    "Z Templater/Latihan.md",
     "Z Templater/Materi.md",
-    "usacoguide@gmail.com.md",
-    "Untitled.md",
-    "ZZ-Temporary Notes Vault/Apa itu Memory Heap dan Stack.md",
-    "Part 13 Tipe Data Integer Bahasa C++.png.md",
+    "Z Templater/Metode DEATH.md",
+    "Z Templater/Report Sheet.md",
+    "Z Templater/Reverse Engineering.md",
+    "Z Templater/Tips trick.md",
+    "Z Templater/1% Improvement.md",
+    "C++ Standard Library/include - algorithm/05-Binary search/01-lower_bound().md",
+    "C++ Standard Library/include - algorithm/Non-modifying sequence operations.md",
+    "C++ Standard Library/include - regex/Header regex di C++.md",
+    "C++ Standard Library/include - sstream/Header sstream di C++.md",
+    "C++ Standard Library/include - sstream/Parsing String dengan sstream.md",
     "CP-Algorithm Site/01-Basic Geometry-1.png",
     "CP-Algorithm Site/01-Basic Geometry-4.png",
     "CP-Algorithm Site/01-Basic Geometry-3.png",
     "CP-Algorithm Site/01-Basic Geometry-2.png",
-    "Codeforces-Death Ground/Soal 900.md",
-    "DELIBERATE PRACTICE/Aturan Sesi Deliberate Practice.md",
-    "DELIBERATE PRACTICE/1% Programmer/How to Get Ahead of 99% of Software Engineers (in 2025).md",
     "DELIBERATE PRACTICE/1% Programmer/Z-IMG/Never Do these! If you want to get out of Newbie-2.png",
     "DELIBERATE PRACTICE/1% Programmer/Z-IMG/Never Do these! If you want to get out of Newbie-1.png",
-    "DELIBERATE PRACTICE/1% Programmer/ThePrimeTime/Untitled.md",
-    "DELIBERATE PRACTICE/1% Typer/How to Type 3x Faster in 7 Days (from a Med Student).md",
-    "DELIBERATE PRACTICE/1% Typer/How I Type REALLY Fast (156 Words per Minute).md",
-    "DELIBERATE PRACTICE/1% Typer/100 Pecahan Kata.md",
-    "Codeforces-Death Ground/900/337A-Puzzles.md",
-    "Codeforces-Death Ground/900/580A-Kefa and First Steps.md",
-    "Codeforces-Death Ground/900/208A-Dubstep.md",
-    "Codeforces-Death Ground/900/405A-Gravity Flip.md",
-    "Codeforces-Death Ground/900/133A-HQ9+.md",
-    "Codeforces-Death Ground/900/Untitled.md",
-    "Codeforces-Death Ground/900/318A-Even Odds.md",
-    "Codeforces-Death Ground/900/160A-Twins.md",
-    "Codeforces-Death Ground/900/96A-Football.md",
     "Codeforces-Death Ground/CP-ENDER",
     "LeetCode-Contest/Easy-level",
     "Pasted image 20251105214824.png",
