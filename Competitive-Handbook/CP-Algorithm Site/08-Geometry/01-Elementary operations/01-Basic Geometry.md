@@ -122,7 +122,7 @@ Di sini, **`ftype`** adalah tipe (_type_) yang digunakan untuk koordinat, biasan
 Produk titik (*dot product*) (atau produk skalar (_scalar product_)) $\mathbf{a} \cdot \mathbf{b}$ untuk vektor $\mathbf{a}$ dan $\mathbf{b}$ dapat didefinisikan dalam dua cara yang identik. Secara geometris, ini adalah perkalian panjang vektor pertama dengan panjang proyeksi (_projection_) vektor kedua ke vektor pertama. Seperti yang dapat Anda lihat dari gambar di bawah, proyeksi ini hanyalah $|\mathbf{a}| \cos \theta$, di mana $\theta$ adalah sudut antara $\mathbf{a}$ dan $\mathbf{b}$. Jadi, $\mathbf{a} \cdot \mathbf{b} = |\mathbf{a}| \cos \theta \cdot |\mathbf{b}|$.
 
 
-![[01-Basic Geometry-1.png]]
+![[../../01-Basic Geometry-1.png]]
 
 
 Produk titik memiliki beberapa properti penting:
@@ -189,7 +189,7 @@ double angle(point2d a, point2d b) {
 Untuk melihat properti penting berikutnya, kita harus melihat himpunan titik (_set of points_) $\mathbf{r}$ di mana $\mathbf{r} \cdot \mathbf{a} = C$ untuk beberapa konstanta tetap $C$. Anda dapat melihat bahwa himpunan titik ini persis sama dengan himpunan titik di mana proyeksi (_projection_) ke $\mathbf{a}$ adalah titik $C \cdot \dfrac{\mathbf{a}}{|\mathbf{a}|^2}$, dan titik-titik tersebut membentuk hiperbidang (_hyperplane_) yang ortogonal terhadap $\mathbf{a}$. Anda dapat melihat vektor $\mathbf{a}$ bersama dengan beberapa vektor seperti itu yang memiliki produk titik yang sama dengannya dalam 2D pada gambar di bawah:
 
 
-![[01-Basic Geometry-2.png]]
+![[../../01-Basic Geometry-2.png]]
 
 
 Dalam 2D, vektor-vektor ini akan membentuk garis, dalam 3D, mereka akan membentuk bidang (_plane_). Perhatikan bahwa hasil ini memungkinkan kita untuk mendefinisikan garis dalam 2D sebagai $\mathbf{r} \cdot \mathbf{n} = C$ atau $(\mathbf{r} - \mathbf{r}_0) \cdot \mathbf{n} = 0$, di mana $\mathbf{n}$ adalah vektor yang ortogonal  terhadap garis, $\mathbf{r}_0$ adalah setiap vektor yang sudah ada pada garis, dan $C = \mathbf{r}_0 \cdot \mathbf{n}$. Dengan cara yang sama, bidang dapat didefinisikan dalam 3D.
@@ -201,11 +201,11 @@ Dalam 2D, vektor-vektor ini akan membentuk garis, dalam 3D, mereka akan membentu
 Asumsikan Anda memiliki tiga vektor $\mathbf{a}$, $\mathbf{b}$, dan $\mathbf{c}$ dalam ruang 3D yang disatukan dalam sebuah paralelepipedum (_parallelepiped_) seperti pada gambar di bawah:
 
 
-![[01-Basic Geometry-3.png]]
+![[../../01-Basic Geometry-3.png]]
 
 Bagaimana Anda akan menghitung volumenya? Dari sekolah kita tahu bahwa kita harus mengalikan luas alas dengan tinggi, yang merupakan proyeksi (_projection_) $\mathbf{a}$ ke arah yang ortogonal terhadap alas. Ini berarti bahwa jika kita mendefinisikan $\mathbf{b} \times \mathbf{c}$ sebagai vektor yang ortogonal terhadap $\mathbf{b}$ maupun $\mathbf{c}$ dan yang panjangnya sama dengan luas jajaran genjang yang dibentuk oleh $\mathbf{b}$ dan $\mathbf{c}$, maka $|\mathbf{a} \cdot (\mathbf{b} \times \mathbf{c})|$ akan sama dengan volume paralelepipedum. Untuk integritas, kita akan mengatakan bahwa $\mathbf{b} \times \mathbf{c}$ akan selalu diarahkan sedemikian rupa sehingga rotasi dari vektor $\mathbf{b}$ ke vektor $\mathbf{c}$ dari sudut pandang $\mathbf{b} \times \mathbf{c}$ selalu berlawanan arah jarum jam (_counter-clockwise_) (lihat gambar di bawah).
 
-![[01-Basic Geometry-4.png]]
+![[../../01-Basic Geometry-4.png]]
 
 
 Ini mendefinisikan produk silang (cross product) (atau produk vektor (_vector product_)) $\mathbf{b} \times \mathbf{c}$ dari vektor $\mathbf{b}$ dan $\mathbf{c}$, dan produk tripel (_triple product_) $\mathbf{a} \cdot (\mathbf{b} \times \mathbf{c})$ dari vektor $\mathbf{a}$, $\mathbf{b}$, dan $\mathbf{c}$.

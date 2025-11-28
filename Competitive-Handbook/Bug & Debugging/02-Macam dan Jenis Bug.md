@@ -2,14 +2,20 @@
 obsidianUIMode: preview
 note_type: Book Theory
 judul_materi: macam-macam bug
-sumber: Google.com, AI
+sumber:
+  - google.com
+  - gemini.google.com
 date_learned: 2025-05-16T12:36:00
 tags:
   - bug
 ---
-#bug 
 
 ---
+
+```ad-summary
+
+```
+
 # Macam dan Jenis Bug
 Bug perangkat lunak merupakan bagian tak terelakkan dari [siklus hidup pengembangan perangkat lunak](https://www.browserstack.com/guide/learn-software-development-process "siklus hidup pengembangan perangkat lunak") . Tidak ada kode yang dibuat dengan sempurna pada awalnya. Bug, anomali, dan kesalahan perlu diidentifikasi, dicatat, dan diatasi. Oleh karena itu, menciptakan produk perangkat lunak yang tangguh memerlukan pengujian dan pengoptimalan yang komprehensif.
 
@@ -879,82 +885,48 @@ Mengakses nilai dari `ptr` yang bernilai `nullptr` akan menyebabkan program gaga
 - Gunakan tools seperti static analyzer, sanitizers, atau compiler warning (`-Wall`, `-Wextra`) untuk mendeteksi potensi bug.
     
 - Dalam OOP, pertimbangkan untuk menggunakan reference daripada pointer jika memungkinkan, karena reference tidak bisa null.
-    
 
-# Kesimpulan
-Dari 24 jenis bug yang di sebutkan, berikut ini adalah klasifikasinya — mana yang termasuk **bug dalam ranah pemrograman (coding-level bugs)** dan mana yang **di luar ranah langsung pemrograman (lebih ke desain, requirement, atau integrasi sistem)**.
+<br/>
 
 ---
 
-## ✅ Bug di Ranah Pemrograman (Coding-Level Bugs)
+# Kesimpulan
+
+Dari 24 jenis bug yang di sebutkan, berikut ini adalah klasifikasinya — mana yang termasuk bug dalam ranah pemrograman (coding-level bugs) dan mana yang di luar ranah langsung pemrograman (lebih ke desain, requirement, atau integrasi sistem).
+
+## 1 | Bug di Ranah Pemrograman (Coding-Level Bugs)
 
 Ini adalah bug yang langsung berkaitan dengan penulisan kode (logic, syntax, memory, runtime, dll):
 
-1. **Syntax Errors**
-    
-2. **Logic Errors**
-    
-3. **Logical Bugs** _(mirip dengan Logic Errors)_
-    
-4. **Runtime Errors**
-    
-5. **Compilation Errors**
-    
-6. **Memory Leaks**
-    
-7. **Buffer Overflow**
-    
-8. **Freeing Memory Twice (Double Free)**
-    
-9. **Uninitialized Variables**
-    
-10. **Null Pointer Dereference**
-    
-11. **Data Bugs** _(jika data salah karena kesalahan kode)_
-    
-12. **Concurrency Bugs**
-    
-13. **Unit Level Bugs**
-    
-14. **Performance Bugs** _(jika disebabkan oleh kode tidak efisien)_
-    
+1. Syntax Errors
+2. Logic Errors
+3. Logical Bugs _(mirip dengan Logic Errors)_
+4. Runtime Errors
+5. Compilation Errors
+6. Memory Leaks
+7. Buffer Overflow
+8. Freeing Memory Twice (Double Free)
+9. Uninitialized Variables
+10. Null Pointer Dereference
+11. Data Bugs _(jika data salah karena kesalahan kode)_
+12. Concurrency Bugs
+13. Unit Level Bugs
+14. Performance Bugs _(jika disebabkan oleh kode tidak efisien)_
 
----
-
-## 🟡 Bug yang Bisa Melibatkan Pemrograman, Tapi Juga Desain/System-Level
+## 2 | Bug yang Bisa Melibatkan Pemrograman, Tapi Juga Desain/System-Level
 
 Bug ini mungkin muncul dari kode, tapi sering kali juga dipengaruhi oleh sistem yang lebih besar:
 
-15. **Security Bugs**
-    
-16. **Security Vulnerabilities**
-    
-17. **Performance Issues** _(kadang dari kode, kadang dari sistem/arsitektur)_
-    
-18. **Data Corruption**
-    
-19. **Interface Errors** _(jika menyangkut antar modul)_
-    
-20. **Integration Issues** _(terjadi saat menggabungkan berbagai bagian)_
-    
-21. **Compatibility Bugs** _(terjadi saat software dijalankan di lingkungan berbeda)_
-    
+15. Security Bugs
+16. Security Vulnerabilities
+17. Performance Issues _(kadang dari kode, kadang dari sistem/arsitektur)_
+18. Data Corruption
+19. Interface Errors _(jika menyangkut antar modul)_
+20. Integration Issues _(terjadi saat menggabungkan berbagai bagian)_
+21. Compatibility Bugs _(terjadi saat software dijalankan di lingkungan berbeda)_
 
----
+## 3 | Bug di Luar Ranah Pemrograman Langsung (Lebih ke Analis/Kebutuhan/UX)
 
-## ❌ Bug di Luar Ranah Pemrograman Langsung (Lebih ke Analis/Kebutuhan/UX)
-
-22. **Misunderstanding Requirements**
-    
-23. **Usability Bugs**
-    
-24. **Functional Bugs** _(umumnya karena ketidaksesuaian dengan spesifikasi)_
-    
-
----
-
-### Kesimpulan:
-
-📌 **14 dari 24** bug yang kamu pelajari adalah **bug murni dalam ranah pemrograman**.  
-Sisanya penting juga untuk dipahami karena sebagai programmer profesional, kamu pasti akan berurusan dengan semuanya — terutama saat mengerjakan proyek besar atau kolaboratif.
-
+22. Misunderstanding Requirements
+23. Usability Bugs
+24. Functional Bugs _(umumnya karena ketidaksesuaian dengan spesifikasi)_

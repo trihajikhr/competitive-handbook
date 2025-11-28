@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiBug",
       "LiCode2",
       "LiKeyboard",
       "LiBrainCircuit",
-      "LiCpu",
-      "LiTrash"
+      "LiCpu"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -124,8 +124,6 @@
   "LeetCode-Contest": "LiCode2",
   "LeetCode-Contest/Virtual Contest": "LiComputer",
   "LeetCode-Contest/Public Contest": "RiLiveLine",
-  "Teknik Debugging": "LiBugOff",
-  "Teori Bug dan Jenis Bug": "LiBug",
   "03-Sorting/A_sort-Bubble Sort/Variasi Bubble Sort.md": "LiQrCode",
   "03-Sorting/B_sort-Selection Sort/Variasi Selection Sort.md": "LiQrCode",
   "02-Time Complexity/Time Complexity dalam Algoritma.md": "LiQrCode",
@@ -299,8 +297,6 @@
   "C++ Standard Library/include - regex/Header regex di C++.md": "LiQrCode",
   "C++ Standard Library/include - sstream/Header sstream di C++.md": "LiQrCode",
   "C++ Standard Library/include - sstream/Parsing String dengan sstream.md": "LiQrCode",
-  "DELIBERATE PRACTICE/1% Typer/How I Type REALLY Fast (156 Words per Minute).md": "LiLightbulb",
-  "DELIBERATE PRACTICE/1% Typer/How to Type 3x Faster in 7 Days (from a Med Student).md": "LiLightbulb",
   "C++ Standard Library/include - sstream": "LiPuzzle",
   "C++ Standard Library/include - regex": "LiPuzzle",
   "C++ Standard Library/include - string/Header string di C++.md": "LiQrCode",
@@ -451,5 +447,6 @@
   "Codeforces-Death Ground/900/133A-HQ9+.md": "LiCode2",
   "Codeforces-Death Ground/900/405A-Gravity Flip.md": "LiCode2",
   "Codeforces-Death Ground/900/208A-Dubstep.md": "LiCode2",
-  "Codeforces-Death Ground/900/580A-Kefa and First Steps.md": "LiCode2"
+  "Codeforces-Death Ground/900/580A-Kefa and First Steps.md": "LiCode2",
+  "Bug & Debugging": "LiBug"
 }

@@ -2,27 +2,34 @@
 obsidianUIMode: preview
 note_type: Book Theory
 judul_materi: menelusuri alur program
-sumber: Google.com, AI
+sumber:
+  - google.com
+  - gemini.google.com
 date_learned: 2025-05-16T13:51:00
 tags:
   - bug
   - flowchart
+  - debug
 ---
-#bug #flowchart #debug  
+---
+```ad-summary
+```
 
----
 # Materi Lengkap: Cara Membaca dan Menelusuri Alur Program
 
 ## 1 | Pengertian Alur Program
 
 Alur program adalah **urutan langkah atau instruksi yang dijalankan oleh program saat dieksekusi**. Memahami alur program artinya kamu tahu bagaimana instruksi satu dijalankan setelah yang lain, dan bagaimana cabang logika serta perulangan memengaruhi jalannya program.
 
-**Pengerian lain:**
-**Alur program** adalah **urutan atau jalannya eksekusi instruksi-instruksi dalam sebuah program komputer** dari awal hingga akhir. Alur ini menunjukkan **bagaimana program mengolah data, mengambil keputusan, mengulangi proses**, serta **menghasilkan output** berdasarkan instruksi yang dituliskan oleh programmer.
+**Pengertian lain:**
+Alur program adalah urutan atau jalannya eksekusi instruksi-instruksi dalam sebuah program komputer dari awal hingga akhir. Alur ini menunjukkan bagaimana program mengolah data, mengambil keputusan, mengulangi proses, serta menghasilkan output berdasarkan instruksi yang dituliskan oleh programmer.
 
-Alur program bisa dianggap seperti **peta jalan** bagi program — dari titik **mulai**, melalui berbagai **simpangan logika (if/else)** dan **jalan berulang (loop)**, hingga sampai ke **tujuan akhir (output)**.
+Alur program bisa dianggap seperti peta jalan bagi program — dari titik mulai, melalui berbagai simpangan logika (if/else) dan jalan berulang (loop), hingga sampai ke tujuan akhir (output).
+
+<br/>
 
 ---
+
 ## 2 | Mengapa Memahami Alur Program Penting?
 
 Memahami alur program penting karena ini adalah kunci untuk mengetahui bagaimana program bekerja dari awal hingga akhir. Dengan memahami alur, kita bisa mengikuti urutan eksekusi instruksi, melihat bagaimana data diproses, dan memahami kapan serta kenapa percabangan atau perulangan terjadi. Ini sangat membantu saat kita menemukan kesalahan (bug), karena kita tahu bagian mana yang seharusnya dijalankan dan bisa membandingkannya dengan apa yang benar-benar terjadi.
@@ -38,11 +45,13 @@ Intinya:
 - Memudahkan membaca kode orang lain.
 - Penting dalam optimasi dan perbaikan kode.
 
+<br/>
+
 ---
 
 ## 3 | Elemen Utama Alur Program
 
-### a. Instruksi Berurutan
+### 3.1 | Instruksi Berurutan
 
 - Kode akan dieksekusi dari atas ke bawah.
     
@@ -55,7 +64,7 @@ Intinya:
     ```
     
 
-### b. Percabangan (Conditionals)
+### 3.2 | Percabangan (Conditionals)
 
 Percabangan mengarahkan program untuk memilih jalur tertentu berdasarkan kondisi.
 
@@ -74,7 +83,7 @@ if (x > 0) {
 }
 ```
 
-### c. Perulangan (Loops)
+### 3.3 | Perulangan (Loops)
 
 Kode yang dijalankan berulang kali selama kondisi terpenuhi.
 
@@ -93,22 +102,21 @@ for (int i = 0; i < 5; i++) {
 }
 ```
 
-### d. Fungsi dan Prosedur
+### 3.4 | Fungsi dan Prosedur
 
 - Bagian kode yang dipanggil berulang kali atau modular.
     
 - Program eksekusi pindah ke fungsi saat dipanggil, lalu kembali.
     
 
----
-### Versi lain yang lebih lengkap
+### 3.5 | Versi lain yang lebih lengkap
 Berikut adalah **elemen-elemen utama alur program** yang perlu kamu ketahui:
 
-#### ✅ 1. Start (Mulai)
+####  1. Start (Mulai)
 
 Titik awal di mana program mulai dijalankan. Biasanya ini adalah fungsi utama seperti `main()` dalam C++ atau Python.
 
-#### ✅ 2. Input (Masukan)
+####  2. Input (Masukan)
 
 Tahap di mana program menerima data dari pengguna, file, sensor, atau sumber lain. Data ini akan digunakan dalam proses berikutnya.
 
@@ -119,7 +127,7 @@ int a;
 cin >> a;
 ```
 
-#### ✅ 3. Proses (Pemrosesan Data)
+####  3. Proses (Pemrosesan Data)
 
 Bagian inti dari program yang berisi logika, perhitungan, pemanggilan fungsi, manipulasi data, dsb.
 
@@ -130,7 +138,7 @@ int luas = panjang * lebar;
 ```
 
 
-#### ✅ 4. Decision (Pengambilan Keputusan / Percabangan)
+####  4. Decision (Pengambilan Keputusan / Percabangan)
 
 Instruksi yang membuat program memilih jalur berbeda berdasarkan kondisi tertentu.
 
@@ -145,7 +153,7 @@ if (nilai >= 75) {
 ```
 
 
-#### ✅ 5. Loop (Perulangan)
+####  5. Loop (Perulangan)
 
 Instruksi yang mengulangi serangkaian perintah selama kondisi tertentu masih terpenuhi.
 
@@ -156,7 +164,7 @@ for (int i = 0; i < 5; i++) {
     cout << i << endl;
 }
 ```
-#### ✅ 6. Output (Keluaran)
+####  6. Output (Keluaran)
 
 Tahap di mana hasil dari proses ditampilkan atau disimpan, seperti mencetak ke layar, menyimpan ke file, dll.
 
@@ -165,26 +173,29 @@ Contoh:
 ```cpp
 cout << "Hasil = " << hasil;
 ```
-#### ✅ 7. End (Selesai)
+####  7. End (Selesai)
 
 Titik akhir dari program, setelah semua instruksi selesai dijalankan.
 
-### Kesimpulan
+### 3.6 | Kesimpulan
+
 ✅ **Input dan Output adalah bagian dari alur program secara menyeluruh**  
 🔁 Tapi dalam _kontrol alur_ (control flow), biasanya yang dibahas adalah urutan, percabangan, perulangan, dan fungsi
+
+<br/>
 
 ---
 
 ## 4 | Cara Membaca Alur Program
 
 Membaca alur program adalah keterampilan penting untuk memahami bagaimana suatu kode bekerja dari awal hingga akhir. Berikut ini adalah langkah-langkah yang dapat diikuti untuk membaca alur program secara sistematis:
-### ✅ 1. Pahami Tujuan Program
+### 4.1 | Pahami Tujuan Program
 
 - Baca komentar di awal atau dokumentasi jika tersedia.
 - Coba lihat output akhir atau nama file programnya.
 - Tanyakan: "Apa yang coba dicapai program ini?"
 
-### ✅ 2. Temukan Titik Masuk Program
+### 4.2 | Temukan Titik Masuk Program
 
 - Cari fungsi utama seperti `main()` (dalam C++, Java) atau baris pertama yang dijalankan (dalam Python).
 - Perhatikan parameter masuk, nilai default, dan inisialisasi awal.
@@ -201,18 +212,18 @@ int main() {
 }
 ````
 
-### ✅ 3. Identifikasi Input dan Output
+### 4.3 | Identifikasi Input dan Output
 
 - **Input:** Apakah program membaca dari pengguna (`cin`, `input()`) atau dari file?
     
 - **Output:** Apakah mencetak ke layar (`cout`, `print`) atau menyimpan ke file?
     
-### ✅ 4. Baca Urutan Instruksi Secara Berurutan
+### 4.4 | Baca Urutan Instruksi Secara Berurutan
 
 - Ikuti baris kode dari atas ke bawah.
 - Pahami variabel apa saja yang dibuat dan diubah nilainya.
 - Catat urutan eksekusi logika secara natural.
-### ✅ 5. Amati Struktur Percabangan (if/else/switch)
+### 4.5 | Amati Struktur Percabangan (if/else/switch)
 
 - Kenali kondisi yang menyebabkan jalur program bercabang.
 - Ikuti masing-masing jalur untuk memahami konsekuensinya.
@@ -225,7 +236,7 @@ if (x > 0) {
     // Jalur B
 }
 ```
-### ✅ 6. Telusuri Perulangan (for, while, do-while)
+### 4.6 | Telusuri Perulangan (for, while, do-while)
 
 - Pahami kapan perulangan dimulai dan berakhir.
 - Identifikasi nilai awal, syarat berhenti, dan bagaimana nilai diperbarui.
@@ -238,7 +249,7 @@ for (int i = 0; i < 5; i++) {
 }
 ```
 
-### ✅ 7. Perhatikan Pemanggilan Fungsi
+### 4.7 | Perhatikan Pemanggilan Fungsi
 
 - Baca isi fungsi yang dipanggil: Apa input-nya? Apa yang dikembalikan?
 - Jangan hanya baca di tempat fungsi dipanggil, tapi juga telusuri ke definisinya.
@@ -247,16 +258,16 @@ for (int i = 0; i < 5; i++) {
 int hasil = hitungLuas(5, 6);
 ```
 
-### ✅ 8. Analisis Struktur Data yang Digunakan
+### 4.8 | Analisis Struktur Data yang Digunakan
 
 - Perhatikan apakah menggunakan array, vector, map, struct, class, dll.
 - Lihat bagaimana data disimpan, dimanipulasi, dan digunakan dalam logika program.
 
-### ✅ 9. Gunakan Komentar Sebagai Petunjuk
+### 4.10 | Gunakan Komentar Sebagai Petunjuk
 
 - Komentar bisa memberi konteks atau maksud logika tertentu.
 - Jika tidak ada komentar, buat catatanmu sendiri saat membaca.
-### ✅ 10. Buat Catatan Samping (Mental Map)
+### 4.11 | Buat Catatan Samping (Mental Map)
 
 - Catat alur jalannya program di buku/layar:
     - Apa yang terjadi duluan?
@@ -268,54 +279,54 @@ int hasil = hitungLuas(5, 6);
     - Apa yang dicetak?
         
 
-### ✅ 11. Jalankan Program Secara Manual (Tracing)
+### 4.12 | Jalankan Program Secara Manual (Tracing)
 
 - Gunakan contoh input kecil, lalu ikuti langkah demi langkah perubahan nilai variabel.
 - Cocokkan hasilnya dengan yang diharapkan.
 
-### ✅ 12. Gunakan Debugger atau Output Sementara
+### 4.13 | Gunakan Debugger atau Output Sementara
 
 - Pasang `cout`, `print`, atau breakpoint untuk melihat nilai variabel selama eksekusi.
 - Debugging visual sangat membantu untuk kode kompleks.
 
-### ✅ 13. Identifikasi Pola atau Algoritma yang Dikenal
+### 4.14 | Identifikasi Pola atau Algoritma yang Dikenal
 
 - Apakah ini sorting, searching, graph traversal, dynamic programming, dll?
 - Jika iya, cocokkan dengan pola yang pernah kamu pelajari.
-### ✅ 14. Periksa Edge Case (Kasus Ekstrem)
+### 4.15 | Periksa Edge Case (Kasus Ekstrem)
 
 - Perhatikan apakah program menangani nilai input ekstrem atau kosong.
 - Baca logika penanganannya, misalnya `if (n == 0)` atau `try-catch`.
-### ✅ 15. Evaluasi Output Akhir
+### 4.16 | Evaluasi Output Akhir
 
 - Apakah output sesuai dengan tujuan awal?
 - Lihat bagaimana data dikompilasi atau ditampilkan di akhir program.
 
----
 
 ### ✨ Tips Tambahan
 
-- **Latihan rutin membaca program orang lain.**
+- Latihan rutin membaca program orang lain.
     
-- **Baca kode dari proyek open source kecil.**
+- Baca kode dari proyek open source kecil.
     
-- **Diskusikan kode dengan teman atau mentor.**
+- Diskusikan kode dengan teman atau mentor.
     
-- **Gunakan editor dengan fitur highlight dan folding.**
+- Gunakan editor dengan fitur highlight dan folding.
     
-
----
 
 > 📌 Catatan: Semakin sering kamu membaca alur program, semakin tajam intuisi kamu dalam memahami logika yang tersembunyi, struktur data, dan arsitektur program.
 
+<br/>
+
 ---
+
 ## 5 | Teknik Menelusuri Program (Program Tracing)
 
 Menelusuri program berarti mengikuti alur eksekusi kode baris demi baris untuk memahami bagaimana data berubah, keputusan dibuat, dan output dihasilkan.
 
 Berikut adalah teknik-teknik efektif untuk membantu proses ini:
 
-### ✅ 1. Manual Tracing (Tracing dengan Tangan)
+### 5.1 | Manual Tracing (Tracing dengan Tangan)
 
 - Buat tabel berisi variabel dan nilainya.
 - Telusuri kode baris per baris.
@@ -330,7 +341,8 @@ Contoh tabel:
 | 1     | 5  | -  | x diinisialisasi         |
 | 2     | 5  | 10 | y diinisialisasi         |
 | 3     | 15 | 10 | x = x + y                |
-### ✅ 2. Print Debugging
+
+### 5.2 | Print Debugging
 
 - Tambahkan output (`cout`, `printf`, `console.log`, `print`) di bagian penting program:
 	- Sebelum dan sesudah perulangan
@@ -343,7 +355,7 @@ cout << "Nilai i: " << i << endl;
 ````
 
 
-### ✅ 3. Debugger Tools
+### 5.3 | Debugger Tools
 
 - Gunakan debugger dari IDE seperti:
     
@@ -361,7 +373,7 @@ cout << "Nilai i: " << i << endl;
         
 
 
-### ✅ 4. Flowchart/Pseudocode Visualization
+### 5.4 | Flowchart/Pseudocode Visualization
 
 - Gambar alur logika dalam bentuk diagram.
     
@@ -375,7 +387,7 @@ cout << "Nilai i: " << i << endl;
         
 - Tujuannya untuk melihat cabang, perulangan, dan urutan proses secara visual.
     
-### ✅ 5. Logging
+### 5.5 | Logging
 
 - Cocok untuk program besar.
     
@@ -389,7 +401,7 @@ cout << "Nilai i: " << i << endl;
     
 
 
-### ✅ 6. Penelusuran Backward (Mundur)
+### 5.6 | Penelusuran Backward (Mundur)
 
 - Mulai dari **output akhir**, telusuri mundur:
     
@@ -401,13 +413,13 @@ cout << "Nilai i: " << i << endl;
         
 - Efektif jika hasil akhir tidak sesuai ekspektasi.
     
-### ✅ 7. Gunakan IDE dengan Highlight & Navigasi Fungsi
+### 5.7 | Gunakan IDE dengan Highlight & Navigasi Fungsi
 
 - Navigasi cepat ke definisi variabel atau fungsi.
     
 - Lompatan antar file dan fungsi membantu memahami keseluruhan program dengan cepat.
     
-### ✅ 8. Perhatikan Struktur Data dan Fungsi Utility
+### 5.8 | Perhatikan Struktur Data dan Fungsi Utility
 
 - Identifikasi bagian yang menyimpan data penting (array, map, struct).
     
@@ -416,7 +428,7 @@ cout << "Nilai i: " << i << endl;
 - Baca dulu fungsi utility yang sering dipanggil untuk memahami efeknya.
     
 
-### ✅ 9. Lakukan Tes Unit Kecil
+### 5.9 | Lakukan Tes Unit Kecil
 
 - Jalankan bagian kecil dari kode dengan input yang diketahui.
     
@@ -425,7 +437,7 @@ cout << "Nilai i: " << i << endl;
 - Gunakan fungsi dummy untuk pengujian lokal.
     
 
-### ✅ 10. Tulis Ringkasan Jalannya Program
+### 5.10 | Tulis Ringkasan Jalannya Program
 
 - Setelah menelusuri, tuliskan ringkasan sederhana:
     
@@ -447,12 +459,14 @@ cout << "Nilai i: " << i << endl;
 - Buat versi kode "minimal" yang hanya menyisakan bagian penting saat menelusuri.
     
 
----
 
 > 🔔 **Catatan**: Menelusuri program secara teliti akan membantumu dalam debugging, memahami program orang lain, dan menulis program yang lebih baik.
 
 
+<br/>
+
 ---
+
 ## 6 | Contoh Praktis dengan Penjelasan Detail
 
 ### Contoh 1: Percabangan
@@ -480,8 +494,6 @@ int main() {
     
 - Cetak 5
     
-
----
 
 ### Contoh 2A: Perulangan
 
@@ -558,11 +570,13 @@ int factorial(int n) {
 - 2 * factorial(1)
 - factorial(1) = 1 (basis)
 <br/>
-- Hitung balik: $2 \cdot 1$=2, $3 \cdot 2$=6, $4 \cdot 6$=24
+- Hitung balik: $2 \cdot 1=2$, $3 \cdot 2=6$, $4 \cdot 6=24$
+
+<br/>
 
 ---
 
-## 7. Mengatasi Alur Program yang Rumit
+## 7 | Mengatasi Alur Program yang Rumit
 
 1. **Pahami Masalah Secara Menyeluruh**  
     Baca dan pahami apa tujuan program. Jangan langsung fokus ke kode, tapi pahami dulu apa yang ingin dicapai.
@@ -610,9 +624,11 @@ int factorial(int n) {
     Evaluasi program lama yang sudah berhasil — pahami bagaimana kamu atau orang lain menyusun alur program dengan baik.
     
 
+<br/>
+
 ---
 
-## 8. Tips dan Trik
+## 8 | Tips dan Trik
 
 ### ✅ Tips dan Trik Menghadapi Alur Program yang Kompleks
 
@@ -646,8 +662,6 @@ int factorial(int n) {
     
 15. Gunakan whitespace dan indentasi dengan konsisten untuk meningkatkan keterbacaan.
     
-
----
 
 ### ❌ Hal-hal yang Harus Dihindari
 
@@ -683,12 +697,13 @@ int factorial(int n) {
     
 
 
+<br/>
 
 ---
 
-## 9. Tools Pendukung untuk Menelusuri dan Debugging Program
+## 9 | Tools Pendukung
 
-### 1. Debugger IDE
+### 9.1 | Debugger IDE
 
 - **Visual Studio Code (VS Code)**
   - Debugger bawaan dengan ekstensi seperti C++ (Microsoft), Python, JavaScript, dll.
@@ -710,7 +725,7 @@ int factorial(int n) {
   - IDE populer untuk Java dan C++.
   - Debugger lengkap dengan fitur breakpoint dan watch.
 
-### 2. Debugger Command Line
+### 9.2 | Debugger Command Line
 
 - **GDB (GNU Debugger)**
   - Debugger command-line untuk bahasa C, C++.
@@ -720,14 +735,14 @@ int factorial(int n) {
   - Debugger alternatif, bagian dari LLVM.
   - Sering digunakan pada MacOS dan juga Linux.
 
-### 3. Tools Print Debugging
+### 9.3 | Tools Print Debugging
 
 - Sederhana dan cepat.
 - Gunakan fungsi output bawaan bahasa:
   - `cout` (C++), `printf` (C), `print` (Python), `console.log` (JavaScript).
 - Bisa dipakai di semua bahasa dan platform.
 
-### 4. Visualisasi Alur Program
+### 9.4 | Visualisasi Alur Program
 
 - **draw.io / diagrams.net**
   - Tool gratis untuk membuat flowchart dan diagram alur.
@@ -736,14 +751,14 @@ int factorial(int n) {
 - **PlantUML**
   - Tool untuk membuat diagram dengan kode teks, mudah integrasi dengan IDE.
 
-### 5. Profiling Tools
+### 9.5 | Profiling Tools
 
 - **Valgrind**
   - Debug memory leaks dan performa program di Linux.
 - **Visual Studio Profiler**
   - Profiling performa program di Windows.
 
-### 6. Logging Framework
+### 9.6 | Logging Framework
 
 - Untuk program besar, logging sistematik sangat membantu.
 - Contoh framework:
@@ -752,7 +767,7 @@ int factorial(int n) {
   - **logging** (Python built-in)
 - Memudahkan analisis masalah yang muncul di lingkungan produksi.
 
-### 7. Online Debugging Tools
+### 9.7 | Online Debugging Tools
 
 - **Debugger online seperti:**
   - [replit.com](https://replit.com)
@@ -760,11 +775,11 @@ int factorial(int n) {
   - [godbolt.org](https://godbolt.org) (Compiler Explorer, sangat bagus untuk C++)
 - Membantu cepat cek dan debugging kode tanpa instalasi.
 
-### 8. Version Control Tools
+### 9.8 | Version Control Tools
 
 - **Git** & GUI seperti **GitHub Desktop**, **SourceTree**, **GitKraken**
 - Membantu melacak perubahan kode dan menemukan kapan bug muncul.
-### 9. Static Analysis Tools
+### 9.9 | Static Analysis Tools
 
 - Memeriksa kode tanpa menjalankan.
 - Contoh:
@@ -772,7 +787,7 @@ int factorial(int n) {
   - **SonarQube** (multi bahasa)
   - **Pylint** (Python)
 
-### 10. Unit Testing Frameworks
+### 9.10 | Unit Testing Frameworks
 
 - Membantu menguji fungsi/kode secara terpisah.
 - Contoh:
@@ -780,13 +795,11 @@ int factorial(int n) {
   - **Google Test (gtest)** (C++)
   - **pytest** (Python)
 
----
-
 > 🔔 **Catatan:** Pilih tools yang sesuai kebutuhan dan lingkungan kerja kamu. Kombinasi debugging manual, debugger, dan visualisasi akan membuat proses debugging jauh lebih efisien dan menyenangkan.
 
 ---
 
-## 10. Latihan Membaca Alur Program
+## 10 | Latihan Membaca Alur Program
 ### Latihan 1
 Buatlah langkah-langkah yang harus kamu lakukan membaca kode ini:
 
@@ -807,8 +820,6 @@ Hasil latihan:
 2. Menelusur ke fungsi `factorial()`, aku menjalankan fungsi rekursif sebanyak 3 kali, dimana akan menghasilkan kembalian berupa `return 4*3*2*1`, sehingga nilai kembalian adalah `24`. Ketika nilai `n` adalah 0, maka fungsi berhenti.
 3. Perintah `cout` akan mencetak nilai dari variabel `result`, yang menampung nilai berupa `24`.
 4. Output tercetak: `24`.
-
----
 ### Latihan 2
 
 ```cpp
@@ -843,8 +854,6 @@ int main() {
     
 5. Output yang tercetak adalah: `5`.
     
-
----
 
 ### Latihan 3
 
@@ -887,13 +896,15 @@ int main() {
 7. Output yang tercetak adalah: `Even`.
     
 
+<br/>
+
 ---
 
-## 11. Manfaat
+## 11 | Manfaat
 
 Kita **harus memahami alur program** karena **itulah inti dari bagaimana program bekerja**. Tanpa memahami alurnya, kita hanya melihat deretan kode tanpa tahu _kenapa_ dan _bagaimana_ semuanya terjadi. Berikut ini alasan lengkapnya:
 
-### 🔍 1. Mempermudah Debugging
+### 11.1 | Mempermudah Debugging
 
 - Saat program tidak berjalan sebagaimana mestinya, kita perlu tahu **bagian mana yang salah**.
     
@@ -905,7 +916,7 @@ Kita **harus memahami alur program** karena **itulah inti dari bagaimana program
 > Contoh: Jika variabel `total` bernilai salah, kita bisa telusuri dari mana nilainya berasal.
 
 
-### 🧠 2. Meningkatkan Pemahaman Kode Orang Lain
+### 11.2 | Meningkatkan Pemahaman Kode Orang Lain
 
 - Dalam dunia nyata (kerja, kolaborasi, open source), kita sering membaca kode yang dibuat orang lain.
     
@@ -913,7 +924,7 @@ Kita **harus memahami alur program** karena **itulah inti dari bagaimana program
     
 
 
-### 🏗️ 3. Membantu Merancang Program Sendiri
+### 11.3 | Membantu Merancang Program Sendiri
 
 - Saat kita menulis kode, kita perlu tahu dulu seperti apa alurnya (flow), lalu mengubahnya jadi kode.
     
@@ -927,7 +938,7 @@ Kita **harus memahami alur program** karena **itulah inti dari bagaimana program
         
 
 
-### 🧪 4. Dasar dalam Menulis Algoritma
+### 11.4 | Dasar dalam Menulis Algoritma
 
 - Alur program = implementasi dari algoritma.
     
@@ -940,7 +951,7 @@ Kita **harus memahami alur program** karena **itulah inti dari bagaimana program
     - Mengubah logika menjadi kode
         
 
-### 🛠️ 5. Kunci Sukses dalam Ujian dan Wawancara
+### 11.5 | Kunci Sukses dalam Ujian dan Wawancara
 
 - Dalam ujian pemrograman atau coding interview, seringkali ditanya:  
     **"Apa output dari program ini?"**  
@@ -950,7 +961,7 @@ Kita **harus memahami alur program** karena **itulah inti dari bagaimana program
 - Jika kamu bisa menelusuri alur dengan tepat, kamu akan **bisa menjawab tanpa menjalankan kode**.
     
 
-### 💡 6. Membantu Menemukan Optimalisasi
+### 11.6 | Membantu Menemukan Optimalisasi
 
 - Dengan memahami bagaimana program berjalan, kita bisa tahu:
     
@@ -960,6 +971,8 @@ Kita **harus memahami alur program** karena **itulah inti dari bagaimana program
         
     - Bagian mana yang menyebabkan bottleneck
         
+
+<br/>
 
 ---
 

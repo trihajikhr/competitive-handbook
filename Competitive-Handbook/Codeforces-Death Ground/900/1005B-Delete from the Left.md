@@ -53,7 +53,27 @@ auto main() -> int {
     return 0;
 }
 ```
+
+Dengan menggunakan dua variabel bantu:
+
 ```cpp
+#include<string>
+#include<iostream>
+using namespace std;
+
+auto main() -> int {
+    string a, b;
+    cin >> a >> b;
+
+    int ans = 0, ia = a.length()-1, ib = b.length()-1;
+    while (ia >= 0 && ib >= 0) {
+        if (a[ia] == b[ib]) ia--, ib--, ans++;
+        else break;
+    }
+
+    cout << (a.length() - ans) + (b.length() - ans);
+    return 0;
+}
 ```
 
 <br/>

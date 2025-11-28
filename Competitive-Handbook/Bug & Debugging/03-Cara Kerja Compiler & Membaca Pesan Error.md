@@ -2,19 +2,22 @@
 obsidianUIMode: preview
 note_type: Book Theory
 judul_materi: memahami cara kerja compiler & membaca pesan error
-sumber: Google.com, AI
+sumber:
+  - google.com
+  - gemini.google.com
 date_learned: 2025-05-16T13:37:00
 tags:
   - bug
   - compiler
   - debug
 ---
-#bug #compiler 
 
 ---
+```ad-summary
+```
 # Memahami Cara Kerja Compiler & Membaca Pesan Error
 
-## 1. Apa Itu Compiler?
+## 1 | Apa Itu Compiler?
 
 - Compiler adalah program yang mengubah kode sumber (source code) menjadi kode mesin yang dapat dijalankan oleh komputer.
     
@@ -33,9 +36,7 @@ tags:
 - Jika terjadi kesalahan selama proses ini, compiler akan memberi **pesan error** atau **warning**.
     
 
----
-
-## 2. Jenis Pesan Error dan Warning yang Sering Muncul
+## 2 | Jenis Pesan Error dan Warning yang Sering Muncul
 
 |Jenis Error|Penjelasan|Contoh Pesan|
 |---|---|---|
@@ -44,9 +45,7 @@ tags:
 |**Undefined Reference**|Fungsi atau variabel tidak ditemukan saat linking.|`undefined reference to ‘myFunction()’`|
 |**Warning**|Peringatan potensi masalah, tapi tidak menghentikan kompilasi.|`warning: unused variable ‘x’`|
 
----
-
-## 3. Struktur Pesan Error Compiler
+## 3 | Struktur Pesan Error Compiler
 
 Pesan error biasanya terdiri dari beberapa bagian:
 
@@ -73,27 +72,17 @@ Penjelasan:
 - `expected ';' before 'return'` = deskripsi kesalahan
     
 
----
+## 4 | Cara Membaca dan Menangani Pesan Error
 
-## 4. Cara Membaca dan Menangani Pesan Error
+1. Perhatikan baris dan kolom kode yang disebut dalam pesan error.
+2. Baca deskripsi error dengan seksama untuk mengerti jenis masalahnya.
+3. Periksa kode di baris tersebut dan sekitarnya, kadang kesalahan muncul sebelum baris yang disebut.
+4. Cari tanda baca yang hilang seperti titik koma, kurung buka/tutup, atau tanda kutip.
+5. Periksa tipe data dan deklarasi variabel jika ada error tipe.
+6. Jika error terkait fungsi, pastikan fungsi sudah didefinisikan dan dipanggil dengan benar.
+7. Gunakan mesin pencari (Google) untuk pesan error yang tidak familiar.
 
-1. **Perhatikan baris dan kolom kode** yang disebut dalam pesan error.
-<br/>
-2. **Baca deskripsi error dengan seksama** untuk mengerti jenis masalahnya.
-<br/>
-3. **Periksa kode di baris tersebut dan sekitarnya**, kadang kesalahan muncul sebelum baris yang disebut.
-<br/>
-4. **Cari tanda baca yang hilang** seperti titik koma, kurung buka/tutup, atau tanda kutip.
-<br/>
-5. **Periksa tipe data dan deklarasi variabel** jika ada error tipe.
-<br/>
-6. **Jika error terkait fungsi, pastikan fungsi sudah didefinisikan dan dipanggil dengan benar.**
-<br/>
-7. **Gunakan mesin pencari (Google) untuk pesan error yang tidak familiar.**
-<br/>
----
-
-## 5. Contoh Kasus dan Penjelasan Pesan Error
+## 5 | Contoh Kasus dan Penjelasan Pesan Error
 
 ### Contoh 1: Lupa titik koma
 
@@ -115,8 +104,6 @@ main.cpp:5:5: error: expected ';' before 'return'
 **Analisis:**  
 Compiler mengharapkan titik koma (`;`) setelah `std::endl`. Perbaiki dengan menambahkan titik koma di akhir baris tersebut.
 
----
-
 ### Contoh 2: Variabel tidak dideklarasi
 
 ```cpp
@@ -137,8 +124,6 @@ main.cpp:4:18: error: 'x' was not declared in this scope
 **Analisis:**  
 Variabel `x` belum dideklarasikan sebelum dipakai. Deklarasikan terlebih dahulu atau gunakan variabel yang ada.
 
----
-
 ### Contoh 3: Kesalahan tipe data
 
 ```cpp
@@ -154,9 +139,7 @@ error: cannot convert ‘const char [3]’ to ‘int’ in initialization
 **Analisis:**  
 Tidak boleh mengisi variabel bertipe `int` dengan string `"10"`. Gunakan angka tanpa tanda kutip.
 
----
-
-## 6. Tips Praktis
+## 6 | Tips Praktis
 
 - Jangan panik saat mendapat error, baca pesan error dengan teliti.
     
