@@ -40,35 +40,35 @@
             }
           },
           {
-            "id": "c5818e841eb172e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Codeforces-Death Ground/1000/58A-Chat room.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "58A-Chat room"
-            }
-          },
-          {
-            "id": "2e25c0793ef374ca",
+            "id": "07c06d3264daffaa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Codeforces-Death Ground/Soal 1000.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Soal 1000"
             }
+          },
+          {
+            "id": "60ca159b1cffdf7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Codeforces-Death Ground/1000/579A-Raising Bacteria.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "579A-Raising Bacteria"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -270,18 +270,24 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "2e25c0793ef374ca",
+  "active": "07c06d3264daffaa",
   "lastOpenFiles": [
+    "Codeforces-Death Ground/1000/339B-Xenia and Ringroad.md",
+    "Codeforces-Death Ground/1000/579A-Raising Bacteria.md",
+    "Codeforces-Death Ground/Soal 1000.md",
+    "Codeforces-Death Ground/1000/230A-Dragons.md",
+    "Codeforces-Death Ground/1000/131A-cAPS lOCK.md",
     "Codeforces-Death Ground/1000/122A-Lucky Division.md",
     "Codeforces-Death Ground/1000/118A-String Task.md",
     "Codeforces-Death Ground/1000/69A-Young Physicist.md",
     "Codeforces-Death Ground/1000/58A-Chat room.md",
     "Codeforces-Death Ground/1000/1A-Theatre Square.md",
     "Z Templater/Sekilas.md",
+    "Z Templater/Metode DEATH.md",
+    "Codeforces-Death Ground/1000/479A-Expression.md",
     "Codeforces-Death Ground/1000/379A-New Year Candles.md",
-    "Codeforces-Death Ground/Soal 1000.md",
-    "Codeforces-Death Ground/Soal 900.md",
     "!Important Notes/My Task.md",
+    "Codeforces-Death Ground/Soal 900.md",
     "EEP & IEP Program/EEP - Efficiency Enhancement Program.md",
     "EEP & IEP Program/EEP Program/Rencana Harian.md",
     "Metode Belajar/Metode Belajar Fondasi Utama.md",
@@ -292,12 +298,6 @@
     "Metode Belajar/Metode Menggunakan REVERSE-E.md",
     "Metode Belajar/Metode Belajar Jim Kwik.md",
     "Youtube Advice/Colin Galen/How to Awaken & Enhance Your Analytical Problem-Solving Mind.md",
-    "Youtube Advice/Colin Galen/3-Minute Mental Hack to Take Control of Your Subconscious.md",
-    "Z Templater/Algoritma.md",
-    "Z Templater/Dokumentasi.md",
-    "Z Templater/EEP.md",
-    "Z Templater/IEP.md",
-    "Z Templater/Latihan.md",
     "CP-Algorithm Site/01-Basic Geometry-1.png",
     "CP-Algorithm Site/01-Basic Geometry-4.png",
     "CP-Algorithm Site/01-Basic Geometry-3.png",

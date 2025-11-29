@@ -16,7 +16,7 @@ tags:
 Sumber: [Problem - 58A - Codeforces](https://codeforces.com/problemset/problem/58/A)
 
 ```ad-tip
-title:⚔️ Teori Death Ground
+title:🛡️ Review Death Ground
 ```
 
 <br/>

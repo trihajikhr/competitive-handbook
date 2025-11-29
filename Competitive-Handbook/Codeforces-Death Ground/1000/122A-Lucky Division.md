@@ -10,6 +10,8 @@ rating: 1000
 ada_tips: true
 date_learned: 2025-11-29T13:49:00
 tags:
+  - brute-force
+  - number-theory
 ---
 Sumber: [Problem - 122A - Codeforces](https://codeforces.com/problemset/problem/122/A)
 

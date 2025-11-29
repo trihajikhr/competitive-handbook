@@ -1,6 +1,6 @@
 ---
 obsidianUIMode: preview
-note_type: death ground kilat
+note_type: death ground
 kode_soal: 1A
 judul_DEATH: Theatre Square
 teori_DEATH: pembulatan keatas tanpa fungsi

@@ -213,7 +213,8 @@
     "string-matching": 201,
     "simulation": 202,
     "graphs": 203,
-    "strings": 204
+    "strings": 204,
+    "bitmask": 205
   },
   "_version": 3
 }

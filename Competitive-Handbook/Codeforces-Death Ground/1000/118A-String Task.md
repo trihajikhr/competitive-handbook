@@ -16,7 +16,8 @@ tags:
 Sumber: [Just a moment...](https://codeforces.com/problemset/problem/118/A)
 
 ```ad-tip
-title:⚔️ Teori Death Ground
+title: 🛡️ Review Death Ground
+Gunakan variabel bantu yang menyimpan kumpulan karakter yang ingin digunakan sebagai filter, dan andalkan fungsi `find()`.
 ```
 
 <br/>

@@ -13,7 +13,7 @@ tags:
 Sumber:
 
 ```ad-tip
-title:⚔️ Teori Death Ground
+title:🛡️ Review Death Ground
 ```
 
 <br/>

@@ -598,3 +598,27 @@ tags:
 
 <br/>
 
+
+- [ ] Buat catatan tentang algoritma generate
+    - 🏷️ -> #task #algorithm
+    - 📁 -> [My Task](!Important%20Notes/My%20Task.md) 
+    - 📅 -> 2025-11-29 14:26
+
+<br/>
+
+
+- [ ] pelajari algoritma transform untuk merubah karakter besar menjadi kecil san sebaliknya
+    - 🏷️ -> #task #syntax
+    - 📁 -> [131A-cAPS lOCK](Codeforces-Death%20Ground/1000/131A-cAPS%20lOCK.md) 
+    - 📅 -> 2025-11-29 18:54
+
+<br/>
+
+
+- [ ] pelajari apa maksud dari kode ini: `cout << char(s[i++]^32);`
+    - 🏷️ -> #task #syntax]
+    - 📁 -> [131A-cAPS lOCK](Codeforces-Death%20Ground/1000/131A-cAPS%20lOCK.md) 
+    - 📅 -> 2025-11-29 18:58
+
+<br/>
+
