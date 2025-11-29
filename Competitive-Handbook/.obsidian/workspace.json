@@ -24,23 +24,51 @@
             }
           },
           {
-            "id": "71ab4d8a40d40d2b",
+            "id": "c6216e28d068d59b",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Codeforces-Death Ground/Soal 900.md",
+                "file": "Codeforces-Death Ground/Soal 1000.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Soal 900"
+              "title": "Soal 1000"
+            }
+          },
+          {
+            "id": "c5818e841eb172e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Codeforces-Death Ground/1000/58A-Chat room.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "58A-Chat room"
+            }
+          },
+          {
+            "id": "2e25c0793ef374ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Codeforces-Death Ground/Soal 1000.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Soal 1000"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -209,13 +237,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EEP & IEP Program/EEP - Efficiency Enhancement Program.md",
+                "file": "Codeforces-Death Ground/Soal 900.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of EEP - Efficiency Enhancement Program"
+              "title": "Outline of Soal 900"
             }
           }
         ]
@@ -242,8 +270,19 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "04554e08cc1bd94b",
+  "active": "2e25c0793ef374ca",
   "lastOpenFiles": [
+    "Codeforces-Death Ground/1000/122A-Lucky Division.md",
+    "Codeforces-Death Ground/1000/118A-String Task.md",
+    "Codeforces-Death Ground/1000/69A-Young Physicist.md",
+    "Codeforces-Death Ground/1000/58A-Chat room.md",
+    "Codeforces-Death Ground/1000/1A-Theatre Square.md",
+    "Z Templater/Sekilas.md",
+    "Codeforces-Death Ground/1000/379A-New Year Candles.md",
+    "Codeforces-Death Ground/Soal 1000.md",
+    "Codeforces-Death Ground/Soal 900.md",
+    "!Important Notes/My Task.md",
+    "EEP & IEP Program/EEP - Efficiency Enhancement Program.md",
     "EEP & IEP Program/EEP Program/Rencana Harian.md",
     "Metode Belajar/Metode Belajar Fondasi Utama.md",
     "Metode Belajar/Metode Belajar BLACK BOX.md",
@@ -259,17 +298,6 @@
     "Z Templater/EEP.md",
     "Z Templater/IEP.md",
     "Z Templater/Latihan.md",
-    "Z Templater/Materi.md",
-    "Z Templater/Metode DEATH.md",
-    "Z Templater/Report Sheet.md",
-    "Z Templater/Reverse Engineering.md",
-    "Z Templater/Tips trick.md",
-    "Z Templater/1% Improvement.md",
-    "C++ Standard Library/include - algorithm/05-Binary search/01-lower_bound().md",
-    "C++ Standard Library/include - algorithm/Non-modifying sequence operations.md",
-    "C++ Standard Library/include - regex/Header regex di C++.md",
-    "C++ Standard Library/include - sstream/Header sstream di C++.md",
-    "C++ Standard Library/include - sstream/Parsing String dengan sstream.md",
     "CP-Algorithm Site/01-Basic Geometry-1.png",
     "CP-Algorithm Site/01-Basic Geometry-4.png",
     "CP-Algorithm Site/01-Basic Geometry-3.png",

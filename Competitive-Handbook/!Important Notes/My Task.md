@@ -590,3 +590,11 @@ tags:
 
 <br/>
 
+
+- [ ] Identifikasi apa maksud dari kode ini: `i += c == "hello"[i];`
+    - 🏷️ -> #task #syntax
+    - 📁 -> [58A-Chat room](Codeforces-Death%20Ground/1000/58A-Chat%20room.md) 
+    - 📅 -> 2025-11-29 13:22
+
+<br/>
+

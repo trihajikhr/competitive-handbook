@@ -1,9 +1,9 @@
 ---
 obsidianUIMode: preview
-note_type: Death Ground ☠️
+note_type: death ground kilat
 kode_soal: 1A
 judul_DEATH: Theatre Square
-teori_DEATH: bulatkan keatas
+teori_DEATH: pembulatan keatas tanpa fungsi
 sumber:
   - codeforces.com
 rating: 1000
@@ -16,7 +16,7 @@ Sumber: [Problem - 1A - Codeforces](https://codeforces.com/problemset/problem/1/
 
 ```ad-tip
 title:⚔️ Teori Death Ground
-$$ceil(\frac{n}{a}) = \frac{n+a-1}{a}$$
+$$\left \lceil \frac{n}{a} \right \rceil = \frac{n+a-1}{a}$$
 ```
 
 <br/>
@@ -70,6 +70,20 @@ auto main() -> int {
     long long n, m, a;
     cin >> n >> m >> a;
     cout << ((n+(a-1))/a) * ((m+(a-1))/a);
+    return 0;
+}
+```
+
+Atau cara ini yang lebih clean:
+
+```cpp
+#include<iostream>
+using namespace std;
+
+auto main() -> int {
+    long long n, m, s;
+    cin >> n >> m >> s;
+    cout << ((n+s-1)/s) * ((m+s-1)/s);
     return 0;
 }
 ```
