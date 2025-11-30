@@ -3,11 +3,9 @@ obsidianUIMode: preview
 note_type: death ground kilat
 kode_soal: 131A
 judul_DEATH: cAPS lOCK
-teori_DEATH:
 sumber:
   - codeforces.com
 rating: 1000
-ada_tips:
 date_learned: 2025-11-29T18:48:00
 tags:
   - implementation

@@ -3,11 +3,11 @@ obsidianUIMode: preview
 note_type: death ground
 kode_soal: 339B
 judul_DEATH: Xenia and Ringroad
-teori_DEATH:
+teori_DEATH: Kasus menghitung banyaknya langkah pada jalur melingkar
 sumber:
   - codeforces.com
 rating: 1000
-ada_tips:
+ada_tips: true
 date_learned: 2025-11-29T19:43:00
 tags:
 ---
@@ -15,6 +15,7 @@ Sumber: [Problem - 339B - Codeforces](https://codeforces.com/problemset/problem/
 
 ```ad-tip
 title:⚔️ Teori Death Ground
+Jika diminta untuk mencari jumlah langkah yang dibutuhkan untuk menyelesaikan pekerjaan pada jalur melingkar yang hanya bergerak satu arah, maka cukup hitung berapa banyak $a_{i+i} < a_i$, dan nilai $a_n$.
 ```
 
 <br/>

@@ -214,7 +214,8 @@
     "simulation": 202,
     "graphs": 203,
     "strings": 204,
-    "bitmask": 205
+    "bitmask": 205,
+    "dfs-and-similar": 206
   },
   "_version": 3
 }

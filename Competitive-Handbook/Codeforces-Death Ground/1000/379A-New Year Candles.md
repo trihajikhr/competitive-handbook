@@ -3,11 +3,11 @@ obsidianUIMode: preview
 note_type: Death Ground ☠️
 kode_soal: 379A
 judul_DEATH: New Year Candles
-teori_DEATH:
+teori_DEATH: Pembagian dengan penambahan pada kasus lilin
 sumber:
   - codeforces.com
 rating: 1000
-ada_tips?:
+ada_tips?: true
 date_learned: 2025-10-06T16:13:00
 tags:
 ---
@@ -15,6 +15,9 @@ Sumber: [Problem - 379A - Codeforces](https://codeforces.com/problemset/problem/
 
 ```ad-tip
 title:⚔️ Teori Death Ground
+Jika diminta mencari jumlah lilin yang bisa dibakar, dengan setiap $b$ lilin menambahkan $1$ lilin baru, maka bisa digunakan aturan berikut:
+
+$$\frac{a \cdot b-1}{b-1}$$
 ```
 
 <br/>
@@ -22,7 +25,7 @@ title:⚔️ Teori Death Ground
 ---
 # 1 | 379A-New Year Candles
 
-Kita diminta untuk mencari tahu, berapa total lilin yang kita nyalakan, jika pada awalnya kita memiliki $a$ lilin, dan setiap kita membakar tepat $b$ lilin, kita bisa membuat lilin baru, atau $a+1$.
+Kita diminta untuk mencari tahu, berapa total lilin yang bisa kita nyalakan, jika pada awalnya kita memiliki $a$ lilin, dan setiap kita membakar tepat $b$ lilin, kita bisa membuat lilin baru, atau $a+1$.
 
 
 <br/>

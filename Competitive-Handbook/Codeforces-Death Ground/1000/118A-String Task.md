@@ -3,11 +3,9 @@ obsidianUIMode: preview
 note_type: death ground kilat
 kode_soal: 118A
 judul_DEATH: String Task
-teori_DEATH:
 sumber:
   - codeforces.com
 rating: 1000
-ada_tips:
 date_learned: 2025-11-29T12:44:00
 tags:
   - implementation

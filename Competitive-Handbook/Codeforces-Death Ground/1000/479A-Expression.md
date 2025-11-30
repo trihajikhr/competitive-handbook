@@ -3,11 +3,9 @@ obsidianUIMode: preview
 note_type: death ground kilat
 kode_soal: 479A
 judul_DEATH: Expression
-teori_DEATH:
 sumber:
   - codeforces.com
 rating: 1000
-ada_tips:
 date_learned: 2025-11-29T14:39:00
 tags:
   - brute-force
@@ -16,7 +14,8 @@ tags:
 Sumber: [Problem - 479A - Codeforces](https://codeforces.com/problemset/problem/479/A)
 
 ```ad-tip
-title:⚔️ Teori Death Ground
+title: 🛡️ Review Death Ground
+Gunakan saja teknik hard-coded jika tidak terlalu panjang, dan kemungkinan salahnya 0%.
 ```
 
 <br/>

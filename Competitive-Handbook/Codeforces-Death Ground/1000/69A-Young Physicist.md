@@ -3,11 +3,9 @@ obsidianUIMode: preview
 note_type: death ground kilat
 kode_soal: 69A
 judul_DEATH: Young Physicist
-teori_DEATH:
 sumber:
   - codeforces.com
 rating: 1000
-ada_tips:
 date_learned: 2025-11-29T12:59:00
 tags:
   - implementation

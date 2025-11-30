@@ -3,11 +3,9 @@ obsidianUIMode: preview
 note_type: death ground kilat
 kode_soal: 230A
 judul_DEATH: Dragons
-teori_DEATH:
 sumber:
   - codeforces.com
 rating: 1000
-ada_tips:
 date_learned: 2025-11-29T19:11:00
 tags:
   - greedy

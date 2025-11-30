@@ -40,35 +40,21 @@
             }
           },
           {
-            "id": "07c06d3264daffaa",
+            "id": "096b2c50a55ff2c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Codeforces-Death Ground/Soal 1000.md",
+                "file": "Codeforces-Death Ground/1000/584A-Olesya and Rodion.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Soal 1000"
-            }
-          },
-          {
-            "id": "60ca159b1cffdf7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Codeforces-Death Ground/1000/579A-Raising Bacteria.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "579A-Raising Bacteria"
+              "title": "584A-Olesya and Rodion"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -270,11 +256,18 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "07c06d3264daffaa",
+  "active": "c6216e28d068d59b",
   "lastOpenFiles": [
-    "Codeforces-Death Ground/1000/339B-Xenia and Ringroad.md",
-    "Codeforces-Death Ground/1000/579A-Raising Bacteria.md",
+    "Codeforces-Death Ground/1000/584A-Olesya and Rodion.md",
+    "Codeforces-Death Ground/1000/379A-New Year Candles.md",
     "Codeforces-Death Ground/Soal 1000.md",
+    "Codeforces-Death Ground/1000/1374C-Move Brackets.md",
+    "Codeforces-Death Ground/1000/500A-New Year Transportation.md",
+    "!Important Notes/Untitled.md",
+    "Codeforces-Death Ground/1000/579A-Raising Bacteria.md",
+    "Codeforces-Death Ground/1000/43A-Football.md",
+    "Codeforces-Death Ground/1000/479A-Expression.md",
+    "Codeforces-Death Ground/1000/339B-Xenia and Ringroad.md",
     "Codeforces-Death Ground/1000/230A-Dragons.md",
     "Codeforces-Death Ground/1000/131A-cAPS lOCK.md",
     "Codeforces-Death Ground/1000/122A-Lucky Division.md",
@@ -282,10 +275,8 @@
     "Codeforces-Death Ground/1000/69A-Young Physicist.md",
     "Codeforces-Death Ground/1000/58A-Chat room.md",
     "Codeforces-Death Ground/1000/1A-Theatre Square.md",
-    "Z Templater/Sekilas.md",
+    "Z Templater/Kilat.md",
     "Z Templater/Metode DEATH.md",
-    "Codeforces-Death Ground/1000/479A-Expression.md",
-    "Codeforces-Death Ground/1000/379A-New Year Candles.md",
     "!Important Notes/My Task.md",
     "Codeforces-Death Ground/Soal 900.md",
     "EEP & IEP Program/EEP - Efficiency Enhancement Program.md",
@@ -293,11 +284,6 @@
     "Metode Belajar/Metode Belajar Fondasi Utama.md",
     "Metode Belajar/Metode Belajar BLACK BOX.md",
     "Metode Belajar/Metode Belajar Lainya.md",
-    "Metode Belajar/Metode Belajar REVERSE-E.md",
-    "Metode Belajar/Metode Belajar STRIKE.md",
-    "Metode Belajar/Metode Menggunakan REVERSE-E.md",
-    "Metode Belajar/Metode Belajar Jim Kwik.md",
-    "Youtube Advice/Colin Galen/How to Awaken & Enhance Your Analytical Problem-Solving Mind.md",
     "CP-Algorithm Site/01-Basic Geometry-1.png",
     "CP-Algorithm Site/01-Basic Geometry-4.png",
     "CP-Algorithm Site/01-Basic Geometry-3.png",
