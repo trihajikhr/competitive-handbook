@@ -9,36 +9,20 @@ tags:
 date_learned: 2025-06-20T20:54:00
 ---
 ---
-🔥 Sip, kita lanjut ke **Latihan 2: Mengenal `find()` di `std::set`**  
-Fokus soal ini adalah **mencari elemen di dalam set** menggunakan fungsi `find()`.
-
----
-
-# 🧩 Latihan 2 — Apakah Angka Ini Ada?
-
-**Deskripsi Soal:**
+# Apakah Angka Ini Ada?
 
 Diberikan `n` bilangan bulat dan sebuah bilangan target `x`. Tugasmu adalah menentukan apakah `x` terdapat di dalam kumpulan bilangan tersebut atau tidak, **menggunakan `std::set` dan fungsi `find()`**.
-
----
 
 **Input Format:**
 
 - Baris pertama: bilangan bulat `n` (1 ≤ n ≤ 100)
-    
 - Baris kedua: `n` bilangan bulat, masing-masing antara 1 hingga 1000
-    
 - Baris ketiga: bilangan bulat `x`, angka yang ingin dicari
-    
 
 **Output Format:**
 
 - Jika `x` ditemukan di dalam set, cetak: `Ditemukan`
-    
 - Jika tidak ditemukan, cetak: `Tidak ditemukan`
-    
-
----
 
 **Contoh Input 1:**
 
@@ -68,16 +52,11 @@ Ditemukan
 Tidak ditemukan
 ```
 
----
-
-🧠 **Panduan:**
+**Panduan:**
 
 - Gunakan `find(x)` untuk mendapatkan iterator ke elemen.
     
 - Bandingkan hasilnya dengan `end()` untuk mengetahui apakah elemen tersebut ada.
-    
-
-Kalau sudah selesai, kirimkan kodenya seperti biasa. Kalau kamu ingin petunjuk, tinggal bilang saja! 💪
 
 # Jawaban
 #### Jawaban yang masih belum benar

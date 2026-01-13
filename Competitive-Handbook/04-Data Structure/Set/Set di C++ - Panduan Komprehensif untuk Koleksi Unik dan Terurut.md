@@ -1,34 +1,36 @@
 ---
 obsidianUIMode: preview
-note_type: data structure theory
-id_algoritma: 04TH-DSSE-003
-nama_algoritma:
-kategori_algoritma: data structure
+note_type: data structures theory
+nama_algoritma: set
+kategori_algoritma: data structures
 kesulitan: 🥉 easy
-time_complexity:
-memory_complexity:
 sumber:
   - programiz.com
   - gemini.google.com
+  - cplusplus.com
 date_learned: 2025-06-20T20:52:00
 tags:
-  - data-structure
   - set
+  - data-structures
 ---
+Link Sumber: [cplusplus.com/reference/set/set/](https://cplusplus.com/reference/set/set/)
+
 ---
+> [!IMPORTANT]
+> 
 # `std::set` di C++: Panduan Komprehensif untuk Koleksi Unik dan Terurut
 
-## Pendahuluan
+## 1. Pendahuluan
 
 `std::set` merupakan salah satu kontainer fundamental dalam Standard Template Library (STL) C++ yang dirancang secara spesifik untuk menyimpan koleksi elemen unik dalam urutan yang terurut secara otomatis. Kontainer ini memainkan peran krusial dalam pengembangan perangkat lunak modern, terutama dalam skenario di mana integritas data, seperti keunikan dan pengurutan, menjadi persyaratan utama. Laporan ini akan menyajikan pembahasan mendalam mengenai `std::set`, dimulai dari definisi dan karakteristik esensialnya, menelusuri implementasi internal yang mendasarinya, merinci fungsi-fungsi anggota yang tersedia untuk manipulasi data, hingga mengeksplorasi aplikasi praktis di dunia nyata dan membandingkannya dengan kontainer STL lain yang relevan. Pemahaman yang komprehensif tentang `std::set` akan memberdayakan pengembang untuk membuat pilihan struktur data yang optimal, mengoptimalkan kinerja aplikasi, dan pada akhirnya, menghasilkan kode yang lebih bersih, efisien, dan andal.
 
 ---
 
-## 1. Memahami `std::set`
+## 2. Memahami `std::set`
 
 Bagian ini akan menjelaskan esensi dari `std::set`, karakteristiknya yang membedakan, dan bagaimana kontainer ini diimplementasikan secara internal untuk mencapai profil kinerja yang optimal.
 
-### 1.1. Definisi dan Karakteristik Utama
+### 2.1. Definisi dan Karakteristik Utama
 
 `std::set` didefinisikan sebagai sebuah _associative container_ yang menyimpan sekumpulan objek unik dari tipe `Key` dalam urutan yang terurut. Kontainer ini dirancang dengan beberapa karakteristik inti yang membedakannya dari struktur data lain:
 
@@ -49,7 +51,7 @@ Bagian ini akan menjelaskan esensi dari `std::set`, karakteristiknya yang membed
 
 - **Kesesuaian Persyaratan Kontainer STL**: `std::set` dirancang untuk memenuhi persyaratan ketat dari beberapa kategori kontainer dalam STL, termasuk `Container`, `AllocatorAwareContainer`, `AssociativeContainer`, dan `ReversibleContainer`. Kepatuhan ini menjamin perilaku yang konsisten dan standar, serta interoperabilitas yang lancar dengan berbagai algoritma generik yang disediakan oleh STL.
 
-### 1.2. Implementasi Internal: Pohon Merah-Hitam (Red-Black Tree)
+### 2.2. Implementasi Internal: Pohon Merah-Hitam (Red-Black Tree)
 
 Implementasi internal `std::set` umumnya menggunakan Pohon Merah-Hitam (Red-Black Tree). Pilihan struktur data ini merupakan faktor penentu di balik karakteristik kinerja `std::set`.
 
@@ -75,7 +77,7 @@ Karena `std::set` menjamin $O(\log N)$ untuk operasi kuncinya, skalabilitasnya c
 
 Imutabilitas elemen juga berarti bahwa `std::set` lebih cocok untuk data yang "sekali tulis, banyak baca" atau di mana perubahan pada elemen yang ada jarang terjadi dan dapat ditangani dengan pola hapus-sisipkan. Pilihan `std::set` memengaruhi arsitektur kode di sekitarnya. Ini mendorong penggunaan algoritma yang memanfaatkan pengurutan (misalnya, `lower_bound`, `upper_bound`) dan operasi himpunan (`set_union`), serta memaksa pengembang untuk memikirkan ulang bagaimana "modifikasi" elemen dilakukan (yaitu, sebagai penghapusan dan penyisipan). Hal ini juga menyiratkan bahwa untuk kasus di mana akses acak berdasarkan indeks sering diperlukan, atau di mana duplikat diizinkan dan pengurutan tidak penting, kontainer lain mungkin lebih cocok.
 
-### 1.3. Sintaks Dasar dan Parameter Template
+### 2.3. Sintaks Dasar dan Parameter Template
 
 Sintaks dasar untuk mendeklarasikan `std::set` adalah sebagai berikut :
 
@@ -98,11 +100,11 @@ Penjelasan mengenai parameter template:
 
 ---
 
-## 2. Properti dan Fitur Kunci `std::set`
+## 3. Properti dan Fitur Kunci `std::set`
 
 Bagian ini akan menggali lebih dalam karakteristik fungsional utama dari `std::set` yang membedakannya dari kontainer STL lainnya, serta bagaimana properti ini memengaruhi penggunaannya.
 
-### 2.1. Keunikan dan Imutabilitas Elemen
+### 3.1. Keunikan dan Imutabilitas Elemen
 
 `std::set` secara fundamental dirancang untuk hanya menyimpan elemen unik. Ketika sebuah elemen baru dicoba untuk disisipkan, set akan memeriksa apakah elemen dengan nilai yang sama sudah ada. Jika ada, operasi penyisipan tidak akan berhasil, dan set akan tetap tidak berubah. Ini sangat berharga dalam skenario di mana integritas data unik adalah prioritas utama, seperti mengelola daftar ID pengguna, nomor seri produk, atau entri log yang tidak boleh memiliki duplikat.
 
@@ -110,13 +112,13 @@ Penting untuk dipahami bahwa keunikan dalam `std::set` ditentukan oleh relasi ek
 
 Setelah elemen disisipkan ke dalam `std::set`, nilainya tidak dapat diubah secara langsung di tempatnya. Hal ini disebabkan karena nilai elemen adalah kunci yang digunakan untuk menentukan posisinya dalam struktur pohon Red-Black Tree. Modifikasi langsung akan berpotensi merusak urutan terurut dan integritas struktur pohon, yang dapat menyebabkan perilaku yang tidak terdefinisi. Oleh karena itu, untuk "memodifikasi" sebuah elemen, prosedur yang benar adalah menghapus elemen lama dan kemudian menyisipkan elemen baru dengan nilai yang diperbarui. Pengembang harus memahami bahwa "modifikasi" elemen dalam `std::set` berarti operasi atomik hapus-sisipkan. Ini memiliki implikasi kinerja (dua operasi $O(\log N)$ daripada satu) dan semantik (iterator ke elemen yang dihapus menjadi tidak valid). Selain itu, saat mendefinisikan komparator kustom, fokus harus pada `operator<` yang mendefinisikan urutan dan ekuivalensi, bukan hanya `operator==`. Kesalahan dalam mendefinisikan `operator<` dapat menyebabkan duplikat yang tidak diinginkan atau pengurutan yang salah.
 
-### 2.2. Pengurutan Otomatis
+### 3.2. Pengurutan Otomatis
 
 Secara _default_, `std::set` mengurutkan elemen dalam urutan menaik (ascending order) menggunakan `std::less<Key>` sebagai komparator. Ini berarti elemen terkecil akan selalu berada di awal set, dan elemen terbesar di akhir. Properti ini sangat berguna untuk tugas-tugas yang memerlukan akses atau pengambilan elemen dalam urutan tertentu, seperti menampilkan data secara berurutan atau melakukan operasi berbasis rentang.
 
 Pengembang memiliki fleksibilitas untuk menentukan urutan pengurutan kustom. Ini dapat dicapai dengan menyediakan komparator yang berbeda sebagai parameter template kedua saat mendeklarasikan `std::set`. Contoh umum adalah menggunakan `std::greater<Key>` untuk mengurutkan elemen dalam urutan menurun. Untuk tipe data buatan pengguna atau logika pengurutan yang lebih kompleks, komparator kustom dapat diimplementasikan sebagai _functor_ (struct dengan `operator()`) atau _lambda expression_. Kemampuan ini memungkinkan `std::set` untuk beradaptasi dengan berbagai kebutuhan pengurutan yang spesifik.
 
-### 2.3. Kompleksitas Waktu Operasi
+### 3.3. Kompleksitas Waktu Operasi
 
 Kinerja `std::set` adalah salah satu keunggulan utamanya, terutama karena jaminan kompleksitas waktu logaritmik untuk operasi-operasi kunci.
 
@@ -138,11 +140,11 @@ Pilihan `std::set` menunjukkan bahwa pengembang memprioritaskan _konsistensi kin
 
 ---
 
-## 3. Fungsi-Fungsi Anggota `std::set` (Member Functions)
+## 4. Fungsi-Fungsi Anggota `std::set` (Member Functions)
 
 `std::set` menyediakan berbagai fungsi anggota yang kaya untuk mengelola koleksi elemennya. Bagian ini akan merinci fungsi-fungsi yang paling umum dan penting, serta menjelaskan kegunaannya.
 
-### 3.1. Konstruksi dan Kapasitas
+### 4.1. Konstruksi dan Kapasitas
 
 - **`(constructor)`**: Berbagai konstruktor tersedia untuk membuat objek `std::set` baru. Ini termasuk konstruktor _default_ untuk set kosong, konstruktor _copy_ dan _move_ untuk menyalin atau memindahkan isi set lain, serta konstruktor yang menerima `std::initializer_list` (sejak C++11) untuk inisialisasi yang mudah dan ringkas.
 <br/>
@@ -155,7 +157,7 @@ Pilihan `std::set` menunjukkan bahwa pengembang memprioritaskan _konsistensi kin
 
 - **`max_size()`**: Fungsi ini mengembalikan jumlah maksimum elemen yang secara teoretis dapat ditampung oleh set. Nilai ini biasanya sangat besar dan bergantung pada alokator memori yang digunakan serta ketersediaan memori sistem.
 
-### 3.2. Modifikasi Elemen
+### 4.2. Modifikasi Elemen
 
 - **`insert(value)`**: Fungsi ini menyisipkan elemen `value` ke dalam set. Jika elemen dengan nilai yang sama sudah ada dalam set, operasi ini tidak akan melakukan apa-apa, dan fungsi akan mengembalikan `std::pair<iterator, bool>` di mana nilai `bool` akan `false`, menunjukkan bahwa penyisipan tidak terjadi.
 <br/>
@@ -190,7 +192,7 @@ Perhatikan evolusi fungsi anggota `std::set` seiring dengan versi C++ yang lebih
 
 Penambahan ini menunjukkan tren menuju _efisiensi yang lebih tinggi_ dan _kemudahan penggunaan_. Menggunakan `emplace` daripada `insert` dapat memberikan keuntungan kinerja, terutama untuk tipe data yang mahal untuk dikonstruksi. `extract` dan `merge` membuka peluang untuk operasi set yang lebih kompleks dan efisien, seperti memindahkan elemen dari satu set ke set lain tanpa overhead alokasi memori. `contains` dan `erase_if` membuat kode lebih mudah dibaca dan ditulis. Ini menunjukkan bahwa pustaka standar terus berkembang untuk memenuhi kebutuhan pengembang akan kinerja dan ergonomi.
 
-### 3.3. Pencarian dan Lookup
+### 4.3. Pencarian dan Lookup
 
 - **`find(value)`**: Fungsi ini mencari elemen dengan `value` tertentu dalam set. Jika elemen ditemukan, fungsi ini mengembalikan iterator yang menunjuk ke elemen tersebut; jika tidak ditemukan, ia mengembalikan `set::end()`.
 <br/>
@@ -213,7 +215,7 @@ Kehadiran `lower_bound`, `upper_bound`, dan `equal_range` secara eksplisit meman
 
 Hal ini menunjukkan bahwa `std::set` tidak hanya untuk memeriksa keberadaan elemen unik, tetapi juga merupakan alat yang kuat untuk kueri berbasis rentang pada data terurut. Kemampuan ini seringkali diremehkan dibandingkan dengan `find` sederhana. Pengembang dapat merancang algoritma yang lebih canggih yang memanfaatkan pengurutan internal `std::set` untuk memproses sub-kumpulan data secara efisien, yang akan jauh lebih rumit atau tidak efisien jika dilakukan pada kontainer yang tidak terurut.
 
-### 3.4. Iterator
+### 4.4. Iterator
 
 `std::set` menyediakan iterator _bidirectional_ yang memungkinkan traversal elemen dalam urutan terurut.
 
@@ -229,7 +231,7 @@ Hal ini menunjukkan bahwa `std::set` tidak hanya untuk memeriksa keberadaan elem
 - **`crbegin()`, `crend()` (C++11)**: Mirip dengan `rbegin()` dan `rend()`, tetapi mengembalikan _reverse iterator_ konstan.
 <br/>
 
-### 3.5. Observers
+### 4.5. Observers
 
 - **`key_comp()`**: Fungsi ini mengembalikan salinan objek komparator yang digunakan oleh set untuk mengurutkan kunci.
 <br/>
@@ -237,7 +239,7 @@ Hal ini menunjukkan bahwa `std::set` tidak hanya untuk memeriksa keberadaan elem
 - **`value_comp()`**: Fungsi ini mengembalikan salinan objek komparator yang digunakan oleh set untuk mengurutkan nilai. Untuk `std::set`, nilai elemen itu sendiri adalah kuncinya, sehingga `value_comp()` mengembalikan komparator yang sama dengan `key_comp()`.
 <br/>
 
-### 3.6. Fungsi Non-Anggota
+### 4.6. Fungsi Non-Anggota
 
 Selain fungsi anggota, ada juga fungsi non-anggota yang beroperasi pada `std::set`:
 
@@ -247,7 +249,7 @@ Selain fungsi anggota, ada juga fungsi non-anggota yang beroperasi pada `std::se
 - **`std::swap(std: :set)`**: Ini adalah spesialisasi dari algoritma `std::swap` untuk `std::set`. Memungkinkan pertukaran efisien antara dua set dengan kompleksitas waktu konstan, serupa dengan `member swap()`.
     
 
-### Tabel: Fungsi Anggota `std::set` Penting
+### 4.7. Tabel: Fungsi Anggota `std::set` Penting
 
 |Nama Fungsi|Deskripsi|Kompleksitas Waktu|Contoh Penggunaan Singkat|
 |---|---|---|---|
@@ -264,11 +266,11 @@ Selain fungsi anggota, ada juga fungsi non-anggota yang beroperasi pada `std::se
 
 ---
 
-## 4. Aplikasi Praktis dan Kasus Penggunaan `std::set`
+## 5. Aplikasi Praktis dan Kasus Penggunaan `std::set`
 
 `std::set` adalah struktur data yang serbaguna dan efisien, menjadikannya pilihan yang sangat baik untuk berbagai aplikasi di mana keunikan elemen dan pengurutan otomatis adalah persyaratan utama.
 
-### 4.1. Memastikan Keunikan Data
+### 5.1. Memastikan Keunikan Data
 
 Salah satu kegunaan paling umum dari `std::set` adalah untuk memastikan bahwa koleksi data hanya berisi elemen unik.
 
@@ -284,7 +286,7 @@ Salah satu kegunaan paling umum dari `std::set` adalah untuk memastikan bahwa ko
 - **Manajemen Koneksi Jaringan**: Dalam server atau aplikasi jaringan, `std::set` dapat digunakan untuk mengelola daftar koneksi atau sesi aktif yang unik, memastikan setiap koneksi diidentifikasi secara individual.
 <br/>
 
-### 4.2. Mempertahankan Data Terurut
+### 5.2. Mempertahankan Data Terurut
 
 Kemampuan `std::set` untuk secara otomatis mengurutkan elemen adalah keuntungan besar dalam banyak skenario.
 
@@ -300,7 +302,7 @@ Kemampuan `std::set` untuk secara otomatis mengurutkan elemen adalah keuntungan 
 - **Daftar Proses Aktif**: Sistem operasi atau manajer tugas dapat menggunakan `std::set` untuk melacak proses aktif, mengurutkannya berdasarkan prioritas atau waktu mulai, memungkinkan penjadwalan dan manajemen sumber daya yang efisien.
 <br/>
 
-### 4.3. Operasi Himpunan (Set Operations)
+### 5.3. Operasi Himpunan (Set Operations)
 
 `std::set` dapat digunakan secara efektif dengan algoritma operasi himpunan yang disediakan di _header_ `<algorithm>` C++, yang memanfaatkan sifat terurutnya.
 
@@ -318,7 +320,7 @@ Kemampuan `std::set` untuk secara otomatis mengurutkan elemen adalah keuntungan 
 
 Kemampuan untuk melakukan operasi himpunan standar (union, intersection, difference) adalah fitur yang kuat yang secara langsung memanfaatkan sifat terurut dari `std::set`.
 
-### 4.4. Contoh Penggunaan `std::set` Bersarang (Nested Sets)
+### 5.4. Contoh Penggunaan `std::set` Bersarang (Nested Sets)
 
 `std::set` juga dapat menyimpan kontainer lain sebagai elemennya, menciptakan struktur data bersarang yang kompleks.
 
@@ -335,11 +337,11 @@ Penggunaan set bersarang menunjukkan fleksibilitas `std::set` untuk menangani st
 
 ---
 
-## 5. `std::set` dalam Konteks: Perbandingan dengan Kontainer STL Lain
+## 6. `std::set` dalam Konteks: Perbandingan dengan Kontainer STL Lain
 
 Memilih kontainer STL yang tepat adalah keputusan desain yang krusial yang memengaruhi kinerja, penggunaan memori, dan kompleksitas kode. Bagian ini membandingkan `std::set` dengan `std::vector` dan `std::unordered_set`, menyoroti kekuatan dan kelemahan masing-masing.
 
-### 5.1. `std::set` vs. `std::vector`
+### 6.1. `std::set` vs. `std::vector`
 
 | Fitur                                | `std::set`                                          | `std::vector`                                            |
 | ------------------------------------ | --------------------------------------------------- | -------------------------------------------------------- |
@@ -358,7 +360,7 @@ Memilih kontainer STL yang tepat adalah keputusan desain yang krusial yang memen
 
 - **Kapan Menggunakan `std::vector`**: `std::vector` lebih cocok ketika akses elemen berdasarkan indeks diperlukan, duplikat diizinkan, atau ketika operasi penyisipan/penghapusan sebagian besar terjadi di akhir kontainer. Meskipun `std::vector` dapat diurutkan secara manual, mempertahankan urutan setelah modifikasi dapat menjadi mahal ($O(N)$ untuk penyisipan di tengah `std: :vector` terurut).
 
-### 5.2. `std::set` vs. `std::unordered_set`
+### 6.2. `std::set` vs. `std::unordered_set`
 
 | Fitur                                | `std::set`                                                    | `std::unordered_set`                                            |
 | ------------------------------------ | ------------------------------------------------------------- | --------------------------------------------------------------- |
@@ -383,18 +385,18 @@ Sebaliknya, `std::unordered_set` memberikan kinerja rata-rata $O(1)$ yang sangat
 
 ---
 
-## 6. Topik Lanjutan: Komparator Kustom untuk Tipe Data Buatan Pengguna
+## 7. Topik Lanjutan: Komparator Kustom untuk Tipe Data Buatan Pengguna
 
 Kemampuan untuk menggunakan komparator kustom adalah fitur yang sangat kuat dari `std::set`, memungkinkan pengembang untuk mengontrol urutan pengurutan dan definisi keunikan, terutama saat bekerja dengan tipe data buatan pengguna.
 
-### 6.1. Mekanisme Perbandingan `std::set`
+### 7.1. Mekanisme Perbandingan `std::set`
 
 `std::set` menggunakan parameter template `Compare` (secara _default_ adalah `std: :less<Key>`) untuk mengurutkan elemennya. Untuk tipe data primitif seperti `int` atau `std::string`, `std::less` bekerja secara otomatis karena operator `operator<` sudah terdefinisi. Namun, untuk tipe data buatan pengguna (misalnya, `struct` atau `class` kustom), `std::set` tidak akan tahu bagaimana cara membandingkan objek-objek tersebut kecuali jika `operator<` di-overload atau komparator kustom disediakan.
 
 Penting untuk diingat bahwa keunikan dalam `std::set` ditentukan oleh relasi ekuivalensi, bukan hanya `operator==`. Dua objek `a` dan `b` dianggap ekuivalen jika `!(comp(a, b)) &&!(comp(b, a))`. Ini berarti fungsi komparator harus mendefinisikan urutan total yang ketat untuk semua elemen. Kesalahan dalam mendefinisikan
 
 `operator<` dapat menyebabkan perilaku yang tidak terduga, seperti set yang secara keliru menyimpan duplikat atau mengurutkan elemen dengan tidak benar.
-### 6.2. Metode Mengimplementasikan Komparator Kustom
+### 7.2. Metode Mengimplementasikan Komparator Kustom
 
 Ada beberapa cara untuk mengimplementasikan komparator kustom untuk `std::set`:
 
@@ -448,7 +450,7 @@ Ada beberapa cara untuk mengimplementasikan komparator kustom untuk `std::set`:
 
 Fleksibilitas untuk mendefinisikan komparator kustom inilah yang membuat `std::set` sangat kuat untuk model data yang kompleks, memungkinkan pengembang untuk mendefinisikan "urutan terurut" dan "keunikan" berdasarkan logika bisnis spesifik daripada hanya perbandingan tipe _default_. Perbedaan antara "kesetaraan" (`operator==`) dan "ekuivalensi" (`!comp(a,b) &&!comp(b,a)`) adalah hal yang halus namun sangat penting untuk kontainer terurut. Kesalahpahaman ini dapat menyebabkan perilaku yang tidak terduga terkait keunikan.
 
-### 6.3. Contoh Kode dengan Tipe Data Buatan Pengguna
+### 7.3. Contoh Kode dengan Tipe Data Buatan Pengguna
 
 Berikut adalah contoh yang lebih lengkap tentang penggunaan `std::set` dengan tipe data buatan pengguna dan komparator kustom:
 
@@ -548,127 +550,7 @@ int main() {
 }
 ```
 
-#### Penjelasan
-
-Kode yang kamu tulis **sudah benar secara sintaks dan konsep**, serta mencerminkan pemahaman yang **kuat** tentang penggunaan `std::set` dengan **komparator default dan kustom**. Namun, ada beberapa **catatan penting dan tambahan penjelasan** untuk memperjelas implementasi dan menghindari potensi kebingungan. Berikut ini adalah ulasan menyeluruh:
-
----
-
-#### ✅ Bagian 1: `std::set<Person>` dengan `operator<`
-
-```cpp
-struct Person {
-    std::string name;
-    int age;
-
-    bool operator<(const Person& other) const {
-        if (age != other.age) {
-            return age < other.age;
-        }
-        return name < other.name;
-    }
-};
-```
-
-##### ✔️ Benar:
-
-- Anda mengurutkan berdasarkan usia, dan jika usia sama, berdasarkan nama.
-    
-- Ini akan digunakan oleh `std::set<Person>` sebagai kriteria pengurutan dan keunikan.
-    
-
-##### ⚠️ Catatan Penting:
-
-- Dua `Person` yang memiliki **usia dan nama sama** akan dianggap _identik_ oleh `std::set`, dan hanya satu yang akan dimasukkan.
-    
-- Jika hanya usia yang sama tapi nama berbeda, mereka tetap dianggap berbeda (karena `operator<` menangani itu dengan benar).
-    
-
----
-
-#### ✅ Bagian 2: Functor `ComparePersonByName`
-
-```cpp
-struct ComparePersonByName {
-    bool operator()(const Person& p1, const Person& p2) const {
-        return p1.name < p2.name;
-    }
-};
-```
-
-##### ✔️ Benar:
-
-- Ini mengabaikan usia dan hanya mengurutkan berdasarkan nama.
-    
-
-##### ⚠️ Catatan Penting:
-
-- Jika Anda menambahkan dua orang bernama "Alice" dengan usia berbeda, **hanya satu yang akan masuk ke dalam `std::set`**, karena mereka dianggap _setara_ menurut comparator ini.
-    
-
-Contoh:
-
-```cpp
-peopleByName.insert({"Alice", 30});
-peopleByName.insert({"Alice", 35}); // Ini akan diabaikan!
-```
-
-Jika Anda ingin menyimpan keduanya, comparator harus mencakup kriteria tambahan (misalnya `name + age`).
-
----
-
-#### ✅ Bagian 3: Komparator untuk `std::set<std::pair<int, int>>`
-
-```cpp
-struct PairSecondDescComparator {
-    bool operator()(const std::pair<int, int>& p1, const std::pair<int, int>& p2) const {
-        if (p1.second != p2.second) {
-            return p1.second > p2.second;
-        }
-        return p1.first < p2.first;
-    }
-};
-```
-
-##### ✔️ Sangat baik:
-
-- Mengurutkan berdasarkan elemen kedua (menurun), lalu elemen pertama (menaik).
-    
-- Hasil akhirnya sesuai dengan yang dijelaskan dalam komentar kode dan contoh output.
-    
-
----
-
-#### 🧠 Kesimpulan dan Penilaian Akhir
-
-|Aspek|Status|Catatan|
-|---|---|---|
-|Kompilasi & Sintaks|✅ Benar|Kode akan berjalan tanpa error|
-|Struktur dan OOP|✅ Baik|Menggunakan `struct` dan operator overload dengan tepat|
-|Komparator|✅ Sesuai|Menangani berbagai strategi pengurutan|
-|Dokumentasi Komentar|✅ Cukup baik|Penjelasan sudah cukup jelas, tapi bisa ditambah tentang efek keunikan|
-|Output|✅ Sesuai harapan|Urutan benar sesuai komparator|
-
----
-
-#### ✅ Saran Peningkatan (Opsional)
-
-Jika ini akan digunakan untuk pengajaran atau dokumentasi, pertimbangkan menambahkan komentar seperti:
-
-```cpp
-// Perhatikan: std::set tidak menyimpan elemen yang dianggap setara oleh komparator,
-// meskipun data aktual berbeda.
-```
-
-Atau tambahkan percobaan eksplisit:
-
-```cpp
-peopleByName.insert({"Alice", 40}); // Tidak akan masuk karena nama "Alice" sudah ada
-```
-
----
-
-### Kesimpulan
+## 8. Kesimpulan
 
 `std::set` dalam C++ Standard Template Library adalah struktur data yang sangat kuat dan efisien, dirancang khusus untuk mengelola koleksi elemen unik yang selalu dipertahankan dalam urutan terurut. Implementasi internalnya yang berbasis Pohon Merah-Hitam (Red-Black Tree) memberikan jaminan kompleksitas waktu logaritmik ($O(\log N)$) untuk operasi-operasi krusial seperti penyisipan, pencarian, dan penghapusan. Jaminan kinerja ini, bahkan dalam kasus terburuk, merupakan keunggulan signifikan yang membedakannya dari kontainer lain seperti `std::unordered_set` yang mungkin lebih cepat dalam kasus rata-rata tetapi kurang dapat diprediksi.
 

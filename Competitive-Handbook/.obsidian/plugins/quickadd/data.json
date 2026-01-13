@@ -34,6 +34,146 @@
       },
       "openFile": false,
       "openFileInMode": "default"
+    },
+    {
+      "id": "a6942242-e39c-45f3-8b88-f7cdfea08024",
+      "name": "900",
+      "type": "Capture",
+      "command": false,
+      "appendLink": true,
+      "captureTo": "Rating Task Hunter/900.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [ ] {{value:Task}}\n    - 🏷️ -> #task {{value:Tags}}\n    - 📁 -> {{linkcurrent}} \n    - 📅 -> {{date:YYYY-MM-DD HH:mm}}\n\n<br/>\n\n"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "cfaf3cbc-03a2-4ebc-bb11-86ed69cf3402",
+      "name": "800",
+      "type": "Capture",
+      "command": false,
+      "appendLink": true,
+      "captureTo": "Rating Task Hunter/800.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [ ] {{value:Task}}\n    - 🏷️ -> #task {{value:Tags}}\n    - 📁 -> {{linkcurrent}} \n    - 📅 -> {{date:YYYY-MM-DD HH:mm}}\n\n<br/>\n"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "2007762e-bafa-4a2c-949e-d644bed0e4c2",
+      "name": "1000",
+      "type": "Capture",
+      "command": false,
+      "appendLink": true,
+      "captureTo": "Rating Task Hunter/1000.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [ ] {{value:Task}}\n    - 🏷️ -> #task {{value:Tags}}\n    - 📁 -> {{linkcurrent}} \n    - 📅 -> {{date:YYYY-MM-DD HH:mm}}\n\n<br/>\n"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "aee020bb-945d-46e1-98cd-2832c7059ee3",
+      "name": "1100",
+      "type": "Capture",
+      "command": false,
+      "appendLink": true,
+      "captureTo": "Rating Task Hunter/1100.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [ ] {{value:Task}}\n    - 🏷️ -> #task {{value:Tags}}\n    - 📁 -> {{linkcurrent}} \n    - 📅 -> {{date:YYYY-MM-DD HH:mm}}\n\n<br/>\n"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
     }
   ],
   "macros": [

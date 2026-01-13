@@ -1,24 +1,25 @@
 ---
 obsidianUIMode: preview
-note_type: data structure theory
-id_algoritma: 04TH-DSSE-0002
-nama_algoritma: 
-kategori_algoritma: data structure
+note_type: data structures theory
+nama_algoritma: set
+kategori_algoritma: data structures
 kesulitan: 🥉 easy
-time_complexity: 
-memory_complexity: 
 sumber: geeksforgeeks.org
 date_learned: 2025-06-20T20:32:00
 tags:
   - set
-  - data-structure
+  - data-structures
 ---
+Link Sumber: [Set in C++ STL - GeeksforGeeks](https://www.geeksforgeeks.org/cpp/set-in-cpp-stl/)
+
 ---
+> [!IMPORTANT]
+> 
 # C++ STL
 
 Di C++, _set_ adalah wadah asosiatif (_associative container_) yang menyimpan elemen-elemen unik dalam urutan yang terurut. Secara default, elemen-elemen disimpan dalam urutan menaik berdasarkan _key_-nya, tetapi urutan ini dapat diubah sesuai kebutuhan. _Set_ menyediakan operasi penyisipan, penghapusan, dan pencarian yang cepat.
 
-#### Contoh:
+Contoh:
 
 ```cpp
 #include <iostream>
@@ -45,9 +46,7 @@ int main() {
 **Penjelasan:**  
 Dalam program di atas, kita membuat sebuah _set_ dengan nama `s` yang berisi nilai-nilai `{3, 5, 2, 1}`. _Set_ akan otomatis menyusun elemen-elemennya dalam urutan menaik, dan hanya menyimpan elemen unik.
 
----
-
-## Sintaks
+## 1. Sintaks
 
 Wadah _set_ didefinisikan sebagai _class template_ `std::set` di dalam header `<set>`.
 
@@ -63,9 +62,7 @@ Keterangan:
     
 - `comp`: Fungsi predikat biner yang menentukan bagaimana _set_ membandingkan dua elemen. Digunakan untuk mengurutkan _set_ dalam urutan kustom. Argumen ini bersifat opsional — jika tidak diberikan, _set_ akan diurutkan secara menaik.
     
----
-
-## Deklarasi dan Inisialisasi
+## 2. Deklarasi dan Inisialisasi
 
 Kita bisa mendeklarasikan dan menginisialisasi sebuah _set_ dengan berbagai cara seperti ditunjukkan dalam kode berikut:
 
@@ -103,15 +100,11 @@ Dalam program ini, kita membuat dua _set_:
 
 Untuk mengetahui lebih banyak cara dalam menginisialisasi _set_ di C++, kamu bisa merujuk pada artikel _Different Ways to Initialize Set_.
 
----
-
-## Operasi Dasar
+## 3. Operasi Dasar
 
 Berikut ini adalah operasi dasar yang dapat dilakukan pada _set_:
 
----
-
-### 1. Menambahkan Elemen
+### 3.1. Menambahkan elemen
 
 Dalam _set_, elemen ditambahkan menggunakan fungsi `insert()` atau `emplace()`. Jika elemen sudah ada di dalam _set_, maka tidak akan ditambahkan lagi. Kita tidak bisa menentukan posisi penyisipan karena urutan elemen ditentukan secara otomatis berdasarkan aturan pengurutan.
 
@@ -140,11 +133,7 @@ int main() {
 1 2 3 4 5
 ```
 
-Jika kamu ingin membaca lebih lanjut tentang topik ini, silakan lihat artikel _Different Ways to Insert Elements into Set_.
-
----
-
-### 2. Mengakses Elemen
+### 3.2. Mengakses elemen
 
 Kita tidak bisa mengakses elemen _set_ menggunakan indeks seperti pada array atau vector. Untuk mengakses elemen berdasarkan posisi, kita perlu menggunakan iterator yang diperoleh dari fungsi `begin()` atau `end()` dan menggesernya dengan fungsi `next()` atau `advance()`.
 
@@ -177,13 +166,11 @@ int main() {
 **Penjelasan:**  
 Dalam program di atas, `s.begin()` mengembalikan iterator ke elemen pertama dari _set_ dan disimpan di `it1`. Untuk mengakses elemen ketiga, fungsi `next()` digunakan untuk menggeser iterator `it1` sebanyak 2 posisi, dan disimpan dalam `it2`. `*it1` dan `*it2` digunakan untuk mendereferensikan iterator tersebut sehingga kita bisa mendapatkan nilai pada posisi itu.
 
-Untuk mengetahui lebih lanjut tentang cara mengakses elemen dalam _set_, silakan lihat artikel _Different Ways to Access Elements of Set_.
-
-### 3. Memperbarui Elemen
+### 3.3. Memperbarui elemen
 
 Kita **tidak dapat mengubah nilai elemen** setelah elemen tersebut disimpan dalam _set_.
 
-### 4. Mencari Elemen
+### 3.4. Mencari elemen
 
 _Set_ menyediakan operasi pencarian cepat berdasarkan nilai dengan menggunakan fungsi anggota `find()`. Fungsi ini mengembalikan _iterator_ ke elemen jika ditemukan, atau mengembalikan `end()` jika tidak ditemukan.
 
@@ -209,11 +196,7 @@ int main() {
 3
 ```
 
-Untuk mengetahui metode lain dalam mencari elemen di _set_, lihat artikel _Check if Set Contains an Element_.
-
----
-
-### 5. Melakukan Traversal
+### 3.5. Melakukan traversal
 
 Sama seperti kontainer lainnya, _set_ dapat dengan mudah ditelusuri menggunakan _range-based for loop_ atau menggunakan _iterator_ dari `begin()` dan `end()`.
 
@@ -239,11 +222,7 @@ int main() {
 1 2 3 4 5
 ```
 
-Untuk info lebih lanjut, lihat artikel _Different Ways to Traverse a Set_.
-
----
-
-### 6. Menghapus Elemen
+### 3.6. Menghapus elemen
 
 Dalam _set_, elemen dihapus menggunakan fungsi `erase()`. Kita bisa menghapus elemen berdasarkan nilai, atau berdasarkan posisi menggunakan _iterator_.
 
@@ -273,11 +252,7 @@ int main() {
 2 3 4
 ```
 
-Untuk mengetahui lebih banyak cara menghapus elemen dari _set_, lihat artikel _Different Ways to Delete Elements from Set_.
-
----
-
-## Kompleksitas Waktu
+## 4. Kompleksitas Waktu
 
 Berikut adalah tabel kompleksitas waktu dari berbagai operasi dasar pada _set_:
 
@@ -290,14 +265,11 @@ Berikut adalah tabel kompleksitas waktu dari berbagai operasi dasar pada _set_:
 |Mencari elemen tertentu|O(log n)|
 |Menelusuri seluruh _set_|O(n)|
 
----
-# Cara Kerja Internal
+## 5. Cara Kerja Internal
 
 Di C++, _set_ adalah kontainer asosiatif yang diimplementasikan menggunakan **Red-Black Tree**. Struktur data ini menjamin elemen selalu tersimpan dalam urutan terurut dan memastikan bahwa operasi penyisipan, penghapusan, dan pencarian berjalan dalam waktu logaritmik.
 
----
-
-### Perbedaan Set dan Unordered Set
+### 5.1. Perbedaan set dan unordered set
 
 |Fitur|`set`|`unordered_set`|
 |---|---|---|
@@ -305,9 +277,7 @@ Di C++, _set_ adalah kontainer asosiatif yang diimplementasikan menggunakan **Re
 |Kompleksitas waktu|O(log n) untuk operasi|O(1) untuk operasi|
 |Struktur|Red-Black Tree|Hash Table|
 
----
-
-### Daftar Fungsi Anggota `std::set`
+### 5.2. Daftar fungsi anggota `std::set`
 
 |Fungsi|Deskripsi|
 |---|---|

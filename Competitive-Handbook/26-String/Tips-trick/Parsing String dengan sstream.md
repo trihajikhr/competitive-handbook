@@ -1,16 +1,14 @@
 ---
 obsidianUIMode: preview
-note_type: Book Theory
-judul_materi: Parsing String dengan sstream
+note_type: tips trick
+tips_trick: Parsing String dengan sstream
 sumber:
   - gemini.google.com
-date_learned: 2025-09-19T17:02:00
 tags:
   - tips-trick
   - strings
+  - STL
 ---
-Link Sumber: 
-
 ---
 # Parsing String dengan sstream
 

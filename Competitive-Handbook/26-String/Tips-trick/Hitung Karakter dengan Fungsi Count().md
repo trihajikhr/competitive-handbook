@@ -1,16 +1,13 @@
 ---
 obsidianUIMode: preview
-note_type: Book Theory
-judul_materi: Hitung Karakter dengan Fungsi Count()
+note_type: tips trick
+tips_trick: Hitung Karakter dengan Fungsi Count()
 sumber:
   - codeforces.com
-date_learned: 2025-09-24T19:51:00
 tags:
-  - string
+  - strings
   - tips-trick
 ---
-Link Sumber: 
-
 ---
 # Hitung Karakter dengan Fungsi Count()
 

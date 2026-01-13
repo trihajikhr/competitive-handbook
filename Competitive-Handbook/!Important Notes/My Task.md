@@ -13,7 +13,7 @@ tags:
 
 - [x] Pelajari Header regex ✅ 2025-09-19
     - 🏷️ -> #task #string
-    - 📁 -> [[02-Mencari dan Mengganti Substring pada String]] 
+    - 📁 -> [[../26-String/Tips-trick/Mencari dan Mengganti Substring pada String]] 
     - 📅 -> 2025-09-10 15:21
 
 <br/>
@@ -21,7 +21,7 @@ tags:
 
 - [x] Pelajari apa kegunaan dari sstream, dan fungsi-fungsi didalamnya, dan apa saja yang bisa dilakukan ketika memparser string dengan sstream ✅ 2025-09-19
     - 🏷️ -> #task #string
-    - 📁 -> [[02-Mencari dan Mengganti Substring pada String]] 
+    - 📁 -> [[../26-String/Tips-trick/Mencari dan Mengganti Substring pada String]] 
     - 📅 -> 2025-09-10 16:14
 
 <br/>
@@ -29,7 +29,7 @@ tags:
 
 - [x] Pelajari header string, dan fungsi-fungsi yang ada didalamnya, seperti substr, find, replace, dan sebagainya. ✅ 2025-09-24
     - 🏷️ -> #task #string
-    - 📁 -> [[02-Mencari dan Mengganti Substring pada String]] 
+    - 📁 -> [[../26-String/Tips-trick/Mencari dan Mengganti Substring pada String]] 
     - 📅 -> 2025-09-10 21:21
 
 <br/>
@@ -37,7 +37,7 @@ tags:
 
 - [x] Membuat folder khusus untuk bagian peningkatan pemahaman problem statement ✅ 2025-09-19
     - 🏷️ -> #task #tips-trick
-    - 📁 -> [[03-Hitung Karakter dengan Fungsi Count()]] 
+    - 📁 -> [[../26-String/Tips-trick/Hitung Karakter dengan Fungsi Count()]] 
     - 📅 -> 2025-09-10 23:04
 
 <br/>
@@ -622,3 +622,101 @@ tags:
 
 <br/>
 
+
+- [ ] Cari tahu juga, bagaimana caranya mencari angka besar tanpa bantuan kalkulator, jika yang diminta adalah menebak digit terakhirnya.
+    - 🏷️ -> #task #math
+    - 📁 -> [742A-Arpa’s hard exam and Mehrdad’s naive cheat](Codeforces-Death%20Ground/1000/742A-Arpa’s%20hard%20exam%20and%20Mehrdad’s%20naive%20cheat.md) 
+    - 📅 -> 2025-12-05 11:27
+
+<br/>
+
+
+## 1000 Rating:
+
+
+- [ ] Aku menemukan rumus baru, bahwa pembulatan keatas, selain menggunakan $a+b-1/b$, ternyata juga bisa menggunakan cara $(a-1)/b+1$
+    - 🏷️ -> #task #math
+    - 📁 -> [My Task](!Important%20Notes/My%20Task.md) 
+    - 📅 -> 2025-12-06 17:04
+
+<br/>
+
+
+- [ ] Pelajari cara mengetahui apakah suatu karakter besar atau kecil dengan menggunakan perbandingan, alih aih fungsi `islower()` dan `isupper()`
+    - 🏷️ -> #task #string
+    - 📁 -> [My Task](!Important%20Notes/My%20Task.md) 
+    - 📅 -> 2025-12-06 17:16
+
+<br/>
+
+
+- [ ] Pelajari jika seadainya a, b, dan c, memiliki value bukan 0, maka syntax `a | b | c` akan menghasilkan true. Pelajari syntax yang ini `|`. Lalu pemeriksaan 0 juga sama saja dengan negasi, selain 0 maka akan menghasilkan true.
+    - 🏷️ -> #task #syntax
+    - 📁 -> [My Task](!Important%20Notes/My%20Task.md) 
+    - 📅 -> 2025-12-06 17:24
+
+<br/>
+
+
+- [ ] Pelajari apa maksud dari syntax `Hello[3]`
+    - 🏷️ -> #task #syntax
+    - 📁 -> [My Task](!Important%20Notes/My%20Task.md) 
+    - 📅 -> 2025-12-06 20:59
+
+<br/>
+
+
+- [ ] Pastiakn sudah pernah mempelajari algoritma generate angka dengan digit tertentu
+    - 🏷️ -> #task #algorithm #math
+    - 📁 -> [My Task](!Important%20Notes/My%20Task.md) 
+    - 📅 -> 2025-12-06 21:04
+
+<br/>
+
+
+- [ ] pelajari header cctype
+    - 🏷️ -> #task #syntax
+    - 📁 -> [My Task](!Important%20Notes/My%20Task.md) 
+    - 📅 -> 2025-12-06 21:25
+
+<br/>
+
+
+- [ ] Ketika vector menyimpan pair int,int yang  disorting, maka digunakan data pertama sebagai acuan!
+    - 🏷️ -> #task #syntax
+    - 📁 -> [My Task](!Important%20Notes/My%20Task.md) 
+    - 📅 -> 2025-12-06 21:30
+
+<br/>
+
+
+- [ ] pelajari bitmask, dan fungsi-fungsi STL-nya!
+    - 🏷️ -> #task #syntax
+    - 📁 -> [My Task](!Important%20Notes/My%20Task.md) 
+    - 📅 -> 2025-12-06 21:38
+
+<br/>
+
+
+- [ ] Pelajari https://codeforces.com/problemset/submission/1515/352281451, yang menawarkan cara menemukan, apakah suatu angka yang diberikan, merupakan hasil dari perkalian angka 2 atau 4 secara menaik. Ternyata masalah ini berkaitan dengan algoritma perfect square.
+    - 🏷️ -> #task #math
+    - 📁 -> [My Task](!Important%20Notes/My%20Task.md) 
+    - 📅 -> 2025-12-06 22:44
+
+<br/>
+
+
+- [ ] Tahukah kamu, berapa angka yang bisa dibagi habis oleh semua digit yang ada? Pelajari algoritma mencari angka yang lebih besar dari x, yang angka tersebut bisa dibagi habis oleh semua digit yang dimilikikan
+    - 🏷️ -> #task #math
+    - 📁 -> [My Task](!Important%20Notes/My%20Task.md) 
+    - 📅 -> 2025-12-07 00:08
+
+<br/>
+
+
+- [ ] pelajari lebih jauh tentang unordered map dan map
+    - 🏷️ -> #task #data-structures
+    - 📁 -> [My Task](!Important%20Notes/My%20Task.md) 
+    - 📅 -> 2025-12-07 12:20
+
+<br/>

@@ -1,6 +1,6 @@
 ---
 obsidianUIMode: preview
-note_type: theory
+note_type: book theory
 judul_materi:
 sumber:
 date_learned:
@@ -10,6 +10,6 @@ Link Sumber:
 
 ---
 
-```ad-summary
-```
+> [!IMPORTANT]
+>  
 # Judul

@@ -1,20 +1,17 @@
 ---
 obsidianUIMode: preview
-note_type: Book Theory
-judul_materi: Mencari dan Mengganti Substring pada String
+note_type: tips trick
+tips_trick: Mencari dan Mengganti Substring pada String
 sumber:
+  - chatgpt.com
   - codeforces.com
   - google.com
-  - chatgpt.com
-date_learned: 2025-09-10T13:39:00
 tags:
-  - string
+  - strings
   - tips-trick
 ---
-Link Sumber: 
-
 ---
-# 1 | Mencari dan Mengganti Substring pada String
+# Mencari dan Mengganti Substring pada String
 
 Diberikan sebuah string `s`, tugasmu adalah mencari semua substring `a` pada string `s`, dan menghapusnya. 
 
@@ -32,14 +29,11 @@ maka setelah semua substring `WUB` dihapus, hasilnya menjadi seperti ini:
 WE ARE THE CHAMPIONS MY FRIEND 
 ```
 
-<br/>
-
----
-# 2 | Jawaban dan Solusi
+# Jawaban dan Solusi
 
 Berikut akan disajikan solusi yang aku temukan, dan solusi dari orang lain:
 
-## 2.1 | Manual Search
+## 1. Manual Search
 
 ```cpp
 #include <iostream>
@@ -144,7 +138,7 @@ Jelas kode ini lebih cepat secara runtime. Hal ini karena penggantian string den
 
 Namun untuk kasus yang kompleks, mungkin cara manual seperti ini akan terlalu memakan banyak waktu penulisan, sehingga harus bijak memilih, dan menyesuaikan dengan kondisi.
 
-## 2.2 | Fungsi `regex()`
+## 2. Fungsi `regex()`
 
 ```cpp
 #include<bits/stdc++.h>
@@ -219,7 +213,7 @@ int main(){
 }
 ```
 
-## 2.3 | Fungsi `find()` dan `replace()`
+## 3. Fungsi `find()` dan `replace()`
 
 ```cpp
 #include <iostream>
@@ -326,7 +320,7 @@ s.find("WUB") != -1
 s.find("WUB") != string::npos
 ```
 
-## 2.4 | `regex()` dengan `stringstream()`
+## 4. Fungsi `regex()` dengan `stringstream()`
 
 ```cpp
 #include <bits/stdc++.h>
@@ -373,14 +367,9 @@ auto main() -> int {
 
 Pencarian dan penggantian masih menggunakan `regex_replace()` dan `regex()`. Tapi penanganan spasi berlebih ditangani oleh `sstream`, dimana setiap kata pada string `s` dipecah atau di parsing dengan menggunakan bantuan while loop, dan ditambah spasi tunggal secara manual, cukup kreatif. Jika paham bagaimana `stringstream`, cara ini cukup bagus untuk digunakan.
 
+# Solusi User yang Unik-unik
 
-
-<br/>
-
----
-# 3 | Solusi User yang Unik-unik
-
-## 3.1 | Track dan output dengan seleksi
+## 5. Track dan output dengan seleksi
 
 ```cpp
 #include <iostream>
@@ -419,7 +408,7 @@ auto main() -> int {
 
 Substring `WUB` diubah menjadi karakter `*`, lalu di traversal kedua, digunakan untuk menandai bahwa bagian tersebut tidak boleh ditampilkan, diganti dengan satu spasi. Namun masih terlalu verbose, dan kompleksitas kurang efisien
 
-## 3.2 | String Eater
+## 6. String Eater
 
 ```cpp
 #include <iostream>
@@ -461,7 +450,7 @@ a = a.substr(i + 3);
 
 Namun terlalu rumit, dan keberadaan vector sebenarnya tidak diperlukan.
 
-## 3.3 | Gabut style
+## 7. Gabut style
 
 ```cpp
 #include <bits/stdc++.h>
@@ -486,9 +475,9 @@ int main(){
 
 Semua kondisi diperiksa, apakah bisa menemukan keberadaan `WUB`. Kondisi yang dicek bahkan dibuat 3 kali, dengan tujuan sepertinya untuk bisa menskip 3 karakter `WUB` secara berturut-turut dengan `continue`. Tapi ini benar-benar tidak perlu, tujuan dari kode ini, sebenarnya cukup menggunakan kondisional pertama, lalu `i+=2`, bukan `continue`.
 
-Tapi yah..., ini benar-benar tidak perlu, kenapa harus melakukan kondisional hingga 3 kali di percabangan pertama? Kompleksitas masih cepat, O(n), namun overcomplicated, resiko out of bound, dan redundant check di percabangan pertama.
+Tapi yah..., ini benar-benar tidak perlu, kenapa harus melakukan kondisional hingga 3 kali di percabangan pertama? Kompleksitas masih cepat, $O(n)$, namun overcomplicated, resiko out of bound, dan redundant check di percabangan pertama.
 
-## 3.4 | String bantu
+## 8. String bantu
 
 ```cpp
 #include <bits/stdc++.h>

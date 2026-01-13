@@ -1,6 +1,6 @@
 ---
 obsidianUIMode: preview
-note_type: Book Theory
+note_type: book theory
 judul_materi: Header string di C++
 sumber:
   - cppreference.com
@@ -10,16 +10,17 @@ tags:
   - "#STL"
   - strings
 ---
-Link Sumber: [Standard library header \<string\> - cppreference.com](https://en.cppreference.com/w/cpp/header/string.html)
+Link Sumber: [C++ string library](https://en.cppreference.com/w/cpp/header/string.html)
 
 ---
-# 1 | Header string di C++
+> [!IMPORTANT]
+# 1. Header string di C++
 
-## 1.1 | Apa itu Header `<string>`
+## 1.1. Apa itu Header `<string>`
 
 Header `<string>` adalah pustaka standar C++ yang mendefinisikan kelas **`std::string`** untuk mengelola urutan karakter. Secara sederhana, ini adalah cara yang lebih modern dan aman untuk bekerja dengan teks daripada menggunakan array karakter bergaya C (`char[]`). `std::string` mengabstraksi detail alokasi memori, memungkinkan kamu untuk fokus pada manipulasi teks tanpa khawatir tentang _buffer overflow_ atau manajemen memori manual.
 
-## 1.2 | Kegunaan Header `<string>`
+## 1.2. Kegunaan Header `<string>`
 
 Kegunaan utama dari `<string>` adalah untuk mempermudah dan mengamankan operasi teks dalam program C++. Beberapa kegunaannya yang paling menonjol:
 
@@ -34,11 +35,11 @@ Kegunaan utama dari `<string>` adalah untuk mempermudah dan mengamankan operasi 
 <br/>
 
 ---
-# 2 | Fungsi-fungsi Berguna pada `std::string`
+# 2. Fungsi-fungsi Berguna pada `std::string`
 
 Berikut adalah beberapa fungsi paling berguna yang sering digunakan dengan `std::string`, beserta contoh penggunaannya.
 
-## 2.1 | `+` dan `+=` (Operator Penambahan)
+## 2.1. `+` dan `+=` (Operator Penambahan)
 
 Operator `+` digunakan untuk menggabungkan (menambah) dua string atau string dengan literal C-style. Operator `+=` digunakan untuk menambahkan string ke akhir string yang sudah ada.
 
@@ -65,7 +66,7 @@ int main() {
 ```
 
 
-## 2.2 | `.length()` dan `.size()`
+## 2.2. `.length()` dan `.size()`
 
 Kedua fungsi ini mengembalikan jumlah karakter dalam string. Mereka memiliki kegunaan yang sama.
 
@@ -84,7 +85,7 @@ int main() {
 }
 ```
 
-## 2.3 | `.substr()`
+## 2.3. `.substr()`
 
 Fungsi ini digunakan untuk mengekstrak substring (bagian dari string) dari string yang lebih besar. Argumennya adalah posisi awal dan panjang substring.
 
@@ -106,7 +107,7 @@ int main() {
 ```
 
 
-## 2.4 | `.find()` dan `.rfind()`
+## 2.4. `.find()` dan `.rfind()`
 
 Fungsi `find()` ini digunakan untuk mencari kemunculan pertama dari substring atau karakter dalam string. Jika ditemukan, ia mengembalikan indeks posisi; jika tidak, ia mengembalikan `std::string::npos`.
 
@@ -163,7 +164,7 @@ int main() {
 }
 ```
 
-## 2.5 | `.replace()`
+## 2.5. `.replace()`
 
 Fungsi ini mengganti bagian dari string dengan string lain. Argumennya adalah posisi awal, jumlah karakter yang akan diganti, dan string pengganti.
 
@@ -185,7 +186,7 @@ int main() {
 }
 ```
 
-## 2.6 | `.erase()`
+## 2.6. `.erase()`
 
 Fungsi ini digunakan untuk menghapus sebagian karakter dari string. Argumennya adalah posisi awal dan jumlah karakter yang akan dihapus.
 
@@ -206,7 +207,7 @@ int main() {
 }
 ```
 
-## 2.7 | `std::getline()`
+## 2.7. `std::getline()`
 
 Fungsi `std::getline()` digunakan untuk membaca satu baris teks dari _input stream_ (seperti `cin` atau dari file) hingga ditemukan karakter baris baru (`\n`). Ini sangat berguna untuk membaca input yang mengandung spasi, di mana `std::cin >>` saja akan berhenti pada spasi pertama.
 
@@ -228,7 +229,7 @@ int main() {
 }
 ```
 
-## 2.8 | `.compare()`
+## 2.8. `.compare()`
 
 Fungsi `.compare()` membandingkan dua string. Fungsi ini mengembalikan:
 
@@ -263,7 +264,7 @@ int main() {
 }
 ```
 
-## 2.9 | `.c_str()`
+## 2.9. `.c_str()`
 
 Fungsi `.c_str()` digunakan untuk mendapatkan representasi C-style dari string, yaitu sebuah _pointer_ ke array karakter (`const char*`). Ini sering diperlukan saat kamu perlu berinteraksi dengan pustaka C atau fungsi-fungsi C++ yang hanya menerima `const char*` sebagai argumen.
 
@@ -290,7 +291,7 @@ int main() {
 
 <br/>
 
-## 2.10 | `.insert()`
+## 2.10. `.insert()`
 
 Fungsi ini memiliki beberapa versi (_overloads_), tetapi kegunaan utamanya adalah untuk menambahkan data ke dalam string yang sudah ada.
 
@@ -320,7 +321,7 @@ int main() {
 Dalam contoh di atas, kita menyisipkan string `"dan "` pada posisi kelima (`kalimat[5]`) dari string `"Saya belajar C++."`.
 
 
-## 2.11 | `.empty()` dan `.clear()`
+## 2.11. `.empty()` dan `.clear()`
 
 - **`.empty()`**: Memeriksa apakah string kosong (tidak ada karakter). Ini lebih efisien daripada memeriksa `s.size() == 0`.
 	
@@ -345,7 +346,7 @@ int main() {
 }
 ```
 
-## 2.12 | `.at()`
+## 2.12. `.at()`
 
 - Mengakses karakter pada posisi tertentu. Jika indeks di luar batas, fungsi ini akan melempar `std::out_of_range` _exception_, yang membuatnya lebih aman daripada `[]` (operator _subscript_).
 
@@ -367,7 +368,7 @@ int main() {
 }
 ```
 
-## 2.13 |`.append()`
+## 2.13. `.append()`
 
 - Mirip dengan `+=`, tetapi lebih fleksibel. Fungsi ini bisa menambahkan string, sebagian dari string, atau sejumlah karakter.
 
@@ -391,7 +392,7 @@ int main() {
 ```
 
 
-## 2.14 | `string::operator[]`
+## 2.14. `string::operator[]`
 
 Fungsi ini digunakan untuk mengakses karakter pada posisi tertentu dalam string. Berbeda dengan `.at()`, `operator[]` tidak melakukan pengecekan batas (_bounds checking_). Ini berarti, jika Anda mengakses indeks yang tidak valid, program Anda bisa mengalami _undefined behavior_, seperti _crash_. Kelebihannya, `operator[]` umumnya lebih cepat.
 
@@ -416,7 +417,7 @@ int main() {
 ```
 
 
-## 2.15 | `string::assign()`
+## 2.15. `string::assign()`
 
 Fungsi ini digunakan untuk mengganti isi string dengan string atau karakter baru. Mirip dengan operator $=$, tetapi `assign()` memiliki beberapa versi yang lebih fleksibel.
 
@@ -442,7 +443,7 @@ int main() {
 }
 ```
 
-## 2.16 | `string::push_back()` dan `string::pop_back()`
+## 2.16. `string::push_back()` dan `string::pop_back()`
 
 Fungsi `push_back()` ini digunakan untuk menambahkan satu karakter ke akhir string. Ini adalah cara yang sangat efisien untuk membangun string karakter per karakter, misalnya dalam sebuah perulangan.
 
@@ -470,7 +471,7 @@ int main() {
 }
 ```
 
-## 2.17 | `.resize()`
+## 2.17. `.resize()`
 
 
 Fungsi `resize()` digunakan untuk mengubah jumlah karakter dalam sebuah string. Ada dua skenario utama saat menggunakan fungsi ini:
@@ -538,7 +539,7 @@ int main() {
 }
 ```
 
-## 2.18 | `capacity()` dan `shrink_to_fit()`
+## 2.18. `capacity()` dan `shrink_to_fit()`
 
 Kedua fungsi ini berkaitan dengan manajemen memori internal string.
 
@@ -571,7 +572,7 @@ int main() {
 ```
 
 Seperti yang Anda lihat dari contoh, meskipun `resize()` mengurangi jumlah karakter, `capacity()`-nya tidak langsung berubah. Hanya setelah `shrink_to_fit()` dipanggil, memori yang tidak terpakai dibebaskan.
-## 2.19 | `front()` dan `back()`
+## 2.19. `front()` dan `back()`
 
 Fungsi ini adalah cara yang sangat ringkas untuk mengakses karakter **pertama** dan **terakhir** dari sebuah string.
 
@@ -598,7 +599,7 @@ int main() {
 }
 ```
 
-## 2.20 | `find_first_of()`
+## 2.20. `find_first_of()`
 
 Fungsi **`find_first_of`** adalah member function dari kelas `std::string` yang digunakan untuk mencari **kemunculan pertama** dari salah satu karakter yang terdapat dalam sebuah himpunan karakter tertentu. Dengan kata lain, fungsi ini akan memindai string dan mengembalikan posisi indeks dari karakter pertama yang cocok dengan salah satu karakter pada parameter pencarian.
 
@@ -650,7 +651,7 @@ int main() {
 
 Fungsi `find_first_of` sangat berguna untuk menemukan karakter pertama dari suatu kelompok karakter dalam string, seperti mencari huruf vokal, tanda baca, atau karakter khusus tertentu. Dibandingkan penggunaan pencarian manual dengan perulangan, fungsi ini lebih ringkas, mudah dibaca, dan memanfaatkan kemampuan bawaan dari kelas `std::string`.
 
-## 2.21 | `find_last_of()` 
+## 2.21. `find_last_of()` 
 
 Fungsi **`find_last_of`** adalah member function dari kelas `std::string` yang digunakan untuk mencari **kemunculan terakhir** dari salah satu karakter yang terdapat dalam sebuah himpunan karakter tertentu. Dengan kata lain, fungsi ini akan memindai string dari akhir menuju awal dan mengembalikan posisi indeks karakter terakhir yang cocok dengan salah satu karakter pada parameter pencarian.
 
@@ -702,7 +703,7 @@ int main() {
 
 Fungsi `find_last_of` sangat bermanfaat untuk menemukan kemunculan terakhir dari suatu kelompok karakter dalam string. Fungsi ini sering dipakai untuk keperluan seperti mencari ekstensi file (dengan mencari titik terakhir `.`), mencari direktori terakhir dalam sebuah path, atau mengidentifikasi karakter khusus yang muncul paling akhir pada sebuah string.
 
-## 2.22 | `find_first_not_of()`
+## 2.22. `find_first_not_of()`
 
 
 Fungsi **`find_first_not_of`** adalah member function dari kelas `std::string` yang digunakan untuk mencari **kemunculan pertama dari karakter yang *tidak termasuk* dalam himpunan karakter tertentu**. Dengan kata lain, fungsi ini memindai string dari kiri ke kanan, lalu mengembalikan indeks dari karakter pertama yang tidak cocok dengan salah satu karakter pada parameter pencarian.
@@ -756,7 +757,7 @@ int main() {
 
 Fungsi `find_first_not_of` sangat berguna untuk **melewati bagian awal string** yang berisi karakter-karakter tertentu, misalnya spasi, tanda baca, atau simbol khusus. Fungsi ini sering digunakan pada proses parsing teks, trimming spasi di depan string, atau validasi input dengan cepat.
 
-## 2.22 | `find_last_not_of`
+## 2.22. `find_last_not_of`
 
 
 Fungsi **`find_last_not_of`** adalah member function dari kelas `std::string` yang digunakan untuk mencari **kemunculan terakhir dari karakter yang *tidak termasuk* dalam himpunan karakter tertentu**. Artinya, fungsi ini memindai string dari kanan ke kiri, lalu mengembalikan indeks dari karakter terakhir yang tidak cocok dengan salah satu karakter pada parameter pencarian.
@@ -810,7 +811,7 @@ int main() {
 
 Fungsi `find_last_not_of` sangat berguna untuk **mengabaikan bagian akhir string** yang berisi karakter tertentu, misalnya spasi, tanda baca, atau simbol khusus. Fungsi ini umum digunakan untuk melakukan trimming spasi di belakang string, memproses nama file dengan menghapus karakter tambahan di ujung, atau validasi input dari sisi kanan string.
 
-## 2.23 | `max_size()`
+## 2.23. `max_size()`
 
 Fungsi **`max_size()`** adalah member function dari kelas `std::string` yang digunakan untuk mengetahui **jumlah maksimum karakter** yang dapat ditampung oleh suatu objek string. Nilai yang dikembalikan bukan ukuran aktual string, melainkan batas teoritis yang ditentukan oleh implementasi library standar dan keterbatasan sistem (misalnya memori yang tersedia dan batasan `size_t`).
 
@@ -855,7 +856,7 @@ Ukuran maksimum string: 9223372036854775807
 
 Fungsi `max_size()` tidak digunakan untuk kebutuhan sehari-hari seperti manipulasi string kecil, tetapi penting dalam konteks **pengendalian memori** dan **keamanan program**, misalnya untuk mencegah percobaan alokasi string dalam ukuran yang tidak mungkin dipenuhi oleh sistem.
 
-## 2.24 |  `reverse()`
+## 2.24.  `reverse()`
 
 
 Perlu diketahui bahwa **`std::string` tidak memiliki member function bernama `reverse()`**.
@@ -895,7 +896,7 @@ int main() {
 Walaupun `std::string` tidak memiliki fungsi `reverse()` sebagai member, kita bisa membalik string dengan memanfaatkan fungsi `std::reverse()` dari `<algorithm>`. Hal ini dimungkinkan karena string mendukung iterator bidirectional, sehingga dapat diperlakukan seperti container lain dalam C++ STL.
 
 
-## 2.25 | `copy()` pada `std::string`
+## 2.25. `copy()` pada `std::string`
 
 
 Fungsi **`copy()`** adalah member function dari kelas `std::string` yang digunakan untuk menyalin sejumlah karakter dari string ke sebuah array karakter (C-string). Berbeda dengan `c_str()` atau `data()` yang memberikan pointer ke buffer internal string, fungsi `copy()` benar-benar menyalin karakter ke buffer eksternal yang disediakan pengguna.
@@ -937,7 +938,7 @@ int main() {
 
 Fungsi `copy()` berguna ketika kita perlu **menyalin sebagian isi string ke buffer C-style** untuk kompatibilitas dengan kode lama atau API yang masih menggunakan C-string. Karena tidak menambahkan null-terminator secara otomatis, programmer harus berhati-hati untuk menambahkannya jika buffer ingin diperlakukan sebagai string C.
 
-## 2.26 | `get_allocator()` pada `std::string`
+## 2.26. `get_allocator()` pada `std::string`
 
 Fungsi **`get_allocator()`** adalah member function dari kelas `std::string` yang digunakan untuk **mengambil objek allocator** yang dipakai oleh string. Allocator adalah mekanisme dalam C++ yang bertanggung jawab atas pengelolaan memori dinamis untuk container STL, termasuk `std::string`.
 
@@ -1000,10 +1001,10 @@ Fungsi `get_allocator()` memungkinkan kita **mengakses dan memanfaatkan allocato
 <br/>
 
 ---
-# 3 | Fungsi-fungsi Dari cppreference
-## 3.1 | Functions dan Comparison
+# 3. Fungsi-fungsi Dari cppreference
+## 3.1. Functions dan Comparison
 
-### 3.1.1 | Operator `+`
+### 3.1.1. Operator `+`
 
 **`operator+`** digunakan untuk menggabungkan (menggabungkan) string. Ini dapat menggabungkan dua `std::string`, `std::string` dengan literal C-style, atau `std::string` dengan sebuah karakter. Operasi ini membuat string baru dan tidak memodifikasi string aslinya.
 
@@ -1028,7 +1029,7 @@ int main() {
 }
 ```
 
-### 3.1.2 | Perbandingan Leksikografis (Comparison)
+### 3.1.2. Perbandingan Leksikografis (Comparison)
 
 Operator perbandingan \==, `!=`, `<`, `>`, `<=`, `>=` digunakan untuk membandingkan dua string secara leksikografis, artinya berdasarkan urutan alfabet (seperti yang ada di kamus). Perbandingan ini peka terhadap huruf besar dan kecil.
 
@@ -1062,7 +1063,7 @@ int main() {
 }
 ```
 
-### 3.1.3 | `std::swap`
+### 3.1.3. `std::swap`
 
 `std::swap(basic_string)` adalah fungsi khusus yang menukar isi dua objek `std::string` dengan sangat efisien. Alih-alih menyalin data karakter, fungsi ini hanya menukar _pointer_ internal dan data ukuran, yang jauh lebih cepat, terutama untuk string yang besar.
 
@@ -1090,7 +1091,7 @@ int main() {
 }
 ```
 
-### 3.1.4 | `erase` dan `erase_if`
+### 3.1.4. `erase` dan `erase_if`
 
 - **`erase`** menghapus karakter dari string pada posisi dan jumlah karakter tertentu.
     
@@ -1122,9 +1123,9 @@ int main() {
 }
 ```
 
-## 3.2 | Input Output
+## 3.2. Input Output
 
-### 3.2.1 | `operator<<` dan `operator>>`
+### 3.2.1. `operator<<` dan `operator>>`
 
   * **`operator<<`** digunakan untuk mengirimkan data, seperti string, ke *output stream*, seperti `std::cout` atau file. Ini adalah cara standar untuk mencetak string ke konsol.
   * **`operator>>`** digunakan untuk mengambil data dari *input stream*, seperti `std::cin`. **Penting untuk diingat**, operator ini berhenti membaca saat bertemu spasi, tab, atau karakter baris baru. Ini artinya hanya membaca satu "kata" saja.
@@ -1153,7 +1154,7 @@ int main() {
 ```
 
 
-### 3.2.2 | `std::getline()`
+### 3.2.2. `std::getline()`
 
 **`std::getline()`** adalah fungsi yang digunakan untuk membaca seluruh baris dari *input stream* (seperti `cin` atau dari file) hingga ditemukan karakter baris baru (`\n`). Ini adalah solusi yang tepat untuk membaca kalimat yang mengandung spasi, karena `operator>>` akan berhenti di spasi.
 
@@ -1175,15 +1176,15 @@ int main() {
 }
 ```
 
-## 3.3 | Conversion
+## 3.3. Conversion
 
 Tentu, mari kita lanjutkan dengan penjelasan dan contoh untuk fungsi-fungsi konversi numerik yang sangat berguna dari `<string>`. Fungsi-fungsi ini mempermudah proses mengubah string menjadi angka dan sebaliknya, yang merupakan tugas umum dalam pemrograman.
 
-### 3.3.1 | Konversi String ke Angka (String to Number)
+### 3.3.1. Konversi String ke Angka (String to Number)
 
 Fungsi-fungsi ini memungkinkan kamu untuk mengonversi string yang berisi representasi numerik menjadi tipe data angka yang sesuai. Semua fungsi ini diperkenalkan di C++11, sehingga membutuhkan kompiler yang mendukung standar tersebut.
 
-#### 3.3.1.1 | `stoi`, `stol`, `stoll`
+#### 3.3.1.1. `stoi`, `stol`, `stoll`
 
 Fungsi ini mengonversi string menjadi **bilangan bulat bertanda** (`signed integer`).
 
@@ -1213,7 +1214,7 @@ int main() {
 }
 ```
 
-#### 3.3.1.2 | `stoul`, `stoull`
+#### 3.3.1.2. `stoul`, `stoull`
 
 Fungsi ini mengonversi string menjadi **bilangan bulat tak bertanda** (`unsigned integer`).
 
@@ -1238,7 +1239,7 @@ int main() {
 }
 ```
 
-#### 3.3.1.3 | `stof`, `stod`, `stold`
+#### 3.3.1.3. `stof`, `stod`, `stold`
 
 Fungsi ini mengonversi string menjadi **bilangan _floating-point_**.
 
@@ -1266,11 +1267,11 @@ int main() {
 ```
 
 
-### 3.3.2 | Konversi Angka ke String (Number to String)
+### 3.3.2. Konversi Angka ke String (Number to String)
 
 Fungsi-fungsi ini adalah kebalikan dari yang di atas, mengubah nilai numerik menjadi representasi string.
 
-#### 3.3.2.1 |  `to_string`
+#### 3.3.2.1. `to_string`
 
 Fungsi ini mengonversi nilai numerik apa pun (int, long, double, dll.) menjadi **`std::string`**. Ini sangat berguna untuk mencetak nilai numerik bersama dengan teks lainnya tanpa harus mengonversi secara manual.
 
@@ -1294,7 +1295,7 @@ int main() {
 }
 ```
 
-#### 3.3.2.2 | `to_wstring`
+#### 3.3.2.2. `to_wstring`
 
 Fungsi ini berfungsi sama seperti `to_string`, tetapi mengonversi nilai numerik menjadi **`std::wstring`**. `wstring` digunakan untuk menangani set karakter yang lebih luas, seperti Unicode, yang memerlukan lebih dari satu _byte_ per karakter.
 
@@ -1316,14 +1317,14 @@ int main() {
 }
 ```
 
-## 3.4 | Range Acces
+## 3.4. Range Acces
 
 Tentu, mari kita lanjutkan dengan penjelasan dan contoh untuk fungsi-fungsi akses rentang (_range access_) yang disediakan oleh `<string>`. Fungsi-fungsi ini penting untuk mengelola string dan memanfaatkannya dalam algoritma atau perulangan.
-### 3.4.1 | Akses Rentang (`Range Access`)
+### 3.4.1. Akses Rentang (`Range Access`)
 
 Fungsi-fungsi ini menyediakan cara untuk mendapatkan _iterator_ dan informasi dasar tentang string, memfasilitasi perulangan dan interaksi dengan algoritma pustaka standar.
 
-#### 3.4.1.1 | `begin` dan `end`
+#### 3.4.1.1. `begin` dan `end`
 
 - **`begin()`**: Mengembalikan _iterator_ ke karakter **pertama** dari string.
     
@@ -1356,9 +1357,9 @@ int main() {
 ```
 
 
-### 3.4.2 | Akses Rentang Terbalik (`Reverse Range Access`)
+### 3.4.2. Akses Rentang Terbalik (`Reverse Range Access`)
 
-#### 3.4.2.1 | `rbegin` dan `rend`
+#### 3.4.2.1. `rbegin` dan `rend`
 
 - **`rbegin()`**: Mengembalikan _reverse iterator_ ke karakter **terakhir** dari string. Ini adalah "awal" dari perulangan terbalik.
     
@@ -1385,9 +1386,9 @@ int main() {
 }
 ```
 
-### 3.4.3 | Informasi Ukuran dan Status
+### 3.4.3. Informasi Ukuran dan Status
 
-#### 3.4.3.1 | `size`, `ssize`, `empty`
+#### 3.4.3.1. `size`, `ssize`, `empty`
 
 - **`size()`**: Mengembalikan jumlah karakter dalam string sebagai tipe data `std::size_t` (tak bertanda).
     
@@ -1422,9 +1423,9 @@ int main() {
 }
 ```
 
-### 3.4.4 | Akses ke Data Internal
+### 3.4.4. Akses ke Data Internal
 
-#### 3.4.4.1 | `data`
+#### 3.4.4.1. `data`
 
 - **`data()`** (C++17): Mengembalikan _pointer_ (`char*`) ke array karakter yang mendasari string. Ini memungkinkan modifikasi langsung pada string jika tidak digunakan versi konstan. Ini berbeda dengan `c_str()` yang mengembalikan `const char*` dan tidak bisa dimodifikasi.
     
@@ -1452,11 +1453,11 @@ int main() {
 }
 ```
 
-## 3.5 | Literals
+## 3.5. Literals
 
 Ini bagian terakhir, yaitu tentang _string literals_. Fungsinya menyediakan cara yang lebih ringkas dan modern untuk membuat objek `std::string`.
 
-### 3.5.1 | `operator""s` (Sufiks `s`)
+### 3.5.1. `operator""s` (Sufiks `s`)
 
 **`operator""s`** adalah sufiks yang bisa kamu tambahkan di akhir literal string (seperti `"hello"`). Ketika sufiks ini digunakan, kompiler secara otomatis mengubah literal C-style (`const char*`) menjadi objek **`std::string`** yang lengkap. Ini diperkenalkan di C++14 dan sangat berguna untuk menghindari pengetikan `std::string()` atau `std::string("")`.
 

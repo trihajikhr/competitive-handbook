@@ -1,25 +1,26 @@
 ---
 obsidianUIMode: preview
-note_type: data structure theory
-id_algoritma: 04TH-DSSE-0001
-nama_algoritma: set data structure
-kategori_algoritma: data structure
+note_type: data structures theory
+nama_algoritma: set
+kategori_algoritma: data structures
 kesulitan: 🥉 easy
-time_complexity:
-memory_complexity:
 sumber: programiz.com
 date_learned: 2025-04-21T19:37:00
 tags:
-  - data-structure
   - set
+  - data-structures
 ---
+Link Sumber: [C++ Set (With Examples)](https://www.programiz.com/cpp-programming/set)
+
 ---
+> [!IMPORTANT]
+> 
 # C++ Set Data Structure  
-Set adalah container STL (Standard Template Library) yang menyimpan elemen-elemen unik dengan tipe yang sama secara terurut.
+Set adalah container STL (*Standard Template Library*) yang menyimpan elemen-elemen unik dengan tipe yang sama secara terurut.
 
 Karena setiap elemen dalam set memiliki nilai yang unik, nilai itu sendiri bertindak sebagai key untuk mengidentifikasi elemen tersebut.
 
-## Properti Set  
+## 1. Properti Set  
 Set di C++ memiliki properti berikut:
 
 1. **Elemen Unik**  
@@ -38,7 +39,7 @@ Set di C++ memiliki properti berikut:
     
     Ini berbeda dengan array, di mana elemen diakses menggunakan indeks.
 
-## Membuat Set  
+## 2. Membuat Set  
 Untuk menggunakan _set_ dalam C++, kita harus menyertakan file header `<set>` dalam program kita:
 
 ```cpp
@@ -76,7 +77,7 @@ std::set<int> my_set2;
 **Catatan:**  
 Selanjutnya, kita akan menggunakan _namespace_ `std`, jadi kita bisa menghilangkan `std::` dari sintaks kita.
 
-## Contoh 1: Membuat Set
+### 2.1. Membuat set
 
 ```cpp
 #include <iostream>
@@ -113,9 +114,7 @@ Kita **tidak bisa menggunakan operator `[]`** untuk menambahkan elemen ke dalam 
 my_set[4] = 4;
 ```
 
----
-
-### Mengurutkan Set dalam Urutan Menurun
+### 2.2. Mengurutkan set dalam urutan menurun
 
 Untuk mendapatkan elemen _set_ dalam urutan menurun (_descending_), kita bisa mengubah sintaks seperti berikut:
 
@@ -150,9 +149,7 @@ int main() {
 
 Seperti yang terlihat, elemen-elemen dalam _set_ kini dikembalikan dalam urutan menurun.
 
----
-
-## Method dalam C++ Set
+## 3. Method dalam C++ Set
 
 Kelas `set` di C++ menyediakan berbagai metode untuk melakukan operasi pada _set_.
 
@@ -165,10 +162,7 @@ Kelas `set` di C++ menyediakan berbagai metode untuk melakukan operasi pada _set
 | `size()`   | Mengembalikan jumlah elemen dalam set.                                                       |
 | `count(x)` | Mengecek, apakah nilai x ada didalam set. Mengembalikan 1 jika ada di set, dan 0 jika tidak. |
 |            |                                                                                              |
-
----
-
-## Contoh 2: Menambahkan Nilai ke Set
+### 3.1. Menambahkan nilai ke set
 
 ```cpp
 #include <iostream>     
@@ -206,7 +200,7 @@ Di sini, kita membuat _set_ kosong bernama `my_set` bertipe `int` dan menambahka
 
 Perhatikan bahwa elemen duplikat (50) diabaikan, dan _set_ tetap terurut naik meskipun urutan penambahannya berbeda.
 
-## Contoh 3: Mengecek Apakah Sebuah Elemen Ada dalam Set
+### 3.2. Mengecek apakah sebuah elemen ada dalam set
 
 ```cpp
 #include <iostream>     
@@ -258,9 +252,7 @@ Kita memeriksa apakah angka `40` dan `60` ada dalam _set_ menggunakan `my_set.co
 
 Metode `count(num)` akan mengembalikan `1` jika `num` ada dalam _set_, dan `0` jika tidak.
 
----
-
-## Contoh 4: Menghapus Elemen dari Set
+### 3.3. Menghapus elemen dari set
 
 ```cpp
 #include <iostream>     
@@ -312,9 +304,7 @@ Di sini, kita menggunakan metode `erase()` untuk menghapus elemen tertentu dari 
 
 Lalu kita menggunakan metode `clear()` untuk menghapus semua elemen dalam _set_.
 
----
-
-## Contoh 5: Metode `empty()` dan `size()` pada C++ Set
+### 3.4. Metode `empty()` dan `size()` pada C++ set
 
 Metode `empty()` dan `size()` disebut _capacity methods_ dalam C++.
 
@@ -390,7 +380,7 @@ Setelah menghapus:
     
 - `size()` mengembalikan `0`, menandakan tidak ada elemen dalam set.
 
-## Contoh 6: Metode `count()` untuk mengecek data ke Set
+### 3.5. Metode `count()` untuk mengecek data ke set
 Untuk mengetahui apakah elemen `x` ada dalam set di C++, Anda dapat menggunakan fungsi `count()` dari `std::set`. Syntaxnya adalah `set.count(x)`. Fungsi ini akan mengembalikan 1 jika `x` ada di set, dan 0 jika tidak.
 
 ```cpp

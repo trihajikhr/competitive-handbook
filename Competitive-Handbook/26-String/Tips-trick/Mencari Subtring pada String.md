@@ -1,18 +1,15 @@
 ---
 obsidianUIMode: preview
-note_type: Book Theory
-judul_materi: Mencari Subtring pada String
+note_type: book theory
+tips_trick: Mencari Subtring pada String
 sumber:
   - chatgpt.com
   - google.com
   - codeforces.com
-date_learned: 2025-09-09T20:37:00
 tags:
-  - string
+  - strings
   - tips-trick
 ---
-Link Sumber: 
-
 ---
 # 1 | Penggunaan `string::npos` dan `find`
 
@@ -20,9 +17,9 @@ Jika ada soal yang meminta kita menentukan, apakah pada string $a$ terdapat subs
 
 Amati soal Codeforces berikut: [96A - Football](https://codeforces.com/problemset/problem/96/A)
 
-Inti dari soal ini adalah menentukan, apakah ada karakter 0 atau 1 yang memiliki kemunculan berurutan sebanyak lebih atau sama dengan 7. Jika ada maka outputkan `YES`, jika tidak maka `NO`.
+Inti dari soal ini adalah menentukan, apakah ada karakter $0$ atau $1$ yang memiliki kemunculan berurutan sebanyak lebih atau sama dengan $7$. Jika ada maka outputkan `YES`, jika tidak maka `NO`.
 
-Solusinya mudah, kita cukup menerima inputan sebagai string, bukan sebagai bilangan bulat. Lalu jika semisal kita tidak menggunakan `find()` dan `string::npos`, mungkin kita akan melakukan perhitungan manual dengan cara seperti berikut (cara pertamaku haha...):
+Solusinya mudah, kita cukup menerima inputan sebagai string, bukan sebagai bilangan bulat. Lalu jika semisal kita tidak menggunakan `find()` dan `string::npos`, mungkin kita akan melakukan perhitungan manual dengan cara seperti berikut (*cara pertamaku haha...*):
 
 ```cpp
 #include <iostream>
@@ -53,15 +50,14 @@ auto main() -> int {
 }
 ```
 
-Solusi diatas cukup sederhana, mudah dilihat bagaimana alurnya bekerja. Baca string, lalu deklarasikan 2 variabel counter kemunculan angka 1 dan 0. Lakukan traversal, dan jika ada salah satu angka yang telah muncul 7 kali, outputkan `YES` dan hentikan program dengan `return 0;`. Jika hingga akhir tidak ada, maka outputkan `NO`.
+Solusi diatas cukup sederhana, mudah dilihat bagaimana alurnya bekerja. Baca string, lalu deklarasikan 2 variabel counter kemunculan angka $1$ dan $0$. Lakukan traversal, dan jika ada salah satu angka yang telah muncul 7 kali, outputkan `YES` dan hentikan program dengan `return 0;`. Jika hingga akhir tidak ada, maka outputkan `NO`.
 
 Tetapi, ada solusi yang lebih mudah, yaitu menggunakan fungsi `find()` dan `string::npos`.
 
 ## 1.1 | Penjelasan
 
-```ad-faq
-Apa itu `string::find`
-```
+> Apa itu `string::find`
+
 
 Fungsi `find()` adakah fungsi bawaan C++ didalam `std::string` yang digunakan untuk mencari substring didalam string. 
 
@@ -78,18 +74,17 @@ Katakanlah kita memiliki variabel string `s`, kita mencari apakah ada substring 
 
 - Tapi jika tidak, maka `find()` akan mengembalikan nilai khusus yang disebut `string::npos`.
 
-```ad-faq
-Apa itu `string::npos`?
-```
+
+> Apa itu `string::npos`?
 
 
 `npos` adalah konstanta bawaan dari `std::string`. Nilainya biasanya `size_t(-1)` (angka terbesar yang bisa ditampung `size_t`). Dipakai sebagai penanda **“tidak ditemukan”**.
 
 Karena `find` harus selalu mengembalikan nilai bertipe `size_t`, maka tidak bisa mengembalikan `-1` langsung. Jadi disediakanlah `string::npos` sebagai standar.
 
-```ad-faq
-Kenapa perlu dibandingkan dengan `string::npos`?
-```
+
+> Kenapa perlu dibandingkan dengan `string::npos`?
+
 
 Karena:
 
@@ -107,10 +102,7 @@ if (s.find("abc") != string::npos) {
 }
 ```
 
-```ad-faq
-Oke, jelaskan kenapa harus menggunakan `size_t`
-```
-
+> Oke, jelaskan kenapa harus menggunakan `size_t`
 
 `std::string::find` digunakan untuk mencari substring dalam sebuah string.
 
@@ -156,9 +148,6 @@ int main() {
 - Gunanya untuk bisa cek keberadaan substring dengan `if (s.find(...) != string::npos)`.
 - `size_t` -> Cocok digunakan untuk menyimpan data indeks, karena indeks tidak mungkin negatif.
 
-<br/>
-
----
 
 # 2 | Kode User Lain
 
@@ -178,7 +167,7 @@ int main(){
 }
 ```
 
-Ingat kembali bahwa ketika substring tidak ditemukan, maka akan mengembalikan `-1`. Semisal kedua substring di kondisional diatas tidak ditemukan, otomatis keduanya akan mengembalikan `-1`, yang ketika keduanya ditambahkan dengan 1, maka keduanya akan menjadi 0, atau menjadi false.
+Ingat kembali bahwa ketika substring tidak ditemukan, maka akan mengembalikan `string::npos`, yang mana secara nilai sama dengan `-1`. Semisal kedua substring di kondisional diatas tidak ditemukan, otomatis keduanya akan mengembalikan `-1`, yang ketika keduanya ditambahkan dengan $1$, maka keduanya akan menjadi $0$, atau menjadi false.
 
 Ketika false, maka outputkan `NO`, karena artinya tidak ditemukan.
 
@@ -235,12 +224,8 @@ int main() {
 }
 ```
 
-Kode ini hampir mirip seperti kode pertamaku, tapi disini digunakan hanya satu variabel counter, alih-alih 2. Cara yang digunakan disini adalah mengecek apakah karakter $s[i]==s[i-1]$. Jika iya, maka ada sepasang angka yang sama yang berjejeran. Dan jika ditemukan ada 6 pasang angka berturut-turut dengan digit yang sama, maka outputkan `YES`, karena artinya substring 1111111 atau 0000000 ada pada string.
+Kode ini hampir mirip seperti kode pertamaku, tapi disini digunakan hanya satu variabel counter, alih-alih dua. Cara yang digunakan disini adalah mengecek apakah karakter $s[i]==s[i-1]$. Jika iya, maka ada sepasang angka yang sama yang berjejeran. Dan jika ditemukan ada enam pasang angka berturut-turut dengan digit yang sama, maka outputkan `YES`, karena artinya substring $1111111$ atau $0000000$ ada pada string.
 
-
-<br/>
-
----
 # 3 | Kode Alternatif
 
 ```ad-warning
@@ -285,9 +270,8 @@ int main() {
 }
 ```
 
-- ✅ Kelebihan: powerful (bisa ekspresi pola kompleks).
-    
-- ❌ Kekurangan: lambat, tidak efisien untuk CP.
+- Kelebihan: powerful (bisa menangani ekspresi pola kompleks).
+- Kekurangan: lambat, tidak efisien untuk CP.
 
 ## 3.3 | Manual loop + counter
 
@@ -319,8 +303,8 @@ int main() {
 }
 ```
 
-- ✅ Kelebihan: cepat, O(n), aman untuk kontes.
-- ❌ Kekurangan: lebih panjang daripada `find`/`contains`.
+- Kelebihan: cepat, $O(n)$, aman untuk kontes.
+- Kekurangan: lebih panjang daripada `find`/`contains`.
 ## 3.4 | Fungsi C klasik (`strstr`)
 
 ```cpp
@@ -339,8 +323,8 @@ int main() {
 }
 ```
 
-- ✅ Singkat.
-- ❌ Gaya C, kurang idiomatik C++.
+- Singkat.
+- Gaya C, kurang idiomatik C++.
 
 ## 3.5 | Algoritma STL (`search`)
 
@@ -364,10 +348,10 @@ int main() {
 }
 ```
 
-- ✅ STL murni, lebih “algorithmic”.
-- ❌ Agak verbose.
+- STL murni, lebih “algorithmic”.
+- Agak verbose.
 
-## 3.6 | Jadi, pilihan terbaik buat CP:
+## 3.6 | Jadi, pilihan terbaik buat CP
 
 - Paling singkat → `find` / `contains`.
 - Paling cepat & fleksibel → manual loop.

@@ -13,6 +13,7 @@ Sumber: [Problem - 584A - Codeforces](https://codeforces.com/problemset/problem/
 
 ```ad-tip
 title:🛡️ Review Death Ground
+Ingat! Jika angka yang diberikan terlalu besar untuk ditampung dalam int dan long long, artinya gunakan saja string sebagai penampung, atau andalkan output sebagai mekanismenya.
 ```
 
 <br/>

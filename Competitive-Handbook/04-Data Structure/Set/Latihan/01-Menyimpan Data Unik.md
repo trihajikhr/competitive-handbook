@@ -5,31 +5,22 @@ latihan: Menyimpan Data Unik
 sumber: chatgpt.com
 tags:
   - set
-  - data-structure
+  - data-structures
 date_learned: 2025-06-20T20:43:00
 ---
 ---
-Mantap! Kita mulai latihan `std::set` dari soal pertama. Fokus latihan ini adalah membiasakan diri dengan fungsi `insert()` dan bagaimana `set` menjaga keunikan dan urutan elemen.
+# 1. Menyimpan Data Unik
 
----
-
-# 🧩 Latihan 1 — Menyimpan Data Unik
-
-**Deskripsi Soal:**
-
-Diberikan sebuah array bilangan bulat dengan beberapa elemen yang mungkin **duplikat**. Tugasmu adalah mencetak elemen-elemen yang berbeda (unik) dalam urutan menaik, **menggunakan `std::set` dan fungsi `insert()`**.
+Diberikan sebuah array bilangan bulat dengan beberapa elemen yang mungkin duplikat. Tugasmu adalah mencetak elemen-elemen yang berbeda (unik) dalam urutan menaik, menggunakan `std::set` dan fungsi `insert()`.
 
 **Input Format:**
 
-- Baris pertama: sebuah bilangan bulat `n` (1 ≤ n ≤ 100), menyatakan jumlah elemen dalam array.
-    
+- Baris pertama: sebuah bilangan bulat `n` $(1 ≤ n ≤ 100)$, menyatakan jumlah elemen dalam array.
 - Baris kedua: `n` buah bilangan bulat, dipisahkan dengan spasi.
-    
 
 **Output Format:**
 
 - Cetak elemen-elemen unik dalam urutan menaik, dipisahkan dengan spasi.
-    
 
 **Contoh Input:**
 
@@ -44,22 +35,16 @@ Diberikan sebuah array bilangan bulat dengan beberapa elemen yang mungkin **dupl
 1 2 3 4 5
 ```
 
----
 
 **Catatan Panduan:**
 
 - Gunakan `std::set<int> s;` untuk menyimpan elemen.
-    
 - Sisipkan setiap elemen dari array ke dalam `s` dengan `insert()`.
-    
 - Lalu cetak seluruh isi `s`.
-    
 
 ---
+# 2. Jawaban
 
-Jika sudah selesai, kirimkan kode kamu atau cukup bilang "lanjut ke soal 2", maka aku akan berikan soal berikutnya yang memperkenalkan fungsi `find()`. Semangat! 💪
-
-## Jawabanku
 Berikut adalah kode program untuk jawabanku:
 
 ```cpp
@@ -92,11 +77,11 @@ int main() {
 }
 ```
 
-# Editorial
 
-## Editorial Soal 1: Menyimpan Data Unik dengan `std::set`
+---
+# 3. Editorial
 
-### 1. Pembacaan Input
+## 3.1. Pembacaan Input
 
 ```cpp
 int n; 
@@ -110,9 +95,8 @@ for (auto &x : input) {
 - **Fungsi**: Membaca jumlah elemen `n` dan kemudian membaca `n` bilangan bulat ke dalam `vector<int> input`.
     
 - **Catatan**: Penggunaan `auto& x` di loop memastikan kita membaca langsung ke elemen vector tanpa copy tambahan.
-    
 
-### 2. Penyimpanan Unik dengan `std::set`
+## 3.2. Penyimpanan Unik dengan `std::set`
 
 ```cpp
 set<int> rest;
@@ -127,10 +111,10 @@ for (int i = 0; i < n; i++) {
         
     - `set` juga otomatis menyimpan elemen dalam urutan terurut (menaik secara default), sehingga kita tidak perlu sorting terpisah.
         
-- **Kompleksitas**: Setiap `insert()` memerlukan O(log k), di mana k adalah jumlah elemen di dalam `set` saat itu. Total untuk n elemen adalah O(n log n).
+- **Kompleksitas**: Setiap `insert()` memerlukan $O(log k)$, di mana $k$ adalah jumlah elemen di dalam `set` saat itu. Total untuk $n$ elemen adalah $O(n log n)$.
     
 
-### 3. Pencetakan Hasil
+## 3.3. Pencetakan Hasil
 
 ```cpp
 for (const auto &x : rest) {
@@ -139,11 +123,9 @@ for (const auto &x : rest) {
 ```
 
 - **Iterator-based loop**: Dengan range-based for, iterasi terjadi dari awal hingga akhir `set`, mencetak elemen yang sudah terurut.
-    
 - **Hasil**: Elemen-elemen unik dicetak dalam urutan menaik.
-    
 
-### 4. Optimasi I/O
+## 3.4. Optimasi I/O
 
 ```cpp
 ios::sync_with_stdio(false);
@@ -151,13 +133,10 @@ cin.tie(nullptr);
 ```
 
 - **Tujuan**: Mempercepat operasi input/output dengan memisahkan sinkronisasi C++ stream dengan C stdio.
-    
-- **Manfaat**: Penting bila n cukup besar, karena mempercepat pembacaan dan penulisan data.
-    
+- **Manfaat**: Penting bila $n$ cukup besar, karena mempercepat pembacaan dan penulisan data.
 
----
 
-### Potential Improvements / Catatan Tambahan
+## 3.5 Potential Improvements / Catatan Tambahan
 
 1. **Penggabungan Loop**  
     Kamu dapat langsung memasukkan input ke dalam `set` tanpa `vector` perantara:
@@ -192,17 +171,28 @@ cin.tie(nullptr);
     ```
     
     Pada tipe primitif seperti `int`, perbedaan performa minimal.
-    
 
 ---
+# 4. Pengulangan Latihan
+Berikut adalah jawaban yang lebih pendek dan lebih langsung:
 
-Kamu sudah memahami konsep utama:
+```cpp
+#include<iostream>
+#include<set>
+using namespace std;
 
-- **Bagaimana `set` menjaga keunikan**
-    
-- **Mengapa tidak perlu `sort()` terpisah**
-    
-- **Kompleksitas O(n log n)**
-    
+auto main() -> int {
+    set<int> data;
 
-Jika sudah jelas, kita lanjut ke **Soal 2**! 🚀
+    int n; cin >> n;
+    for (int i=0, x; i<n; i++) {
+        cin >> x;
+        data.insert(x);
+    }
+
+    for (const auto& x : data) {
+        cout << x << " ";
+    }
+    return 0;
+}
+```

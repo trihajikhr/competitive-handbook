@@ -8,49 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6ffc19c1865a42c1",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "!Important Notes/My Task.md",
-                "mode": "preview",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "My Task"
-            }
-          },
-          {
-            "id": "c6216e28d068d59b",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Codeforces-Death Ground/Soal 1000.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Soal 1000"
-            }
-          },
-          {
-            "id": "096b2c50a55ff2c1",
+            "id": "71289c3b3a207583",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Codeforces-Death Ground/1000/584A-Olesya and Rodion.md",
+                "file": "21-Number Theory/Math Fun Fact.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "584A-Olesya and Rodion"
+              "title": "Math Fun Fact"
+            }
+          },
+          {
+            "id": "da8a7052a055f45c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "26-String/Tips-trick/String Fun Fact.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "String Fun Fact"
             }
           }
         ],
@@ -120,7 +102,7 @@
       {
         "id": "8db22185f832f694",
         "type": "tabs",
-        "dimension": 28.57142857142857,
+        "dimension": 51.76252319109462,
         "children": [
           {
             "id": "ddbc58e96e17e8dc",
@@ -128,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04-Data Structure/D-Queue/01-Queue Data Structure (geeksforgeeks.org).md",
+                "file": "04-Data Structure/L-Tuple/01-Latihan/14-Liga Programmer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 01-Queue Data Structure (geeksforgeeks.org)"
+              "title": "Backlinks for 14-Liga Programmer"
             }
           },
           {
@@ -170,23 +152,13 @@
             }
           },
           {
-            "id": "406e6c1b3ee859cd",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
             "id": "085bcb1cec5430c0",
             "type": "leaf",
             "state": {
               "type": "tags-overview-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "tags-overview-view"
+              "icon": "tag",
+              "title": "Tags overview"
             }
           },
           {
@@ -208,14 +180,51 @@
               "icon": "lucide-ghost",
               "title": "aHR0cHM6Ly9jaGF0Z3B0LmNvbS8="
             }
+          },
+          {
+            "id": "c4e7d3fe6d0e993a",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "26-String/Tips-trick/String Fun Fact.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "tag:#tuple  ",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": true,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.1846232622585815,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of String Fun Fact"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       },
       {
         "id": "7cf76667223e7faa",
         "type": "tabs",
-        "dimension": 71.42857142857143,
+        "dimension": 48.237476808905384,
         "children": [
           {
             "id": "b926b8ed78989612",
@@ -223,21 +232,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Codeforces-Death Ground/Soal 900.md",
+                "file": "26-String/Tips-trick/String Fun Fact.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Soal 900"
+              "title": "Outline of String Fun Fact"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 386.5,
-    "collapsed": true
+    "width": 411.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -245,8 +253,8 @@
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "graph:Open graph view": false,
       "templates:Insert template": false,
+      "graph:Open graph view": false,
       "command-palette:Open command palette": false,
       "tags-overview:Tags overview": false,
       "open-gate:ChatGPT": false,
@@ -256,34 +264,41 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "c6216e28d068d59b",
+  "active": "04554e08cc1bd94b",
   "lastOpenFiles": [
-    "Codeforces-Death Ground/1000/584A-Olesya and Rodion.md",
-    "Codeforces-Death Ground/1000/379A-New Year Candles.md",
-    "Codeforces-Death Ground/Soal 1000.md",
-    "Codeforces-Death Ground/1000/1374C-Move Brackets.md",
-    "Codeforces-Death Ground/1000/500A-New Year Transportation.md",
-    "!Important Notes/Untitled.md",
-    "Codeforces-Death Ground/1000/579A-Raising Bacteria.md",
-    "Codeforces-Death Ground/1000/43A-Football.md",
-    "Codeforces-Death Ground/1000/479A-Expression.md",
-    "Codeforces-Death Ground/1000/339B-Xenia and Ringroad.md",
-    "Codeforces-Death Ground/1000/230A-Dragons.md",
-    "Codeforces-Death Ground/1000/131A-cAPS lOCK.md",
-    "Codeforces-Death Ground/1000/122A-Lucky Division.md",
-    "Codeforces-Death Ground/1000/118A-String Task.md",
-    "Codeforces-Death Ground/1000/69A-Young Physicist.md",
-    "Codeforces-Death Ground/1000/58A-Chat room.md",
-    "Codeforces-Death Ground/1000/1A-Theatre Square.md",
-    "Z Templater/Kilat.md",
-    "Z Templater/Metode DEATH.md",
-    "!Important Notes/My Task.md",
-    "Codeforces-Death Ground/Soal 900.md",
-    "EEP & IEP Program/EEP - Efficiency Enhancement Program.md",
-    "EEP & IEP Program/EEP Program/Rencana Harian.md",
-    "Metode Belajar/Metode Belajar Fondasi Utama.md",
-    "Metode Belajar/Metode Belajar BLACK BOX.md",
-    "Metode Belajar/Metode Belajar Lainya.md",
+    "26-String/Tips-trick/Parsing String dengan sstream.md",
+    "26-String/Tips-trick/Mencari Subtring pada String.md",
+    "26-String/Tips-trick/Mencari dan Mengganti Substring pada String.md",
+    "26-String/Tips-trick/Konversi Karakter Huruf.md",
+    "26-String/Tips-trick/Hitung Karakter dengan Fungsi Count().md",
+    "26-String/Book Theory/Pengertian Lexicographical.md",
+    "Rating Task Hunter/800.md",
+    "C++ Standard Library/include - utility/Header utility di C++.md",
+    "C++ Standard Library/include - string/Header string di C++.md",
+    "C++ Standard Library/include - sstream/Header sstream di C++.md",
+    "C++ Standard Library/include - regex/Header regex di C++.md",
+    "C++ Standard Library/include - iomanip/Header iomanip di C++.md",
+    "C++ Standard Library/include - cctype/Header cctype di C++.md",
+    "04-Data Structure/Set/Set di C++ - Panduan Komprehensif untuk Koleksi Unik dan Terurut.md",
+    "04-Data Structure/I-Set/Untitled",
+    "04-Data Structure/Set/Set (programiz).md",
+    "04-Data Structure/Set/Latihan/02-Apakah Angka Ini Ada.md",
+    "04-Data Structure/Set/Latihan/01-Menyimpan Data Unik.md",
+    "Z Templater/Latihan.md",
+    "04-Data Structure/Set/Tutorial Set (Geeks).md",
+    "Z Templater/Algoritma.md",
+    "Z Templater/Materi.md",
+    "C++ Standard Library/include - iomanip",
+    "26-String/Tips-trick/String Fun Fact.md",
+    "C++ Standard Library/include - utility/Analisis Komprehensif Arsitektur dan Implementasi Header utility.md",
+    "Tips Trick/Vector Integer ke Vector String.md",
+    "C++ Standard Library/include - utility",
+    "Tips Trick/Static Constructor - Leetcode trick.md",
+    "Tips Trick/Konversi Tipe data di C++.md",
+    "Tips Trick/keyboard-shortcuts-windows.pdf",
+    "26-String/Book Theory",
+    "C++ Standard Library/include - cctype",
+    "Rating Task Hunter",
     "CP-Algorithm Site/01-Basic Geometry-1.png",
     "CP-Algorithm Site/01-Basic Geometry-4.png",
     "CP-Algorithm Site/01-Basic Geometry-3.png",
@@ -294,13 +309,6 @@
     "LeetCode-Contest/Easy-level",
     "Pasted image 20251105214824.png",
     "CP-Algorithm Site/08-Geometry/01-Elementary operations",
-    "CP-Algorithm Site/08-Geometry",
-    "30-Sweep Line Algorithm",
-    "29-Geometry",
-    "28-Segment Trees Revisited",
-    "27-Square Root Algorithm",
-    "24-Probability",
-    "23-Matrices",
     "DELIBERATE PRACTICE/Untitled.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas",

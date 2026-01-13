@@ -1,6 +1,6 @@
 ---
 obsidianUIMode: preview
-note_type: Book Theory
+note_type: book theory
 judul_materi: Header sstream di C++
 sumber:
   - gemini.google.com
@@ -11,17 +11,17 @@ tags:
   - STL
   - strings
 ---
-Link Sumber: [Standard library header \<sstream\> - cppreference.com](https://en.cppreference.com/w/cpp/header/sstream.html)
+Link Sumber: [C++ sstream library](https://en.cppreference.com/w/cpp/header/sstream.html)
 
 ---
-# 1 | Header sstream di C++
+# 1. Header sstream di C++
 
-## 1.1 | Apa itu Header `<sstream>`?
+## 1.1. Apa itu Header `<sstream>`?
 
 Header `<sstream>` (singkatan dari **String Stream**) adalah bagian dari Standard Library C++ yang menyediakan kelas-kelas untuk melakukan operasi I/O (Input/Output) pada string.  Header ini memungkinkan Anda memperlakukan string seolah-olah mereka adalah **aliran data (stream)** seperti `std::cin` atau `std::cout`. Dengan kata lain, Anda bisa "menulis" data ke dalam sebuah string atau "membaca" data dari sebuah string menggunakan operator `<<` dan `>>`.
 
 Ini sangat berguna untuk **parsing** data dari string atau **memformat** data ke dalam string dengan cara yang familiar dan aman.
-## 1.2 | Kelas-Kelas Utama dalam `<sstream>`
+## 1.2. Kelas-Kelas Utama dalam `<sstream>`
 
 Ada tiga kelas utama yang harus Anda ketahui:
 
@@ -34,9 +34,9 @@ Ada tiga kelas utama yang harus Anda ketahui:
 <br/>
 
 ---
-# 2 | Contoh Penggunaan dan Kegunaan Setiap Kelas
+# 2. Contoh Penggunaan dan Kegunaan Setiap Kelas
 
-## 2.1 | Menggunakan `std::ostringstream` (Output Stream)
+## 2.1. Menggunakan `std::ostringstream` (Output Stream)
 
 **Kegunaan:** Membangun atau memformat sebuah string dari berbagai tipe data (angka, karakter, dll.) dengan mudah dan aman. Ini adalah alternatif yang lebih aman dan fleksibel daripada menggunakan C-style `sprintf`.
 
@@ -67,7 +67,7 @@ int main() {
 }
 ```
 
-## 2.2 | Menggunakan `std::istringstream` (Input Stream)
+## 2.2. Menggunakan `std::istringstream` (Input Stream)
 
 **Kegunaan:** Memecah-mecah atau mem-parsing string menjadi token-token (bagian-bagian) berdasarkan spasi atau karakter pemisah lainnya.
 
@@ -102,7 +102,7 @@ Kata yang dibaca: Orange
 Kata yang dibaca: Banana
 ```
 
-## 2.3 | Menggunakan `std::stringstream` (Input/Output Stream)
+## 2.3. Menggunakan `std::stringstream` (Input/Output Stream)
 
 **Kegunaan:** Gabungan dari keduanya. Paling sering digunakan ketika Anda perlu memanipulasi string yang sudah ada, seperti membaca data lalu menimpa sebagian darinya.
 
@@ -144,16 +144,16 @@ Dengan memahami ketiga kelas ini, Anda bisa bekerja dengan manipulasi string den
 
 ---
 
-# 3 | Fungsi Dalam `sstream`
+# 3. Fungsi Dalam `sstream`
 
-```ad-faq
-oke itu kelasnya, lalu bagaimaan dengan fungsi, apakah ada fungsi atau tidak? dan apakah hanya itu saja yang perlu aku ketahui tentang sstream sebagai awalan?
-```
+
+> Oke itu kelasnya, lalu bagaimaan dengan fungsi, apakah ada fungsi atau tidak? dan apakah hanya itu saja yang perlu aku ketahui tentang sstream sebagai awalan?
+
 
 Benar, header `<sstream>` juga memiliki fungsi, tetapi cara kerjanya berbeda dari header seperti `<regex>`. Alih-alih memiliki banyak fungsi global, fungsionalitas utama `<sstream>` justru terintegrasi sebagai **metode** di dalam kelas-kelasnya sendiri (`stringstream`, `ostringstream`, `istringstream`).
 
 Untuk pemula, selain memahami tiga kelas utama tersebut, Anda hanya perlu fokus pada **dua fungsi/metode kunci** yang paling sering digunakan, yaitu `str()` dan `clear()`.
-## 3.1 | Fungsi `str()`
+## 3.1. Fungsi `str()`
 
 **Fungsi:** Metode `str()` digunakan untuk **mengakses** string yang disimpan di dalam objek stream.
 
@@ -196,7 +196,7 @@ int main() {
 
 
 
-## 3.2 | Fungsi `clear()`
+## 3.2. Fungsi `clear()`
 
 **Fungsi:** Metode `clear()` digunakan untuk **mengatur ulang status error** dari stream.
 
@@ -209,7 +209,7 @@ Contoh: (Lanjutan dari contoh `str()`)
 Tanpa `iss.clear()` setelah `iss.str("50 60")`, pembacaan `iss >> c >> d;` akan gagal karena stream masih dalam kondisi *end-of-file* dari pembacaan sebelumnya.
 
 
-## 3.3 | Kesimpulan untuk Pemula
+## 3.3. Kesimpulan untuk Pemula
 
 Ya, untuk permulaan, cukup itu saja yang perlu Anda ketahui. Fokus pada:
 

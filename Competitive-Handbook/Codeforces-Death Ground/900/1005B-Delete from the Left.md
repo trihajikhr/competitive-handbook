@@ -1,6 +1,6 @@
 ---
 obsidianUIMode: preview
-note_type: Death Ground ☠️
+note_type: death ground ☠️
 kode_soal: 1005B
 judul_DEATH: Delete from the Left
 teori_DEATH:
@@ -137,6 +137,27 @@ auto main() -> int {
     return 0;
 }
 
+```
+
+Versi yang ditingkatkan:
+
+```cpp
+#include<iostream>
+using namespace std;
+#define le length()
+
+auto main() -> int {
+    string a, b;
+    int i = 0;
+    cin >> a >> b;
+    for (i=0; i<min(a.le, b.le); i++) {
+        if (a[a.le - i -1] != b[b.le - i - 1]) {
+            break;
+        }
+    }
+    cout << a.le + b.le - (2 * i);
+    return 0;
+}
 ```
 ## 3.3 | Analisis Jawaban User Lain
 

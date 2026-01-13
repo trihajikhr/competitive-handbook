@@ -1,6 +1,6 @@
 ---
 obsidianUIMode: preview
-note_type: Book Theory
+note_type: book theory
 judul_materi: Header regex di C++
 sumber:
   - google.com
@@ -8,24 +8,24 @@ sumber:
   - cppreference.com
 date_learned: 2025-09-19T15:09:00
 tags:
-  - STL
   - strings
+  - STL
 ---
-Link Sumber: [cppreference regex](https://en.cppreference.com/w/cpp/header/regex.html)
+Link Sumber: [C++ regex library](https://en.cppreference.com/w/cpp/header/regex.html)
 
 ---
-# 1 | Header regex di C++
+# 1. Header regex di C++
 
 Header `regex` di C++ adalah bagian dari Standard Library C++ yang menyediakan fungsionalitas untuk bekerja dengan **ekspresi reguler (regular expressions)**. Ini memungkinkan Anda mencari, mencocokkan, dan memanipulasi teks berdasarkan pola yang kompleks.
 
 Secara sederhana, `regex` adalah alat yang sangat kuat untuk menangani string.
 
-## 1.1 | Apa Itu Ekspresi Reguler (Regex)?
+## 1.1. Apa Itu Ekspresi Reguler (Regex)?
 
 Bayangkan Anda memiliki sebuah buku tebal dan ingin mencari semua nomor telepon, alamat email, atau tanggal lahir di dalamnya. Melakukan pencarian manual akan sangat melelahkan. Di sinilah **ekspresi reguler** atau **regex** berperan. Regex adalah bahasa mini untuk mendeskripsikan **pola teks**. Pola ini bisa sangat sederhana (misalnya, mencari semua kata yang diawali dengan huruf 's') hingga sangat kompleks (misalnya, memvalidasi format alamat IP).
 
 Header `<regex>` di C++ menyediakan alat-alat yang memungkinkan Anda untuk memanfaatkan kekuatan pola-pola ini dalam program Anda.
-## 1.2 | Komponen Utama Header `<regex>`
+## 1.2. Komponen Utama Header `<regex>`
 
 Ada tiga komponen utama yang perlu Anda pahami untuk menguasai `regex` di C++:
 
@@ -45,38 +45,31 @@ Ada tiga komponen utama yang perlu Anda pahami untuk menguasai `regex` di C++:
         
 
 
-```ad-hint
-Jika melihat ke dokumentasi C++ seperti di [cppreference.com](https://en.cppreference.com/w/cpp/header/regex.html), maka akan ada banyak komponen yang harus dikenali. Apakah perlu menguasai semuanya?
-
-Tenang, jangan bingung. Daftar panjang di cppreference.com itu adalah **semua** yang ada di dalam header `<regex>`, termasuk kelas dasar yang lebih teknis dan fungsi-fungsi pendukung. Sebagian besar dari itu adalah detail internal yang tidak perlu Anda pakai setiap hari.
-
-Untuk pemula, fokuslah pada **tiga fungsi utama** dan **dua kelas kunci** yang sudah saya jelaskan sebelumnya. Ini adalah inti dari header `regex` yang akan memenuhi 99% kebutuhan Anda.
-
-Anda hanya perlu fokus pada **lima komponen utama** ini:
-
-1. **`std::regex`**: Kelas untuk membuat pola ekspresi reguler.
-    
-2. **`std::smatch`**: Kelas untuk menyimpan hasil pencocokan.
-    
-3. **`std::regex_match()`**: Fungsi untuk memeriksa kecocokan **seluruh string**.
-    
-4. **`std::regex_search()`**: Fungsi untuk mencari kecocokan **pertama** di dalam string.
-    
-5. **`std::regex_replace()`**: Fungsi untuk mengganti kecocokan yang ditemukan.
-    
-
-Kuasi dulu lima hal itu, dan Anda sudah bisa menyelesaikan 99% tugas yang melibatkan `regex`. Elemen-elemen lain di dokumentasi adalah detail teknis yang akan Anda pelajari seiring dengan kebutuhan yang lebih kompleks.
-```
-
+> [!TIP]
+> Jika melihat ke dokumentasi C++ seperti di [cppreference.com](https://en.cppreference.com/w/cpp/header/regex.html), maka akan ada banyak komponen yang harus dikenali. Apakah perlu menguasai semuanya?
+>
+>Tenang, jangan bingung. Daftar panjang di cppreference.com itu adalah **semua** yang ada di dalam header `<regex>`, termasuk kelas dasar yang lebih teknis dan fungsi-fungsi pendukung. Sebagian besar dari itu adalah detail internal yang tidak perlu Anda pakai setiap hari.
+> 
+> Untuk pemula, fokuslah pada **tiga fungsi utama** dan **dua kelas kunci** yang sudah saya jelaskan sebelumnya. Ini adalah inti dari header `regex` yang akan memenuhi 99% kebutuhan Anda.
+>
+> Anda hanya perlu fokus pada **lima komponen utama** ini:
+>
+>1. **`std::regex`**: Kelas untuk membuat pola ekspresi reguler.
+>2. **`std::smatch`**: Kelas untuk menyimpan hasil pencocokan.
+>3. **`std::regex_match()`**: Fungsi untuk memeriksa kecocokan **seluruh string**.
+>4. **`std::regex_search()`**: Fungsi untuk mencari kecocokan **pertama** di dalam string.
+>5. **`std::regex_replace()`**: Fungsi untuk mengganti kecocokan yang ditemukan.
+>
+>Kuasi dulu lima hal itu, dan Anda sudah bisa menyelesaikan 99% tugas yang melibatkan `regex`. Elemen-elemen lain di dokumentasi adalah detail teknis yang akan Anda pelajari seiring dengan kebutuhan yang lebih kompleks.
 
 <br/>
 
 ---
-# 2 |  Contoh Penggunaan
+# 2. Contoh Penggunaan
 
 Lima komponen yang sudah kita diskusikan adalah fondasi utama untuk bekerja dengan `regex` di C++. Untuk pemula, fokus pada lima hal ini adalah pendekatan paling efektif karena mereka mencakup semua fungsionalitas dasar yang paling sering digunakan, tanpa perlu terjebak dalam detail teknis yang lebih dalam.
 
-## 2.1 | `std::regex`
+## 2.1. `std::regex`
 
 **Fungsi:** Objek `std::regex` adalah representasi dari pola ekspresi reguler Anda. Ini adalah langkah pertama: mendefinisikan apa yang ingin Anda cari.
 
@@ -89,7 +82,7 @@ Lima komponen yang sudah kita diskusikan adalah fondasi utama untuk bekerja deng
 regex pola_email("[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}");
 ```
 
-## 2.2 | `std::smatch`
+## 2.2. `std::smatch`
 
 **Fungsi:** `std::smatch` adalah tempat untuk menyimpan hasil pencocokan. Jika `regex` berhasil menemukan pola, detail dari temuan tersebut akan dimasukkan ke dalam objek ini.
 
@@ -105,7 +98,7 @@ if (regex_search(teks, hasil_cocok, pola)) {
 }
 ```
 
-## 2.3 | `std::regex_match()`
+## 2.3. `std::regex_match()`
 
 **Fungsi:** Fungsi ini memeriksa apakah **seluruh string** cocok persis dengan pola regex yang diberikan.
 
@@ -119,7 +112,7 @@ if (regex_match("https://www.google.com", pola_url)) {
 }
 ```
 
-## 2.4 | `std::regex_search()`
+## 2.4. `std::regex_search()`
 
 **Fungsi:** Fungsi ini mencari **satu kecocokan pertama** dari pola regex di dalam string.
 
@@ -137,7 +130,7 @@ if (regex_search(paragraf, hasil, pola_kata_dalam_kutip)) {
 }
 ```
 
-## 2.5 | `std::regex_replace()`
+## 2.5. `std::regex_replace()`
 
 **Fungsi:** Fungsi ini mencari dan mengganti **semua kecocokan** dari pola regex dengan string pengganti yang Anda tentukan.
 
