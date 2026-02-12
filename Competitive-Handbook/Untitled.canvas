@@ -1,0 +1,157 @@
+{
+  "nodes": [
+    {
+      "id": "36289d769d1acd86",
+      "type": "text",
+      "text": "**Februari**\nSelesaikan semua courses yang ada di TLX",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -220,
+      "y": -520,
+      "width": 260,
+      "height": 140
+    },
+    {
+      "id": "3c473d6d3a2ec5a1",
+      "type": "text",
+      "text": "**Gemastik Finalist 2026**",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 20,
+      "y": -1060,
+      "width": 380,
+      "height": 60
+    },
+    {
+      "id": "8b3cad3b0ba052d6",
+      "type": "text",
+      "text": "**Maret**\nSelesaikan semua materi dari buku Antii Laaksonen",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 80,
+      "y": -520,
+      "width": 260,
+      "height": 140
+    },
+    {
+      "id": "8ca3bfbcbff905b8",
+      "type": "text",
+      "text": "### Chapter 1. Introduction\nCari sumber-sumber competitive programming, berikut hasil didapat:\n\n**Kategori buku:**\n-",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -360,
+      "y": 180,
+      "width": 360,
+      "height": 280
+    },
+    {
+      "id": "f26cd5879f69b293",
+      "type": "text",
+      "text": "### Chapter 2. Time Complexity\nAku sudah mengerti kompleksitas waktu dan memory yang ternyata penting dalam perancangan dan pemilihan algoritma penyelesaian masalah",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 60,
+      "y": 180,
+      "width": 360,
+      "height": 280
+    },
+    {
+      "id": "059dac2f41a498bd",
+      "type": "text",
+      "text": "### Chapter 3. Sorting\nOke, aku sudah memahmi konsep sorting, dan penggunaan binary search",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 480,
+      "y": 180,
+      "width": 360,
+      "height": 280
+    },
+    {
+      "id": "10483fb8a883d547",
+      "type": "text",
+      "text": "### Chapter 4. Data Structures\nPengenalan terhadap struktur data awal seperti vector, stack, queue, dan lain lain.\n",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -360,
+      "y": 500,
+      "width": 360,
+      "height": 280
+    },
+    {
+      "id": "0541be0fdbaa598a",
+      "type": "text",
+      "text": "### Chapter 5. Complete Search",
+      "styleAttributes": {},
+      "x": 60,
+      "y": 500,
+      "width": 360,
+      "height": 280
+    }
+  ],
+  "edges": [
+    {
+      "id": "e6dc7fa9d5462d1e",
+      "styleAttributes": {},
+      "fromNode": "3c473d6d3a2ec5a1",
+      "fromSide": "bottom",
+      "toNode": "36289d769d1acd86",
+      "toSide": "top"
+    },
+    {
+      "id": "9448acd788d6898f",
+      "styleAttributes": {},
+      "fromNode": "3c473d6d3a2ec5a1",
+      "fromSide": "bottom",
+      "toNode": "8b3cad3b0ba052d6",
+      "toSide": "top"
+    },
+    {
+      "id": "d0b86954fd5a29fc",
+      "styleAttributes": {},
+      "fromNode": "8b3cad3b0ba052d6",
+      "fromSide": "bottom",
+      "toNode": "8ca3bfbcbff905b8",
+      "toSide": "top"
+    },
+    {
+      "id": "554ad164e3a46fdd",
+      "styleAttributes": {},
+      "fromNode": "8b3cad3b0ba052d6",
+      "fromSide": "bottom",
+      "toNode": "f26cd5879f69b293",
+      "toSide": "top"
+    },
+    {
+      "id": "32826bb5d0145732",
+      "styleAttributes": {},
+      "fromNode": "8b3cad3b0ba052d6",
+      "fromSide": "bottom",
+      "toNode": "059dac2f41a498bd",
+      "toSide": "top"
+    },
+    {
+      "id": "0262dc644930bb7e",
+      "styleAttributes": {},
+      "fromNode": "8b3cad3b0ba052d6",
+      "fromSide": "bottom",
+      "toNode": "10483fb8a883d547",
+      "toSide": "top"
+    },
+    {
+      "id": "8b4b2e331ad22bcc",
+      "styleAttributes": {},
+      "fromNode": "8b3cad3b0ba052d6",
+      "fromSide": "bottom",
+      "toNode": "0541be0fdbaa598a",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}

@@ -5,6 +5,7 @@ tips_trick: Pengecekan Kuadrat Sempurna
 sumber:
   - myself
   - chatgpt.com
+date_learned: 2026-01-13T18:32:00
 tags:
   - tips-trick
   - number-theory
@@ -12,7 +13,7 @@ tags:
 ---
 # Pengecekan Kuadrat Sempurna
 
-## 1 | Definisi
+## 1. Definisi
 
 Suatu bilangan bulat non-negatif $n \in \mathbb{Z}_{\ge 0}$ disebut **kuadrat sempurna** (perfect square) apabila terdapat suatu bilangan bulat $m \in \mathbb{Z}$ sehingga
 
@@ -31,11 +32,11 @@ Ciri-ciri angka yang memiliki kuadrat sempurna adalah sebagai berikut:
 1. Jika $n$ adalah kuadrat sempurna, maka akar kuadratnya $\sqrt{n}$ merupakan bilangan bulat.
 2. Sebaliknya, jika $\sqrt{n}$ bukan bilangan bulat, maka $n$ bukan kuadrat sempurna.
 
-## 2 | Pengecekan Kuadrat Sempurna
+## 2. Pengecekan Kuadrat Sempurna
 
 Ada beberapa cara untuk mengecek apakah suatu angka merupakan angka dengan kuadrat sempuarna atau tidak, berikut adalah beberapa caranya:
 
-### 2.1 | Cara Biasa
+### 2.1. Cara Biasa
 
 ```cpp
 #include <cmath>
@@ -62,7 +63,7 @@ Fungsi `sqrt()` mengembalikan nilai dengan tipe data double, bukan int. Itulah a
 Contoh:
 - $n = 16$: `sqrt(16) = 4.0`, `(int)4.0 = 4`, maka sama → benar.
 - $n=18$: `sqrt(18) ≈ 4.24`, `(int)4.24 = 4`, dibandingkan dengan `4.24` → tidak sama → benar juga.
-### 2.2 | Dengan Bantuan Toleransi Floating Point
+### 2.2. Dengan Bantuan Toleransi Floating Point
 
 Artinya secara logika kode ini bekerja, tapi ini agak rawan karena melibatkan floating point. Kalau angkanya besar, ada kemungkinan terjadi error presisi.
 
@@ -100,28 +101,28 @@ Secara matematis, uji ini mencoba memastikan bahwa terdapat bilangan bulat $a$ d
 
 Dengan demikian, kode tersebut secara fungsional benar untuk kisaran input moderat, namun secara formal memiliki batasan akurasi karena bergantung pada aritmetika floating point.
 
-```ad-info
-Fungsi `fabs` adalah singkatan dari *floating absolute value*, yaitu fungsi dalam pustaka `<cmath>` C++ yang digunakan untuk menghitung nilai absolut dari sebuah bilangan bertipe pecahan (`float`, `double`, atau `long double`). Secara formal, untuk setiap bilangan real $x$, fungsi ini mengembalikan
+> [!INFO]
+> Fungsi `fabs` adalah singkatan dari *floating absolute value*, yaitu fungsi dalam pustaka `<cmath>` C++ yang digunakan untuk menghitung nilai absolut dari sebuah bilangan bertipe pecahan (`float`, `double`, atau `long double`). Secara formal, untuk setiap bilangan real $x$, fungsi ini mengembalikan
+> 
+> $$
+> \text{fabs}(x) = |x| =
+> \begin{cases} 
+> x, & \text{jika } x \geq 0, \\ 
+> -x, & \text{jika } x < 0.
+> \end{cases}
+> $$
+> 
+> Dalam konteks program yang kamu tulis, `fabs(b - a)` digunakan untuk mengukur seberapa jauh nilai akar kuadrat `b` (hasil floating point) dari bilangan bulat `a`. Karena selisih tersebut bisa bernilai negatif maupun positif, fungsi `fabs` memastikan perbandingan dilakukan terhadap jarak (nilai absolut) tanpa memperhatikan tanda.
+>
+> Sebagai ilustrasi:
+> 
+> - Jika `b = 4.000000001` dan `a = 4`, maka `b - a = 0.000000001` → `fabs(b - a) = 0.000000001`.
+> 
+> - Jika `b = 3.999999999` dan `a = 4`, maka `b - a = -0.000000001` → `fabs(b - a) = 0.000000001`.
+> 
+> Kedua kasus sama-sama menunjukkan bahwa `b` sangat dekat dengan `a`, dan berkat `fabs`, perbandingan dengan toleransi `1e-9` dapat dilakukan dengan benar tanpa dipengaruhi tanda selisihnya.
 
-$$
-\text{fabs}(x) = |x| =
-\begin{cases} 
-x, & \text{jika } x \geq 0, \\ 
--x, & \text{jika } x < 0.
-\end{cases}
-$$
-
-Dalam konteks program yang kamu tulis, `fabs(b - a)` digunakan untuk mengukur seberapa jauh nilai akar kuadrat `b` (hasil floating point) dari bilangan bulat `a`. Karena selisih tersebut bisa bernilai negatif maupun positif, fungsi `fabs` memastikan perbandingan dilakukan terhadap jarak (nilai absolut) tanpa memperhatikan tanda.
-
-Sebagai ilustrasi:
-
-* Jika `b = 4.000000001` dan `a = 4`, maka `b - a = 0.000000001` → `fabs(b - a) = 0.000000001`.
-* Jika `b = 3.999999999` dan `a = 4`, maka `b - a = -0.000000001` → `fabs(b - a) = 0.000000001`.
-
-Kedua kasus sama-sama menunjukkan bahwa `b` sangat dekat dengan `a`, dan berkat `fabs`, perbandingan dengan toleransi `1e-9` dapat dilakukan dengan benar tanpa dipengaruhi tanda selisihnya.
-```
-
-### 2.3 | Solusi Yang Paling Aman dan Benar
+### 2.3. Solusi Yang Paling Aman dan Benar
 
 Ada versi pengecekan kuadrat sempurna yang lebih aman, tanpa membandingkan int vs double. Yaitu, lebih baik simpan akar ke variabel integer, lalu kuadratkan lagi:
 
@@ -143,6 +144,8 @@ auto main() -> int {
     return 0;
 }
 ```
+
+Variabel $r$ akan menyimpan hasil dari `sqrt(n)`, atau kuadrat dari $n$. Jika angka $n$ bukanlah angka dengan kuadrat sempurna, maka hasil dari kuadrat $n$ tersebut akan menghasilkan angka pecahan, dan karena disimpan ke tipe data integer, maka hasil tersebut dibulatkan kebawah.
 
 Dengan cara ini:
 - TIdak ada perbandingan `int` vs `double`

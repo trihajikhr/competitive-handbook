@@ -6,16 +6,19 @@ sumber:
 tags:
 date_learned:
 ---
+Link Sumber: 
+
 ---
-# 1 | Judul
+> [!IMPORTANT]
+# Judul
 
 
 <br/>
 
 ---
-# 2 | Jawaban
+## Jawaban
 
 <br/>
 
 ---
-# 3 | Editorial
+## Editorial

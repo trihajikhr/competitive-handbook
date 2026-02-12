@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "464f75915d5c3dd7",
+        "id": "03dc42e3be07cd5b",
         "type": "tabs",
         "children": [
           {
-            "id": "71289c3b3a207583",
+            "id": "2f825b4b41fdb8b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "21-Number Theory/Math Fun Fact.md",
+                "file": "13-Shortest-Paths/B_SPFA/C_Implementasi Dinamis SPFA.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Math Fun Fact"
-            }
-          },
-          {
-            "id": "da8a7052a055f45c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "26-String/Tips-trick/String Fun Fact.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "String Fun Fact"
+              "title": "C_Implementasi Dinamis SPFA"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#report",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -93,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.5
+    "width": 388.51103591918945
   },
   "right": {
     "id": "5a2e04e3f27c45d3",
@@ -102,7 +87,7 @@
       {
         "id": "8db22185f832f694",
         "type": "tabs",
-        "dimension": 51.76252319109462,
+        "dimension": 26.572008113590257,
         "children": [
           {
             "id": "ddbc58e96e17e8dc",
@@ -187,7 +172,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "26-String/Tips-trick/String Fun Fact.md",
+                "file": "05-Complete Search/Generating Subsets/Generating Subsets.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "tag:#tuple  ",
@@ -210,12 +195,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.1846232622585815,
+                  "scale": 1.1749769496323366,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of String Fun Fact"
+              "title": "Graph of Generating Subsets"
             }
           }
         ],
@@ -224,7 +209,7 @@
       {
         "id": "7cf76667223e7faa",
         "type": "tabs",
-        "dimension": 48.237476808905384,
+        "dimension": 73.42799188640974,
         "children": [
           {
             "id": "b926b8ed78989612",
@@ -232,20 +217,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "26-String/Tips-trick/String Fun Fact.md",
+                "file": "05-Complete Search/Generating Subsets/Generating Subsets.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of String Fun Fact"
+              "title": "Outline of Generating Subsets"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 411.5
+    "width": 269.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -264,53 +250,56 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "04554e08cc1bd94b",
+  "active": "2f825b4b41fdb8b6",
   "lastOpenFiles": [
-    "26-String/Tips-trick/Parsing String dengan sstream.md",
-    "26-String/Tips-trick/Mencari Subtring pada String.md",
-    "26-String/Tips-trick/Mencari dan Mengganti Substring pada String.md",
-    "26-String/Tips-trick/Konversi Karakter Huruf.md",
-    "26-String/Tips-trick/Hitung Karakter dengan Fungsi Count().md",
-    "26-String/Book Theory/Pengertian Lexicographical.md",
-    "Rating Task Hunter/800.md",
-    "C++ Standard Library/include - utility/Header utility di C++.md",
-    "C++ Standard Library/include - string/Header string di C++.md",
-    "C++ Standard Library/include - sstream/Header sstream di C++.md",
-    "C++ Standard Library/include - regex/Header regex di C++.md",
-    "C++ Standard Library/include - iomanip/Header iomanip di C++.md",
-    "C++ Standard Library/include - cctype/Header cctype di C++.md",
-    "04-Data Structure/Set/Set di C++ - Panduan Komprehensif untuk Koleksi Unik dan Terurut.md",
-    "04-Data Structure/I-Set/Untitled",
-    "04-Data Structure/Set/Set (programiz).md",
-    "04-Data Structure/Set/Latihan/02-Apakah Angka Ini Ada.md",
-    "04-Data Structure/Set/Latihan/01-Menyimpan Data Unik.md",
-    "Z Templater/Latihan.md",
-    "04-Data Structure/Set/Tutorial Set (Geeks).md",
-    "Z Templater/Algoritma.md",
-    "Z Templater/Materi.md",
-    "C++ Standard Library/include - iomanip",
-    "26-String/Tips-trick/String Fun Fact.md",
-    "C++ Standard Library/include - utility/Analisis Komprehensif Arsitektur dan Implementasi Header utility.md",
-    "Tips Trick/Vector Integer ke Vector String.md",
-    "C++ Standard Library/include - utility",
-    "Tips Trick/Static Constructor - Leetcode trick.md",
-    "Tips Trick/Konversi Tipe data di C++.md",
-    "Tips Trick/keyboard-shortcuts-windows.pdf",
-    "26-String/Book Theory",
-    "C++ Standard Library/include - cctype",
-    "Rating Task Hunter",
-    "CP-Algorithm Site/01-Basic Geometry-1.png",
-    "CP-Algorithm Site/01-Basic Geometry-4.png",
-    "CP-Algorithm Site/01-Basic Geometry-3.png",
-    "CP-Algorithm Site/01-Basic Geometry-2.png",
-    "DELIBERATE PRACTICE/1% Programmer/Z-IMG/Never Do these! If you want to get out of Newbie-2.png",
-    "DELIBERATE PRACTICE/1% Programmer/Z-IMG/Never Do these! If you want to get out of Newbie-1.png",
-    "Codeforces-Death Ground/CP-ENDER",
-    "LeetCode-Contest/Easy-level",
-    "Pasted image 20251105214824.png",
-    "CP-Algorithm Site/08-Geometry/01-Elementary operations",
-    "DELIBERATE PRACTICE/Untitled.canvas",
+    "13-Shortest-Paths/Test Case Shortest Path.md",
+    "13-Shortest-Paths/13-Shortest paths.pdf",
+    "13-Shortest-Paths/B_SPFA/C_Implementasi Dinamis SPFA.md",
+    "13-Shortest-Paths/B_SPFA/B_SPFA GeeksForGeeks.md",
+    "13-Shortest-Paths/B_SPFA/A_SPFA Bellman Ford Algorithm.md",
+    "13-Shortest-Paths/A_Bellman-Ford/D_Implementasi Bellman Ford.md",
+    "13-Shortest-Paths/A_Bellman-Ford/C_Algoritma Bellman Ford.md",
+    "13-Shortest-Paths/A_Bellman-Ford/B_FAQ Seputar Algoritma Bellman Ford.md",
+    "13-Shortest-Paths/A_Bellman-Ford/A_Bellman Ford Algorithm.md",
+    "13-Shortest-Paths/A_Bellman-Ford/Problem archive/13PS-SPBF-PS01.md",
+    "13-Shortest-Paths/A_Bellman-Ford/Latihan/01-Semua Jalur yang Mungkin.md",
+    "13-Shortest-Paths/A_Bellman-Ford/Latihan/02-Kumpulan Jalur dan Yang Terpendek.md",
+    "13-Shortest-Paths/A_Bellman-Ford/Latihan/03-Hanya Satu Jalur Terpendek.md",
+    "13-Shortest-Paths/A_Bellman-Ford/Latihan/05-Shortest Path dengan Rintangan.md",
+    "13-Shortest-Paths/A_Bellman-Ford/Latihan/04-Semua Jalur Terpendek.md",
+    "13-Shortest-Paths/A_Bellman-Ford/Latihan/11-Bellman dan Mobil Ford.md",
+    "13-Shortest-Paths/A_Bellman-Ford/Latihan/10-Graph Berbobot dengan Tantangan.md",
+    "13-Shortest-Paths/A_Bellman-Ford/Latihan/07-Weighted Graph Banyak Jarak Terpendek yang Sama.md",
+    "13-Shortest-Paths/A_Bellman-Ford/Latihan/06-Weighted Graph Mencari 2 Rute.md",
+    "12-Graph Traversal/A-DFS (Depth First Search)/Latihan/01-Cek Ada tidaknya Path.md",
+    "11-Basic of Graph/Latihan/08-Apakah Ada Cycle (directed).md",
+    "11-Basic of Graph/Latihan/09-Degree Properties.md",
+    "11-Basic of Graph/Latihan/10-Graph Eulerian Circuit (undirected).md",
+    "11-Basic of Graph/Latihan/18-Hamiltonion Circuit (undirected).md",
+    "11-Basic of Graph/Latihan/17-Apakah Graph Tree (directed).md",
+    "11-Basic of Graph/Latihan/16-Apakah Graph Tree (undirected).md",
+    "11-Basic of Graph/Latihan/11-Graph Eulerian Circuit (directed).md",
+    "05-Complete Search/Generating Subsets/Latihan",
+    "05-Complete Search/Generating Permutations/Latihan",
     "Untitled.canvas",
+    "05-Complete Search/Prunning",
+    "05-Complete Search/Generating Permutations",
+    "05-Complete Search/Generating Subsets",
+    "05-Complete Search/Backtracking",
+    "05-Complete Search/Zimg/Recursive Search Subset Algorithm-1.png",
+    "05-Complete Search/Zimg/Backtracking-1.png",
+    "04-Data Structure/Bitset/Latihan",
+    "04-Data Structure/Bitset",
+    "04-Data Structure/04-Data Structure.pdf",
+    "22-Combinatorics/src/Binomial Coefficients-1.png",
+    "Metode Belajar/Interview/src/deltixlab’s interview Deltix rounds back story-1.png",
+    "Metode Belajar/Interview/src/deltixlab’s interview Deltix rounds back story-6.png",
+    "Metode Belajar/Interview/src/deltixlab’s interview Deltix rounds back story-5.png",
+    "Metode Belajar/Interview/src/deltixlab’s interview Deltix rounds back story-4.png",
+    "Metode Belajar/Interview/src/deltixlab’s interview Deltix rounds back story-3.png",
+    "Metode Belajar/Interview/src/deltixlab’s interview Deltix rounds back story-2.png",
+    "Metode Belajar/Interview/src/700 Contest Ruban Interview-1.png",
+    "DELIBERATE PRACTICE/Untitled.canvas",
     "Untitled 1.canvas",
     "Canvas/01-introduction.canvas",
     "Pohon Competitive Programming.canvas",

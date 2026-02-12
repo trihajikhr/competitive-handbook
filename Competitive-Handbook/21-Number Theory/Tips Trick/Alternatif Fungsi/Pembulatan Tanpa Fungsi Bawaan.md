@@ -1,30 +1,28 @@
 ---
 obsidianUIMode: preview
-note_type: Book Theory
-judul_materi: Pembulatan Tanpa Fungsi Bawaan
+note_type: tips trick
+tips_trick: Pembulatan Tanpa Fungsi Bawaan
 sumber:
   - google.com
   - gemini.google.com
-date_learned: 2025-07-17T02:08:00
+date_learned: 2026-01-13T18:32:00
 tags:
-  - math
-  - function
+  - tips-trick
+  - number-theory
 ---
-Link Sumber: [Find ceil of a/b without using ceil() function - GeeksforGeeks](https://www.geeksforgeeks.org/dsa/find-ceil-ab-without-using-ceil-function/)
-
 ---
 # Pembulatan ke Bawah dan ke Atas (Tanpa Fungsi Bawaan)
 
-## 1 | Konteks
+## 1. Konteks
 
 Dalam pemrograman kompetitif dan perhitungan integer, kamu sering kali perlu menghitung:
 
-* **Pembulatan ke bawah**: $\left\lfloor \frac{a}{b} \right\rfloor$
-* **Pembulatan ke atas**: $\left\lceil \frac{a}{b} \right\rceil$
+* Pembulatan ke bawah: $\left\lfloor \frac{a}{b} \right\rfloor$
+* Pembulatan ke atas: $\left\lceil \frac{a}{b} \right\rceil$
 
-Tanpa menggunakan fungsi built-in seperti `ceil()` atau `floor()`, kita bisa memanfaatkan **operasi bilangan bulat**.
+Tanpa menggunakan fungsi built-in seperti `ceil()` atau `floor()`, kita bisa memanfaatkan operasi bilangan bulat.
 
-## 2 | Pembulatan ke Bawah (Floor)
+## 2. Pembulatan ke Bawah (Floor)
 
 > Untuk bilangan bulat positif dan negatif:
 
@@ -35,10 +33,9 @@ $$
 Di C++ atau bahasa lain:
 
 * Jika `a` dan `b` bertipe `int`, maka `a / b` otomatis memberikan hasil pembulatan ke bawah jika a dan b memiliki tanda yang sama.
+* Integer secara otomatis menghapus semua nilai pecahan yang ada dibelakang koma, menjadikanya melakukan pembulatan kebawah secara otomatis.
 
-### 2.1 | Masalah: Tanda Berbeda
-
-Untuk `a` negatif dan `b` positif, C++ **membulatkan ke nol**, bukan ke bawah. Maka kita perlu perbaikan manual.
+Namun terdapat sebuah masalah jika `a` negatif dan `b` positif. Untuk `a` negatif dan `b` positif, C++ membulatkan ke nol, bukan ke bawah. Maka kita perlu perbaikan manual.
 
 Berikut implementasi Aman:
 
@@ -50,9 +47,9 @@ int floor_div(int a, int b) {
 }
 ```
 
-## 3 | Pembulatan ke Atas (Ceil)
+## 3. Pembulatan ke Atas (Ceil)
 
-> Untuk mendapatkan:
+Untuk mendapatkan:
 
 $$
 \left\lceil \frac{a}{b} \right\rceil
@@ -85,7 +82,7 @@ int ceil_div(int a, int b) {
 }
 ```
 
-## 4 | Contoh Penggunaan
+## 4. Contoh Penggunaan
 
 ```cpp
 cout << floor_div(7, 3);  // Output: 2
@@ -95,17 +92,17 @@ cout << floor_div(-7, 3); // Output: -3
 cout << ceil_div(-7, 3);  // Output: -2
 ```
 
-## 5 | Catatan Tambahan
+## 5. Catatan Tambahan
 
 * Di banyak kompetisi, `ceil_div(a, b)` sering digunakan untuk membagi tugas/kapasitas dalam bentuk integer.
 * Pastikan tidak terjadi **overflow** saat menghitung `(a + b - 1)`, terutama jika `a` dan `b` besar → gunakan `long long`.
 
-## 6 | Keguanaan dan Kenapa
+## 6. Kegunaan dan Kenapa
 
 Sebenarnya, **"rumus pembulatan ke atas"** dan fungsi **`ceil`** (ceiling) pada dasarnya melakukan hal yang sama: membulatkan bilangan real ke bilangan bulat terkecil yang lebih besar atau sama dengan bilangan itu.
 
 Tapi ada beberapa alasan kenapa orang kadang lebih memilih *rumus manual* daripada langsung pakai `ceil`:
-### 6.1 | Portabilitas (tidak bergantung library)
+### 6.1. Portabilitas (tidak bergantung library)
 
 * Fungsi `ceil` ada di `<cmath>` (C++), `math` (Python), dll.
 * Kadang di kompetisi atau embedded system, orang ingin meminimalisir penggunaan library, jadi cukup pakai rumus aritmetika sederhana.
@@ -115,17 +112,17 @@ Tapi ada beberapa alasan kenapa orang kadang lebih memilih *rumus manual* daripa
   \text{ceil}\Big(\frac{a}{b}\Big) = \frac{a + b - 1}{b} \quad \text{(jika a, b > 0, bilangan bulat)}
   $$
 
-### 6.2 | Kinerja
+### 6.2. Kinerja
 
 * Rumus berbasis operasi integer (penjumlahan & pembagian bulat) biasanya lebih cepat daripada memanggil `ceil`, karena `ceil` bekerja dengan *floating point* lalu dikonversi kembali.
 * Dalam CP (Competitive Programming), rumus integer lebih disukai karena menghindari floating point error.
 
-### 6.3 | Menghindari masalah presisi
+### 6.3. Menghindari masalah presisi
 
 * `ceil(3.00000000000001)` bisa menghasilkan `4`, padahal mungkin maksud kita `3`.
 * Kalau konteksnya adalah integer division, rumus `(a + b - 1) / b` lebih aman karena tidak menyentuh floating point sama sekali.
 
-### 6.4 | Lebih sesuai dengan konteks integer
+### 6.4. Lebih sesuai dengan konteks integer
 
 * Banyak problem CP berbentuk: *"berapa banyak wadah dibutuhkan untuk menampung n item dengan kapasitas k tiap wadah?"*
 * Solusinya langsung pakai rumus:
@@ -135,12 +132,12 @@ Tapi ada beberapa alasan kenapa orang kadang lebih memilih *rumus manual* daripa
   $$
 
   Ini jauh lebih simpel, tidak perlu convert ke double, lalu panggil `ceil`, lalu convert balik ke int.
-### 6.5 | Ringkasnya:
+### 6.5. Ringkasnya:
 
-* **Gunakan `ceil`** → ketika bekerja dengan **float** atau **double**.
-* **Gunakan rumus pembulatan integer** → ketika bekerja dengan **integer division** dalam konteks diskrit (misalnya CP).
+* Gunakan `ceil` → ketika bekerja dengan float atau double.
+* Gunakan rumus pembulatan integer → ketika bekerja dengan integer division dalam konteks diskrit (misalnya CP).
 
-## 6 | Kesimpulan
+## 7. Kesimpulan
 
 | Operasi      | Rumus (Positif)         | Catatan                    |
 | ------------ | ----------------------- | -------------------------- |

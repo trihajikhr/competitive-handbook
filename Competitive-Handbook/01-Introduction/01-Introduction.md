@@ -1,35 +1,42 @@
 ---
 obsidianUIMode: preview
-note_type: tips trick
-tips_trick: pengenalan competitive programming
+note_type: book theory
+judul_materi: Introduction
 sumber:
-  - "buku: CP handbook by Antti Laaksonen"
   - geeksforgeeks.org
+  - "buku: CP handbook by Antti Laaksonen"
+date_learned: 2026-02-12T22:34:00
 tags:
   - introduction
 ---
----
-# 1 | Competitive Programming
+Link Sumber: [Competitive Programming - A Complete Guide - GeeksforGeeks](https://www.geeksforgeeks.org/dsa/competitive-programming-a-complete-guide/)
 
-==Source: geeksforgeeks.com==
+---
+
+> [!IMPORTANT]
+>  
+
+# 1. Competitive Programming
+
+> Source: geeksforgeeks.org
 
 Competitive Programming adalah olahraga mental yang memungkinkan kamu untuk menulis kode guna menyelesaikan suatu permasalahan dengan batasan yang diberikan. Tujuan dari artikel ini adalah untuk membimbing setiap individu yang ingin unggul dalam bidang ini. Artikel ini menyediakan silabus lengkap untuk Competitive Programming yang dirancang oleh para ahli industri guna meningkatkan persiapan para pembaca.
-## 1.1 | Apa itu Competitive Programming?
+## 1.1. Apa itu Competitive Programming?
 
 Competitive programming adalah olahraga pikiran, di mana individu bersaing satu sama lain untuk menyelesaikan pertanyaan atau logika pemrograman dengan pendekatan yang efisien dalam batas waktu yang ditentukan. Tujuan utama dari competitive programming adalah menulis kode yang mampu menyelesaikan suatu masalah dalam waktu yang diberikan.
 
 Bagi mereka yang ingin mendalami competitive programming, **Platform Praktik GeeksforGeeks** menawarkan berbagai macam soal untuk membantu meningkatkan kecepatan dan ketepatan dalam pemrograman.
-## 1.2 | Mengapa Harus Mengikuti Competitive Programming?
+## 1.2. Mengapa Harus Mengikuti Competitive Programming?
 
-Competitive programming adalah cara terbaik untuk mengasah pemikiran analitis, logika, serta meningkatkan keterampilan coding. Banyak perusahaan teknologi besar seperti **Google** dan **Facebook** kini menjadikannya sebagai pertimbangan utama dalam proses rekrutmen. Bahkan, **Facebook (Meta)** mengadakan **Meta Hacker Cup** setiap tahun untuk mendorong para competitive programmer dari seluruh dunia bersaing dan mendapatkan kesempatan untuk direkrut oleh Meta.
+Competitive programming adalah cara terbaik untuk mengasah pemikiran analitis, logika, serta meningkatkan keterampilan coding. Banyak perusahaan teknologi besar seperti Google dan Facebook kini menjadikannya sebagai pertimbangan utama dalam proses rekrutmen. Bahkan, Facebook (Meta) mengadakan Meta Hacker Cup setiap tahun untuk mendorong para competitive programmer dari seluruh dunia bersaing dan mendapatkan kesempatan untuk direkrut oleh Meta.
 
-## 1.3 | Berikut adalah beberapa alasan mengapa kamu harus mulai Competitive Programming:
+## 1.3. Berikut adalah beberapa alasan mengapa kamu harus mulai Competitive Programming:
 
 - **Ketangkasan Mental dan Berpikir Cepat:** Dengan berlatih competitive programming, kamu akan terbiasa berpikir cepat dalam batas waktu tertentu, sehingga meningkatkan ketangkasan mental dan kemampuan berpikir secara efisien.
   <br/>
 - **Semangat Kompetitif:** Competitive programming bisa menjadi aktivitas yang menyenangkan bagi mereka yang menikmati tantangan. Menyelesaikan soal sulit dalam batas waktu akan meningkatkan rasa percaya diri dan kepuasan pribadi.
   <br/>
-- **Prospek Karier:** Competitive programming sangat penting dalam wawancara teknis untuk pekerjaan yang berhubungan dengan rekayasa perangkat lunak. Banyak perusahaan teknologi besar seperti **Google, ServiceNow, Atlassian**, dan lainnya menggunakan kompetisi competitive programming sebagai salah satu metode rekrutmen mereka.
+- **Prospek Karier:** Competitive programming sangat penting dalam wawancara teknis untuk pekerjaan yang berhubungan dengan rekayasa perangkat lunak. Banyak perusahaan teknologi besar seperti Google, ServiceNow, Atlassian, dan lainnya menggunakan kompetisi competitive programming sebagai salah satu metode rekrutmen mereka.
   <br/>
 - **Peluang Belajar:** Dalam competitive programming, terdapat berbagai jenis soal serta konsep aritmetika yang luas. Kamu juga akan diperkenalkan dengan berbagai struktur data dan algoritma yang membantu memahami kompleksitas suatu masalah dengan lebih baik.
   <br/>
@@ -40,9 +47,9 @@ Competitive programming adalah cara terbaik untuk mengasah pemikiran analitis, l
 <br/>
 
 ---
-# 2 | Competitive Programming by Antti Laaksonen
+# 2. Competitive Programming by Antti Laaksonen
 
-==Source: Competitive Programming Handbook by Antti Laaksonen==
+> Source: Competitive Programming Handbook by Antti Laaksonen
 
 **Competitive programming** menggabungkan dua topik: (1) desain algoritma dan (2) implementasi algoritma.
 

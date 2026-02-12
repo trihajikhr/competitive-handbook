@@ -1,21 +1,27 @@
 ---
 obsidianUIMode: preview
-note_type: tips trick
-tips_trick: template code cp
+note_type: book theory
+judul_materi: Template Code
 sumber:
   - "buku: CP handbook by Antti Laaksonen"
-  - chatgpt.com
+  - github.com
+  - codeforces.com
+date_learned: 2026-02-12T23:04:00
 tags:
   - introduction
 ---
+
+Link Sumber: 
+
 ---
-# 1 | Template code untuk CP
+
+> [!IMPORTANT]
+>  
+# Template code untuk CP
 Dalam competitive programming, terdapat banyak cara yang bisa dilakukan untuk memaksimalkan kinerja kode program. Entah itu memudahkan dan mempercepat penulisan kode program, mempercepat eksekusi program, dan efisiensi lainya. Hal ini biasanya sudah tersusun sedemikian rupa dengan template code tertentu yang biasa digunakan dalam CP. 
 
 Berikut diantaranya:
-
----
-## Basic template kode 
+## 1. Basic template kode 
 Template kode C++:
 
 ```cpp
@@ -29,12 +35,11 @@ int main(){
 }
 ```
 
-**Header `<bits/stdc++.h>`** → Mengimpor semua pustaka STL sekaligus (hanya untuk CP, tidak dianjurkan di produksi). Sehingga kita tidak perlu lagi mengimpor satu persatu pustaka kedalam kode.
+**Header `<bits/stdc++.h>`** → Mengimpor semua pustaka STL sekaligus (hanya untuk CP, tidak dianjurkan di produksi). Sehingga kita tidak perlu lagi mengimpor satu persatu pustaka kedalam kode. Ini adalah sebuah header file "all-in-one" yang tersedia di banyak compiler berbasis GCC (GNU Compiler Collection). Header ini meng-include hampir semua pustaka standar C++ dalam satu perintah, yang membuatnya populer di kalangan programmer kompetitif untuk menghemat waktu saat menuliskan kode.
 
 Penggunaan `using namespace std` mendeklarasikan bahwa kelas dan fungsi dari pustaka standar dapat digunakan langsung dalam kode. Tanpa baris ini, kita harus menulis, misalnya, `std::cout`, tetapi sekarang cukup menulis `cout`.
 
-**\#include <bits/stdc++.h>** adalah sebuah header file "all-in-one" yang tersedia di banyak compiler berbasis GCC (GNU Compiler Collection). Header ini meng-include hampir semua pustaka standar C++ dalam satu perintah, yang membuatnya populer di kalangan programmer kompetitif untuk menghemat waktu saat menuliskan kode.
-### Apa yang Ada di Dalam `bits/stdc++.h`?
+### 1.1. Apa yang Ada di Dalam `bits/stdc++.h`?
 
 Ketika Anda menuliskan `#include <bits/stdc++.h>`, ini akan menyertakan hampir seluruh pustaka C++ standar, termasuk:
 
@@ -45,30 +50,25 @@ Ketika Anda menuliskan `#include <bits/stdc++.h>`, ini akan menyertakan hampir s
 - `<string>`, `<sstream>`: Pustaka untuk memanipulasi string.
 - `<functional>`: Mendukung pemrograman fungsional seperti `std::function`, `std::bind`, dll.
 - `<utility>`: Struktur data `pair`, `std::swap`, dll.
-### Keuntungan Menggunakan `#include <bits/stdc++.h>`
+### 1.2. Keuntungan Menggunakan `#include <bits/stdc++.h>`
 
 1. **Menghemat Waktu**: Dengan satu baris `#include <bits/stdc++.h>`, programmer mendapatkan akses ke hampir semua pustaka C++ standar yang mungkin diperlukan. Ini sangat berguna dalam kompetisi pemrograman, di mana waktu sangat penting.
 
 2. **Kode Lebih Ringkas**: Karena mencakup semua header, kode menjadi lebih singkat dan mudah dibaca tanpa daftar panjang header yang perlu di-include satu per satu.
-### Kekurangan Menggunakan `#include <bits/stdc++.h>`
+### 1.3. Kekurangan Menggunakan `#include <bits/stdc++.h>`
 
 1. **Membuat Kompilasi Lebih Lambat**: Menggunakan `#include <bits/stdc++.h>` meng-include semua pustaka standar, sehingga waktu kompilasi dapat menjadi lebih lambat karena harus memuat lebih banyak pustaka daripada yang sebenarnya diperlukan.
 
 2. **Tidak Portabel**: Header ini tidak termasuk dalam standar C++ dan hanya tersedia di GCC. Jika Anda mencoba menjalankan kode ini di compiler lain (seperti MSVC atau Clang tanpa kompatibilitas GCC), kompilasi kemungkinan besar akan gagal.
 
 3. **Pemakaian Memori yang Lebih Tinggi**: Karena banyak pustaka yang di-include, program mungkin akan menggunakan lebih banyak memori.
-### Kesimpulan
-
-`#include <bits/stdc++.h>` adalah header praktis yang digunakan dalam pemrograman kompetitif untuk menghemat waktu. Namun, untuk proyek yang lebih besar atau produksi, disarankan untuk meng-include pustaka yang benar-benar diperlukan saja agar kompilasi lebih cepat, memori lebih efisien, dan kode lebih portabel.
-
----
-## Advanced template code
+## 2. Advanced template code
 
 > Untuk bisa memahami dengan baik Advanced template code ini, pelajari terlebih dahulu materi bab **01-Introduction** hingga selesai! 
 
-Template kode dalam _competitive programming_ biasanya dirancang agar ringkas, cepat, dan mempermudah pengambilan input serta pemrosesan data. Berikut adalah **template umum** yang sering digunakan:
+Template kode dalam _competitive programming_ biasanya dirancang agar ringkas, cepat, dan mempermudah pengambilan input serta pemrosesan data. Berikut adalah template umum yang sering digunakan:
 
-### 1. Template Dasar Competitive Programming (CP)
+### 2.1. Template Dasar Competitive Programming (CP)
 
 ```cpp
 #include <bits/stdc++.h> 
@@ -102,71 +102,9 @@ int main() {
 }
 ```
 
-Contoh Penggunaan:
+### 2.2. Variasi Template untuk CP
 
-```cpp
-#include <bits/stdc++.h> 
-using namespace std;
-
-#define fastio() ios_base::sync_with_stdio(0); cin.tie(0);
-#define ll long long
-#define vi vector<int>
-#define vll vector<ll>
-#define pii pair<int, int>
-#define pll pair<ll, ll>
-#define pb push_back
-#define all(x) (x).begin(), (x).end()
-#define sz(x) (int)(x).size()
-#define rep(i, a, b) for (int i = a; i < b; i++)
-#define rev(i, a, b) for (int i = a; i >= b; i--)
-
-const int MOD = 1e9 + 7;
-const int INF = INT_MAX;
-
-void solve() {
-    int n;
-    cin >> n;
-    vi arr(n);
-    for (int &x : arr) cin >> x;
-
-    sort(all(arr)); // Contoh operasi
-    cout << arr[n / 2] << "\n"; // Contoh output
-}
-
-int main() {
-    fastio();
-    int t = 1;
-    cin >> t; 
-    while (t--) solve();
-    return 0;
-}
-```
-
----
-
-### 2. Penjelasan dan Fitur:
-
-1. **Header `<bits/stdc++.h>`** → Mengimpor semua pustaka STL sekaligus (hanya untuk CP, tidak dianjurkan di produksi).
-2. **`fastio()`** → Mempercepat input/output untuk menghindari _TLE_ (Time Limit Exceeded).
-3. **Alias & Macro (`#define`)**
-    - `ll` → `long long`
-    - `vi` → `vector<int>`
-    - `vll` → `vector<long long>`
-    - `pii` → `pair<int, int>`
-    - `pb` → `push_back()`
-    - `all(x)` → `x.begin(), x.end()` (memudahkan penggunaan `sort()` dan lainnya)
-    - `sz(x)` → `x.size()`
-4. **Looping Cepat**
-    - `rep(i, a, b)` → Loop dari `a` sampai `b-1`
-    - `rev(i, a, b)` → Loop mundur dari `a` sampai `b`
-5. **`solve()` function** → Struktur umum dalam CP untuk menangani satu kasus uji.
-6. **Modular Arithmetic** → `const int MOD = 1e9 + 7;` sering digunakan dalam perhitungan besar.
-
----
-
-### 3. Variasi Template untuk CP
-
-#### (a) Jika Butuh Graph / BFS / DFS
+Jika membutuhkan Graph / BFS / DFS, bisa menggunakan template berikut:
 
 ```cpp
 vector<vector<int>> adj;
@@ -182,7 +120,7 @@ void dfs(int node) {
 }
 ```
 
-#### (b) Jika Butuh Binary Search
+Jika membutuhkan Binary Search, bisa menggunakan template berikut:
 
 ```cpp
 int binary_search(vector<int>& arr, int target) {
@@ -197,7 +135,7 @@ int binary_search(vector<int>& arr, int target) {
 }
 ```
 
-#### (c) Jika Butuh Modular Exponentiation
+Jika membutuhkan Modular Exponentiation, bisa menggunakan template berikut:
 
 ```cpp
 ll mod_exp(ll base, ll exp, ll mod) {
@@ -211,27 +149,17 @@ ll mod_exp(ll base, ll exp, ll mod) {
 }
 ```
 
----
+Dan masih banyak lagi template yang bisa ditambahkan!
 
-### 4. Kapan Menggunakan Template Ini?
+## 3. Real man Template code
 
-✅ **CP Kontes Online (Codeforces, AtCoder, CodeChef, dsb.)**  
-✅ **Soal yang butuh banyak optimasi input/output**  
-✅ **Soal yang butuh struktur data kompleks (Graph, Segment Tree, dsb.)**
-
-Template ini dapat disesuaikan dengan kebutuhan spesifikmu. 🚀
-
----
-
-## Real man Template code
-
-Haha, diluar sana juga ada banyak praktisi CP yang berbagi template codenya, jadi kita juga bisa mengambil tempalte code tersebut, dan merubahnya atau menggunakanya sesuai selera kita. Berikut diantaranya:
+Haha, diluar sana juga ada banyak praktisi CP yang berbagi template codenya, jadi kita juga bisa mengambil template code tersebut, dan merubahnya atau menggunakanya sesuai selera kita. Berikut diantaranya:
 
 
-> [!NOTE] Jangan terlalu kaku!
+> [!CAUTION] Jangan terlalu kaku!
 > Template code dari orang lain ini mungkin terlalu banyak jika benar-benar digunakan. Tidak semua template code ini benar-benar dibutuhkan. Jadi, gunakan sebagai bahan referensi, dan tulis template code yang sesuai dengan kondisi dan kebutuhanmu saat ini!
 
-### 1. Neilblaze (Github)
+### 3.1. Neilblaze (Github)
 Source: [CP Template — C++ \</\> · GitHub](https://gist.github.com/Neilblaze/dcf6113fa5e63fc938502f1d742365c4#file-cpp_template-cpp)
 
 ```cpp
@@ -339,7 +267,7 @@ typedef map<int, int> mii;
 const double eps = 1e-9;
 ```
 
-### 2. ncduy0303 (Github)
+### 3.2. ncduy0303 (Github)
 
 Source: [Competitive-Programming/Contest Template](https://github.com/ncduy0303/Competitive-Programming/blob/master/Contest%20Template/main.cpp)
 
@@ -387,7 +315,7 @@ int main() {
 }
 ```
 
-### 3. 7oSkaaa (Github)
+### 3.3. 7oSkaaa (Github)
 
 Source: [CP-Templates/Template.cpp at main · 7oSkaaa/CP-Templates · GitHub](https://github.com/7oSkaaa/CP-Templates/blob/main/Template.cpp#L39)
 

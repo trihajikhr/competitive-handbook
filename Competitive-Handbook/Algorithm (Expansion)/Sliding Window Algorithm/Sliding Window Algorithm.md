@@ -22,7 +22,7 @@ tags:
 
 Masalah **Sliding Window** melibatkan pergerakan jendela dengan ukuran tetap atau variabel melalui suatu struktur data, biasanya sebuah array atau string, untuk menyelesaikan masalah secara efisien berdasarkan subset elemen yang berkesinambungan. Teknik ini digunakan ketika kita perlu menemukan subarray atau substring sesuai dengan suatu himpunan kondisi yang diberikan.
 
-![[Sliding Windows Algorithm-1.png]]
+![[../../03-Sorting/src/Sliding Windows Algorithm-1.png]]
 
 ## Apa itu Teknik Sliding Window?
 
@@ -38,11 +38,11 @@ Namun, apakah kita bisa mengoptimalkan pendekatan ini?
 
 Jawabannya adalah **ya**. Alih-alih mengambil setiap **subarray berukuran K** dan menghitung jumlahnya satu per satu, kita cukup mengambil satu **subarray berukuran K** dari indeks **0 hingga K-1**, menghitung jumlahnya, lalu menggeser rentang tersebut satu per satu seiring dengan iterasi, serta memperbarui hasilnya. Pada iterasi berikutnya, kita **menaikkan pointer kiri dan kanan**, lalu memperbarui jumlah sebelumnya seperti yang ditunjukkan pada gambar di bawah ini:
 
-![[Sliding Windows Algorithm-2.png]]
+![[../../03-Sorting/src/Sliding Windows Algorithm-2.png]]
 
 Sekarang, ikuti metode ini untuk setiap iterasi hingga kita mencapai akhir dari array.
 
-![[Sliding Windows Algorithm-3.png]]
+![[../../03-Sorting/src/Sliding Windows Algorithm-3.png]]
 
 Jadi, kita dapat melihat bahwa alih-alih menghitung ulang jumlah untuk setiap **subarray berukuran K**, kita menggunakan jendela sebelumnya yang berukuran **K** dan memperbarui jumlahnya berdasarkan hasil sebelumnya, lalu menggeser jendela ke kanan dengan menggerakkan **pointer kiri dan kanan**. Operasi ini optimal karena hanya membutuhkan **O(1) waktu** untuk menggeser rentang, dibandingkan dengan menghitung ulang.
 
@@ -189,17 +189,17 @@ Misalkan kita memiliki array arr[] = {5, 2, -1, 0, 3} dengan nilai k = 3 dan n =
 - **Tahap awal:**  
     Kita menghitung jumlah awal dari jendela pertama yang dimulai dari indeks 0. Pada tahap ini, jumlah jendela adalah 6. Sekarang, kita menetapkan maximum_sum sebagai current_window, yaitu 6.
     
-    ![[Sliding Windows Algorithm-4.png]]
+    ![[../../03-Sorting/src/Sliding Windows Algorithm-4.png]]
 
 - **Menggeser jendela pertama kali:**  
     Kita menggeser jendela ke kanan sejauh satu indeks. Oleh karena itu, kita menghapus angka 5 dari jendela dan menambahkan angka 0 ke dalam jendela. Dengan demikian, kita mendapatkan jumlah jendela baru dengan mengurangkan 5 dan menambahkan 0, sehingga jumlah jendela sekarang menjadi 1. Selanjutnya, kita membandingkan jumlah jendela ini dengan maximum_sum. Karena nilainya lebih kecil, kita tidak mengubah maximum_sum.
     
-    ![[Sliding Windows Algorithm-5.png]]
+    ![[../../03-Sorting/src/Sliding Windows Algorithm-5.png]]
 
 - **Menggeser jendela kedua kali:**  
     Sekali lagi, kita menggeser jendela sejauh satu indeks dan memperoleh jumlah jendela baru sebesar 2. Kita kembali memeriksa apakah jumlah jendela ini lebih besar dari maximum_sum sejauh ini. Karena nilainya masih lebih kecil, kita tidak mengubah maximum_sum.
     
-    ![[Sliding Windows Algorithm-6.png]]
+    ![[../../03-Sorting/src/Sliding Windows Algorithm-6.png]]
 
 Dengan demikian, untuk array di atas, nilai maksimum dari jumlah subarray berukuran k adalah **6**.
 

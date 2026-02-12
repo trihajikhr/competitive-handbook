@@ -1,22 +1,21 @@
 ---
 obsidianUIMode: preview
-note_type: Book Theory
-judul_materi: Algoritma Generate Angka
+note_type: tips trick
+tips_trick: Algoritma Generate Angka
 sumber:
   - myself
   - chatgpt.com
 date_learned: 2025-09-25T13:24:00
 tags:
   - number-theory
+  - tips-trick
 ---
-Link Sumber: 
-
 ---
-# 1 | Algoritma Generate Angka
+# Algoritma Generate Angka
 
 Pada materi kali ini, kita akan belajar algoritma untuk menghasilkan semua kombinasi dari angka-angka tertentu. 
 
-Terkadang, terdapat problem yang mengharuskan kita untuk menggenerate angka, dari beberapa digit, dengan panjang semisal $n$ digit. Katakanlah kita diminta untuk menggenerate semau angka-angka dengan panjang maksimal 3, yang mungkin disusun oleh digit-digit seperti $4$ dan $7$, maka berikut adalah hasilnya:
+Terkadang, terdapat problem yang mengharuskan kita untuk menggenerate angka, dari beberapa digit, dengan panjang semisal $n$ digit. Katakanlah kita diminta untuk menggenerate semua angka-angka dengan panjang maksimal 3, yang mungkin disusun oleh digit-digit seperti $4$ dan $7$, maka berikut adalah hasilnya:
 
 ```
 7
@@ -46,13 +45,8 @@ Materi kali ini kita akan belajar algoritma untuk melakukan generate angka sepee
 2. Generate angka dengan panjang tepat $n$, dari beberapa digit.
 
 Baiklah, mari kita mulai!
-
-<br/>
-
----
-
-# 2 | Cara Rekursif
-## 2.1 | Generate Angka dengan Panjang Maksimal $n$
+## 1. Cara Rekursif
+### 1.1. Generate Angka dengan Panjang Maksimal $n$
 
 Buatkan semua kombinasi angka dengan panjang tepat $n$, dari digit-digit:
 - $1,3$
@@ -202,7 +196,7 @@ auto main() -> int {
 
 Kelebihan dari kode ini bukan saja bisa menyusun angka yang sangat besar, tapi juga bisa menyusun kombinasi dari beberapa karakter, baik itu huruf, tanda baca, atau karakter-karakter lain. Sehingga multifungsi.
 
-## 2.2 | Generate Angka dengan Panjang Tepat $n$
+### 1.2. Generate Angka dengan Panjang Tepat $n$
 
 Jika semisal yang dicari adalah generate angka dengan panjang tepat $n$, maka kita cukup melakukan sedikit modifikasi pada fungsi `generateNumber()`, dimana kita hanya menyimpan kombinasi angka hanya jika angka tersebut memiliki panjang tepat $n$, atau pemanggilan fungsi rekursif tepat $n$ kali. Kodenya adalah sebagai berikut:
 
@@ -243,15 +237,11 @@ auto main() -> int {
 }
 ```
 
-<br/>
-
----
-
-# 3 | Cara Iteratif
+## 2. Cara Iteratif
 
 Walaupun cara rekursif tampak jauh lebih mudah dipahami, tapi jika ukuran kombinasi besar, bisa saja terjadi stack overflow, karena rekursif mengandalkan memory. Sehingga, kita perlu mengatasi dengan cara iteratif.
 
-## 3.1 | Generate Angka dengan Panjang Maksimal $n$
+### 2.1. Generate Angka dengan Panjang Maksimal $n$
 
 Sebelumnya kita sudah belajar pendekatan statis, tapi karena program yang bagus seharusnya bisa menerima inputan dinamis, maka kita akan membuat contoh-contoh selanjutnya juga dinamis.
 
@@ -292,7 +282,7 @@ auto main() -> int {
 }
 ```
 
-## 3.2 | Generate Angka dengan Panjang Tepat $n$
+### 2.2. Generate Angka dengan Panjang Tepat $n$
 
 ```cpp
 #include <iostream>

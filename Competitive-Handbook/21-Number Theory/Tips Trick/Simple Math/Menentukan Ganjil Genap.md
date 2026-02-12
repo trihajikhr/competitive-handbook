@@ -5,6 +5,7 @@ tips_trick: Menentukan Ganjil Genap
 sumber:
   - myself
   - chatgpt.com
+date_learned: 2026-01-13T18:45:00
 tags:
   - tips-trick
   - number-theory
@@ -16,7 +17,7 @@ Menentukan ganjil genap itu sangat mudah, kita cukup menggunakan operasi modulo,
 
 Well, mencari ganjil genap memang semudah itu, tapi mari kita berfokus pada setiap peningkatan, jika memang bisa ditingkatakan.
 
-## 1 | Cara Modulo
+## 1. Cara Modulo
 Dengan cara modulo, kita bisa menentukan apakah suatu angka adalah ganjil atau genap dengan menggunakan operasi modulo, dan ekuivalensi, sebagai berikut:
 
 ```cpp
@@ -46,7 +47,8 @@ auto main() -> int {
 
 Well, ini adalah cara yang paling mudah, paling klasik, paling mudah dipelajari, karena terlihat dengan jelas.
 
-## 2 | Cara True False / Boolean
+## 2. Cara True False / Boolean
+
 Tanpa menambahkan tanda equivalensi, kita bisa memanfaatkan kondisi true false pada percabangan, sebagai berikut:
 
 ```cpp
@@ -79,7 +81,7 @@ Percabangan `if` atau `else if` akan aktif jika kondisional didalamnya bernilai 
 
 Jadi, ketika `n % 2`, maka jika $n$ adalah ganjil, maka blok percabangan tersebut akan dieksekusi, karena hasil sisa dari ganjil adalah 1. Sedangkan untuk angka $n$ genap, hasil dari operasi `n % 2` adalah 0, atau false. Itu bisa kita aktifkan dengan bantuan operator negasi (`!`).
 
-## 3 | Cara Bitwise
+## 3. Cara Bitwise
 
 Yang cukup jarang dipakai, tapi lumayan cepat, yaitu cara bitwise. Karena genap/ganjil ditentukan oleh bit paling rendah (LSB), maka:
 

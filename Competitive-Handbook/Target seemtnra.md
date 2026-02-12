@@ -1,0 +1,2 @@
+- Pelajari precompute segitiga pascal untuk kombinasi!
+- jika ada soal yang berhubungan dengan $2^k$, maka pikirkan bitwise atau bit operation!
