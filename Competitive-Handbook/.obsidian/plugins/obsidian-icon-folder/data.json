@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiChartNoAxesCombined",
-      "LiBraces",
-      "LiFileCode2",
-      "LiSearch",
-      "RiSearchEyeFill"
+      "LiCode2",
+      "LiCode",
+      "RiStackOverflowLine",
+      "LiRuler",
+      "LiChartNoAxesCombined"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -103,8 +103,6 @@
   "04-Data Structure/!A_C++ Standard Template Library.md": "LiCode2",
   "04-Data Structure/!B_Kontainer C++.md": "LiCode2",
   "LeetCode-Contest": "LiCode2",
-  "LeetCode-Contest/Virtual Contest": "LiComputer",
-  "LeetCode-Contest/Public Contest": "RiLiveLine",
   "02-Time Complexity/Time Complexity dalam Algoritma.md": "LiFileCode2",
   "01-Introduction/01-Introduction to CP.md": "RiFileCodeLine",
   "01-Introduction/02-Memilih bahasa program.md": "RiFileCodeLine",
@@ -146,7 +144,6 @@
   "DATA DOKUMENTASI/02-Neovim Terminal Setup": "RiTerminalBoxFill",
   "14-Tree Algorithm/STRIKE-Tree Algorithm": "LiSwords",
   "DATA DOKUMENTASI/04-Setup Terminal Alacritty": "RiTerminalBoxFill",
-  "13-Shortest-Paths/A_Bellman-Ford/Latihan": "LiChartNoAxesCombined",
   "12-Graph Traversal/A-DFS (Depth First Search)/Latihan": "LiChartNoAxesCombined",
   "22-Combinatorics/01-Practice-Beginner/1843C-Sum in Binary Tree.md": "LiCodesandbox",
   "22-Combinatorics/01-Practice-Beginner/1743A-Password.md": "LiCodesandbox",
@@ -205,7 +202,6 @@
   "11-Basic of Graph/Latihan/18-Hamiltonion Circuit (undirected).md": "LiCode2",
   "CodeForces Editorial After Contest/Codeforces Round 1045 (Div. 2) Editorial/A-Painting With Two Colors.md": "LiCode2",
   "DATA DOKUMENTASI/Custom AutoHotkey": "LiKeyboard",
-  "07-Dynamic Programming/01-Introduction to Dynamic Programming.md": "LiQrCode",
   "C++ Standard Library/include - regex/Header regex di C++.md": "LiQrCode",
   "C++ Standard Library/include - sstream/Header sstream di C++.md": "LiQrCode",
   "C++ Standard Library/include - sstream": "LiPuzzle",
@@ -478,5 +474,10 @@
   "05-Complete Search/Generating Subsets": "LiBraces",
   "04-Data Structure/Linked List/D-Linked list/Linked list - Linked list Data Structure.md": "LiQrCode",
   "04-Data Structure/Linked List/D-Forward List/B_Forward List.md": "LiQrCode",
-  "05-Complete Search/Generating Subsets/Latihan": "LiChartNoAxesCombined"
+  "05-Complete Search/Generating Subsets/Latihan": "LiChartNoAxesCombined",
+  "12-Graph Traversal/Latihan": "LiChartNoAxesCombined",
+  "09-Range Queries": "LiRuler",
+  "07-Dynamic Programming/Introduction to Dynamic Programming.md": "LiQrCode",
+  "07-Dynamic Programming": "RiStackOverflowLine",
+  "07-Dynamic Programming/Latihan/Fibonacci.md": "LiCode2"
 }

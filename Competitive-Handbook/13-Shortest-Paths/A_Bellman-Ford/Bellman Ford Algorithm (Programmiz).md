@@ -1,12 +1,24 @@
-#graph-algorithm #shortest-paths #bellman-ford 
+---
+obsidianUIMode: preview
+note_type: book theory
+judul_materi: Bellman Ford Algorithm (Programmiz)
+sumber:
+  - programiz.com
+date_learned: 2026-02-13T21:50:00
+tags:
+  - graphs
+---
+Link Sumber: [Bellman Ford's Algorithm](https://www.programiz.com/dsa/bellman-ford-algorithm)
 
 ---
-# Bellman Ford Algorithm (Programmiz)
-> Programmiz.com
+
+> [!IMPORTANT]
+>  
+# Bellman Ford Algorithm
 
 Algoritma ini mirip dengan algoritma Dijkstra tetapi dapat bekerja dengan graph yang memiliki edge dengan bobot negatif.
 
-### Mengapa dalam kehidupan nyata seseorang memiliki edge dengan bobot negatif?  
+## 1. Mengapa dalam kehidupan nyata seseorang memiliki edge dengan bobot negatif?  
 
 Edge dengan bobot negatif mungkin terlihat tidak berguna pada awalnya, tetapi bobot negatif dapat menjelaskan banyak fenomena seperti arus kas (_cashflow_), panas yang dilepaskan/diserap dalam reaksi kimia, dan sebagainya.
 
@@ -14,7 +26,8 @@ Sebagai contoh, jika terdapat berbagai cara untuk mencapai dari satu zat kimia A
 
 Jika kita ingin menemukan kumpulan reaksi di mana energi minimum dibutuhkan, maka kita perlu mempertimbangkan penyerapan panas sebagai bobot negatif dan pelepasan panas sebagai bobot positif.
 
-### Mengapa kita perlu berhati-hati dengan bobot negatif?  
+## 2. Mengapa kita perlu berhati-hati dengan bobot negatif?  
+
 Edge dengan bobot negatif dapat menciptakan _negative weight cycle_, yaitu sebuah siklus yang akan mengurangi total jarak lintasan dengan kembali ke titik yang sama.
 
 ![[Bellman Ford Algorithm-1.png]]
@@ -22,7 +35,8 @@ Edge dengan bobot negatif dapat menciptakan _negative weight cycle_, yaitu sebua
 
 Algoritma _shortest path_ seperti **Dijkstra's Algorithm** yang tidak mampu mendeteksi siklus semacam itu dapat memberikan hasil yang salah karena mereka bisa melewati _negative weight cycle_ dan mengurangi panjang lintasan.
 
-## Algoritma Bellman Ford
+## 3. Algoritma Bellman Ford
+
 Algoritma Bellman Ford bekerja dengan melebih-lebihkan panjang lintasan dari _starting vertex_ ke semua _vertex_ lainnya. Kemudian algoritma ini secara iteratif melakukan _relaxation_ terhadap estimasi tersebut dengan menemukan lintasan-lintasan baru yang lebih pendek daripada lintasan yang sebelumnya telah dilebih-lebihkan.
 
 Dengan melakukan ini berulang kali untuk semua _vertex_, kita dapat menjamin bahwa hasil akhirnya sudah teroptimasi.
@@ -43,7 +57,7 @@ Dengan melakukan ini berulang kali untuk semua _vertex_, kita dapat menjamin bah
    ![[Bellman Ford Algorithm-6.png]]
 6. Step terakhir
    ![[Bellman Ford Algorithm-7.png]]
-## Pseudocode Bellman Ford Algorithm
+## 4. Pseudocode Bellman Ford Algorithm
 
 Kita perlu menyimpan jarak lintasan (_path distance_) untuk setiap _vertex_. Kita dapat menyimpannya dalam sebuah array berukuran _v_, di mana _v_ adalah jumlah _vertex_.
 
@@ -71,7 +85,7 @@ function bellmanFord(G, S)
 
   return distance[], previous[]
 ```
-# Contoh Algoritma Bellman Ford
+## 5. Contoh Algoritma Bellman Ford
 
 ```cpp
 #include<iostream>

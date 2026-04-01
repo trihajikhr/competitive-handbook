@@ -224,7 +224,10 @@
     "ra": 212,
     "penyaringan": 213,
     "meta-learning": 214,
-    "bitset": 215
+    "bitset": 215,
+    "range-queries": 216,
+    "trie": 217,
+    "bfs": 218
   },
   "_version": 3
 }

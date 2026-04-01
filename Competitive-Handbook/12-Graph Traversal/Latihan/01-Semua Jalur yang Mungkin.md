@@ -51,7 +51,7 @@ Input:
 3 7
 ```
 
-![[graph (1).png]]
+![[../../ZZ-Temporary Image Vault/graph (1).png]]
 
 Output:
 
