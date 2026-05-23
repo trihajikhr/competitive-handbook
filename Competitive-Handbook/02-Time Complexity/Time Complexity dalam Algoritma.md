@@ -8,7 +8,7 @@ sumber:
   - geeksforgeeks.org
 date_learned: 2026-02-12T23:29:00
 tags:
-  - introduction
+  - time-complexity
 ---
 Link Sumber: [Time and Space Complexity - GeeksforGeeks](https://www.geeksforgeeks.org/dsa/time-complexity-and-space-complexity/)
 

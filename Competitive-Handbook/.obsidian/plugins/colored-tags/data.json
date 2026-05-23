@@ -227,7 +227,11 @@
     "bitset": 215,
     "range-queries": 216,
     "trie": 217,
-    "bfs": 218
+    "bfs": 218,
+    "CP-Fundamentals": 219,
+    "Mathematics": 220,
+    "ObsidianNote": 221,
+    "prime-number": 222
   },
   "_version": 3
 }

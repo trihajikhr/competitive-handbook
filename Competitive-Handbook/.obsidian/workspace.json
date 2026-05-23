@@ -8,37 +8,23 @@
         "type": "tabs",
         "children": [
           {
-            "id": "85ed83f33d2c994b",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "!Important Notes/Aturan Penerjemahan.md",
-                "mode": "preview",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Aturan Penerjemahan"
-            }
-          },
-          {
-            "id": "6e0f02e9c11fde5e",
+            "id": "c7a66a5c726cc8c2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "07-Dynamic Programming/AtCoder DP Contest/A - Frog 1.md",
-                "mode": "preview",
-                "source": false
+                "file": "Problem Solving.canvas",
+                "viewState": {
+                  "x": 2553.667020808103,
+                  "y": 4408.26867331905,
+                  "zoom": -1
+                }
               },
-              "icon": "lucide-file",
-              "title": "A - Frog 1"
+              "icon": "lucide-layout-dashboard",
+              "title": "Problem Solving"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#dynamic-programming",
+                "query": "bit manipulation",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -189,7 +175,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "07-Dynamic Programming/AtCoder DP Contest/A - Frog 1.md",
+                "file": "Problem Solving.canvas",
                 "options": {
                   "collapse-filter": false,
                   "search": "tag:#tuple  ",
@@ -217,7 +203,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of A - Frog 1"
+              "title": "Graph of Problem Solving"
             }
           }
         ],
@@ -234,21 +220,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07-Dynamic Programming/AtCoder DP Contest/A - Frog 1.md",
+                "file": "Problem Solving.canvas",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of A - Frog 1"
+              "title": "Outline of Problem Solving"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -267,38 +252,43 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "6e0f02e9c11fde5e",
+  "active": "c7a66a5c726cc8c2",
   "lastOpenFiles": [
-    "07-Dynamic Programming/AtCoder DP Contest/B - Frog 2.md",
-    "07-Dynamic Programming/AtCoder DP Contest/A - Frog 1.md",
     "!Important Notes/Aturan Penerjemahan.md",
+    "Problem Solving.canvas",
+    "10-Bit Manipulation/Perhitungan Bit Sederhana.md",
+    "10-Bit Manipulation/Menghitung Bit.md",
+    "src/Problem Solving.png",
+    "src",
+    "Untitled.canvas",
+    "Untitled.md",
+    "Rating Task Hunter/900.md",
+    "Codeforces Catalog",
+    "10-Bit Manipulation/01-Bit Manipulation.md",
+    "10-Bit Manipulation/Good Problem.md",
+    "Rating Task Hunter/Untitled.md",
+    "21-Number Theory/Math Fun Fact.md",
+    "Rating Task Hunter/1000.md",
+    "21-Number Theory/Algoritma Exhange Rate atau Pertukaran.md",
+    "21-Number Theory/Tips trick/Simple math/Semua Angka diatas 1 Memiliki Faktor Prima.md",
+    "21-Number Theory/Tips trick/Simple math/Menentukan Ganjil Genap.md",
+    "21-Number Theory/Tips trick/Simple math/Mencari LCM Minimum dari N.md",
+    "21-Number Theory/Tips trick/Simple math/Arithmetic Priority.md",
+    "09-Range Queries/Tips trick/Rentang Inklusif dan Rumus R - L + 1.md",
+    "09-Range Queries/Tips trick",
+    "02-Time Complexity/Time Complexity dalam Algoritma.md",
+    "07-Dynamic Programming/AtCoder DP Contest/C - Vacation.md",
+    "07-Dynamic Programming/AtCoder DP Contest/A - Frog 1.md",
+    "07-Dynamic Programming/AtCoder DP Contest/B - Frog 2.md",
     "Z Templater/Latihan.md",
     "07-Dynamic Programming/Knapsack Problem.md",
     "07-Dynamic Programming/AtCoder DP Contest",
     "07-Dynamic Programming/Introduction to Dynamic Programming.md",
     "07-Dynamic Programming/hapus kalau udah.md",
     "09-Range Queries/Min Max range/Elemen Min Max dalam Rentang.md",
-    "04-Data Structure/Sparse Table.md",
-    "12-Graph Traversal/Latihan - Intens/AKBAR - Akbar , The great.md",
-    "04-Data Structure/Minimum stack or Minimum queue.md",
-    "12-Graph Traversal/Latihan - Intens/NAKANJ - Minimum Knight moves !!!.md",
     "12-Graph Traversal/Latihan - Intens/src/NAKANJ - Minimum Knight moves !!!-1.png",
     "12-Graph Traversal/Latihan - Intens/src",
-    "12-Graph Traversal/Breadth-first search.md",
     "12-Graph Traversal/Latihan - Intens",
-    "CP Algorithm.md",
-    "07-Dynamic Programming/Latihan/02-Jumlah Uang Koin.md",
-    "07-Dynamic Programming/Latihan/Fibonacci.md",
-    "07-Dynamic Programming/Latihan/01-Tangga.md",
-    "Conceal Sword/Berbagai Metode Belajar.md",
-    "Conceal Sword/12-Lead Away The Sheep When Conditions Are Right.md",
-    "Conceal Sword/11-Sacrifice The Peach To Secure The Plum.md",
-    "Conceal Sword/01-Obsecure Heaven, Cross The Sea.md",
-    "LeetCode-Contest/Virtual Contest/!Link Virtual Contest.md",
-    "LeetCode-Contest/Easy-level/0021-Merge Two Sorted Lists.md",
-    "LeetCode-Contest/Easy-level/0009-Palindrome Number.md",
-    "LeetCode-Contest/Virtual Contest/21-Agustus-2016/B_First Unique Character in a String.md",
-    "LeetCode-Contest/Virtual Contest/21-Agustus-2016/A_Lexicographical Numbers.md",
     "09-Range Queries/Min Max range/src/Elemen Min dan Max dalam Rentang-1.png",
     "09-Range Queries/Max range/src/Elemen Min dan Max dalam Rentang-2.png",
     "09-Range Queries/Min Max range/src/Elemen Min dan Max dalam Rentang-1.png",
@@ -307,17 +297,11 @@
     "09-Range Queries/Min range",
     "09-Range Queries/Min Max range",
     "13-Shortest-Paths/Latihan/src/graph.png",
-    "13-Shortest-Paths/Latihan/src/silabus-osn-komputerinformatika-sma.pdf",
     "13-Shortest-Paths/Latihan/src/graph.png",
-    "13-Shortest-Paths/Latihan/src/BukuBebras2017_SMA.pdf",
-    "13-Shortest-Paths/Latihan/src",
-    "Untitled.canvas",
     "05-Complete Search/Zimg/Recursive Search Subset Algorithm-1.png",
     "05-Complete Search/Zimg/Backtracking-1.png",
     "22-Combinatorics/src/Binomial Coefficients-1.png",
-    "Metode Belajar/Interview/src/deltixlab’s interview Deltix rounds back story-1.png",
     "DELIBERATE PRACTICE/Untitled.canvas",
-    "Untitled 1.canvas",
     "Canvas/01-introduction.canvas",
     "Pohon Competitive Programming.canvas",
     "ZZZ Uncotegorized file/Big plan.canvas",

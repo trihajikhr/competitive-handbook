@@ -13,15 +13,11 @@
   "quickadd",
   "nldates-obsidian",
   "templater-obsidian",
-  "advanced-canvas",
-  "obsidian-admonition",
   "obsidian-auto-link-title",
   "calendar",
   "obsidian-annotator",
-  "canvas-filter",
-  "canvas-mindmap",
-  "canvas-minimap",
   "dashboard-navigator",
   "dataview",
-  "code-styler"
+  "code-styler",
+  "heading-level-indent"
 ]

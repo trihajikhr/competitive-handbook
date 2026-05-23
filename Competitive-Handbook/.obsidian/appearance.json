@@ -1,7 +1,5 @@
 {
-  "enabledCssSnippets": [
-    "center-canvas"
-  ],
+  "enabledCssSnippets": [],
   "cssTheme": "Blue Topaz",
   "theme": "obsidian",
   "showRibbon": true

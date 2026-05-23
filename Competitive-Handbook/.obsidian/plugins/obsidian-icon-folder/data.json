@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiStars",
+      "LiLightbulb",
       "LiCode2",
       "LiCode",
-      "RiStackOverflowLine",
-      "LiRuler",
-      "LiChartNoAxesCombined"
+      "RiStackOverflowLine"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -479,5 +479,8 @@
   "09-Range Queries": "LiRuler",
   "07-Dynamic Programming/Introduction to Dynamic Programming.md": "LiQrCode",
   "07-Dynamic Programming": "RiStackOverflowLine",
-  "07-Dynamic Programming/Latihan/Fibonacci.md": "LiCode2"
+  "07-Dynamic Programming/Latihan/Fibonacci.md": "LiCode2",
+  "09-Range Queries/Tips trick/Rentang Inklusif dan Rumus R - L + 1.md": "LiLightbulb",
+  "09-Range Queries/Tips trick": "LiStars",
+  "21-Number Theory/Tips trick/Simple math/Semua Angka diatas 1 Memiliki Faktor Prima.md": "LiLightbulb"
 }

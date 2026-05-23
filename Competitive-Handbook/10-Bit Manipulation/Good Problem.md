@@ -1,0 +1,2 @@
+- [1704B - Luke is a Foodie](https://codeforces.com/problemset/problem/1704/B)
+- [75A - Life Without Zeros](https://codeforces.com/problemset/problem/75/A)
