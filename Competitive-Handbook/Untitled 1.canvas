@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"0c6dd9f584be1118","x":-160,"y":-60,"width":250,"height":60,"type":"text","text":"Gagal berkembang di Competitive Programming"},
+		{"id":"e4e6858e7d086400","x":-680,"y":-480,"width":270,"height":60,"type":"text","text":"Kekusutan dialog internal didalam kepala"},
+		{"id":"751101849583389a","x":-680,"y":300,"width":270,"height":80,"type":"text","text":"Tidak adanya checklist beroikir yang terstruktur ketika buntu"}
+	],
+	"edges":[
+		{"id":"bc5cdc184e277733","fromNode":"0c6dd9f584be1118","fromSide":"left","toNode":"e4e6858e7d086400","toSide":"right"},
+		{"id":"2e88d75b002e261d","fromNode":"0c6dd9f584be1118","fromSide":"left","toNode":"751101849583389a","toSide":"right"}
+	]
+}

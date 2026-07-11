@@ -282,8 +282,18 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "f0da29ce3a3dada8",
+  "active": "04554e08cc1bd94b",
   "lastOpenFiles": [
+    "src/How to Solve It Workflow-1.png",
+    "Untitled 1.canvas",
+    "Training Center/Training Method v1.0.md",
+    "Training Center/Training Checklist v1.0.md",
+    "Training Center",
+    "SYNTHETIC MINDMAP/Untitled.canvas",
+    "SYNTHETIC MINDMAP",
+    "How to Solve It Workflow.md",
+    "13-Shortest-Paths/Floyd-Warshall/Untitled.md",
+    "13-Shortest-Paths/Floyd-Warshall",
     "04-Data Structure/Vector/Vector Data Structures.md",
     "TRAINING BASE CAMP/vector.canvas",
     "Untitled 2.md",
@@ -308,12 +318,8 @@
     "14-Tree Algorithm/A-Basic - Programmiz/01-Tree Data Structure/Latihan/06-Level Genap Saja.md",
     "14-Tree Algorithm/A-Basic - Programmiz/01-Tree Data Structure/Latihan/04-Tinggi Tree.md",
     "14-Tree Algorithm/A-Basic - Programmiz/02-Tree Traversal/Latihan/23-Semua Node di Level Tertentu Genap.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/02-Tree Traversal/Latihan/13-Operasi Node Ganjil dengan Level dan X.md",
     "Problem Solving.canvas",
     "TRAINING BASE CAMP",
-    "!Important Notes/Aturan Penerjemahan.md",
-    "10-Bit Manipulation/Perhitungan Bit Sederhana.md",
-    "10-Bit Manipulation/Menghitung Bit.md",
     "src/Problem Solving.png",
     "src",
     "Untitled.canvas",
@@ -322,12 +328,9 @@
     "07-Dynamic Programming/AtCoder DP Contest",
     "12-Graph Traversal/Latihan - Intens/src/NAKANJ - Minimum Knight moves !!!-1.png",
     "12-Graph Traversal/Latihan - Intens/src",
-    "12-Graph Traversal/Latihan - Intens",
     "09-Range Queries/Min Max range/src/Elemen Min dan Max dalam Rentang-1.png",
     "09-Range Queries/Max range/src/Elemen Min dan Max dalam Rentang-2.png",
     "09-Range Queries/Min Max range/src/Elemen Min dan Max dalam Rentang-1.png",
-    "09-Range Queries/Min Max range/src",
-    "09-Range Queries/Sum range",
     "13-Shortest-Paths/Latihan/src/graph.png",
     "13-Shortest-Paths/Latihan/src/graph.png",
     "05-Complete Search/Zimg/Recursive Search Subset Algorithm-1.png",
@@ -336,8 +339,6 @@
     "DELIBERATE PRACTICE/Untitled.canvas",
     "Canvas/01-introduction.canvas",
     "Pohon Competitive Programming.canvas",
-    "ZZZ Uncotegorized file/Big plan.canvas",
-    "Mata Kuliah Terkait/Semester 1/1. Manajemen data dan Informasi/modelbisnis.canvas",
-    "Mata Kuliah Terkait/Semester 1/1. Manajemen data dan Informasi/Tanpa judul.canvas"
+    "ZZZ Uncotegorized file/Big plan.canvas"
   ]
 }
