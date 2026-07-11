@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"d28be007ec40d4d3","type":"text","text":"Pengertian dan mekanisme struktur data vector:\n\n[Vector Data Structures](../04-Data%20Structure/Vector/Vector%20Data%20Structures.md)\n","x":-140,"y":-320,"width":360,"height":120},
+		{"id":"dbe5ce8c9ba75f95","x":-520,"y":40,"width":250,"height":60,"type":"text","text":"Metode akses"},
+		{"id":"4f522d810a9e8de8","x":-1060,"y":220,"width":520,"height":260,"type":"text","text":" **Subscript operator `[]`**\n \n Mengakses elemen vector langsung dengan mengakses indexnya. Bekerja dengan lebih cepat. Nilai valid berada di rentang $0 \\le idx < vec.size()$. Akses index yang tidak valid menghasilkan *undefined behaviour*.\n \n```cpp\nint val = myvector[0];\n```"},
+		{"id":"9638ff14074000d1","x":-1060,"y":500,"width":520,"height":380,"type":"text","text":"**Metode `at()`**\n\nMengakses elemen vector dengan *bound checking*, sehingga akses index yang tidak valid, tidak langsung membuat program mengalami *undefined behaviour*. Namun sedikit lebih lambat.\n\n```cpp\nint val;\n\ntry {\n\tval = angka.at(10);\n} catch (const out_of_range& e) {\n\tcerr << \"Err: out of bound! \";\n}\n```"}
+	],
+	"edges":[
+		{"id":"329aca1d300c51ea","fromNode":"dbe5ce8c9ba75f95","fromSide":"bottom","toNode":"4f522d810a9e8de8","toSide":"right"},
+		{"id":"28f44510ed7e1e4a","fromNode":"dbe5ce8c9ba75f95","fromSide":"bottom","toNode":"9638ff14074000d1","toSide":"right"}
+	]
+}

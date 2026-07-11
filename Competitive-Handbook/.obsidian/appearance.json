@@ -1,5 +1,7 @@
 {
-  "enabledCssSnippets": [],
+  "enabledCssSnippets": [
+    "list_spacing"
+  ],
   "cssTheme": "Blue Topaz",
   "theme": "obsidian",
   "showRibbon": true

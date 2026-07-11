@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"957708300afb69b1","type":"text","text":"Competitive Programming","x":-140,"y":-340,"width":250,"height":60},
+		{"id":"8e5482b3d06d9874","type":"text","text":"Data Structures","x":-480,"y":20,"width":250,"height":60},
+		{"id":"8f67e3ea8f1bcefb","type":"text","text":"Range Query Structures","x":-440,"y":290,"width":250,"height":60},
+		{"id":"c5ae9cd5917473d0","type":"text","text":"Linear Data Structures","x":-1260,"y":550,"width":250,"height":60},
+		{"id":"356143bdf9e19091","type":"text","text":"Container Structures","x":-935,"y":550,"width":250,"height":60},
+		{"id":"d7198be3e988248f","type":"text","text":"STL Data structures","x":-1060,"y":290,"width":250,"height":60},
+		{"id":"a52781a3b785dee8","type":"text","text":"Hierarchical Grouping Structures","x":-760,"y":290,"width":250,"height":60},
+		{"id":"8cd0e3ffff0d2dd4","type":"text","text":"String Data Structures","x":-100,"y":290,"width":250,"height":60},
+		{"id":"0013b27249d076cc","type":"text","text":"Algorithm","x":675,"y":3,"width":250,"height":60},
+		{"id":"96b51bff1e5f1939","type":"text","text":"Sorting","x":360,"y":277,"width":250,"height":60},
+		{"id":"41e05ad0a08081c8","type":"text","text":"```cpp\nsort(iter.begin(), iter.end())\n```","x":150,"y":420,"width":460,"height":100},
+		{"id":"5343f60f69d0860c","type":"text","text":"Reverse","x":700,"y":277,"width":250,"height":60},
+		{"id":"4ad825b12ff915db","x":655,"y":420,"width":545,"height":100,"type":"text","text":"```cpp\nreverse(iter.begin(), iter.end())\n```"}
+	],
+	"edges":[
+		{"id":"ebceee80637cc334","fromNode":"957708300afb69b1","fromSide":"bottom","toNode":"8e5482b3d06d9874","toSide":"top"},
+		{"id":"2fcd2595a8ca78cc","fromNode":"d7198be3e988248f","fromSide":"bottom","toNode":"c5ae9cd5917473d0","toSide":"top"},
+		{"id":"4e2f4b37158ab279","fromNode":"d7198be3e988248f","fromSide":"bottom","toNode":"356143bdf9e19091","toSide":"top"},
+		{"id":"f0dec5b6efde8b41","fromNode":"8e5482b3d06d9874","fromSide":"bottom","toNode":"d7198be3e988248f","toSide":"top"},
+		{"id":"ffbbaec6cbcc34d2","fromNode":"8e5482b3d06d9874","fromSide":"bottom","toNode":"a52781a3b785dee8","toSide":"top"},
+		{"id":"e0cdba2a99f4b29b","fromNode":"8e5482b3d06d9874","fromSide":"bottom","toNode":"8f67e3ea8f1bcefb","toSide":"top"},
+		{"id":"a06ea82442a0f9ea","fromNode":"8e5482b3d06d9874","fromSide":"bottom","toNode":"8cd0e3ffff0d2dd4","toSide":"top"},
+		{"id":"701a2c03bf40b84b","fromNode":"957708300afb69b1","fromSide":"bottom","toNode":"0013b27249d076cc","toSide":"top"},
+		{"id":"381e4876c7a67af5","fromNode":"0013b27249d076cc","fromSide":"bottom","toNode":"96b51bff1e5f1939","toSide":"top"},
+		{"id":"1288cad768567a89","fromNode":"0013b27249d076cc","fromSide":"bottom","toNode":"5343f60f69d0860c","toSide":"top"},
+		{"id":"fda9fa4795465237","fromNode":"96b51bff1e5f1939","fromSide":"bottom","toNode":"41e05ad0a08081c8","toSide":"top"},
+		{"id":"116766eaaf4c13b4","fromNode":"5343f60f69d0860c","fromSide":"bottom","toNode":"4ad825b12ff915db","toSide":"top"}
+	]
+}

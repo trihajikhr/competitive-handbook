@@ -421,7 +421,6 @@
   "04-Data Structure/Linked List/Singly Linked-List/Linked list Data Structure (Programmiz).md": "LiQrCode",
   "04-Data Structure/Linked List/Singly Linked-List/Singly Linked List (Geeks).md": "LiQrCode",
   "04-Data Structure/Vector/01-Latihan": "LiChartNoAxesCombined",
-  "04-Data Structure/Vector/Struktur Data Vector pada C++.md": "LiQrCode",
   "04-Data Structure/Vector/Tutorial Vector di C++.md": "LiQrCode",
   "04-Data Structure/List/Latihan": "LiChartNoAxesCombined",
   "04-Data Structure/List/List - C++ List Data Structure.md": "LiQrCode",
@@ -482,5 +481,6 @@
   "07-Dynamic Programming/Latihan/Fibonacci.md": "LiCode2",
   "09-Range Queries/Tips trick/Rentang Inklusif dan Rumus R - L + 1.md": "LiLightbulb",
   "09-Range Queries/Tips trick": "LiStars",
-  "21-Number Theory/Tips trick/Simple math/Semua Angka diatas 1 Memiliki Faktor Prima.md": "LiLightbulb"
+  "21-Number Theory/Tips trick/Simple math/Semua Angka diatas 1 Memiliki Faktor Prima.md": "LiLightbulb",
+  "04-Data Structure/Vector/Vector Data Structures.md": "LiQrCode"
 }
