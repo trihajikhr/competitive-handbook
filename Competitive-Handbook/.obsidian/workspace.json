@@ -13,18 +13,45 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Problem Solving.canvas",
+                "file": "SYNTHETIC MINDMAP/Untitled.canvas",
                 "viewState": {
-                  "x": 2553.667020808103,
-                  "y": 4408.26867331905,
-                  "zoom": -1
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Problem Solving"
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "508dc6000c032da9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "12-Graph Traversal/Latihan/04-Semua Jalur Terpendek.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "04-Semua Jalur Terpendek"
+            }
+          },
+          {
+            "id": "4b83cedfe53badd2",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "pemrograman-kompetitif-dasar.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "pemrograman-kompetitif-dasar"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,7 +202,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Problem Solving.canvas",
+                "file": "12-Graph Traversal/Latihan/04-Semua Jalur Terpendek.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "tag:#tuple  ",
@@ -203,7 +230,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Problem Solving"
+              "title": "Graph of 04-Semua Jalur Terpendek"
             }
           }
         ],
@@ -220,20 +247,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Problem Solving.canvas",
+                "file": "12-Graph Traversal/Latihan/04-Semua Jalur Terpendek.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Problem Solving"
+              "title": "Outline of 04-Semua Jalur Terpendek"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 609.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -252,40 +279,46 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "c7a66a5c726cc8c2",
+  "active": "04554e08cc1bd94b",
   "lastOpenFiles": [
-    "!Important Notes/Aturan Penerjemahan.md",
+    "pemrograman-kompetitif-dasar.pdf",
+    "Marginal Gains.md",
+    "4.md",
+    "2.md",
+    "SYNTHETIC MINDMAP/Untitled.canvas",
+    "12-Graph Traversal/Latihan/04-Semua Jalur Terpendek.md",
+    "Untitled 1.canvas",
+    "SYNTHETIC MINDMAP",
     "Problem Solving.canvas",
-    "10-Bit Manipulation/Perhitungan Bit Sederhana.md",
-    "10-Bit Manipulation/Menghitung Bit.md",
+    "Black Box.md",
+    "3.md",
+    "TOKI Youtube/Juara Olimpiade, Lanjut kuliah di Harvard sambil mengurus Startup TOKI Spotlight Moses Mayer.md",
+    "29-Geometry/Manhattan Distance.md",
+    "26-String/Tips trick/Konversi Karakter Huruf.md",
+    "26-String/Tips trick/Hitung Karakter dengan Fungsi Count().md",
+    "14-Tree Algorithm/A-Basic - Programmiz/03-Training Archive Tree Algorithm.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/01-Tree Data Structure/Latihan/15-Kumpulkan Semua Jalur dari Root ke Leaf.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/01-Tree Data Structure/Latihan/13-Duplikat dalam Tree.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/01-Tree Data Structure/Latihan/08-Cari Nilai Maksimum Leaf Node.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/01-Tree Data Structure/Latihan/05-Simpan Traversal Inorder ke Vector.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/02-Tree Traversal/Latihan/04-Maksimum minimum dalam tree.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/02-Tree Traversal/Latihan/16-Pasangan dengan Jumlah X.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/02-Tree Traversal/Latihan/13-Operasi Node Ganjil dengan Level dan X.md",
+    "04-Data Structure/Vector/01-Latihan/09-Simulasi Editor Daftar Tugas.md",
+    "04-Data Structure/Vector/01-Latihan/12-EDIT Tugas.md",
+    "Untitled.md",
+    "Untitled.canvas",
+    "Target seemtnra.md",
+    "13-Shortest-Paths/Floyd-Warshall/Untitled.md",
+    "13-Shortest-Paths/Floyd-Warshall",
+    "12-Graph Traversal/Latihan/05-Shortest Path dengan Rintangan.md",
+    "12-Graph Traversal/Latihan/03-Hanya Satu Jalur Terpendek.md",
+    "src/How to Solve It Workflow-1.png",
     "src/Problem Solving.png",
     "src",
-    "Untitled.canvas",
-    "Untitled.md",
-    "Rating Task Hunter/900.md",
     "Codeforces Catalog",
-    "10-Bit Manipulation/01-Bit Manipulation.md",
-    "10-Bit Manipulation/Good Problem.md",
-    "Rating Task Hunter/Untitled.md",
-    "21-Number Theory/Math Fun Fact.md",
-    "Rating Task Hunter/1000.md",
-    "21-Number Theory/Algoritma Exhange Rate atau Pertukaran.md",
-    "21-Number Theory/Tips trick/Simple math/Semua Angka diatas 1 Memiliki Faktor Prima.md",
-    "21-Number Theory/Tips trick/Simple math/Menentukan Ganjil Genap.md",
-    "21-Number Theory/Tips trick/Simple math/Mencari LCM Minimum dari N.md",
-    "21-Number Theory/Tips trick/Simple math/Arithmetic Priority.md",
-    "09-Range Queries/Tips trick/Rentang Inklusif dan Rumus R - L + 1.md",
     "09-Range Queries/Tips trick",
-    "02-Time Complexity/Time Complexity dalam Algoritma.md",
-    "07-Dynamic Programming/AtCoder DP Contest/C - Vacation.md",
-    "07-Dynamic Programming/AtCoder DP Contest/A - Frog 1.md",
-    "07-Dynamic Programming/AtCoder DP Contest/B - Frog 2.md",
-    "Z Templater/Latihan.md",
-    "07-Dynamic Programming/Knapsack Problem.md",
     "07-Dynamic Programming/AtCoder DP Contest",
-    "07-Dynamic Programming/Introduction to Dynamic Programming.md",
-    "07-Dynamic Programming/hapus kalau udah.md",
-    "09-Range Queries/Min Max range/Elemen Min Max dalam Rentang.md",
     "12-Graph Traversal/Latihan - Intens/src/NAKANJ - Minimum Knight moves !!!-1.png",
     "12-Graph Traversal/Latihan - Intens/src",
     "12-Graph Traversal/Latihan - Intens",
@@ -293,14 +326,10 @@
     "09-Range Queries/Max range/src/Elemen Min dan Max dalam Rentang-2.png",
     "09-Range Queries/Min Max range/src/Elemen Min dan Max dalam Rentang-1.png",
     "09-Range Queries/Min Max range/src",
-    "09-Range Queries/Sum range",
-    "09-Range Queries/Min range",
-    "09-Range Queries/Min Max range",
     "13-Shortest-Paths/Latihan/src/graph.png",
     "13-Shortest-Paths/Latihan/src/graph.png",
     "05-Complete Search/Zimg/Recursive Search Subset Algorithm-1.png",
     "05-Complete Search/Zimg/Backtracking-1.png",
-    "22-Combinatorics/src/Binomial Coefficients-1.png",
     "DELIBERATE PRACTICE/Untitled.canvas",
     "Canvas/01-introduction.canvas",
     "Pohon Competitive Programming.canvas",
