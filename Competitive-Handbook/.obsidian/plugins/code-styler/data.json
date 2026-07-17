@@ -337,7 +337,7 @@
         "activeEditorLine": false
       },
       "inline": {
-        "syntaxHighlight": true,
+        "syntaxHighlight": false,
         "style": false,
         "fontWeight": 4,
         "curvature": 6,

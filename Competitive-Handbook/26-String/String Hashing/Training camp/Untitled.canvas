@@ -1,0 +1,6 @@
+{
+	"nodes":[
+		{"id":"48f9e7318d9ec600","x":-900,"y":200,"width":820,"height":320,"type":"text","text":" ```cpp\n long long compute_hash(string const& s) {    \n    const int p = 31;    \n    const int m = 1e9 + 9;    \n    long long hash_value = 0;    \n    long long p_pow = 1;    \n    for (char c : s) {        \n        hash_value = (hash_value + (c - 'a' + 1) * p_pow) % m;        \n        p_pow = (p_pow * p) % m;    \n    }    \n    return hash_value;\n}\n ```"}
+	],
+	"edges":[]
+}

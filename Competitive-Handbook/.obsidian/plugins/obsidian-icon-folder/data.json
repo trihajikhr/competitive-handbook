@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiGrid2x2plus",
+      "LiPuzzle",
+      "LiWholeWord",
       "LiStars",
-      "LiLightbulb",
-      "LiCode2",
-      "LiCode",
-      "RiStackOverflowLine"
+      "LiLightbulb"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -350,10 +350,6 @@
   "04-Data Structure/Set/Set (programiz).md": "LiQrCode",
   "04-Data Structure/Set/Tutorial Set (Geeks).md": "LiQrCode",
   "04-Data Structure/Set/Set di C++ - Panduan Komprehensif untuk Koleksi Unik dan Terurut.md": "LiQrCode",
-  "Metode Belajar/Uncategorized/Metode Belajar BLACK BOX.md": "LiSwords",
-  "Metode Belajar/Uncategorized/Metode Belajar REVERSE-E.md": "LiSwords",
-  "Metode Belajar/Uncategorized/Metode Belajar STRIKE.md": "LiSwords",
-  "Metode Belajar/Uncategorized/Metode Menggunakan REVERSE-E.md": "LiSwords",
   "Tips Trick/Percabangan/Switch Case Bertumpuk (Fall-through).md": "LiLightbulb",
   "Tips Trick/Percabangan/Pengecekan Sekaligus Increment.md": "LiLightbulb",
   "21-Number Theory/Math Fun Fact.md": "RiLightbulbFlashLine",
@@ -376,9 +372,6 @@
   "21-Number Theory/Tips trick/Precompute/Mengefisiensikan Perhitungan Faktorial.md": "LiLightbulb",
   "21-Number Theory/Tips trick/Simple math": "LiBox",
   "21-Number Theory/Tips trick/Simple math/Menentukan Ganjil Genap.md": "LiLightbulb",
-  "Metode Belajar/Interview/700 Contest Ruban Interview.md": "LiUserStar",
-  "Metode Belajar/Interview/deltixlab’s interview Deltix rounds back story.md": "LiUserStar",
-  "Metode Belajar/Interview/How to be red from Arpa.md": "LiUserStar",
   "21-Number Theory/Prime Numbers/01-Sieve of Eratosthenes.md": "LiBinary",
   "21-Number Theory/Prime Numbers/02-Linear Sieve.md": "LiBinary",
   "21-Number Theory/Prime Numbers/03-Primality Tests.md": "LiBinary",
@@ -482,5 +475,8 @@
   "09-Range Queries/Tips trick/Rentang Inklusif dan Rumus R - L + 1.md": "LiLightbulb",
   "09-Range Queries/Tips trick": "LiStars",
   "21-Number Theory/Tips trick/Simple math/Semua Angka diatas 1 Memiliki Faktor Prima.md": "LiLightbulb",
-  "04-Data Structure/Vector/Vector Data Structures.md": "LiQrCode"
+  "04-Data Structure/Vector/Vector Data Structures.md": "LiQrCode",
+  "26-String": "LiWholeWord",
+  "26-String/String Hashing/Training camp": "LiPuzzle",
+  "04-Data Structure/Foundation - Hash Table/Scaffolding.canvas": "LiGrid2x2plus"
 }

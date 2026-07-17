@@ -15,5 +15,6 @@
   "newFileLocation": "current",
   "attachmentFolderPath": "./src",
   "newLinkFormat": "relative",
-  "newFileFolderPath": "src"
+  "newFileFolderPath": "src",
+  "spellcheck": false
 }

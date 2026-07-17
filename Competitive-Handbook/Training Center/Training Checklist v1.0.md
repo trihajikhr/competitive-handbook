@@ -1,7 +1,7 @@
 # Training Checklist v1.0
 
-- [ ] Tonton video 15 menit competitive programmer
-- [ ] Cari tips dan trick dari para master, minimal dapat 1 point
+- [x] Tonton video 15 menit competitive programmer ✅ 2026-07-11
+- [x] Cari tips dan trick dari para master, minimal dapat 1 point ✅ 2026-07-11
 - [ ] Tentukan SAP
 - [ ] Baca materinya
 - [ ] Selesaikan beberapa problem dengan tingkat kesulitan di titik *sweet spot*

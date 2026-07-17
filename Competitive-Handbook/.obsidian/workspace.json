@@ -4,56 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "3e7cc3c783b439e5",
+        "id": "485983bf4e26992e",
         "type": "tabs",
         "children": [
           {
-            "id": "c7a66a5c726cc8c2",
+            "id": "468a0c7da123c39b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-Data Structure/Vector/Training camp/11. 2D Vector Basics (Grid Initialization).md",
+                "file": "Platform - Atcoder/ABC - 466.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11. 2D Vector Basics (Grid Initialization)"
+              "title": "ABC - 466"
             }
           },
           {
-            "id": "363331ece5945b52",
+            "id": "44f78ec9894b649c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "surfing-view",
               "state": {
-                "file": "04-Data Structure/Vector/Vector Data Structures.md",
-                "mode": "preview",
-                "source": false
+                "url": "https://atcoder.jp/contests/abc466/tasks/abc466_a"
               },
               "icon": "lucide-file",
-              "title": "Vector Data Structures"
-            }
-          },
-          {
-            "id": "f0da29ce3a3dada8",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "TRAINING BASE CAMP/vector.canvas",
-                "viewState": {
-                  "x": -803.8533426651669,
-                  "y": 576.8740544961164,
-                  "zoom": 0.3999999999999999
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "vector"
+              "title": "A - Compromise"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bit manipulation",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -204,7 +184,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "TRAINING BASE CAMP/vector.canvas",
+                "file": "Platform - Atcoder/ABC/466/A - Compromise.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "tag:#tuple  ",
@@ -232,7 +212,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of vector"
+              "title": "Graph of A - Compromise"
             }
           }
         ],
@@ -249,13 +229,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TRAINING BASE CAMP/vector.canvas",
+                "file": "Platform - Atcoder/ABC/466/A - Compromise.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of vector"
+              "title": "Outline of A - Compromise"
             }
           }
         ]
@@ -282,63 +262,63 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "04554e08cc1bd94b",
+  "active": "468a0c7da123c39b",
   "lastOpenFiles": [
+    "Platform - Atcoder/ABC - 465.md",
+    "Platform - Atcoder/ABC - 464.md",
+    "Platform - Atcoder/ABC - 463.md",
+    "Platform - Atcoder/ABC - 466.md",
+    "TLX-TOKI/Training Gate (Courses)/B-Pemrograman Kompetitif Dasar/08-Struktur Data Dasar/02-Simulasi Queue.md",
+    "Platform - Atcoder/ABC/464",
+    "TLX-TOKI/Training Gate (Courses)/B-Pemrograman Kompetitif Dasar/08-Struktur Data Dasar/01-Simulasi Array Dinamis.md",
+    "TLX-TOKI/Training Gate (Courses)/B-Pemrograman Kompetitif Dasar/Z-src/02-Simulasi Queue-1.png",
+    "Metode Belajar/Uncategorized/Metode Belajar BLACK BOX.md",
+    "Metode Belajar/Uncategorized/Perbaikan Big Three.md",
+    "Metode Belajar/Uncategorized/Metode Menggunakan REVERSE-E.md",
+    "Metode Belajar/Uncategorized/Metode Belajar STRIKE.md",
+    "Metode Belajar/Uncategorized/Metode Belajar REVERSE-E.md",
+    "Metode Belajar/Uncategorized/Metode Belajar Lainya.md",
+    "Metode Belajar/Uncategorized/Metode Belajar Jim Kwik.md",
+    "Metode Belajar/Uncategorized/Metode Belajar Fondasi Utama.md",
+    "Metode Belajar/Interview/deltixlab’s interview Deltix rounds back story.md",
+    "Metode Belajar/Interview/700 Contest Ruban Interview.md",
+    "Rating Task Hunter/My Task.md",
+    "Rating Task Hunter/1300.md",
+    "Rating Task Hunter/1200.md",
+    "Rating Task Hunter/1100.md",
+    "Rating Task Hunter/800.md",
     "src/How to Solve It Workflow-1.png",
-    "Untitled 1.canvas",
-    "Training Center/Training Method v1.0.md",
-    "Training Center/Training Checklist v1.0.md",
-    "Training Center",
-    "SYNTHETIC MINDMAP/Untitled.canvas",
-    "SYNTHETIC MINDMAP",
-    "How to Solve It Workflow.md",
-    "13-Shortest-Paths/Floyd-Warshall/Untitled.md",
-    "13-Shortest-Paths/Floyd-Warshall",
-    "04-Data Structure/Vector/Vector Data Structures.md",
-    "TRAINING BASE CAMP/vector.canvas",
-    "Untitled 2.md",
-    "04-Data Structure/Vector/Training camp/11. 2D Vector Basics (Grid Initialization).md",
-    "04-Data Structure/Vector/Tutorial Vector di C++.md",
-    "TRAINING BASE CAMP/Untitled.canvas",
-    "04-Data Structure/Vector/Training camp/10. Removing Consecutive Duplicates.md",
-    "04-Data Structure/Vector/Training camp/9. Finding Elements in a Vector.md",
-    "04-Data Structure/Vector/Training camp/8. Sorting Vector Elements.md",
-    "04-Data Structure/Vector/Training camp/7. Reversing Vector Elements.md",
-    "04-Data Structure/Vector/Training camp/6. Element Erasure at Arbitrary Positions.md",
-    "04-Data Structure/Vector/Training camp/5. Element Insertion at Arbitrary Positions.md",
-    "04-Data Structure/Vector/Training camp/4. Resizing and Default Filling.md",
+    "Platform - Atcoder/ABC/465",
+    "04-Data Structure/Algorithmic Pattern/Kadane's Algorithm/drills/2. Maksimum Subarray Sum II.md",
+    "04-Data Structure/Algorithmic Pattern/Kadane's Algorithm/drills/1. Maksimum Subarray Sum.md",
+    "04-Data Structure/Algorithmic Pattern/Kadane's Algorithm/Kadane's Algorithms.md",
+    "!Important Notes/Problem Setter Gemini Gem.md",
+    "04-Data Structure/Algorithmic Pattern/Kadane's Algorithm/drills",
     "04-Data Structure/Vector/Training camp/3. Vector Element Access and Boundary Checking.md",
-    "04-Data Structure/Vector/Training camp/2. Dynamic Modifications (Push and Pop).md",
-    "04-Data Structure/Vector/Training camp/1. Vector Initialization and Basic Queries.md",
-    "04-Data Structure/Vector/Training camp",
-    "09-Range Queries/Min Max range/Elemen Min Max dalam Rentang.md",
-    "09-Range Queries/Sum range/Total Jumlah dalam Rentang.md",
-    "04-Data Structure/Vector/01-Latihan/08-Buku Rak Kosong dan Buku Baru.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/01-Tree Data Structure/Latihan/08-Cari Nilai Maksimum Leaf Node.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/01-Tree Data Structure/Latihan/06-Level Genap Saja.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/01-Tree Data Structure/Latihan/04-Tinggi Tree.md",
-    "14-Tree Algorithm/A-Basic - Programmiz/02-Tree Traversal/Latihan/23-Semua Node di Level Tertentu Genap.md",
+    "04-Data Structure/Algorithmic Pattern/Kadane's Algorithm",
+    "04-Data Structure/Algorithmic Pattern",
+    "SYNTHETIC MINDMAP/Untitled.canvas",
+    "Interactive Problem/Scaffolding - Interactive Problem.canvas",
+    "04-Data Structure/Foundation - Hash Table/Scaffolding.canvas",
+    "Interactive Problem",
+    "26-String/String Hashing/Training camp/Untitled.canvas",
+    "Platform - Atcoder/ABC/466",
+    "Platform - Atcoder/ABC",
+    "Platform - Atcoder",
+    "pemrograman-kompetitif-dasar.pdf",
     "Problem Solving.canvas",
-    "TRAINING BASE CAMP",
-    "src/Problem Solving.png",
-    "src",
     "Untitled.canvas",
-    "Codeforces Catalog",
-    "09-Range Queries/Tips trick",
-    "07-Dynamic Programming/AtCoder DP Contest",
+    "Untitled 1.canvas",
+    "src/Problem Solving.png",
+    "TRAINING BASE CAMP/vector.canvas",
+    "TRAINING BASE CAMP/Untitled.canvas",
     "12-Graph Traversal/Latihan - Intens/src/NAKANJ - Minimum Knight moves !!!-1.png",
-    "12-Graph Traversal/Latihan - Intens/src",
     "09-Range Queries/Min Max range/src/Elemen Min dan Max dalam Rentang-1.png",
     "09-Range Queries/Max range/src/Elemen Min dan Max dalam Rentang-2.png",
     "09-Range Queries/Min Max range/src/Elemen Min dan Max dalam Rentang-1.png",
     "13-Shortest-Paths/Latihan/src/graph.png",
     "13-Shortest-Paths/Latihan/src/graph.png",
     "05-Complete Search/Zimg/Recursive Search Subset Algorithm-1.png",
-    "05-Complete Search/Zimg/Backtracking-1.png",
-    "22-Combinatorics/src/Binomial Coefficients-1.png",
-    "DELIBERATE PRACTICE/Untitled.canvas",
-    "Canvas/01-introduction.canvas",
-    "Pohon Competitive Programming.canvas",
-    "ZZZ Uncotegorized file/Big plan.canvas"
+    "DELIBERATE PRACTICE/Untitled.canvas"
   ]
 }
