@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Platform - Atcoder/ABC/ABC - 462.md",
+                "file": "Z Templater/Latihan.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ABC - 462"
+              "title": "Latihan"
+            }
+          },
+          {
+            "id": "7ac0c895452f7e84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "07-Dynamic Programming/Problem Bottom Up/Climbing Stairs K step.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Climbing Stairs K step"
             }
           }
         ]
@@ -78,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388.51103591918945,
-    "collapsed": true
+    "width": 388.51103591918945
   },
   "right": {
     "id": "5a2e04e3f27c45d3",
@@ -253,10 +266,27 @@
   },
   "active": "a080ac8ca02399e1",
   "lastOpenFiles": [
-    "Math.md",
-    "Platform - Atcoder/ABC/ABC - 462.md",
-    "Z Templater/Problem Solving.md",
+    "07-Dynamic Programming/Problem Bottom Up/Climbing Stairs.md",
+    "07-Dynamic Programming/Problem Bottom Up/Climbing Stairs K step.md",
+    "07-Dynamic Programming/Problem Bottom Up/Fibonacci Sequence.md",
+    "07-Dynamic Programming/Untitled.md",
+    "07-Dynamic Programming/Dynamic Programming Scaffolding.canvas",
+    "07-Dynamic Programming/Chunk/Bottom Up.md",
+    "07-Dynamic Programming/Problem Bottom Up",
+    "07-Dynamic Programming/Chunk",
+    "07-Dynamic Programming/AtCoder DP Contest/A - Frog 1.md",
+    "07-Dynamic Programming/AtCoder DP Contest/B - Frog 2.md",
+    "07-Dynamic Programming/Knapsack Problem.md",
+    "07-Dynamic Programming/Introduction to Dynamic Programming.md",
+    "07-Dynamic Programming/Latihan/Fibonacci.md",
+    "07-Dynamic Programming/hapus kalau udah.md",
+    "07-Dynamic Programming/Latihan/02-Jumlah Uang Koin.md",
+    "07-Dynamic Programming/Latihan/01-Tangga.md",
+    "07-Dynamic Programming/AtCoder DP Contest/C - Vacation.md",
     "Platform - Atcoder/ABC/ABC - 466.md",
+    "Platform - Atcoder/ABC/ABC - 462.md",
+    "Math.md",
+    "Z Templater/Problem Solving.md",
     "Untitled.md",
     "04-Data Structure/Algorithmic Pattern/Kadane's Algorithm/drills/Untitled.md",
     "04-Data Structure/Algorithmic Pattern/Kadane's Algorithm/drills/1. Maksimum Subarray Sum.md",
@@ -264,23 +294,8 @@
     "Platform - Atcoder/ABC/ABC - 463.md",
     "Platform - Atcoder/ABC/ABC - 465.md",
     "Platform - Atcoder/ABC/ABC - 464.md",
-    "TLX-TOKI/Training Gate (Courses)/B-Pemrograman Kompetitif Dasar/08-Struktur Data Dasar/02-Simulasi Queue.md",
     "Platform - Atcoder/ABC/464",
-    "TLX-TOKI/Training Gate (Courses)/B-Pemrograman Kompetitif Dasar/08-Struktur Data Dasar/01-Simulasi Array Dinamis.md",
     "TLX-TOKI/Training Gate (Courses)/B-Pemrograman Kompetitif Dasar/Z-src/02-Simulasi Queue-1.png",
-    "Metode Belajar/Uncategorized/Metode Belajar BLACK BOX.md",
-    "Metode Belajar/Uncategorized/Perbaikan Big Three.md",
-    "Metode Belajar/Uncategorized/Metode Menggunakan REVERSE-E.md",
-    "Metode Belajar/Uncategorized/Metode Belajar STRIKE.md",
-    "Metode Belajar/Uncategorized/Metode Belajar REVERSE-E.md",
-    "Metode Belajar/Uncategorized/Metode Belajar Lainya.md",
-    "Metode Belajar/Uncategorized/Metode Belajar Jim Kwik.md",
-    "Metode Belajar/Uncategorized/Metode Belajar Fondasi Utama.md",
-    "Metode Belajar/Interview/deltixlab’s interview Deltix rounds back story.md",
-    "Metode Belajar/Interview/700 Contest Ruban Interview.md",
-    "Rating Task Hunter/My Task.md",
-    "Rating Task Hunter/1300.md",
-    "Rating Task Hunter/1200.md",
     "src/How to Solve It Workflow-1.png",
     "Platform - Atcoder/ABC/465",
     "04-Data Structure/Algorithmic Pattern/Kadane's Algorithm/drills",
@@ -293,8 +308,6 @@
     "26-String/String Hashing/Training camp/Untitled.canvas",
     "Platform - Atcoder/ABC/466",
     "Platform - Atcoder/ABC",
-    "Platform - Atcoder",
-    "pemrograman-kompetitif-dasar.pdf",
     "Problem Solving.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas",
@@ -307,7 +320,6 @@
     "09-Range Queries/Min Max range/src/Elemen Min dan Max dalam Rentang-1.png",
     "13-Shortest-Paths/Latihan/src/graph.png",
     "13-Shortest-Paths/Latihan/src/graph.png",
-    "05-Complete Search/Zimg/Recursive Search Subset Algorithm-1.png",
-    "DELIBERATE PRACTICE/Untitled.canvas"
+    "05-Complete Search/Zimg/Recursive Search Subset Algorithm-1.png"
   ]
 }

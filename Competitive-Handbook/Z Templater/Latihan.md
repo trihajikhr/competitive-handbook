@@ -13,13 +13,13 @@ Link Sumber:
 > [!IMPORTANT]
 # Judul
 
+---
 
-<br/>
+## Editorial
 
 ---
 ## Jawaban
 
-<br/>
+```cpp
 
----
-## Editorial
+```
