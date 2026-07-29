@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "485983bf4e26992e",
+        "id": "50011de85d851e35",
         "type": "tabs",
         "children": [
           {
-            "id": "a080ac8ca02399e1",
+            "id": "5bc4449b0442a27f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Z Templater/Latihan.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Latihan"
-            }
-          },
-          {
-            "id": "7ac0c895452f7e84",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "07-Dynamic Programming/Problem Bottom Up/Climbing Stairs K step.md",
+                "file": "Platform - CSES/1. Introductory Problems/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Climbing Stairs K step"
+              "title": "Untitled"
             }
           }
         ]
@@ -67,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kadane",
+                "query": "modular inver",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -186,7 +172,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Platform - Atcoder/ABC/ABC - 462.md",
+                "file": "Platform - CSES/2. Sorting and Searching/1. Distinct Numbers.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "tag:#tuple  ",
@@ -214,7 +200,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of ABC - 462"
+              "title": "Graph of 1. Distinct Numbers"
             }
           }
         ],
@@ -231,13 +217,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Platform - Atcoder/ABC/ABC - 462.md",
+                "file": "Platform - CSES/2. Sorting and Searching/1. Distinct Numbers.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ABC - 462"
+              "title": "Outline of 1. Distinct Numbers"
             }
           }
         ]
@@ -264,62 +250,63 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "a080ac8ca02399e1",
+  "active": "5bc4449b0442a27f",
   "lastOpenFiles": [
-    "07-Dynamic Programming/Problem Bottom Up/Climbing Stairs.md",
-    "07-Dynamic Programming/Problem Bottom Up/Climbing Stairs K step.md",
-    "07-Dynamic Programming/Problem Bottom Up/Fibonacci Sequence.md",
-    "07-Dynamic Programming/Untitled.md",
+    "Platform - CSES/1. Introductory Problems/4. Increasing Array.md",
+    "Platform - CSES/1. Introductory Problems/Untitled.md",
+    "Platform - CSES/1. Introductory Problems/_assets/4. Increasing Array-1.png",
+    "Platform - CSES/1. Introductory Problems/3. Repetitions.md",
+    "Platform - CSES/1. Introductory Problems/2. Missing Number.md",
+    "Platform - CSES/1. Introductory Problems/1. Weird Algorithm.md",
+    "Platform - CSES/1. Introductory Problems/_assets/3. Repetitions-1.png",
+    "Platform - CSES/1. Introductory Problems/_assets/2. Missing Number-1.png",
+    "Platform - CSES/1. Introductory Problems/_assets/1. Weird Algorithm-1.png",
+    "Platform - CSES/1. Introductory Problems/_assets",
+    "Platform - CSES/Untitled.md",
+    "Platform - CSES/1. Introductory Problems",
+    "Platform - CSES/2. Sorting and Searching/18. Josephus Problem II.md",
+    "Platform - CSES/2. Sorting and Searching/17. Josephus Problem I.md",
+    "Platform - CSES/2. Sorting and Searching/13. Playlist.md",
+    "Platform - CSES/2. Sorting and Searching/12. Collecting Numbers II.md",
+    "Platform - CSES/2. Sorting and Searching/2. Apartments.md",
+    "Platform - CSES/2. Sorting and Searching/1. Distinct Numbers.md",
+    "Platform - CSES/2. Sorting and Searching/10. Missing Coin Sum.md",
+    "Platform - CSES/2. Sorting and Searching/9. Stick Lengths.md",
+    "Platform - CSES/2. Sorting and Searching/8. Maximum Subarray Sum.md",
+    "Platform - CSES/2. Sorting and Searching/14. Traffic Lights.md",
+    "Platform - CSES/2. Sorting and Searching/15. Distinct Values Subarrays.md",
+    "Platform - CSES/2. Sorting and Searching/16. Distinct Values Subsequences.md",
+    "Platform - CSES/2. Sorting and Searching/11. Collecting Numbers.md",
+    "04-Data Structure/Sparse Table.md",
+    "04-Data Structure/Multiset.md",
+    "04-Data Structure/Map/Latihan/11-Cetak Siswa dengan Nilai di Atas Ambang.md",
+    "Problem Solving.canvas",
+    "04-Data Structure/Multiset/Tips Trick/Multiset sebagai pengganti Priority Queue.md",
+    "Platform - CSES/2. Sorting and Searching/4. Concert Tickets.md",
+    "Platform - CSES/2. Sorting and Searching/5. Restaurant Customers.md",
+    "Platform - CSES/2. Sorting and Searching/6. Movie Festival.md",
+    "04-Data Structure/Multiset/Tips Trick",
+    "04-Data Structure/Multiset/Teknis",
+    "04-Data Structure/Multiset/Teori",
+    "04-Data Structure/Multiset",
+    "04-Data Structure/Set/Set Scaffolding.canvas",
+    "Platform - CSES/2. Sorting and Searching",
+    "04-Data Structure/Set/Training 1",
+    "31-Mathematics/SOT/Fermat's Little Theorem",
+    "Platform - CSES/Mathematics",
     "07-Dynamic Programming/Dynamic Programming Scaffolding.canvas",
-    "07-Dynamic Programming/Chunk/Bottom Up.md",
-    "07-Dynamic Programming/Problem Bottom Up",
-    "07-Dynamic Programming/Chunk",
-    "07-Dynamic Programming/AtCoder DP Contest/A - Frog 1.md",
-    "07-Dynamic Programming/AtCoder DP Contest/B - Frog 2.md",
-    "07-Dynamic Programming/Knapsack Problem.md",
-    "07-Dynamic Programming/Introduction to Dynamic Programming.md",
-    "07-Dynamic Programming/Latihan/Fibonacci.md",
-    "07-Dynamic Programming/hapus kalau udah.md",
-    "07-Dynamic Programming/Latihan/02-Jumlah Uang Koin.md",
-    "07-Dynamic Programming/Latihan/01-Tangga.md",
-    "07-Dynamic Programming/AtCoder DP Contest/C - Vacation.md",
-    "Platform - Atcoder/ABC/ABC - 466.md",
-    "Platform - Atcoder/ABC/ABC - 462.md",
-    "Math.md",
-    "Z Templater/Problem Solving.md",
-    "Untitled.md",
-    "04-Data Structure/Algorithmic Pattern/Kadane's Algorithm/drills/Untitled.md",
-    "04-Data Structure/Algorithmic Pattern/Kadane's Algorithm/drills/1. Maksimum Subarray Sum.md",
-    "Coret coretan.md",
-    "Platform - Atcoder/ABC/ABC - 463.md",
-    "Platform - Atcoder/ABC/ABC - 465.md",
-    "Platform - Atcoder/ABC/ABC - 464.md",
-    "Platform - Atcoder/ABC/464",
     "TLX-TOKI/Training Gate (Courses)/B-Pemrograman Kompetitif Dasar/Z-src/02-Simulasi Queue-1.png",
     "src/How to Solve It Workflow-1.png",
-    "Platform - Atcoder/ABC/465",
-    "04-Data Structure/Algorithmic Pattern/Kadane's Algorithm/drills",
-    "04-Data Structure/Algorithmic Pattern/Kadane's Algorithm",
-    "04-Data Structure/Algorithmic Pattern",
     "SYNTHETIC MINDMAP/Untitled.canvas",
     "Interactive Problem/Scaffolding - Interactive Problem.canvas",
     "04-Data Structure/Foundation - Hash Table/Scaffolding.canvas",
-    "Interactive Problem",
-    "26-String/String Hashing/Training camp/Untitled.canvas",
-    "Platform - Atcoder/ABC/466",
-    "Platform - Atcoder/ABC",
-    "Problem Solving.canvas",
+    "26-String Algorithms/String Hashing/Training camp/Untitled.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "src/Problem Solving.png",
     "TRAINING BASE CAMP/vector.canvas",
-    "TRAINING BASE CAMP/Untitled.canvas",
     "12-Graph Traversal/Latihan - Intens/src/NAKANJ - Minimum Knight moves !!!-1.png",
     "09-Range Queries/Min Max range/src/Elemen Min dan Max dalam Rentang-1.png",
-    "09-Range Queries/Max range/src/Elemen Min dan Max dalam Rentang-2.png",
-    "09-Range Queries/Min Max range/src/Elemen Min dan Max dalam Rentang-1.png",
-    "13-Shortest-Paths/Latihan/src/graph.png",
-    "13-Shortest-Paths/Latihan/src/graph.png",
-    "05-Complete Search/Zimg/Recursive Search Subset Algorithm-1.png"
+    "09-Range Queries/Max range/src/Elemen Min dan Max dalam Rentang-2.png"
   ]
 }

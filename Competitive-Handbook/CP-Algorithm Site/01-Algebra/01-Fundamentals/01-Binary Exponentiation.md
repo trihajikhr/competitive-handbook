@@ -21,7 +21,7 @@ $$(X \cdot Y) \cdot Z = X \cdot (Y \cdot Z)$$
 
 Ini paling jelas berlaku untuk perkalian modular, perkalian matriks, dan masalah-masalah lain yang akan kita bahas nanti.
 
-## 1 | Algorithm
+## 1. Algorithm
 
 Menaikkan $a$ ke pangkat $n$ secara naif diekspresikan sebagai perkalian dengan $a$ yang dilakukan sebanyak $n - 1$ kali: $a^{n} = a \cdot a \cdot \ldots \cdot a$. Namun, pendekatan ini tidak praktis untuk $a$ atau $n$ yang besar.
 
@@ -46,7 +46,7 @@ Pendekatan **rekursif** berikut mengungkapkan ide yang sama:
 
 $$a^n = \begin{cases} 1 &\text{jika } n == 0 \\ \left(a^{\frac{n}{2}}\right)^2 &\text{jika } n > 0 \text{ dan } n \text{ genap}\\ \left(a^{\frac{n - 1}{2}}\right)^2 \cdot a &\text{jika } n > 0 \text{ dan } n \text{ ganjil}\\ \end{cases}$$
 
-## 2 | Implementation
+## 2. Implementation
 
 Pertama adalah pendekatan rekursif, yang merupakan terjemahan langsung dari formula rekursif:
 

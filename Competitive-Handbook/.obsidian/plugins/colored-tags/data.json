@@ -233,7 +233,10 @@
     "ObsidianNote": 221,
     "prime-number": 222,
     "problem-set": 223,
-    "interactive-problem": 224
+    "interactive-problem": 224,
+    "mathematics": 225,
+    "mathematic": 226,
+    "pragma": 227
   },
   "_version": 3
 }

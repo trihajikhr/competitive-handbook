@@ -1,12 +1,14 @@
 {
 	"nodes":[
 		{"id":"9acd4362fb9572b1","type":"text","text":"# Dynamic Programming","x":-460,"y":-380,"width":292,"height":127},
-		{"id":"ea3b4eaf004ca02f","x":-710,"y":-60,"width":250,"height":60,"type":"text","text":"## Bottom up"},
-		{"id":"af9ebe6c1082a377","x":-727,"y":195,"width":250,"height":60,"type":"text","text":"[Climbing Stairs](07-Dynamic%20Programming/Problem%20Bottom%20Up/Climbing%20Stairs.md)"},
-		{"id":"3dfcce0dd8f77a0d","x":-1020,"y":195,"width":250,"height":60,"type":"text","text":"[Fibonacci Sequence](07-Dynamic%20Programming/Problem%20Bottom%20Up/Fibonacci%20Sequence.md)"},
-		{"id":"110585a5cbb8a808","x":-544,"y":497,"width":250,"height":60,"type":"text","text":"[Climbing Stairs K step](07-Dynamic%20Programming/Problem%20Bottom%20Up/Climbing%20Stairs%20K%20step.md)"}
+		{"id":"ea3b4eaf004ca02f","type":"text","text":"## Bottom up","x":-710,"y":-60,"width":250,"height":60},
+		{"id":"af9ebe6c1082a377","type":"text","text":"[Climbing Stairs](07-Dynamic%20Programming/Problem%20Bottom%20Up/Climbing%20Stairs.md)","x":-727,"y":195,"width":250,"height":60},
+		{"id":"3dfcce0dd8f77a0d","type":"text","text":"[Fibonacci Sequence](07-Dynamic%20Programming/Problem%20Bottom%20Up/Fibonacci%20Sequence.md)","x":-1020,"y":195,"width":250,"height":60},
+		{"id":"110585a5cbb8a808","type":"text","text":"[Climbing Stairs K step](07-Dynamic%20Programming/Problem%20Bottom%20Up/Climbing%20Stairs%20K%20step.md)","x":-544,"y":497,"width":250,"height":60},
+		{"id":"15d135db194c3c39","x":-835,"y":497,"width":250,"height":60,"type":"text","text":"[Climbing Broken Stairs](07-Dynamic%20Programming/Problem%20Bottom%20Up/Climbing%20Broken%20Stairs.md)"}
 	],
 	"edges":[
-		{"id":"944ff28b86b23eb1","fromNode":"af9ebe6c1082a377","fromSide":"bottom","toNode":"110585a5cbb8a808","toSide":"top"}
+		{"id":"944ff28b86b23eb1","fromNode":"af9ebe6c1082a377","fromSide":"bottom","toNode":"110585a5cbb8a808","toSide":"top"},
+		{"id":"e22fb7b34aef6008","fromNode":"af9ebe6c1082a377","fromSide":"bottom","toNode":"15d135db194c3c39","toSide":"top"}
 	]
 }
