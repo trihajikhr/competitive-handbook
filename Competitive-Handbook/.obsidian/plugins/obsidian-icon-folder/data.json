@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiChartColumnStacked",
       "LiCodeXml",
-      "LiCode2",
-      "LiGrid2x2plus",
-      "LiPuzzle"
+      "LiStars",
+      "LiWrench",
+      "LiNotebookPen",
+      "LiBookMarked"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -489,5 +489,18 @@
   "Platform - CSES/1. Introductory Problems/1. Weird Algorithm.md": "LiCodeXml",
   "Platform - CSES/1. Introductory Problems/2. Missing Number.md": "LiCodeXml",
   "Platform - CSES/1. Introductory Problems/3. Repetitions.md": "LiCodeXml",
-  "Platform - CSES/1. Introductory Problems/4. Increasing Array.md": "LiCodeXml"
+  "Platform - CSES/1. Introductory Problems/4. Increasing Array.md": "LiCodeXml",
+  "Platform - CSES/1. Introductory Problems/5. Permutations.md": "LiCodeXml",
+  "Platform - CSES/4. Graph Algorithms/1. Counting Rooms.md": "LiCodeXml",
+  "12-Graph Traversal/3. Grid graph": "LiGrid",
+  "12-Graph Traversal/3. Grid graph/Teori": "LiNotebookPen",
+  "12-Graph Traversal/3. Grid graph/Teknis": "LiWrench",
+  "12-Graph Traversal/3. Grid graph/Tips Trick": "LiStars",
+  "Platform - CSES/3. Dynamic Programming/1. Dice Combinations.md": "LiCodeXml",
+  "Platform - CSES/3. Dynamic Programming/2. Minimizing Coins.md": "LiCodeXml",
+  "Platform - CSES/3. Dynamic Programming/3. Coin Combinations I.md": "LiCodeXml",
+  "Platform - CSES/3. Dynamic Programming/4. Coin Combinations II.md": "LiCodeXml",
+  "Platform - CSES/3. Dynamic Programming/5. Removing Digits.md": "LiCodeXml",
+  "Platform - CSES/3. Dynamic Programming/6. Grid Paths I.md": "LiCodeXml",
+  "Platform - CSES/3. Dynamic Programming/7. Book Shop.md": "LiCodeXml"
 }

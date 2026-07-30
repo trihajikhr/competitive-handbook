@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Platform - CSES/1. Introductory Problems/Untitled.md",
+                "file": "Platform - CSES/3. Dynamic Programming/Untitled.md",
                 "mode": "source",
                 "source": false
               },
@@ -172,7 +172,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Platform - CSES/2. Sorting and Searching/1. Distinct Numbers.md",
+                "file": "Platform - CSES/3. Dynamic Programming/Untitled.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "tag:#tuple  ",
@@ -200,7 +200,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 1. Distinct Numbers"
+              "title": "Graph of Untitled"
             }
           }
         ],
@@ -217,21 +217,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Platform - CSES/2. Sorting and Searching/1. Distinct Numbers.md",
+                "file": "Platform - CSES/3. Dynamic Programming/Untitled.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1. Distinct Numbers"
+              "title": "Outline of Untitled"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -252,61 +251,61 @@
   },
   "active": "5bc4449b0442a27f",
   "lastOpenFiles": [
+    "Platform - CSES/3. Dynamic Programming/7. Book Shop.md",
+    "Platform - CSES/3. Dynamic Programming/Untitled.md",
+    "Platform - CSES/3. Dynamic Programming/6. Grid Paths I.md",
+    "Platform - CSES/3. Dynamic Programming/5. Removing Digits.md",
+    "Platform - CSES/3. Dynamic Programming/4. Coin Combinations II.md",
+    "Platform - CSES/3. Dynamic Programming/3. Coin Combinations I.md",
+    "Platform - CSES/3. Dynamic Programming/2. Minimizing Coins.md",
+    "Platform - CSES/3. Dynamic Programming/1. Dice Combinations.md",
+    "Platform - CSES/3. Dynamic Programming/_assets/7. Book Shop-1.png",
+    "Z Templater/Problem Set.md",
+    "Platform - CSES/3. Dynamic Programming/_assets/6. Grid Paths I-1.png",
+    "Platform - CSES/3. Dynamic Programming/_assets/5. Removing Digits-1.png",
+    "Platform - CSES/3. Dynamic Programming/_assets/4. Coin Combinations II-1.png",
+    "Platform - CSES/3. Dynamic Programming/_assets/3. Coin Combinations I-1.png",
+    "Platform - CSES/3. Dynamic Programming/_assets/2. Minimizing Coins-1.png",
+    "Platform - CSES/3. Dynamic Programming/_assets/1. Dice Combinations-1.png",
+    "Platform - CSES/3. Dynamic Programming/_assets",
+    "Platform - CSES/4. Graph Algorithms/Untitled.md",
+    "Platform - CSES/3. Dynamic Programming",
+    "12-Graph Traversal/3. Grid graph/Tips Trick/Metode Array Koordinat pada Grid Graphs.md",
+    "12-Graph Traversal/3. Grid graph/Teknis/Shortest Path.md",
+    "12-Graph Traversal/3. Grid graph/Tips Trick",
+    "12-Graph Traversal/3. Grid graph/Teknis/Traversal Dasar pada Grid Graphs.md",
+    "12-Graph Traversal/3. Grid graph/Teknis/Representasi dan Struktur Data pada Grid Graphs.md",
+    "12-Graph Traversal/3. Grid graph/Teori/Grids and Graphs.md",
+    "12-Graph Traversal/3. Grid graph/Teknis",
+    "12-Graph Traversal/3. Grid graph/Teori/Definisi Formal dan Konstruksi Matematika.md",
+    "12-Graph Traversal/3. Grid graph/Teori/Jalur Hamiltonian dan Eulerian pada Grid Graphs.md",
+    "12-Graph Traversal/3. Grid graph/Teori",
+    "12-Graph Traversal/3. Grid graph/Teori/Sifat Bipartit pada Grid Graphs.md",
+    "12-Graph Traversal/3. Grid graph/Teori/Karakteristik Topologi dan Derajat Simpul.md",
+    "12-Graph Traversal/3. Grid graph/Teori/_assets/Grids and Graphs-1.png",
+    "12-Graph Traversal/3. Grid graph/Teori/_assets/Grids and Graphs-1.png",
+    "12-Graph Traversal/3. Grid graph/Teori/_assets",
+    "12-Graph Traversal/Breadth-first search.md",
+    "12-Graph Traversal/Aplikasi DFS dan BFS.md",
+    "12-Graph Traversal/Zimg-graphTraversal/20250430-1153-33.3085928.mp4",
+    "Platform - CSES/4. Graph Algorithms/1. Counting Rooms.md",
+    "12-Graph Traversal/3. Grid graph",
+    "Platform - CSES/4. Graph Algorithms/_assets/1. Counting Rooms-1.png",
+    "Platform - CSES/4. Graph Algorithms/_assets",
+    "Platform - CSES/4. Graph Algorithms",
+    "Platform - CSES/1. Introductory Problems/5. Permutations.md",
+    "14-Tree Algorithm/A-Basic - Programmiz/04 - Full Binary Tree.md",
     "Platform - CSES/1. Introductory Problems/4. Increasing Array.md",
-    "Platform - CSES/1. Introductory Problems/Untitled.md",
-    "Platform - CSES/1. Introductory Problems/_assets/4. Increasing Array-1.png",
     "Platform - CSES/1. Introductory Problems/3. Repetitions.md",
-    "Platform - CSES/1. Introductory Problems/2. Missing Number.md",
-    "Platform - CSES/1. Introductory Problems/1. Weird Algorithm.md",
-    "Platform - CSES/1. Introductory Problems/_assets/3. Repetitions-1.png",
-    "Platform - CSES/1. Introductory Problems/_assets/2. Missing Number-1.png",
-    "Platform - CSES/1. Introductory Problems/_assets/1. Weird Algorithm-1.png",
-    "Platform - CSES/1. Introductory Problems/_assets",
-    "Platform - CSES/Untitled.md",
-    "Platform - CSES/1. Introductory Problems",
-    "Platform - CSES/2. Sorting and Searching/18. Josephus Problem II.md",
-    "Platform - CSES/2. Sorting and Searching/17. Josephus Problem I.md",
-    "Platform - CSES/2. Sorting and Searching/13. Playlist.md",
-    "Platform - CSES/2. Sorting and Searching/12. Collecting Numbers II.md",
-    "Platform - CSES/2. Sorting and Searching/2. Apartments.md",
-    "Platform - CSES/2. Sorting and Searching/1. Distinct Numbers.md",
-    "Platform - CSES/2. Sorting and Searching/10. Missing Coin Sum.md",
-    "Platform - CSES/2. Sorting and Searching/9. Stick Lengths.md",
-    "Platform - CSES/2. Sorting and Searching/8. Maximum Subarray Sum.md",
-    "Platform - CSES/2. Sorting and Searching/14. Traffic Lights.md",
-    "Platform - CSES/2. Sorting and Searching/15. Distinct Values Subarrays.md",
-    "Platform - CSES/2. Sorting and Searching/16. Distinct Values Subsequences.md",
-    "Platform - CSES/2. Sorting and Searching/11. Collecting Numbers.md",
-    "04-Data Structure/Sparse Table.md",
-    "04-Data Structure/Multiset.md",
-    "04-Data Structure/Map/Latihan/11-Cetak Siswa dengan Nilai di Atas Ambang.md",
     "Problem Solving.canvas",
-    "04-Data Structure/Multiset/Tips Trick/Multiset sebagai pengganti Priority Queue.md",
-    "Platform - CSES/2. Sorting and Searching/4. Concert Tickets.md",
-    "Platform - CSES/2. Sorting and Searching/5. Restaurant Customers.md",
-    "Platform - CSES/2. Sorting and Searching/6. Movie Festival.md",
-    "04-Data Structure/Multiset/Tips Trick",
-    "04-Data Structure/Multiset/Teknis",
-    "04-Data Structure/Multiset/Teori",
-    "04-Data Structure/Multiset",
     "04-Data Structure/Set/Set Scaffolding.canvas",
-    "Platform - CSES/2. Sorting and Searching",
-    "04-Data Structure/Set/Training 1",
-    "31-Mathematics/SOT/Fermat's Little Theorem",
-    "Platform - CSES/Mathematics",
     "07-Dynamic Programming/Dynamic Programming Scaffolding.canvas",
-    "TLX-TOKI/Training Gate (Courses)/B-Pemrograman Kompetitif Dasar/Z-src/02-Simulasi Queue-1.png",
-    "src/How to Solve It Workflow-1.png",
     "SYNTHETIC MINDMAP/Untitled.canvas",
     "Interactive Problem/Scaffolding - Interactive Problem.canvas",
     "04-Data Structure/Foundation - Hash Table/Scaffolding.canvas",
     "26-String Algorithms/String Hashing/Training camp/Untitled.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas",
-    "src/Problem Solving.png",
-    "TRAINING BASE CAMP/vector.canvas",
-    "12-Graph Traversal/Latihan - Intens/src/NAKANJ - Minimum Knight moves !!!-1.png",
-    "09-Range Queries/Min Max range/src/Elemen Min dan Max dalam Rentang-1.png",
-    "09-Range Queries/Max range/src/Elemen Min dan Max dalam Rentang-2.png"
+    "TRAINING BASE CAMP/vector.canvas"
   ]
 }

@@ -1,5 +1,4 @@
 ---
-obsidianUIMode: preview
 note_type: problem set
 sumber:
 tags:
@@ -15,4 +14,6 @@ Link Problem:
 
 ## Solution
 ## Proof of Correctness
+### PoC 1
+
 ## Code Implementation
