@@ -17,5 +17,9 @@
   "newLinkFormat": "relative",
   "newFileFolderPath": "src",
   "spellcheck": false,
+<<<<<<< HEAD
   "showInlineTitle": true
+=======
+  "autoConvertHtml": false
+>>>>>>> ca5f078f5f7704eb3a6a3495b25e6bc7ae51773b
 }

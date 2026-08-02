@@ -3,7 +3,6 @@
   "tag-wrangler",
   "tags-overview",
   "surfing",
-  "obsidian-view-mode-by-frontmatter",
   "obsidian-paste-image-rename",
   "open-gate",
   "obsidian-icon-folder",
@@ -19,5 +18,6 @@
   "dashboard-navigator",
   "dataview",
   "heading-level-indent",
-  "code-styler"
+  "code-styler",
+  "obsidian-admonition"
 ]

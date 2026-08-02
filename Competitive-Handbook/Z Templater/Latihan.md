@@ -1,7 +1,6 @@
 ---
 obsidianUIMode: preview
 note_type: latihan
-judul_problem:
 latihan:
 sumber:
 tags:
@@ -13,13 +12,13 @@ Link Sumber:
 > [!IMPORTANT]
 # Judul
 
+---
 
-<br/>
+## Editorial
 
 ---
 ## Jawaban
 
-<br/>
+```cpp
 
----
-## Editorial
+```
