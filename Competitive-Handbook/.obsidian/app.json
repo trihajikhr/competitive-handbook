@@ -13,8 +13,9 @@
   "strictLineBreaks": false,
   "useMarkdownLinks": true,
   "newFileLocation": "current",
-  "attachmentFolderPath": "./src",
+  "attachmentFolderPath": "./_assets",
   "newLinkFormat": "relative",
   "newFileFolderPath": "src",
-  "spellcheck": false
+  "spellcheck": false,
+  "showInlineTitle": true
 }

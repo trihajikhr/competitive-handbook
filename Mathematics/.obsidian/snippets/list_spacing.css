@@ -1,0 +1,19 @@
+:root {
+	/* --list-item-spacing: 1em; */
+	--list-item-spacing: 0.5em;
+}
+/* reading mode */
+:is(ul, ol) li {
+	margin-bottom: var(--list-item-spacing);
+	&:last-child {
+		margin-bottom: unset;
+	}
+}
+
+/* edit mode */
+.markdown-source-view.mod-cm6 .cm-contentContainer > .cm-content .cm-line.HyperMD-list-line {
+	padding-bottom: var(--list-item-spacing) !important;
+	&:last-child {
+		margin-bottom: unset !important;
+	}
+}
