@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"8ac2a8b4ecb59205","type":"text","text":"**[Hash Function](Hash%20Function.md)**\nFungsi yang menghasilkan angka numerik untuk menghasilkan indeks lokasi penyimpanan pada *hash table*.\n","x":-546,"y":236,"width":326,"height":144},
+		{"id":"42c783eab7149024","type":"text","text":"**[Bucket Array](Bucket%20Array.md)**\nArray yang telah disiapkan untuk menampung *hash code* dan juga *value* dari data.","x":-169,"y":236,"width":309,"height":144},
+		{"id":"473fbefa57319229","type":"text","text":"**[Load Factor](Load%20Factor.md)**\nMetrik yang digunakan untuk mengetahui seberapa penuh slot yang tersedia pada *bucket array* ","x":200,"y":236,"width":280,"height":144},
+		{"id":"40f5d0c1a8307c8e","type":"text","text":"**[Key dan Value](Key%20dan%20Value.md)**\n_key_ dan _value_ merupakan pasangan data yang tidak terpisahkan, yang sering disebut sebagai _key-value pair_.","x":400,"y":-30,"width":280,"height":160},
+		{"id":"00345bc5f401b64b","type":"text","text":" **[Collision](Collision.md)**\n Kondisi ketika *hash function* menghasilkan *hash code* yang sama untuk 2 *key* yang berbeda. Sebuah konsekuensi logis dari keterbatasan ruang memori yang membutuhkan penanganan khusus.","x":-720,"y":-119,"width":407,"height":178},
+		{"id":"43c652dba6049c1d","type":"text","text":"[Chaining](Chaining.md)","x":-1120,"y":-245,"width":250,"height":60},
+		{"id":"268796968b9252f0","type":"text","text":"[Robin Hood Hashing](Robin%20Hood%20Hashing.md)","x":-1120,"y":135,"width":250,"height":60},
+		{"id":"5990b8413767123d","type":"text","text":"[Coalesced Hashing](Coalesced%20Hashing.md)","x":-1120,"y":-169,"width":250,"height":60},
+		{"id":"301fc757b955e959","type":"text","text":"[Cuckoo Hashing](Cuckoo%20Hashing.md)","x":-1120,"y":-93,"width":250,"height":60},
+		{"id":"8d6796d156d65afb","type":"text","text":"[Open Addresing](Open%20Addresing.md)","x":-1120,"y":-17,"width":250,"height":60},
+		{"id":"ac67c15d89b721af","type":"text","text":"[Perfect Hashing](Perfect%20Hashing.md)","x":-1120,"y":59,"width":250,"height":60},
+		{"id":"b3bcee71c200b97e","type":"text","text":"**[Resizing dan Rehashing](Resizing%20dan%20Rehashing.md)**\nProses fundamental untuk menjaga efisiensi _hash table_ agar tetap berjalan dalam waktu rata-rata seiring bertambahnya jumlah elemen. Proses ini merupakan mekanisme pertahanan utama terhadap penurunan performa yang disebabkan oleh peningkatan _load factor_.","x":200,"y":-480,"width":455,"height":203},
+		{"id":"31e79060b9ef8c5f","type":"text","text":"# Hash Table\n","x":-154,"y":-70,"width":280,"height":80},
+		{"id":"9b53bb3404012be2","type":"text","text":"**[Struktur data untuk Bucket Array](Struktur%20data%20untuk%20Bucket%20Array.md)**\n\nGunakan struktur data array yang dinamis, seperti `vector` di C++. \n\n","x":-14,"y":680,"width":309,"height":160,"color":"1"},
+		{"id":"0156b09940f63ceb","type":"text","text":" **[Bucket Array Size](Bucket%20Array%20Size.md)**\n \n Menentukan ukuran default dari *bucket array* ternyata ada aturan tertentu, dan ini berkaitan dengan performa *hash table*.","x":-420,"y":680,"width":360,"height":160,"color":"1"},
+		{"id":"9da132a4eaa2b7a7","type":"text","text":" Power of Two Sizing","x":-494,"y":986,"width":250,"height":60},
+		{"id":"e1ed0fcff248e7a8","type":"text","text":"Prime Numbers Sizing","x":-185,"y":986,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"8f6ac20a795f2790","fromNode":"31e79060b9ef8c5f","fromSide":"bottom","toNode":"8ac2a8b4ecb59205","toSide":"top"},
+		{"id":"c44f701ef067d81b","fromNode":"31e79060b9ef8c5f","fromSide":"bottom","toNode":"42c783eab7149024","toSide":"top"},
+		{"id":"589c2dd328b8d89a","fromNode":"31e79060b9ef8c5f","fromSide":"bottom","toNode":"473fbefa57319229","toSide":"top"},
+		{"id":"fe1a40f6a3b00e32","fromNode":"31e79060b9ef8c5f","fromSide":"right","toNode":"40f5d0c1a8307c8e","toSide":"left"},
+		{"id":"81dbb0476278bfbc","fromNode":"31e79060b9ef8c5f","fromSide":"left","toNode":"00345bc5f401b64b","toSide":"right"},
+		{"id":"8b4151aa0b0ebd11","fromNode":"00345bc5f401b64b","fromSide":"left","toNode":"43c652dba6049c1d","toSide":"right"},
+		{"id":"e2e3e7e153e205c9","fromNode":"00345bc5f401b64b","fromSide":"left","toNode":"5990b8413767123d","toSide":"right"},
+		{"id":"c611967ca0b1a1d1","fromNode":"00345bc5f401b64b","fromSide":"left","toNode":"301fc757b955e959","toSide":"right"},
+		{"id":"9d422a32e44980a0","fromNode":"00345bc5f401b64b","fromSide":"left","toNode":"8d6796d156d65afb","toSide":"right"},
+		{"id":"b71a9d897e4e6fde","fromNode":"00345bc5f401b64b","fromSide":"left","toNode":"ac67c15d89b721af","toSide":"right"},
+		{"id":"7cfc681112210c6e","fromNode":"00345bc5f401b64b","fromSide":"left","toNode":"268796968b9252f0","toSide":"right"},
+		{"id":"b38063a051463a19","fromNode":"31e79060b9ef8c5f","fromSide":"top","toNode":"b3bcee71c200b97e","toSide":"bottom"},
+		{"id":"c00ca884d21fb81f","fromNode":"42c783eab7149024","fromSide":"bottom","toNode":"9b53bb3404012be2","toSide":"top"},
+		{"id":"7bb9b1835adfa954","fromNode":"42c783eab7149024","fromSide":"bottom","toNode":"0156b09940f63ceb","toSide":"top"},
+		{"id":"b6f5328832631db0","fromNode":"0156b09940f63ceb","fromSide":"bottom","toNode":"9da132a4eaa2b7a7","toSide":"top"},
+		{"id":"447df9a397ddfad3","fromNode":"0156b09940f63ceb","fromSide":"bottom","toNode":"e1ed0fcff248e7a8","toSide":"top"}
+	]
+}

@@ -1,25 +1,3 @@
 {
-  "trashOption": "local",
-  "alwaysUpdateLinks": true,
-  "pdfExportSettings": {
-    "includeName": true,
-    "pageSize": "Letter",
-    "landscape": false,
-    "margin": "0",
-    "downscalePercent": 100
-  },
-  "promptDelete": false,
-  "readableLineLength": true,
-  "strictLineBreaks": false,
-  "useMarkdownLinks": true,
-  "newFileLocation": "current",
-  "attachmentFolderPath": "./_assets",
-  "newLinkFormat": "relative",
-  "newFileFolderPath": "src",
-  "spellcheck": false,
-<<<<<<< HEAD
-  "showInlineTitle": true
-=======
-  "autoConvertHtml": false
->>>>>>> ca5f078f5f7704eb3a6a3495b25e6bc7ae51773b
+  "alwaysUpdateLinks": true
 }

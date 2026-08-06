@@ -234,10 +234,8 @@
     "prime-number": 222,
     "problem-set": 223,
     "interactive-problem": 224,
-    "mathematics": 225,
-    "mathematic": 226,
-    "pragma": 227,
-    "grid-graphs": 228
+    "grid-graphs": 225,
+    "mathematics": 226
   },
   "_version": 3
 }
