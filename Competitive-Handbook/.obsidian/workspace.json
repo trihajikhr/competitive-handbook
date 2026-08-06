@@ -4,33 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "70e5afc9c8b40464",
+        "id": "8b3e2f1a6762be88",
         "type": "tabs",
         "children": [
           {
-            "id": "4f7b45e51278a756",
+            "id": "74df0dfb50289070",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Old Mistake/Untitled.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "12b1a36366b20c43",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.13.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.13.4"
+              "title": "New tab"
             }
           }
         ]
@@ -67,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kadane",
+                "query": "modular inver",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -92,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388.51103591918945
+    "width": 303.5
   },
   "right": {
     "id": "5a2e04e3f27c45d3",
@@ -186,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Platform - Atcoder/ABC/ABC - 462.md",
+                "file": "30-Sweep Line Algorithms/Problem Modification/Museum 1.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "tag:#tuple  ",
@@ -214,7 +198,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of ABC - 462"
+              "title": "Local graph"
             }
           }
         ],
@@ -231,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Platform - Atcoder/ABC/ABC - 462.md",
+                "file": "30-Sweep Line Algorithms/Problem Modification/Museum 1.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ABC - 462"
+              "title": "Outline"
             }
           }
         ]
@@ -266,61 +250,61 @@
   },
   "active": "04554e08cc1bd94b",
   "lastOpenFiles": [
-    "Strategi belajar",
-    "Old Mistake/Platform - CSES/3. Dynamic Programming/6. Grid Paths I.md",
-    "Old Mistake",
-    "Old Mistake/Platform - CSES/3. Dynamic Programming/7. Book Shop.md",
-    "Old Mistake/Platform - CSES/3. Dynamic Programming/8. Array Description.md",
-    "Old Mistake/Platform - CSES/3. Dynamic Programming/9. Counting Towers.md",
-    "Old Mistake/Platform - CSES/3. Dynamic Programming/10. Edit Distance.md",
+    "30-Sweep Line Algorithms/Problem Modification/Museum 1.md",
+    "Old Mistake/src/Problem Solving.png",
+    "Old Mistake/src/How to Solve It Workflow-1.png",
+    "Old Mistake/src",
+    "Old Mistake/pemrograman-kompetitif-dasar.pdf",
+    "Old Mistake/_Secrets of Mental Math/_assets/Secrets of Mental Math-1.png",
+    "Old Mistake/_Secrets of Mental Math/_assets",
     "Old Mistake/_Secrets of Mental Math/Secrets of Mental Math.md",
-    "Old Mistake/31-Mathematics/SOT/Josephus Problem/Drill/Basic Josephus Problem.md",
-    "Old Mistake/31-Mathematics/SOT/Josephus Problem/Josephus Problem.md",
-    "Old Mistake/31-Mathematics/SOT/Josephus Problem/Josephus Problem 2.md",
-    "Old Mistake/31-Mathematics/SOT/Josephus Problem/Drill",
-    "Old Mistake/31-Mathematics/SOT/Fermat's Little Theorem/Untitled.md",
-    "Old Mistake/31-Mathematics/SOT/Josephus Problem",
-    "Old Mistake/31-Mathematics/SOT/Fermat's Little Theorem",
-    "Old Mistake/31-Mathematics/SOT",
-    "Old Mistake/31-Mathematics",
-    "Old Mistake/26-String Algorithms/String Hashing/Training camp/Untitled.canvas",
-    "Old Mistake/26-String Algorithms/String Hashing/Training camp/2. Substring Hash Queries.md",
-    "Old Mistake/26-String Algorithms/String Hashing/Training camp/1. String Hash Validation.md",
-    "Old Mistake/26-String Algorithms/Tips trick/Parsing String dengan sstream.md",
-    "Old Mistake/26-String Algorithms/Tips trick/Mencari dan Mengganti Substring pada String.md",
-    "Old Mistake/26-String Algorithms/Tips trick/Mencari Subtring pada String.md",
-    "Old Mistake/26-String Algorithms/Tips trick/Konversi Karakter Huruf.md",
-    "Old Mistake/26-String Algorithms/Tips trick/Compare String.md",
-    "Old Mistake/26-String Algorithms/Tips trick/Hitung Karakter dengan Fungsi Count().md",
-    "Old Mistake/26-String Algorithms/String Hashing/Variabel p dan m.md",
-    "Old Mistake/26-String Algorithms/String Hashing/Training camp",
-    "Old Mistake/26-String Algorithms/String Hashing/1. String Hashing.md",
-    "Old Mistake/26-String Algorithms/Book Theory/Pengertian Lexicographical.md",
-    "Old Mistake/26-String Algorithms/Tips trick",
-    "Old Mistake/26-String Algorithms/String Hashing",
-    "Old Mistake/26-String Algorithms/String Fun Fact.md",
-    "Old Mistake/26-String Algorithms/Book Theory",
-    "Old Mistake/Platform - CSES/4. Graph Algorithms/_assets/1. Counting Rooms-1.png",
-    "Old Mistake/Platform - CSES/3. Dynamic Programming/_assets/9. Counting Towers-1.png",
-    "Old Mistake/Platform - CSES/3. Dynamic Programming/_assets/8. Array Description-1.png",
-    "Old Mistake/Platform - CSES/3. Dynamic Programming/_assets/7. Book Shop-1.png",
-    "Old Mistake/Platform - CSES/3. Dynamic Programming/_assets/6. Grid Paths I-1.png",
-    "Old Mistake/Platform - CSES/3. Dynamic Programming/_assets/4. Coin Combinations II-1.png",
-    "Old Mistake/Platform - CSES/3. Dynamic Programming/_assets/5. Removing Digits-1.png",
-    "Old Mistake/Platform - CSES/3. Dynamic Programming/_assets/3. Coin Combinations I-1.png",
-    "Old Mistake/Platform - CSES/3. Dynamic Programming/_assets/2. Minimizing Coins-1.png",
-    "Old Mistake/Platform - CSES/3. Dynamic Programming/_assets/10. Edit Distance-1.png",
-    "Old Mistake/Platform - CSES/Mathematics/6..md",
-    "Old Mistake/Platform - CSES/Mathematics/5. Common Divisors.md",
-    "Old Mistake/Platform - CSES/Mathematics/4. Counting Divisors.md",
-    "Old Mistake/07-Dynamic Programming/Dynamic Programming Scaffolding.canvas",
-    "Old Mistake/04-Data Structure/Set/Set Scaffolding.canvas",
-    "Old Mistake/Problem Solving.canvas",
+    "Old Mistake/_Secrets of Mental Math",
+    "Old Mistake/_How to Solve It/PART I. IN THE CLASSROOM/Purpose.md",
+    "Old Mistake/_How to Solve It/PART I. IN THE CLASSROOM",
+    "Old Mistake/_How to Solve It/Introduction.md",
+    "Old Mistake/_How to Solve It/How to Solve It.md",
+    "Old Mistake/_How to Solve It/How to Solve It list.md",
+    "Old Mistake/_How to Solve It/Foreword.md",
+    "Old Mistake/_How to Solve It",
+    "Old Mistake/ZZ-Temporary Notes Vault/Apa itu Memory Heap dan Stack.md",
+    "Old Mistake/ZZ-Temporary Notes Vault",
+    "Old Mistake/ZZ-Temporary Image Vault/graph (9).png",
+    "Old Mistake/ZZ-Temporary Image Vault/graph (7).png",
+    "Old Mistake/ZZ-Temporary Image Vault/graph (6).png",
+    "Old Mistake/ZZ-Temporary Image Vault/graph (5).png",
+    "Old Mistake/ZZ-Temporary Image Vault/graph (3).png",
+    "Old Mistake/ZZ-Temporary Image Vault/graph (2).png",
+    "Old Mistake/ZZ-Temporary Image Vault/graph (1).png",
+    "Old Mistake/ZZ-Temporary Image Vault",
+    "Old Mistake/Z Templater/Tips trick.md",
+    "Old Mistake/Z Templater/Problem Solving.md",
+    "Old Mistake/Z Templater/Problem Set.md",
+    "Old Mistake/Z Templater/Materi.md",
+    "Old Mistake/Z Templater/Latihan.md",
+    "Old Mistake/Z Templater/IEP.md",
+    "Old Mistake/Z Templater/EEP.md",
+    "Old Mistake/Z Templater/Dokumentasi.md",
+    "Old Mistake/Z Templater/Chapter.md",
+    "Old Mistake/Z Templater/Buku.md",
+    "Old Mistake/Z Templater",
+    "Old Mistake/Untitled.md",
+    "Old Mistake/Training Center/Typing/Normal Typing.md",
+    "Old Mistake/Training Center/Typing/NVIM typing.md",
+    "Old Mistake/Training Center/Typing/Coding Typing.md",
+    "Old Mistake/Training Center/Stealing/Apa yang dicuri.md",
+    "Old Mistake/Training Center/Typing",
+    "Old Mistake/Training Center/Training Method v1.0.md",
+    "Old Mistake/Training Center/Training Checklist v1.0.md",
+    "Old Mistake/Tips Trick/Problem Statement Trick/01-Array/01-Inversions/01-Menghitung Jumlah Inversions.md",
     "Old Mistake/SYNTHETIC MINDMAP/Untitled.canvas",
+    "Old Mistake/Problem Solving.canvas",
     "Old Mistake/Interactive Problem/Scaffolding - Interactive Problem.canvas",
+    "Old Mistake/26-String Algorithms/String Hashing/Training camp/Untitled.canvas",
+    "Old Mistake/04-Data Structure/Set/Set Scaffolding.canvas",
     "Old Mistake/04-Data Structure/Foundation - Hash Table/Scaffolding.canvas",
-    "26-String/String Hashing/Training camp/Untitled.canvas",
-    "Untitled.canvas",
-    "Untitled 1.canvas"
+    "Old Mistake/10-Bit Manipulation/_Bit Manipulation Scaffolding.canvas",
+    "Old Mistake/07-Dynamic Programming/Dynamic Programming Scaffolding.canvas",
+    "10-Bit Manipulation/_Bit Manipulation Scaffolding.canvas",
+    "Problem Solving.canvas"
   ]
 }
