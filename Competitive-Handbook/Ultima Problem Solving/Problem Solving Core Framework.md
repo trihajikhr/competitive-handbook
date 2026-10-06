@@ -17,23 +17,6 @@ Memahami masalah (*understanding the problem*) adalah tahap awal untuk memperole
 6. Berikan nama atau notasi yang tepat pada setiap data dan hal yang tidak diketahui. Perhatian dalam memilih simbol akan mendorong Anda untuk mempertimbangkan setiap objek dengan saksama.
 7. Lakukan pengecekan kelayakan sementara: *Apakah mungkin untuk memenuhi syarat tersebut?* Jawaban yang diharapkan hanyalah dugaan, bukan kepastian.
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-
 ## Tahap 2: Devising a Plan
 
 Merencanakan strategi (*devising a plan*) adalah tahap menemukan hubungan antara data dan yang tidak diketahui, serta menentukan rangkaian langkah yang akan ditempuh untuk menyelesaikan masalah. Apabila hubungan tersebut tidak ditemukan secara langsung, tahap ini dapat mengarah pada masalah pembantu. Tahap ini selesai ketika terdapat rencana penyelesaian yang cukup jelas untuk dilaksanakan.
@@ -48,20 +31,6 @@ Merencanakan strategi (*devising a plan*) adalah tahap menemukan hubungan antara
 8. Gunakan cara-cara spesifik untuk memvariasikan masalah, seperti generalisasi, spesialisasi, penggunaan analogi, dan mengabaikan sebagian dari syarat.
 9. Apabila masalah yang diajukan belum dapat diselesaikan, selesaikan terlebih dahulu beberapa masalah bantuan yang berkaitan. *Jika Anda tidak dapat menyelesaikan masalah yang diajukan, cobalah untuk menyelesaikan terlebih dahulu beberapa masalah yang berkaitan.*
 10. Waspadai penyimpangan dari masalah asli. Setelah mencoba berbagai teorema, modifikasi, dan masalah bantuan, ada risiko kehilangan arah. Untuk kembali, tanyakan: *Apakah Anda menggunakan semua data? Apakah Anda menggunakan seluruh syaratnya?*
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
 ## Tahap 3: Carrying Out the Plan
 
 
@@ -78,31 +47,6 @@ Melaksanakan rencana (*carrying out the plan*) adalah tahap menjalankan rencana 
 	   - *Bisakah Anda melihat dengan jelas bahwa langkah tersebut benar?*
 	   - *Namun bisakah Anda juga membuktikan bahwa langkah tersebut benar?*
 
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
 ## Tahap 4: Looking Back
 

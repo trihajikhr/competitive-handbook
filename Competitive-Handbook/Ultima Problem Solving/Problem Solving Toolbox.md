@@ -458,35 +458,6 @@ Kerja bawah sadar (*subconscious work*) adalah proses ketika pikiran terus mengo
 11. Jadwalkan latihan secara teratur dengan jeda istirahat, karena tidur dan jeda membantu pikiran menyatukan pola dan teknik yang baru dipelajari.
 12. Jangan menjadikan jeda sebagai alasan menghindari usaha. Jeda hanya berguna setelah pemikiran sadar yang mendalam, dan tidak menggantikannya.
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
 # B. Mindset dan Sikap
 
 ## Determination, Hope, Success
@@ -583,35 +554,6 @@ Peribahasa (*wisdom of proverbs*) adalah kristalisasi pengalaman manusia selama 
 16. Pertimbangkan secara matang sebelum mulai mengodekan, tetapi jangan terlalu lama merenung. Apabila rencana sudah cukup jelas dan terbukti benar secara masuk akal, mulailah menulis kode.
 17. Tinjau kembali solusi setelah lolos, baik dengan membaca ulang soal untuk memeriksa syarat yang terlewat, maupun dengan membandingkannya dengan solusi lain atau editorial setelah berusaha sendiri.
 18. Verifikasi dengan lebih dari satu cara, misalnya brute force, perhitungan manual pada contoh, pemeriksaan invarian, dan pembangkit uji acak.
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
 # C. Addition
 ## I. Jenis Masalah

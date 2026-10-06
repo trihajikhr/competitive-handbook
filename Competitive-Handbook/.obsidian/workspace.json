@@ -27,8 +27,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Polya Method/Problem Solving Toolbox.md",
-                "mode": "preview",
+                "file": "Ultima Problem Solving/Problem Solving Toolbox.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Polya Method/Problem Solving Core Framework.md",
+                "file": "Ultima Problem Solving/Problem Solving Core Framework.md",
                 "mode": "preview",
                 "source": false
               },
@@ -49,8 +49,7 @@
               "title": "Problem Solving Core Framework"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Polya Method/Problem Solving Core Framework.md",
+                "file": "Strategi penyelesaian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Polya Method/Problem Solving Core Framework.md",
+                "file": "Strategi penyelesaian.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
@@ -279,11 +278,11 @@
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "27c358864ad430a9",
+  "active": "04554e08cc1bd94b",
   "lastOpenFiles": [
+    "Ultima Problem Solving/Problem Solving Toolbox.md",
+    "Ultima Problem Solving/Problem Solving Core Framework.md",
     "Strategi penyelesaian.md",
-    "Polya Method/Problem Solving Toolbox.md",
-    "Polya Method/Problem Solving Core Framework.md",
     "Ad Hoc Problem.md",
     "How to Practice.md",
     "Contest Tips.md",
@@ -298,7 +297,7 @@
     "Casework.md",
     "Besst Problem.md",
     "Benq Github.md",
-    "Polya Method",
+    "Ultima Problem Solving",
     "Tips and Trick Problem Solving.md",
     "Contest Strategy.md",
     "Circular array.md",
