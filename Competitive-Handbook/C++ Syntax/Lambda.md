@@ -1,0 +1,7 @@
+- [ ] [Ekspresi Lambda di C++ \| Microsoft Learn](https://learn.microsoft.com/id-id/cpp/cpp/lambda-expressions-in-cpp?view=msvc-170)
+- [ ] [Sintaks Ekspresi Lambda \| Microsoft Learn](https://learn.microsoft.com/id-id/cpp/cpp/lambda-expression-syntax?view=msvc-170)
+- [ ] [Contoh Ekspresi Lambda \| Microsoft Learn](https://learn.microsoft.com/id-id/cpp/cpp/examples-of-lambda-expressions?view=msvc-170)
+- [ ] [ekspresi constexpr lambda di C++ \| Microsoft Learn](https://learn.microsoft.com/id-id/cpp/cpp/lambda-expressions-constexpr?view=msvc-170)
+- [ ] [Lambda Expression in C++](https://www.tutorialspoint.com/cplusplus/cpp_lambda_expression.htm)
+- [ ] [Lambda Expression in C++ - GeeksforGeeks](https://www.geeksforgeeks.org/cpp/lambda-expression-in-c/)
+- [ ] [C++ Lambda Functions](https://www.w3schools.com/cpp/cpp_functions_lambda.asp)

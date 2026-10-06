@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8b3e2f1a6762be88",
+        "id": "63f46148e9d7d14b",
         "type": "tabs",
         "children": [
           {
-            "id": "74df0dfb50289070",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "0114ab0692b14ee7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Circular array.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Circular array"
-            }
-          },
-          {
-            "id": "1ffcb6d7965fb13b",
+            "id": "c3c44b679f421801",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,35 +22,35 @@
             }
           },
           {
-            "id": "db65907c1b43807e",
+            "id": "15f0a4809f36ddf9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Buku Competitive Programming.md",
-                "mode": "source",
+                "file": "Polya Method/Problem Solving Toolbox.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Buku Competitive Programming"
+              "title": "Problem Solving Toolbox"
             }
           },
           {
-            "id": "71b21f04fb81188c",
+            "id": "27c358864ad430a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Time Complexity.md",
-                "mode": "source",
+                "file": "Polya Method/Problem Solving Core Framework.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Time Complexity"
+              "title": "Problem Solving Core Framework"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -154,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04-Data Structure/L-Tuple/01-Latihan/14-Liga Programmer.md",
+                "file": "Polya Method/Problem Solving Core Framework.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 14-Liga Programmer"
+              "title": "Backlinks"
             }
           },
           {
@@ -231,7 +203,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "30-Sweep Line Algorithms/Problem Modification/Museum 1.md",
+                "file": "Ad Hoc Problem.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "tag:#tuple  ",
@@ -262,8 +234,7 @@
               "title": "Local graph"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       },
       {
         "id": "7cf76667223e7faa",
@@ -276,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30-Sweep Line Algorithms/Problem Modification/Museum 1.md",
+                "file": "Polya Method/Problem Solving Core Framework.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
@@ -289,11 +260,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5,
-    "collapsed": true
+    "width": 269.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "iconic:Open rulebook": false,
+      "quickadd:QuickAdd": false,
+      "templater-obsidian:Templater": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
@@ -303,69 +276,65 @@
       "command-palette:Open command palette": false,
       "tags-overview:Tags overview": false,
       "open-gate:ChatGPT": false,
-      "iconic:Open rulebook": false,
-      "quickadd:QuickAdd": false,
-      "templater-obsidian:Templater": false,
       "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "04554e08cc1bd94b",
+  "active": "27c358864ad430a9",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Buku Competitive Programming.md",
-    "Time Complexity.md",
-    "Circular array.md",
     "Strategi penyelesaian.md",
-    "USACO book.pdf",
-    "cpp.pdf",
-    "Combinatorics/Untitled.md",
-    "Combinatorics",
-    "02-Time Complexity",
-    "30-Sweep Line Algorithms/Problem Modification/Museum 1.md",
-    "Old Mistake/src/Problem Solving.png",
-    "Old Mistake/src/How to Solve It Workflow-1.png",
-    "Old Mistake/src",
-    "Old Mistake/pemrograman-kompetitif-dasar.pdf",
-    "Old Mistake/_Secrets of Mental Math/_assets/Secrets of Mental Math-1.png",
-    "Old Mistake/_Secrets of Mental Math/_assets",
-    "Old Mistake/_Secrets of Mental Math/Secrets of Mental Math.md",
-    "Old Mistake/_Secrets of Mental Math",
-    "Old Mistake/_How to Solve It/PART I. IN THE CLASSROOM/Purpose.md",
-    "Old Mistake/_How to Solve It/PART I. IN THE CLASSROOM",
-    "Old Mistake/_How to Solve It/Introduction.md",
-    "Old Mistake/_How to Solve It/How to Solve It.md",
-    "Old Mistake/_How to Solve It/How to Solve It list.md",
-    "Old Mistake/_How to Solve It/Foreword.md",
-    "Old Mistake/_How to Solve It",
-    "Old Mistake/ZZ-Temporary Notes Vault/Apa itu Memory Heap dan Stack.md",
-    "Old Mistake/ZZ-Temporary Image Vault/graph (9).png",
-    "Old Mistake/ZZ-Temporary Image Vault/graph (7).png",
-    "Old Mistake/ZZ-Temporary Image Vault/graph (6).png",
-    "Old Mistake/ZZ-Temporary Image Vault/graph (5).png",
-    "Old Mistake/ZZ-Temporary Image Vault/graph (3).png",
-    "Old Mistake/ZZ-Temporary Image Vault/graph (2).png",
-    "Old Mistake/ZZ-Temporary Image Vault/graph (1).png",
-    "Old Mistake/Z Templater/Tips trick.md",
-    "Old Mistake/Z Templater/Problem Solving.md",
-    "Old Mistake/Z Templater/Problem Set.md",
-    "Old Mistake/Z Templater/Materi.md",
-    "Old Mistake/Z Templater/Latihan.md",
-    "Old Mistake/Z Templater/IEP.md",
-    "Old Mistake/Z Templater/EEP.md",
-    "Old Mistake/Z Templater/Dokumentasi.md",
-    "Old Mistake/Z Templater/Chapter.md",
-    "Old Mistake/Z Templater/Buku.md",
-    "Old Mistake/Untitled.md",
-    "Old Mistake/Training Center/Typing/Normal Typing.md",
-    "Old Mistake/SYNTHETIC MINDMAP/Untitled.canvas",
-    "Old Mistake/Problem Solving.canvas",
-    "Old Mistake/Interactive Problem/Scaffolding - Interactive Problem.canvas",
-    "Old Mistake/26-String Algorithms/String Hashing/Training camp/Untitled.canvas",
-    "Old Mistake/04-Data Structure/Set/Set Scaffolding.canvas",
-    "Old Mistake/04-Data Structure/Foundation - Hash Table/Scaffolding.canvas",
-    "Old Mistake/10-Bit Manipulation/_Bit Manipulation Scaffolding.canvas",
-    "Old Mistake/07-Dynamic Programming/Dynamic Programming Scaffolding.canvas",
-    "10-Bit Manipulation/_Bit Manipulation Scaffolding.canvas",
-    "Problem Solving.canvas"
+    "Polya Method/Problem Solving Toolbox.md",
+    "Polya Method/Problem Solving Core Framework.md",
+    "Ad Hoc Problem.md",
+    "How to Practice.md",
+    "Contest Tips.md",
+    "Contest Strategy 2.md",
+    "Primming Belajar.md",
+    "Leetcode Solution.md",
+    "Segment Tree-1.png",
+    "Segment Tree-2.png",
+    "Strategi Pelatihan.md",
+    "Untitled.canvas",
+    "I MUST LEARN.md",
+    "Casework.md",
+    "Besst Problem.md",
+    "Benq Github.md",
+    "Polya Method",
+    "Tips and Trick Problem Solving.md",
+    "Contest Strategy.md",
+    "Circular array.md",
+    "Buku Competitive Programming.md",
+    "USACO.md",
+    "Scaffolding/Geometry.canvas",
+    "Scaffolding/Competitive Programming Scaffolding.canvas",
+    "Scaffolding/Another.canvas",
+    "Scaffolding/Two Pointers.canvas",
+    "Scaffolding/Tree.canvas",
+    "Scaffolding/Range Queries.canvas",
+    "Scaffolding/Precompute Algorithm.canvas",
+    "Scaffolding/Data Structurest.canvas",
+    "Advanced tree/Segment Tree.md",
+    "Advanced tree",
+    "Debugging/Debugging Best Practice.md",
+    "Debugging/Debugging Steps.md",
+    "Debugging/Debugging Resource.md",
+    "A-Simulation.md",
+    "11-Basic of Graph.md",
+    "book source/USACO Guide.pdf",
+    "book source/Principles of Algorithm.pdf",
+    "book source/IOI Syllabus.pdf",
+    "book source/Competitive Programmer's Handook.pdf",
+    "Scaffolding",
+    "Debugging",
+    "book source/PAPS1.pdf",
+    "C++ Syntax",
+    "_Old Mistake/src/Problem Solving.png",
+    "_Old Mistake/src/How to Solve It Workflow-1.png",
+    "_Old Mistake/_Secrets of Mental Math/_assets/Secrets of Mental Math-1.png",
+    "_Old Mistake/ZZ-Temporary Image Vault/graph (9).png",
+    "_Old Mistake/ZZ-Temporary Image Vault/graph (7).png",
+    "_Old Mistake/ZZ-Temporary Image Vault/graph (6).png",
+    "_Old Mistake/ZZ-Temporary Image Vault/graph (5).png",
+    "_Old Mistake/ZZ-Temporary Image Vault/graph (3).png",
+    "_Old Mistake/SYNTHETIC MINDMAP/Untitled.canvas"
   ]
 }

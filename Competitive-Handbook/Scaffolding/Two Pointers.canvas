@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"5adb99c38277d288","x":-475,"y":215,"width":250,"height":60,"type":"text","text":"Dengan `while`"},
+		{"id":"d7be21bc1449dcdb","x":-93,"y":215,"width":250,"height":60,"type":"text","text":"Dengan `for loop`"},
+		{"id":"1cc7d43559c6f7a2","type":"text","text":"Sliding Windows (bergerak searah)","x":-200,"y":-60,"width":250,"height":60},
+		{"id":"ede4fa187adc8091","type":"text","text":"Two pointer (bergerak mendekat)","x":-700,"y":-60,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"1b40cc03b40f217e","fromNode":"1cc7d43559c6f7a2","fromSide":"bottom","toNode":"5adb99c38277d288","toSide":"top"},
+		{"id":"59d567842cd5d5b3","fromNode":"1cc7d43559c6f7a2","fromSide":"bottom","toNode":"d7be21bc1449dcdb","toSide":"top"},
+		{"id":"5b8af5ef495284cd","fromNode":"ede4fa187adc8091","fromSide":"bottom","toNode":"5adb99c38277d288","toSide":"top"}
+	]
+}

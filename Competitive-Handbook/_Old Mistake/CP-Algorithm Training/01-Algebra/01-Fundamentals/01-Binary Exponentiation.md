@@ -157,4 +157,4 @@ auto main() -> int {
 ---
 # 3 | Editorial
 
-Penjelasan semua jawaban diatas ada pada materi [[Old Mistake/CP-Algorithm Site/01-Algebra/01-Fundamentals/01-Binary Exponentiation|01-Binary Exponentiation]]
+Penjelasan semua jawaban diatas ada pada materi [[_Old Mistake/CP-Algorithm Site/01-Algebra/01-Fundamentals/01-Binary Exponentiation|01-Binary Exponentiation]]

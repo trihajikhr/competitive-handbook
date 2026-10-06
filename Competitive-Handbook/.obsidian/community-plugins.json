@@ -1,5 +1,4 @@
 [
-  "colored-tags",
   "tag-wrangler",
   "tags-overview",
   "surfing",
@@ -7,17 +6,17 @@
   "open-gate",
   "obsidian-icon-folder",
   "obsidian-icons-plugin",
-  "obsidian-tasks-plugin",
-  "iconic",
-  "quickadd",
   "nldates-obsidian",
-  "templater-obsidian",
   "obsidian-auto-link-title",
   "calendar",
-  "obsidian-annotator",
   "dashboard-navigator",
   "dataview",
-  "heading-level-indent",
+  "obsidian-admonition",
+  "obsidian-annotator",
   "code-styler",
-  "obsidian-admonition"
+  "colored-tags",
+  "heading-level-indent",
+  "iconic",
+  "quickadd",
+  "templater-obsidian"
 ]

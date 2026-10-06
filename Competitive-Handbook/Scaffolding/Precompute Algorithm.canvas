@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"b94dedb2a78cb98b","x":-20,"y":-220,"width":320,"height":72,"type":"text","text":"## Precompute Algorithm"},
+		{"id":"66e96abecae1fedc","x":-420,"y":-20,"width":310,"height":100,"type":"text","text":"Sieve of Erasthotenes\n\nprecompute prima"},
+		{"id":"7421e4c91809ed18","x":-60,"y":80,"width":310,"height":118,"type":"text","text":"Precompute faktor\n\nfaktor dari 1 hingga N"}
+	],
+	"edges":[
+		{"id":"340623033c774b08","fromNode":"b94dedb2a78cb98b","fromSide":"bottom","toNode":"66e96abecae1fedc","toSide":"top"},
+		{"id":"cee4971711ac90be","fromNode":"b94dedb2a78cb98b","fromSide":"bottom","toNode":"7421e4c91809ed18","toSide":"top"}
+	]
+}

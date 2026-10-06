@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"998f250672c99f48","type":"text","text":"# Competitive Programming","x":-178,"y":-143,"width":378,"height":63},
+		{"id":"445219bb2ee87b13","type":"text","text":"## C++ Syntax","x":-1180,"y":-140,"width":250,"height":60},
+		{"id":"a78017e35135c0d0","type":"text","text":"[Primming Belajar](Primming%20Belajar.md)","x":-833,"y":-422,"width":250,"height":60},
+		{"id":"8e384590cffd138c","type":"file","file":"Scaffolding/Data Structurest.canvas","x":-1330,"y":300,"width":400,"height":400},
+		{"id":"850d4822a36f005a","type":"file","file":"Scaffolding/Range Queries.canvas","x":360,"y":500,"width":400,"height":400},
+		{"id":"3d2a2a80bd5b46dd","type":"file","file":"Scaffolding/Precompute Algorithm.canvas","x":1071,"y":537,"width":400,"height":400},
+		{"id":"3b5e52e0803dda1e","x":-680,"y":500,"width":400,"height":400,"type":"file","file":"Scaffolding/Tree.canvas"}
+	],
+	"edges":[
+		{"id":"7024990523ea4fed","fromNode":"998f250672c99f48","fromSide":"left","toNode":"445219bb2ee87b13","toSide":"right"},
+		{"id":"dc416c2f375babc5","fromNode":"998f250672c99f48","fromSide":"top","toNode":"a78017e35135c0d0","toSide":"bottom"},
+		{"id":"14a0a980d39f7a08","fromNode":"998f250672c99f48","fromSide":"bottom","toNode":"8e384590cffd138c","toSide":"top"},
+		{"id":"eaddb9b6fe2499f4","fromNode":"998f250672c99f48","fromSide":"bottom","toNode":"850d4822a36f005a","toSide":"top"},
+		{"id":"b11a41a12e9053ae","fromNode":"998f250672c99f48","fromSide":"bottom","toNode":"3d2a2a80bd5b46dd","toSide":"top"},
+		{"id":"827031cdfccac91e","fromNode":"998f250672c99f48","fromSide":"bottom","toNode":"3b5e52e0803dda1e","toSide":"top"}
+	]
+}

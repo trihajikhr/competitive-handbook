@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"442931bb7a087d1b","type":"text","text":"### Prefix sum","x":-140,"y":-100,"width":250,"height":60},
+		{"id":"724768a7bb14fb12","type":"text","text":"Prefix sum","x":-480,"y":100,"width":250,"height":60},
+		{"id":"2c7184f70546d03c","type":"text","text":"Double face prefix","x":-400,"y":280,"width":250,"height":60},
+		{"id":"8526a062f6c6eb0d","type":"text","text":"Kadane's Algorithm","x":220,"y":160,"width":250,"height":60},
+		{"id":"752e82af3e9f702e","x":-80,"y":340,"width":250,"height":60,"type":"text","text":"Prefix suffix karakter string"}
+	],
+	"edges":[
+		{"id":"8bd9e3c187d22d96","fromNode":"442931bb7a087d1b","fromSide":"bottom","toNode":"724768a7bb14fb12","toSide":"top"},
+		{"id":"920707fdede9317b","fromNode":"442931bb7a087d1b","fromSide":"bottom","toNode":"2c7184f70546d03c","toSide":"top"}
+	]
+}

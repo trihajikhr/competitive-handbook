@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"db7933265b8b9c12","type":"group","x":-568,"y":379,"width":761,"height":381,"color":"1","label":"Belum dipelajari"},
+		{"id":"a64a9f801f854492","type":"text","text":"# Geometry","x":-20,"y":-240,"width":250,"height":60},
+		{"id":"c14eff7bc6ff3a38","type":"text","text":"**Cross Product**\n\nMenentukan apakah garis yang terbentuk dari 4 titik pada koordinat, yaitu garis $AB$ dan $CD$ mengalami intersect atau bersinggungan atau tidak!","x":-800,"y":120,"width":443,"height":160},
+		{"id":"fb228d41ced85827","type":"text","text":"Vector 2D & operasi dasar","x":-548,"y":426,"width":250,"height":60},
+		{"id":"6bf29de3ae89c0f5","type":"text","text":"Gradien & persamaan garis","x":-153,"y":399,"width":250,"height":60},
+		{"id":"946dab24d0385348","type":"text","text":"Dot Product","x":-249,"y":497,"width":250,"height":60},
+		{"id":"ef629a1ae69b947d","type":"text","text":"Determinan Matriks 2 x 2","x":-442,"y":579,"width":250,"height":60},
+		{"id":"4eca2e6b3219bb7d","type":"text","text":"Cross Product 2D dan Orientasi","x":-77,"y":642,"width":250,"height":60},
+		{"id":"eb6e9cff161575bd","type":"text","text":"Geometri analitik","x":426,"y":485,"width":250,"height":60},
+		{"id":"2a47ac6d4e63cfd9","type":"text","text":"Gradien / kemiringan","x":426,"y":612,"width":250,"height":60},
+		{"id":"061e7561bf221eae","x":-548,"y":672,"width":250,"height":60,"type":"text","text":"Interval overlap / Separating Axis theorem"}
+	],
+	"edges":[
+		{"id":"96dca48ab8891bda","fromNode":"a64a9f801f854492","fromSide":"bottom","toNode":"c14eff7bc6ff3a38","toSide":"top"},
+		{"id":"97c3e4b11ca3ba8f","fromNode":"eb6e9cff161575bd","fromSide":"bottom","toNode":"2a47ac6d4e63cfd9","toSide":"top"}
+	]
+}
